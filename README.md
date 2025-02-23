@@ -3,7 +3,7 @@
 Welcome to my **Cybersecurity Blog**, where I document my journey in ethical hacking, cybersecurity projects, and research. This site is hosted using **GitHub Pages**.
 
 ## 🌐 Live Website
-🔗 [Visit My Blog](https://yourusername.github.io/cybersecurity-blog/)  
+🔗 [Visit My Blog](https://bytepo1arbear.github.io/cybersecurityblog/)  
 
 ## 📌 Features
 - 🔍 **Blog Posts** – Write-ups on ethical hacking, tools, and techniques.
