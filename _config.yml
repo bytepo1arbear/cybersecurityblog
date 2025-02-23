@@ -1,0 +1,6 @@
+title: "My Cybersecurity Blog"
+author: "Your Name"
+description: "A blog about cybersecurity, ethical hacking, and more."
+theme: minima
+plugins:
+  - jekyll-feed
