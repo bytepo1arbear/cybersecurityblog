@@ -1,1 +1,0 @@
-# TryHackMe - Hammer Walkthrough
