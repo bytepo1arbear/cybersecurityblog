@@ -1,116 +1,139 @@
 /* General Styles */
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1e1e1e;
+  color: #eee;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4; /* Light gray background */
-  color: #333;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
+/* Header */
+header {
+  background-color: #282828;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 2em;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
 /* Hero Section */
 .hero {
-  background-color: #007bff; /* Blue background */
-  color: white;
+  background-image: url('/assets/images/cybersecurity-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
   text-align: center;
-  padding: 4em 0;
 }
 
 .hero h1 {
   font-size: 3em;
-  margin-bottom: 0.5em;
+  margin-bottom: 20px;
 }
 
-.hero p {
-  font-size: 1.2em;
-}
-
-.hero-image {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 8px;
-  margin-top: 1em;
-}
-
-/* About Section */
-.about {
-  padding: 3em 0;
-  text-align: center;
-}
-
-.profile-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1em;
-}
-
-.profile-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover; /* Maintain aspect ratio */
-  margin-right: 20px;
-}
-
-/* Featured Posts Section */
-.featured-posts {
-  padding: 3em 0;
-}
-
-.post-preview {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin-bottom: 15px;
-  background-color: white;
-  border-radius: 8px;
-}
-
-.post-preview h3 {
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-.read-more {
+/* Buttons */
+.button {
   display: inline-block;
-  background-color: #007bff;
-  color: white;
-  padding: 8px 16px;
+  padding: 12px 24px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
-/* Contact Section */
-.contact {
-  padding: 3em 0;
-  background-color: #f9f9f9; /* Lighter gray background */
+.button.primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button.secondary {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Latest Posts Section */
+.latest-posts .container {
+    margin-top: 40px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.post {
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post h3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Projects Section */
+.projects .container {
+    margin-top: 40px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
+footer {
+  background-color: #282828;
+  padding: 20px 0;
   text-align: center;
-}
-
-.contact ul {
-  list-style: none;
-  padding: 0;
-}
-
-.contact li {
-  display: inline-block;
-  margin: 0 15px;
 }
 
 /* Responsive Design (Basic) */
 @media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5em;
-  }
-  .profile-wrapper {
-    flex-direction: column; /* Stack image and text on smaller screens */
+  nav ul {
+    flex-direction: column;
     align-items: center;
   }
 }
