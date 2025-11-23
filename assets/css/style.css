@@ -37,15 +37,22 @@ nav li {
   margin-left: 20px;
 }
 
+/* Style all navigation links as buttons */
 nav a {
   text-decoration: none;
   color: #fff;
   transition: color 0.3s ease;
+  background-color: #333; /* Dark gray background for nav links */
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: inline-block; /* Important to make padding work correctly */
 }
 
 nav a:hover {
-  color: #007bff;
+  background-color: #007bff; /* Blue hover effect */
+  color: #fff;
 }
+
 
 /* Hero Section */
 .hero {
@@ -104,6 +111,23 @@ nav a:hover {
   color: #fff;
 }
 
+/* Style blog post links as buttons */
+.post a {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.post a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
 /* Projects Section */
 .projects .container {
     margin-top: 40px;
@@ -120,6 +144,22 @@ nav a:hover {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style project links as buttons */
+.project a {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+  background-color: #007bff;
+  color: #fff;
 }
 
 
