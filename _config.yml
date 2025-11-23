@@ -1,0 +1,4 @@
+remote_theme: pages-themes/hacker@v0.2.0 # Use the hacker theme
+title: "BytePolarBear's Cybersecurity Blog"
+author: "Your Name"
+description: "A blog documenting my cybersecurity journey, ethical hacking projects, and technical writeups."
