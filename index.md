@@ -2,7 +2,7 @@
   <div class="container">
     <h1>My Cybersecurity Learning Journey</h1>
     <p>Sharing my experiences, lessons learned, and resources along the way.</p>
-    <a href="blog" class="button primary">Read My Latest Post</a>
+    <a href="blog/" class="button primary">Read My Latest Post</a>
   </div>
 </section>
 
