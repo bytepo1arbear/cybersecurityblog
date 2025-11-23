@@ -10,20 +10,16 @@
   <div class="container">
     <h2>Latest Blog Posts</h2>
     <div class="post-grid">
-      <!-- Example Post - Replace with dynamic content from your blog -->
       <article class="post">
-        <h3><a href="/blog/post-1/">Introduction to Nmap</a></h3>
+        <h3>Introduction to Nmap</h3>
         <p>A beginner's guide to network scanning using Nmap.</p>
         <a href="/blog/post-1/" class="read-more">Read More</a>
       </article>
-
       <article class="post">
-        <h3><a href="/blog/post-2/">Setting Up a Kali Linux VM</a></h3>
+        <h3>Setting Up a Kali Linux VM</h3>
         <p>Step-by-step instructions for creating a virtual machine with Kali Linux.</p>
         <a href="/blog/post-2/" class="read-more">Read More</a>
       </article>
-
-      <!-- Add more posts here -->
     </div>
   </div>
 </section>
@@ -39,7 +35,6 @@
         <p>A simple port scanner written in Python.</p>
         <a href="#" class="button secondary">View Details</a>
       </article>
-
       <!-- Add more projects here -->
     </div>
   </div>
