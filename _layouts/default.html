@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title> <!-- Uses the title from your Markdown -->
-  <link rel="stylesheet" href="assets/css/style.css"> <!-- Link to your CSS file -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
+
 <body>
-  <header>
-    <!-- Your header content here (navigation, logo) -->
-  </header>
 
-  <main>
-    {{ content }}  <!-- This is where the content from your Markdown files goes -->
-  </main>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+            <li><a href="{{ '/writeups/' | relative_url }}">Writeups</a></li>
+            <li><a href="{{ '/resources/' | relative_url }}">Resources</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        </ul>
+    </nav>
 
-  <footer>
-    <!-- Your footer content here -->
-  </footer>
+    <main class="content">
+        {{ content }}
+    </main>
+
 </body>
 </html>
