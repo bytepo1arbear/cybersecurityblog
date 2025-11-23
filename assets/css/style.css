@@ -1,4 +1,6 @@
-/* General body + centered layout */
+/* ===========================
+   GENERAL BODY + LAYOUT
+   =========================== */
 body {
   margin: 0;
   background-color: #0d0f12;
@@ -9,32 +11,40 @@ body {
   align-items: center;
 }
 
-/* Centered Site Title */
+/* ===========================
+   SITE TITLE
+   =========================== */
 .site-header {
   margin-top: 2rem;
   text-align: center;
   font-size: 2.5rem;
   color: #58a6ff;
+  position: relative;
+  z-index: 100;
 }
 
-/* Floating Navbar */
+/* ===========================
+   NAVIGATION BAR
+   =========================== */
 .navbar {
-  position: fixed;
-  top: 6rem;
+  position: sticky;       /* Sticks below title */
+  top: 0;
   width: 100%;
   background: #0b0d10;
   border-bottom: 1px solid #1b1f24;
   padding: 0.6rem 0;
-  z-index: 1000;
+  z-index: 200;
   backdrop-filter: blur(6px);
+  margin-top: 1rem;       /* spacing below title */
 }
 
 .nav-container {
   max-width: 1100px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  /* Center the nav-list horizontally */
   align-items: center;
+  position: relative;
   padding: 0 1.5rem;
 }
 
@@ -42,6 +52,8 @@ body {
   list-style: none;
   display: flex;
   gap: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-list a {
@@ -58,29 +70,70 @@ body {
   box-shadow: 0 0 8px #58a6ff55;
 }
 
-/* Hamburger menu */
+/* Hamburger menu for mobile */
 .hamburger {
   display: none;
   font-size: 1.6rem;
   color: #99a8b8;
   background: none;
   border: none;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
 }
 
-/* Main content container */
+/* ===========================
+   CONTENT CONTAINER
+   =========================== */
 .content {
   max-width: 900px;
-  margin-top: 10rem;
+  margin: 2rem auto 4rem auto;
   padding: 2rem;
   background: #0f1114;
   border: 1px solid #1b1f24;
   border-radius: 8px;
 }
 
-/* Mobile responsive */
+/* ===========================
+   BLOG / PROJECT / WRITEUP PREVIEW
+   =========================== */
+.post-preview, .project-preview, .writeup-preview {
+  margin-bottom: 2rem;
+}
+
+.post-preview h2, .project-preview h2, .writeup-preview h2 {
+  color: #58a6ff;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: #7f8b99;
+}
+
+/* ===========================
+   BUTTONS / LINKS
+   =========================== */
+button, .btn {
+  background: #11161c;
+  color: #58a6ff;
+  border: 1px solid #2d3a45;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover, .btn:hover {
+  background: #1b2129;
+  box-shadow: 0 0 8px #58a6ff55;
+}
+
+/* ===========================
+   RESPONSIVE MOBILE
+   =========================== */
 @media (max-width: 760px) {
   .hamburger { display: block; }
-  .nav-list { display: none; flex-direction: column; }
+  .nav-list { display: none; flex-direction: column; gap: 1rem; }
   body.nav-open .nav-list {
     display: flex;
     position: absolute;
