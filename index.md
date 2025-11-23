@@ -9,7 +9,7 @@ title: "Welcome to My Cybersecurity Blog"
   <div class="container">
     <h1>BytePolarBear's Cybersecurity Blog</h1>
     <p>Exploring the world of ethical hacking, reverse engineering, and digital forensics. Sharing insights, tutorials, and practical experiences.</p>
-    <img src="/assets/images/cybersecurity-image.jpg" alt="Cybersecurity Landscape" class="hero-image">
+    <img src="/assets/images/cyberimage.jpg" alt="Cybersecurity Landscape" class="hero-image">
   </div>
 </section>
 
@@ -17,7 +17,7 @@ title: "Welcome to My Cybersecurity Blog"
   <div class="container">
     <h2>About Me</h2>
     <div class="profile-wrapper">
-      <img src="/assets/images/my-photo.jpg" alt="My Photo" class="profile-image">
+      <img src="/assets/images/polar.jpg" alt="My Photo" class="profile-image">
       <p>Hi, I'm [Your Name]!  I’m a passionate cybersecurity enthusiast with a focus on reverse engineering and vulnerability research. This blog is my way of documenting my learning journey and sharing what I discover along the way.</p>
     </div>
   </div>
@@ -46,7 +46,7 @@ title: "Welcome to My Cybersecurity Blog"
     <p>Feel free to reach out with questions, feedback, or collaboration opportunities!</p>
     <ul>
       <li><a href="#">LinkedIn</a></li>
-      <li><a href="#">GitHub</a></li>
+      <li><a href="https://github.com/bytepo1arbear">GitHub</a></li>
       <li><a href="#">Twitter</a></li>
     </ul>
   </div>
