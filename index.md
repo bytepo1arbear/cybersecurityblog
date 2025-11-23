@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/assets/css/style.css">
+
 ---
 layout: home
 title: "Welcome to My Cybersecurity Blog"
