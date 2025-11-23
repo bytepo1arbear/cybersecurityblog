@@ -8,15 +8,18 @@
 </head>
 <body>
 
-  <!-- Site Title -->
+  <!-- SITE TITLE -->
   <header class="site-header">
     <h1>{{ site.title }}</h1>
   </header>
 
-  <!-- Floating Navbar -->
+  <!-- NAVIGATION BAR BELOW TITLE -->
   <nav class="navbar">
     <div class="nav-container">
+      <!-- Hamburger for mobile -->
       <button class="hamburger" onclick="document.body.classList.toggle('nav-open')">☰</button>
+
+      <!-- Nav Links -->
       <ul class="nav-list">
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
@@ -28,10 +31,21 @@
     </div>
   </nav>
 
-  <!-- Page Content -->
+  <!-- MAIN CONTENT -->
   <main class="content">
     {{ content }}
   </main>
+
+  <!-- OPTIONAL JAVASCRIPT: Close mobile nav when clicking outside -->
+  <script>
+    document.addEventListener('click', function(e) {
+      const nav = document.querySelector('.nav-container');
+      const button = document.querySelector('.hamburger');
+      if (!nav.contains(e.target) && !button.contains(e.target)) {
+        document.body.classList.remove('nav-open');
+      }
+    });
+  </script>
 
 </body>
 </html>
