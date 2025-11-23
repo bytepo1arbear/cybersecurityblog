@@ -2,3 +2,4 @@ title: "BytePolarBear's Cybersecurity Blog"
 author: "Jack"
 description: "A blog documenting my cybersecurity journey, ethical hacking projects, and technical writeups."
 layout: default
+baseurl: ""
