@@ -1,5 +1,4 @@
-remote_theme: pages-themes/hacker@v0.2.0 # Use the hacker theme
 layout: default
 title: "BytePolarBear's Cybersecurity Blog"
-author: "Your Name"
+author: "Jack"
 description: "A blog documenting my cybersecurity journey, ethical hacking projects, and technical writeups."
