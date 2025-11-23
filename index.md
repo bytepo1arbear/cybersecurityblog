@@ -2,7 +2,6 @@
   <div class="container">
     <h1>My Cybersecurity Learning Journey</h1>
     <p>Sharing my experiences, lessons learned, and resources along the way.</p>
-    <a href="blog" class="button primary">Read My Latest Post</a>
   </div>
 </section>
 
@@ -18,8 +17,9 @@
       <article class="post">
         <h3>Setting Up a Kali Linux VM</h3>
         <p>Step-by-step instructions for creating a virtual machine with Kali Linux.</p>
-        <a href="blog/2025-11-23-reverse-engineering" class="read-more">Read More</a>
+        <a href="blog" class="read-more">Read More</a>
       </article>
+      <a href="blog" class="button primary">Read My Latest Post</a>
     </div>
   </div>
 </section>
@@ -33,7 +33,7 @@
       <article class="project">
         <h3>Port Scanner</h3>
         <p>A simple port scanner written in Python.</p>
-        <a href="#" class="button secondary">View Details</a>
+        <a href="projects" class="button secondary">View Details</a>
       </article>
       <!-- Add more projects here -->
     </div>
