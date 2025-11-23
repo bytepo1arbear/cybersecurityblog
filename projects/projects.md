@@ -6,19 +6,13 @@ permalink: /projects/
 
 # Projects
 
-Here are some of my ongoing and completed cybersecurity/homelab projects:
+Welcome to my homelab and cybersecurity projects.
 
-## Project 1: Home Lab Setup
-- Description: Building a virtual lab for pentesting and network experiments.
-- Tools: Proxmox, Ubuntu, Docker, pfSense
-- Status: In progress
-
-## Project 2: Penetration Testing Practice
-- Description: Simulated network attacks on test environments.
-- Tools: Kali Linux, Metasploit, Nmap
-- Status: Planned
-
-## Project 3: Network Monitoring
-- Description: Monitoring and logging network traffic at home.
-- Tools: Wireshark, Zeek, Grafana
-- Status: Completed
+{% for project in site.projects %}
+  <article class="project">
+    <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+    <div class="project-content">
+      {{ project.content }}
+    </div>
+  </article>
+{% endfor %}
