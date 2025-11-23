@@ -2,7 +2,7 @@
 
 <header>
   <div class="container">
-    <a href="/" class="logo">CyberSec</a>
+    <a href="/" class="logo">Cyber Security</a>
     <nav>
       <ul>
         <li><a href="/about/">About Me</a></li>
