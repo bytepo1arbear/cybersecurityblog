@@ -1,11 +1,5 @@
 <link rel="stylesheet" href="/assets/css/style.css">
 
-\`\`\`markdown
-layout: home
-title: "My Cybersecurity Journey"
-description: "Documenting my path through the world of cybersecurity, one challenge at a time."
-\`\`\`
-
 <header>
   <div class="container">
     <a href="/" class="logo">CyberSec</a>
