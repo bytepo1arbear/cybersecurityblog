@@ -1,11 +1,19 @@
-title: "BytePolarBear's Cybersecurity Blog"
-author: "Jack"
-description: "A blog documenting my cybersecurity journey, ethical hacking projects, and technical writeups."
-layout: default
-baseurl: ""
+title: "Cybersecurity Blog"              
+description: "Documenting my cybersecurity learning journey & homelab projects"  
+baseurl: "/cybersecurityblog"          # your repo name from GitHub Pages → so use “/cybersecurityblog”  
+url: "https://bytepo1arbear.github.io" # your main GitHub Pages URL  
+
+# optional — ensure posts, collections etc  
+permalink: /:year/:month/:day/:title/  
+
+# collections (if you will add projects/write-ups)
 collections:
-  blog:
+  projects:
     output: true
-    permalink: /blog/:year/:month/:day/:slug/
-    layout: post
-    sort_by: 'date'
+  writeups:
+    output: true
+  resources:
+    output: true
+
+# other settings you already have (theme, plugins, etc) remain
+
