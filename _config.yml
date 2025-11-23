@@ -1,12 +1,9 @@
-title: "Cybersecurity Blog"              
-description: "Documenting my cybersecurity learning journey & homelab projects"  
-baseurl: "/cybersecurityblog"          # your repo name from GitHub Pages → so use “/cybersecurityblog”  
-url: "https://bytepo1arbear.github.io" # your main GitHub Pages URL  
+title: "Cybersecurity Blog"
+description: "Documenting my cybersecurity learning journey & homelab projects"
+baseurl: "/cybersecurityblog"
+url: "https://bytepo1arbear.github.io"
+permalink: /:year/:month/:day/:title/
 
-# optional — ensure posts, collections etc  
-permalink: /:year/:month/:day/:title/  
-
-# collections (if you will add projects/write-ups)
 collections:
   projects:
     output: true
@@ -15,5 +12,11 @@ collections:
   resources:
     output: true
 
-# other settings you already have (theme, plugins, etc) remain
-
+theme: minima
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
