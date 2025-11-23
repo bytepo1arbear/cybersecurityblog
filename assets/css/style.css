@@ -1,61 +1,94 @@
+/* General body + centered layout */
 body {
-margin: 0;
-background: #0d0f12;
-color: #d0d7e0;
-font-family: "Fira Code", monospace;
+  margin: 0;
+  background-color: #0d0f12;
+  color: #d0d7e0;
+  font-family: "Fira Code", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Centered Site Title */
+.site-header {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #58a6ff;
+}
 
 /* Floating Navbar */
 .navbar {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-background: #0b0d10;
-border-bottom: 1px solid #1b1f24;
-padding: 0.6rem 0;
-z-index: 1000;
-backdrop-filter: blur(6px);
+  position: fixed;
+  top: 6rem;
+  width: 100%;
+  background: #0b0d10;
+  border-bottom: 1px solid #1b1f24;
+  padding: 0.6rem 0;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
 }
-
 
 .nav-container {
-max-width: 1100px;
-margin: auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 1.5rem;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
 }
 
-
-.nav-title {
-font-size: 1.2rem;
-font-weight: bold;
-color: #58a6ff;
-}
-
-
-/* Links */
 .nav-list {
-list-style: none;
-display: flex;
-gap: 2rem;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
-
 
 .nav-list a {
-color: #9bb2c8;
-text-decoration: none;
-padding: 0.2rem 0.4rem;
-border-radius: 6px;
-transition: 0.2s;
+  color: #9bb2c8;
+  text-decoration: none;
+  padding: 0.2rem 0.4rem;
+  border-radius: 6px;
+  transition: 0.2s;
 }
 
-
 .nav-list a:hover {
-background: #161b22;
-color: #58a6ff;
-box-shadow: 0 0 8px #58a6ff55;
+  background: #161b22;
+  color: #58a6ff;
+  box-shadow: 0 0 8px #58a6ff55;
+}
+
+/* Hamburger menu */
+.hamburger {
+  display: none;
+  font-size: 1.6rem;
+  color: #99a8b8;
+  background: none;
+  border: none;
+}
+
+/* Main content container */
+.content {
+  max-width: 900px;
+  margin-top: 10rem;
+  padding: 2rem;
+  background: #0f1114;
+  border: 1px solid #1b1f24;
+  border-radius: 8px;
+}
+
+/* Mobile responsive */
+@media (max-width: 760px) {
+  .hamburger { display: block; }
+  .nav-list { display: none; flex-direction: column; }
+  body.nav-open .nav-list {
+    display: flex;
+    position: absolute;
+    top: 3.6rem;
+    right: 0;
+    background: #0b0d10;
+    padding: 1rem 2rem;
+    border-left: 1px solid #1b1f24;
+    border-bottom: 1px solid #1b1f24;
+  }
 }
