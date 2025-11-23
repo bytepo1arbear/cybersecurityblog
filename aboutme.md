@@ -6,7 +6,7 @@ permalink: /about/
 
 # About Me
 
-Hello! I'm [Your Name], a cybersecurity enthusiast documenting my learning journey and home lab experiments.  
+Hello! I'm Jack, a cybersecurity enthusiast documenting my learning journey and home lab experiments.  
 
 I created this blog to:
 - Share my progress and experiments
