@@ -13,12 +13,12 @@
       <article class="post">
         <h3>Introduction to SQL injection</h3>
         <p>Explaining the in's and out's of SQL injection.</p>
-        <a href="blog/2024-10-27-sql-injection-explained.md" class="read-more">Read More</a>
+        <a href="blog/2025-10-27-sql-injection-explained" class="read-more">Read More</a>
       </article>
       <article class="post">
         <h3>Setting Up a Kali Linux VM</h3>
         <p>Step-by-step instructions for creating a virtual machine with Kali Linux.</p>
-        <a href="blog/2025-11-23-reverse-engineering.md" class="read-more">Read More</a>
+        <a href="blog/2025-11-23-reverse-engineering" class="read-more">Read More</a>
       </article>
     </div>
   </div>
