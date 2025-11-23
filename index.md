@@ -1,19 +1,3 @@
-<link rel="stylesheet" href="/assets/css/style.css">
-
-<header>
-  <div class="container">
-    <a href="/" class="logo">Cyber Security</a>
-    <nav>
-      <ul>
-        <li><a href="/about/">About Me</a></li>
-        <li><a href="/blog/">Blog Posts</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/resources/">Resources</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
 <section class="hero">
   <div class="container">
     <h1>My Cybersecurity Learning Journey</h1>
