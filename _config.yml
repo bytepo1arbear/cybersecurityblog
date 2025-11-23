@@ -7,3 +7,4 @@ collections:
   blog:
     output: true
     permalink: /blog/:year/:month/:day/:slug/
+    layout: post
