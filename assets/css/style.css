@@ -11,7 +11,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 32px; /* Increased padding for better breathing room */
+  padding: 20px; /* Increased padding for better breathing room */
 }
 
 /* Header */
