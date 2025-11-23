@@ -1,231 +1,61 @@
-/* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #1e1e1e;
-  color: #eee;
-  line-height: 1.6; /* Improves readability */
-  margin: 0;
-  padding: 0;
+margin: 0;
+background: #0d0f12;
+color: #d0d7e0;
+font-family: "Fira Code", monospace;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15px; /* Increased padding for better breathing room */
-}
 
-p {
-  padding-left: 20px;
-}
-
-h3{
-  padding-left: 20px;
-}
-
-/* Header */
-header {
-  background-color: #282828;
-  padding: 0px 0;
-}
-
-.logo {
-  font-size: 2em;
-  text-decoration: none;
-  color: #fff;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-nav li {
-  margin-left: 20px;
-}
-
-/* Style all navigation links as buttons */
-nav a {
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.3s ease;
-  background-color: #333; /* Dark gray background for nav links */
-  border-radius: 8px;
-  padding: 8px 16px;
-  display: inline-block; /* Important to make padding work correctly */
-}
-
-nav a:hover {
-  background-color: #007bff; /* Blue hover effect */
-  color: #fff;
-}
-
+/* Floating Navbar */
 .navbar {
-    background-color: #1a1a1a;
-    padding: 1em 0;
-    border-bottom: 1px solid #333;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: #0b0d10;
+border-bottom: 1px solid #1b1f24;
+padding: 0.6rem 0;
+z-index: 1000;
+backdrop-filter: blur(6px);
 }
 
+
+.nav-container {
+max-width: 1100px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 1.5rem;
+}
+
+
+.nav-title {
+font-size: 1.2rem;
+font-weight: bold;
+color: #58a6ff;
+}
+
+
+/* Links */
 .nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-}
-
-.nav-list li a {
-    color: #e6e6e6;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.05em;
-    transition: color 0.2s ease;
-}
-
-.nav-list li a:hover {
-    color: #ffffff;
-    text-shadow: 0 0 6px rgba(255,255,255,0.5);
-}
-
-/* Dark background + light text theme */
-body {
-    background-color: #121212;
-    color: #e0e0e0;
-    font-family: Arial, sans-serif;
-}
-
-.content {
-    max-width: 900px;
-    margin: auto;
-    padding: 2rem;
+list-style: none;
+display: flex;
+gap: 2rem;
 }
 
 
-/* Hero Section */
-.hero {
-  background-image: url('../../assets/images/cyberimage.jpg');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  padding: 15px 0px; /* Increased padding for a more impactful hero */
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
-}
-
-/* Buttons */
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.button.primary {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.button.secondary {
-  background-color: #333;
-  color: #fff;
-}
-
-/* Latest Posts Section */
-.latest-posts .container {
-    margin-top: 40px;
-    padding: 32px; /* Consistent padding with the container */
-}
-
-.post-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 24px; /* Increased gap for more visual separation */
-}
-
-.post {
-  background-color: #333;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.post h3 a {
-  text-decoration: none;
-  color: #fff;
-}
-
-/* Style blog post links as buttons */
-.post a {
-    background-color: #333;
-    border-radius: 8px;
-    padding: 8px 16px;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    transition: background-color 0.3s ease;
-}
-
-.post a:hover {
-  background-color: #007bff;
-  color: #fff;
+.nav-list a {
+color: #9bb2c8;
+text-decoration: none;
+padding: 0.2rem 0.4rem;
+border-radius: 6px;
+transition: 0.2s;
 }
 
 
-/* Projects Section */
-.projects .container {
-    margin-top: 40px;
-    padding: 32px; /* Consistent padding with the container */
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 24px; /* Increased gap for more visual separation */
-}
-
-.project {
-  background-color: #333;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Style project links as buttons */
-.project a {
-    background-color: #333;
-    border-radius: 8px;
-    padding: 8px 16px;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    transition: background-color 0.3s ease;
-}
-
-.project a:hover {
-  background-color: #007bff;
-  color: #fff;
-}
-
-
-/* Footer */
-footer {
-  background-color: #282828;
-  padding: 0px 0;
-  text-align: center;
-}
-
-/* Responsive Design (Basic) */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
+.nav-list a:hover {
+background: #161b22;
+color: #58a6ff;
+box-shadow: 0 0 8px #58a6ff55;
 }
