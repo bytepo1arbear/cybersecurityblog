@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: home
 title: "Welcome to My Cybersecurity Blog"
@@ -7,4 +6,4 @@ title: "Welcome to My Cybersecurity Blog"
 
 🚀 Stay tuned for regular updates on vulnerability analysis, tool reviews, project builds, and cybersecurity best practices!
 
-[View Recent Posts →](blog)
+[View Recent Posts →](/blog)
