@@ -18,7 +18,7 @@ title: "Welcome to My Cybersecurity Blog"
     <h2>About Me</h2>
     <div class="profile-wrapper">
       <img src="/assets/images/polar.jpg" alt="My Photo" class="profile-image">
-      <p>Hi, I'm [Your Name]!  I’m a passionate cybersecurity enthusiast with a focus on reverse engineering and vulnerability research. This blog is my way of documenting my learning journey and sharing what I discover along the way.</p>
+      <p>Hi, I'm Jack!  I’m a passionate cybersecurity enthusiast with a focus on reverse engineering and vulnerability research. This blog is my way of documenting my learning journey and sharing what I discover along the way.</p>
     </div>
   </div>
 </section>
