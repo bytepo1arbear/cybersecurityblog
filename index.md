@@ -18,7 +18,7 @@
       <article class="post">
         <h3>Setting Up a Kali Linux VM</h3>
         <p>Step-by-step instructions for creating a virtual machine with Kali Linux.</p>
-        <a href="blog/post-2/" class="read-more">Read More</a>
+        <a href="blog/2025-11-23-reverse-engineering.md" class="read-more">Read More</a>
       </article>
     </div>
   </div>
