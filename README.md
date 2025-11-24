@@ -9,7 +9,7 @@
 
 **Documenting my journey in ethical hacking, penetration testing, and cybersecurity research**
 
-[🌐 Visit Live Site](https://bytepo1arbear.github.io/cybersecurityblog/) • [📝 Latest Posts](#-latest-content) • [🔧 Projects](#-featured-projects) • [📚 Resources](#-learning-resources)
+[🌐 Visit Live Site](https://bytepo1arbear.github.io/cybersecurityblog/)
 
 </div>
 
