@@ -60,6 +60,7 @@ permalink: /
         <p>{{ project.excerpt | strip_html | truncatewords: 50 }}</p>
         <a href="{{ project.url | relative_url }}" class="btn-read-more">View Project →</a>
       </article>
+      {% endunless %}
       {% else %}
       <div class="empty-state">
         <p>No projects yet. Coming soon!</p>
@@ -96,6 +97,7 @@ permalink: /
         {% endif %}
         <a href="{{ writeup.url | relative_url }}" class="btn-read-more">Read Writeup →</a>
       </article>
+      {% endunless %}
       {% else %}
       <div class="empty-state">
         <p>No writeups yet. Stay tuned!</p>
