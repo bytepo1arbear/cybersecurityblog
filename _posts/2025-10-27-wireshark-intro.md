@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started with Wireshark for Network Analysis"
-date: 2025-11-24 12:00:00 +0000
+date: 2025-10-27
 categories: [network analysis, tools]
 tags: [wireshark, packet capture, traffic analysis, cybersecurity]
 ---
