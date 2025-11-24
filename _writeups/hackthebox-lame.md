@@ -1,5 +1,5 @@
 ---
-layout: writeups
+layout: writeup
 title: "HackTheBox: Lame Walkthrough"
 date: 2025-10-01
 difficulty: Medium
