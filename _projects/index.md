@@ -2,6 +2,7 @@
 layout: default
 title: "Projects"
 permalink: /projects/
+exclude_from_collection: true
 ---
 
 # Projects
