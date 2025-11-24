@@ -48,6 +48,5 @@ Hello! I'm Jack, a cybersecurity enthusiast documenting my learning journey and 
 <div class="social-links">
 <a class="social-link" href="https://github.com/bytepo1arbear" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
 <a class="social-link" href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
-<a class="social-link" href="mailto:jackthepolarbear02@gmail.com"><i class="fas fa-envelope"></i> Email</a>
 </div>
 </div>
