@@ -97,11 +97,11 @@ permalink: /
         {% endif %}
         <a href="{{ writeup.url | relative_url }}" class="btn-read-more">Read Writeup →</a>
       </article>
-      {% endunless %}
       {% else %}
       <div class="empty-state">
         <p>No writeups yet. Stay tuned!</p>
       </div>
+      {% endunless %}
       {% endfor %}
     </div>
     <div class="section-footer">
