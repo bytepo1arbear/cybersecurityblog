@@ -10,6 +10,7 @@ exclude_from_collection: true
 All lab experiments and notes:
 
 {% for writeup in site.writeups %}
+  {% unless writeup.exclude_from_collection %}
   <article class="writeup-preview">
     <div class="card-header">
       <span class="post-date">{{ writeup.date | date: "%B %d, %Y" }}</span>
@@ -28,4 +29,5 @@ All lab experiments and notes:
     {% endif %}
     <a href="{{ writeup.url | relative_url }}" class="btn-read-more">Read Writeup →</a>
   </article>
+  {% endunless %}
 {% endfor %}
