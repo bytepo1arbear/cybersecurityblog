@@ -51,6 +51,7 @@ permalink: /
     <h2>Latest Projects</h2>
     <div class="project-grid">
       {% for project in site.projects limit:3 %}
+        {% unless project.exclude_from_collection %}
       <article class="project-preview">
         <div class="card-header">
           <span class="post-date">{{ project.date | date: "%B %Y" }}</span>
@@ -76,6 +77,7 @@ permalink: /
     <h2>Latest Writeup</h2>
     <div class="writeup-grid">
       {% for writeup in site.writeups limit:3 %}
+        {% unless project.exclude_from_collection %}
       <article class="writeup-preview featured">
         <div class="card-header">
           <span class="post-date">{{ writeup.date | date: "%B %d, %Y" }}</span>
