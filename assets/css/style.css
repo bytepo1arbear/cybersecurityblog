@@ -145,3 +145,42 @@ button:hover, .btn:hover {
     border-bottom: 1px solid #1b1f24;
   }
 }
+
+/* ===========================
+   GRIDS FOR POSTS, PROJECTS, WRITEUPS
+   =========================== */
+.post-grid, .project-grid, .writeup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.8rem;
+  margin-top: 1rem;
+}
+
+/* ===========================
+   HERO SECTION
+   =========================== */
+.hero {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #58a6ff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #9bb2c8;
+}
+
+/* ===========================
+   BUTTON STYLING
+   =========================== */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
