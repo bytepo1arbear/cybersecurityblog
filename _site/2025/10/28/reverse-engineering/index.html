@@ -1,0 +1,43 @@
+<p><strong>“Introduction to Reverse Engineering with Ghidra”</strong></p>
+
+<h2 id="markdown">```markdown</h2>
+<p>layout: post
+title: “Introduction to Reverse Engineering with Ghidra”
+date: 2025-10-28
+categories: [reverse engineering, tools]
+tags: [ghidra, malware analysis, disassembly, debugging]
+—</p>
+
+<h1 id="introduction-to-reverse-engineering-with-ghidra">Introduction to Reverse Engineering with Ghidra</h1>
+
+<p>Reverse engineering is the process of analyzing a software program or system to understand its functionality and internal workings. It’s a crucial skill for security researchers, vulnerability analysts, and anyone interested in understanding how software works under the hood.  This post introduces Ghidra, a powerful open-source reverse engineering framework developed by the National Security Agency (NSA).</p>
+
+<h2 id="what-is-ghidra">What is Ghidra?</h2>
+
+<p>Ghidra is a free and open-source software reverse engineering suite that provides disassembly, decompilation, assembly programming, and debugging capabilities. It supports a wide range of processor architectures and file formats, making it a versatile tool for analyzing various types of software.  Unlike some commercial tools, Ghidra’s open-source nature allows for community contributions and customization.</p>
+
+<h2 id="setting-up-ghidra">Setting Up Ghidra</h2>
+
+<ol>
+  <li><strong>Download:</strong> Download the latest version from <a href="https://ghidra-sre.org/">https://ghidra-sre.org/</a>.</li>
+  <li><strong>Installation:</strong> Extract the downloaded archive to a suitable location on your system.  No installation is required; it’s essentially a self-contained application.</li>
+  <li><strong>Launching Ghidra:</strong> Run the <code class="language-plaintext highlighter-rouge">ghidraRun</code> script (Windows) or execute <code class="language-plaintext highlighter-rouge">./ghidraRun</code> (Linux/macOS).</li>
+</ol>
+
+<h2 id="basic-workflow-disassembling-a-simple-program">Basic Workflow: Disassembling a Simple Program</h2>
+
+<p>Let’s reverse engineer a simple “Hello, World!” program compiled for x86-64 Linux.</p>
+
+<ol>
+  <li><strong>Create a New Project:</strong> In Ghidra, create a new project and specify the path to your executable file.</li>
+  <li><strong>Analyze the Program:</strong>  Ghidra will automatically analyze the program, identifying functions, data structures, and other relevant information. You can customize the analysis options if needed.</li>
+  <li><strong>Disassembly View:</strong> After analysis, Ghidra presents a disassembly view of the program’s code. This shows the assembly instructions that make up the executable.</li>
+</ol>
+
+<p><strong>Example Disassembly Snippet (Simplified):</strong></p>
+
+<p>```assembly
+   401000:  55                      push rbp
+   401001:  48 89 e5                mov rbp, rsp
+   401004:  48 83 ec 28             sub rsp, 0x28
+   …</p>

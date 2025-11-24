@@ -9,10 +9,22 @@ permalink: /writeups/
 All lab experiments and notes:
 
 {% for writeup in site.writeups %}
-  <article class="writeup">
-    <h2><a href="{{ writeup.url | relative_url }}">{{ writeup.title }}</a></h2>
-    <div class="writeup-content">
-      {{ writeup.content }}
+  <article class="writeup-preview">
+    <div class="card-header">
+      <span class="post-date">{{ writeup.date | date: "%B %d, %Y" }}</span>
+      {% if writeup.difficulty %}
+      <span class="difficulty difficulty-{{ writeup.difficulty | downcase }}">{{ writeup.difficulty }}</span>
+      {% endif %}
     </div>
+    <h3><a href="{{ writeup.url | relative_url }}">{{ writeup.title }}</a></h3>
+    <p>{{ writeup.excerpt | strip_html | truncatewords: 60 }}</p>
+    {% if writeup.tags %}
+    <div class="post-tags">
+      {% for tag in writeup.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <a href="{{ writeup.url | relative_url }}" class="btn-read-more">Read Writeup →</a>
   </article>
 {% endfor %}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+  <title>Projects | Cybersecurity Blog</title>
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Favicon (optional - add your own) -->
+  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
+</head>
+<body>
+  <!-- SITE TITLE -->
+  <header class="site-header">
+    <h1>Cybersecurity Blog</h1>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <ul class="nav-list">
+        <li><a href="/cybersecurityblog/" >Home</a></li>
+        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
+        <li><a href="/cybersecurityblog/projects/" class="active">Projects</a></li>
+        <li><a href="/cybersecurityblog/writeups/" >Writeups</a></li>
+        <li><a href="/cybersecurityblog/resources/" >Resources</a></li>
+        <li><a href="/cybersecurityblog/about/" >About Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <h1 id="projects">Projects</h1>
+
+<p>Welcome to my homelab and cybersecurity projects.</p>
+
+<div class="project-grid">
+
+  <article class="project-preview">
+    <div class="card-header">
+      <span class="post-date">June 2024</span>
+    </div>
+    <h3><a href="/cybersecurityblog/projects/homelab-setup/">Homelab Setup</a></h3>
+    <p>Notes and configuration for my homelab: Proxmox, networking, and storage design.</p>
+    <a href="/cybersecurityblog/projects/homelab-setup/" class="btn-read-more">View Project →</a>
+  </article>
+
+  <article class="project-preview">
+    <div class="card-header">
+      <span class="post-date">November 2025</span>
+    </div>
+    <h3><a href="/cybersecurityblog/projects/">Projects</a></h3>
+    <p>Projects
+</p>
+    <a href="/cybersecurityblog/projects/" class="btn-read-more">View Project →</a>
+  </article>
+
+  <article class="project-preview">
+    <div class="card-header">
+      <span class="post-date">August 2024</span>
+    </div>
+    <h3><a href="/cybersecurityblog/projects/network-monitoring/">Network Monitoring</a></h3>
+    <p>Setting up monitoring for home and lab networks with Prometheus, Grafana, and packet captures.</p>
+    <a href="/cybersecurityblog/projects/network-monitoring/" class="btn-read-more">View Project →</a>
+  </article>
+
+  <article class="project-preview">
+    <div class="card-header">
+      <span class="post-date">November 2024</span>
+    </div>
+    <h3><a href="/cybersecurityblog/projects/penetration-testing-lab/">Penetration Testing Lab</a></h3>
+    <p>A curated pentesting lab with vulnerable VMs for practicing enumeration and exploitation.</p>
+    <a href="/cybersecurityblog/projects/penetration-testing-lab/" class="btn-read-more">View Project →</a>
+  </article>
+
+  <article class="project-preview">
+    <div class="card-header">
+      <span class="post-date">November 2025</span>
+    </div>
+    <h3><a href="/cybersecurityblog/projects/proxmox/">Home Lab Setup</a></h3>
+    <p>Description: Building a virtual lab for pentesting and network experiments.
+</p>
+    <a href="/cybersecurityblog/projects/proxmox/" class="btn-read-more">View Project →</a>
+  </article>
+
+</div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Cybersecurity Blog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+      const nav = document.querySelector('.nav-container');
+      const button = document.querySelector('.hamburger');
+      if (!nav.contains(e.target) && !button.contains(e.target)) {
+        document.body.classList.remove('nav-open');
+      }
+    });
+
+    // Add scrolled class to navbar on scroll
+    let lastScroll = 0;
+    const navbar = document.getElementById('navbar');
+    
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+      
+      lastScroll = currentScroll;
+    });
+
+    // Close mobile menu when nav link is clicked
+    document.querySelectorAll('.nav-list a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.body.classList.remove('nav-open');
+      });
+    });
+  </script>
+</body>
+</html>

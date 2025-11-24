@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description }}">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+  <title>Home Lab Setup | Cybersecurity Blog</title>
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <!-- Favicon (optional - add your own) -->
-  <!-- <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}"> -->
+  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
 </head>
 <body>
   <!-- SITE TITLE -->
   <header class="site-header">
-    <h1>{{ site.title }}</h1>
+    <h1>Cybersecurity Blog</h1>
   </header>
 
   <!-- NAVIGATION BAR -->
@@ -25,25 +25,30 @@
         ☰
       </button>
       <ul class="nav-list">
-        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-        <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
-        <li><a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a></li>
-        <li><a href="{{ '/writeups/' | relative_url }}" {% if page.url contains '/writeups' %}class="active"{% endif %}>Writeups</a></li>
-        <li><a href="{{ '/resources/' | relative_url }}" {% if page.url contains '/resources' %}class="active"{% endif %}>Resources</a></li>
-        <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About Me</a></li>
+        <li><a href="/cybersecurityblog/" >Home</a></li>
+        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
+        <li><a href="/cybersecurityblog/projects/" class="active">Projects</a></li>
+        <li><a href="/cybersecurityblog/writeups/" >Writeups</a></li>
+        <li><a href="/cybersecurityblog/resources/" >Resources</a></li>
+        <li><a href="/cybersecurityblog/about/" >About Me</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- MAIN CONTENT -->
   <main class="content">
-    {{ content }}
+    <p><strong>Description:</strong> Building a virtual lab for pentesting and network experiments.</p>
+
+<p><strong>Tools:</strong> Proxmox, Ubuntu, Docker, pfSense</p>
+
+<p><strong>Status:</strong> In progress</p>
+
   </main>
 
   <!-- FOOTER -->
   <footer>
     <div class="container">
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+      <p>&copy; 2025 Cybersecurity Blog. All rights reserved.</p>
     </div>
   </footer>
 

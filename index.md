@@ -50,7 +50,7 @@ permalink: /
   <div class="container">
     <h2>Latest Projects</h2>
     <div class="project-grid">
-      {% for project in site.projects limit:2 %}
+      {% for project in site.projects limit:3 %}
       <article class="project-preview">
         <div class="card-header">
           <span class="post-date">{{ project.date | date: "%B %Y" }}</span>
@@ -75,7 +75,7 @@ permalink: /
   <div class="container">
     <h2>Latest Writeup</h2>
     <div class="writeup-grid">
-      {% for writeup in site.writeups limit:1 %}
+      {% for writeup in site.writeups limit:3 %}
       <article class="writeup-preview featured">
         <div class="card-header">
           <span class="post-date">{{ writeup.date | date: "%B %d, %Y" }}</span>

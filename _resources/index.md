@@ -9,16 +9,30 @@ permalink: /resources/
 Curated resources for cybersecurity learning and homelab projects:
 
 ## Tools
-- [Nmap](https://nmap.org/) — Network scanning and enumeration
-- [Wireshark](https://www.wireshark.org/) — Packet capture and analysis
-- [Metasploit](https://www.metasploit.com/) — Penetration testing framework
+<div class="resource-category">
+<a class="resource-link" href="https://nmap.org/" target="_blank" rel="noopener"><i class="fas fa-network-wired"></i> Nmap</a>
+<p class="muted">Network scanning and enumeration</p>
+<a class="resource-link" href="https://www.wireshark.org/" target="_blank" rel="noopener"><i class="fas fa-microscope"></i> Wireshark</a>
+<p class="muted">Packet capture and analysis</p>
+<a class="resource-link" href="https://www.metasploit.com/" target="_blank" rel="noopener"><i class="fas fa-bomb"></i> Metasploit</a>
+<p class="muted">Penetration testing framework</p>
+</div>
 
 ## Tutorials
-- [Hack The Box](https://www.hackthebox.eu/) — Labs for pentesting
-- [OverTheWire](https://overthewire.org/wargames/) — Security wargames
-- [TryHackMe](https://tryhackme.com/) — Guided cybersecurity exercises
+<div class="resource-category">
+<a class="resource-link" href="https://www.hackthebox.eu/" target="_blank" rel="noopener"><i class="fas fa-lock"></i> Hack The Box</a>
+<p class="muted">Labs for pentesting</p>
+<a class="resource-link" href="https://overthewire.org/wargames/" target="_blank" rel="noopener"><i class="fas fa-terminal"></i> OverTheWire</a>
+<p class="muted">Security wargames</p>
+<a class="resource-link" href="https://tryhackme.com/" target="_blank" rel="noopener"><i class="fas fa-chalkboard-teacher"></i> TryHackMe</a>
+<p class="muted">Guided cybersecurity exercises</p>
+</div>
 
 ## Articles
-- [Cybersecurity Blog Examples](https://www.darkreading.com/) — Industry news
-- [Jekyll Documentation](https://jekyllrb.com/docs/) — Static site generation
+<div class="resource-category">
+<a class="resource-link" href="https://www.darkreading.com/" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> DarkReading</a>
+<p class="muted">Industry news</p>
+<a class="resource-link" href="https://jekyllrb.com/docs/" target="_blank" rel="noopener"><i class="fas fa-cog"></i> Jekyll Documentation</a>
+<p class="muted">Static site generation</p>
+</div>
 

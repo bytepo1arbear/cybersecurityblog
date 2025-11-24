@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+  <title>Writeups | Cybersecurity Blog</title>
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Favicon (optional - add your own) -->
+  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
+</head>
+<body>
+  <!-- SITE TITLE -->
+  <header class="site-header">
+    <h1>Cybersecurity Blog</h1>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <ul class="nav-list">
+        <li><a href="/cybersecurityblog/" >Home</a></li>
+        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
+        <li><a href="/cybersecurityblog/projects/" >Projects</a></li>
+        <li><a href="/cybersecurityblog/writeups/" class="active">Writeups</a></li>
+        <li><a href="/cybersecurityblog/resources/" >Resources</a></li>
+        <li><a href="/cybersecurityblog/about/" >About Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <h1 id="writeups">Writeups</h1>
+
+<p>All lab experiments and notes:</p>
+
+<article class="writeup-preview">
+    <div class="card-header">
+      <span class="post-date">November 22, 2024</span>
+      
+      <span class="difficulty difficulty-easy">Easy</span>
+      
+    </div>
+    <h3><a href="/cybersecurityblog/writeups/basic-pentesting/">TryHackMe: Basic Pentesting Walkthrough</a></h3>
+    <p>TryHackMe: Basic Pentesting Walkthrough
+</p>
+    
+    <div class="post-tags">
+      
+      <span class="tag">TryHackMe</span>
+      
+      <span class="tag">Linux</span>
+      
+      <span class="tag">Web</span>
+      
+      <span class="tag">Privilege Escalation</span>
+      
+    </div>
+    
+    <a href="/cybersecurityblog/writeups/basic-pentesting/" class="btn-read-more">Read Writeup →</a>
+  </article>
+
+<article class="writeup-preview">
+    <div class="card-header">
+      <span class="post-date">October 01, 2025</span>
+      
+      <span class="difficulty difficulty-medium">Medium</span>
+      
+    </div>
+    <h3><a href="/cybersecurityblog/writeups/hackthebox-lame/">HackTheBox: Lame Walkthrough</a></h3>
+    <p>A step-by-step walkthrough for the 'Lame' box on HackTheBox focusing on enumeration and privilege escalation.</p>
+    
+    <div class="post-tags">
+      
+      <span class="tag">htb</span>
+      
+      <span class="tag">linux</span>
+      
+      <span class="tag">priv-esc</span>
+      
+    </div>
+    
+    <a href="/cybersecurityblog/writeups/hackthebox-lame/" class="btn-read-more">Read Writeup →</a>
+  </article>
+
+<article class="writeup-preview">
+    <div class="card-header">
+      <span class="post-date">November 24, 2025</span>
+      
+    </div>
+    <h3><a href="/cybersecurityblog/writeups/">Writeups</a></h3>
+    <p>Writeups
+</p>
+    
+    <div class="post-tags">
+      
+    </div>
+    
+    <a href="/cybersecurityblog/writeups/" class="btn-read-more">Read Writeup →</a>
+  </article>
+
+<article class="writeup-preview">
+    <div class="card-header">
+      <span class="post-date">October 10, 2025</span>
+      
+      <span class="difficulty difficulty-easy">Easy</span>
+      
+    </div>
+    <h3><a href="/cybersecurityblog/writeups/owasp-webgoat-injection/">OWASP WebGoat: SQL Injection Notes</a></h3>
+    <p>Notes on performing SQL injection exercises in OWASP WebGoat and defensive observations.</p>
+    
+    <div class="post-tags">
+      
+      <span class="tag">web</span>
+      
+      <span class="tag">injection</span>
+      
+      <span class="tag">sql</span>
+      
+    </div>
+    
+    <a href="/cybersecurityblog/writeups/owasp-webgoat-injection/" class="btn-read-more">Read Writeup →</a>
+  </article>
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Cybersecurity Blog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+      const nav = document.querySelector('.nav-container');
+      const button = document.querySelector('.hamburger');
+      if (!nav.contains(e.target) && !button.contains(e.target)) {
+        document.body.classList.remove('nav-open');
+      }
+    });
+
+    // Add scrolled class to navbar on scroll
+    let lastScroll = 0;
+    const navbar = document.getElementById('navbar');
+    
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+      
+      lastScroll = currentScroll;
+    });
+
+    // Close mobile menu when nav link is clicked
+    document.querySelectorAll('.nav-list a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.body.classList.remove('nav-open');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/cybersecurityblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/cybersecurityblog/" rel="alternate" type="text/html" /><updated>2025-11-24T21:01:39+13:00</updated><id>http://localhost:4000/cybersecurityblog/feed.xml</id><title type="html">Cybersecurity Blog</title><subtitle>Documenting my cybersecurity learning journey &amp; homelab projects</subtitle><entry><title type="html">Understanding OSINT: Gathering Intelligence from Public Sources</title><link href="http://localhost:4000/cybersecurityblog/2025/11/16/understanding-osint/" rel="alternate" type="text/html" title="Understanding OSINT: Gathering Intelligence from Public Sources" /><published>2025-11-16T09:00:00+13:00</published><updated>2025-11-16T09:00:00+13:00</updated><id>http://localhost:4000/cybersecurityblog/2025/11/16/understanding-osint</id><content type="html" xml:base="http://localhost:4000/cybersecurityblog/2025/11/16/understanding-osint/"><![CDATA[<h1 id="understanding-osint-gathering-intelligence-from-public-sources">Understanding OSINT: Gathering Intelligence from Public Sources</h1>
+
+<p>Open Source Intelligence (OSINT) refers to the collection and analysis of publicly available information. It plays an important role in cybersecurity, threat intelligence, and digital investigations. With OSINT techniques, analysts can uncover valuable data about individuals, systems, or organizations without accessing private or restricted resources.</p>
+
+<h2 id="what-is-osint">What is OSINT?</h2>
+
+<p>OSINT involves gathering data from sources such as:</p>
+
+<ul>
+  <li>Social media platforms</li>
+  <li>Public records and government databases</li>
+  <li>Domain and IP lookup services</li>
+  <li>News articles and online publications</li>
+  <li>Forums and paste sites</li>
+  <li>Code repositories</li>
+</ul>
+
+<p>Because this information is openly accessible, OSINT does not involve hacking. Instead, it relies on strategic searching, correlation, and analysis.</p>
+
+<h2 id="popular-osint-tools">Popular OSINT Tools</h2>
+
+<ol>
+  <li><strong>Maltego:</strong> Graph-based link analysis tool for connecting people, domains, and infrastructure.</li>
+  <li><strong>theHarvester:</strong> Gathers emails, subdomains, and hosts using public search engines.</li>
+  <li><strong>Shodan:</strong> A search engine for discovering internet-connected devices.</li>
+  <li><strong>SpiderFoot:</strong> Automated reconnaissance tool that aggregates results from dozens of data sources.</li>
+</ol>
+
+<h2 id="example-gathering-domain-information">Example: Gathering Domain Information</h2>
+
+<p>Using <code class="language-plaintext highlighter-rouge">whois</code>:</p>
+
+<p>```bash
+whois example.com</p>]]></content><author><name></name></author><category term="osint" /><category term="intelligence" /><category term="open source intelligence" /><category term="recon" /><category term="investigation" /><category term="cybersecurity" /><summary type="html"><![CDATA[Understanding OSINT: Gathering Intelligence from Public Sources]]></summary></entry><entry><title type="html">Reverse Engineering</title><link href="http://localhost:4000/cybersecurityblog/2025/10/28/reverse-engineering/" rel="alternate" type="text/html" title="Reverse Engineering" /><published>2025-10-28T00:00:00+13:00</published><updated>2025-10-28T00:00:00+13:00</updated><id>http://localhost:4000/cybersecurityblog/2025/10/28/reverse-engineering</id><content type="html" xml:base="http://localhost:4000/cybersecurityblog/2025/10/28/reverse-engineering/"><![CDATA[<p><strong>“Introduction to Reverse Engineering with Ghidra”</strong></p>
+
+<h2 id="markdown">```markdown</h2>
+<p>layout: post
+title: “Introduction to Reverse Engineering with Ghidra”
+date: 2025-10-28
+categories: [reverse engineering, tools]
+tags: [ghidra, malware analysis, disassembly, debugging]
+—</p>
+
+<h1 id="introduction-to-reverse-engineering-with-ghidra">Introduction to Reverse Engineering with Ghidra</h1>
+
+<p>Reverse engineering is the process of analyzing a software program or system to understand its functionality and internal workings. It’s a crucial skill for security researchers, vulnerability analysts, and anyone interested in understanding how software works under the hood.  This post introduces Ghidra, a powerful open-source reverse engineering framework developed by the National Security Agency (NSA).</p>
+
+<h2 id="what-is-ghidra">What is Ghidra?</h2>
+
+<p>Ghidra is a free and open-source software reverse engineering suite that provides disassembly, decompilation, assembly programming, and debugging capabilities. It supports a wide range of processor architectures and file formats, making it a versatile tool for analyzing various types of software.  Unlike some commercial tools, Ghidra’s open-source nature allows for community contributions and customization.</p>
+
+<h2 id="setting-up-ghidra">Setting Up Ghidra</h2>
+
+<ol>
+  <li><strong>Download:</strong> Download the latest version from <a href="https://ghidra-sre.org/">https://ghidra-sre.org/</a>.</li>
+  <li><strong>Installation:</strong> Extract the downloaded archive to a suitable location on your system.  No installation is required; it’s essentially a self-contained application.</li>
+  <li><strong>Launching Ghidra:</strong> Run the <code class="language-plaintext highlighter-rouge">ghidraRun</code> script (Windows) or execute <code class="language-plaintext highlighter-rouge">./ghidraRun</code> (Linux/macOS).</li>
+</ol>
+
+<h2 id="basic-workflow-disassembling-a-simple-program">Basic Workflow: Disassembling a Simple Program</h2>
+
+<p>Let’s reverse engineer a simple “Hello, World!” program compiled for x86-64 Linux.</p>
+
+<ol>
+  <li><strong>Create a New Project:</strong> In Ghidra, create a new project and specify the path to your executable file.</li>
+  <li><strong>Analyze the Program:</strong>  Ghidra will automatically analyze the program, identifying functions, data structures, and other relevant information. You can customize the analysis options if needed.</li>
+  <li><strong>Disassembly View:</strong> After analysis, Ghidra presents a disassembly view of the program’s code. This shows the assembly instructions that make up the executable.</li>
+</ol>
+
+<p><strong>Example Disassembly Snippet (Simplified):</strong></p>
+
+<p>```assembly
+   401000:  55                      push rbp
+   401001:  48 89 e5                mov rbp, rsp
+   401004:  48 83 ec 28             sub rsp, 0x28
+   …</p>]]></content><author><name></name></author><summary type="html"><![CDATA[“Introduction to Reverse Engineering with Ghidra”]]></summary></entry><entry><title type="html">Getting Started with Wireshark for Network Analysis</title><link href="http://localhost:4000/cybersecurityblog/2025/10/27/wireshark-intro/" rel="alternate" type="text/html" title="Getting Started with Wireshark for Network Analysis" /><published>2025-10-27T00:00:00+13:00</published><updated>2025-10-27T00:00:00+13:00</updated><id>http://localhost:4000/cybersecurityblog/2025/10/27/wireshark-intro</id><content type="html" xml:base="http://localhost:4000/cybersecurityblog/2025/10/27/wireshark-intro/"><![CDATA[<h1 id="getting-started-with-wireshark-for-network-analysis">Getting Started with Wireshark for Network Analysis</h1>
+
+<p>Wireshark is one of the most widely used network protocol analyzers. It allows you to capture and inspect network traffic in real-time, making it an essential tool for network administrators, security researchers, and cybersecurity enthusiasts.</p>
+
+<h2 id="what-is-wireshark">What is Wireshark?</h2>
+
+<p>Wireshark is an open-source tool that provides detailed insights into network protocols, data packets, and communication flows. You can analyze traffic from wired, wireless, and virtual networks, making it versatile for troubleshooting and security investigations.</p>
+
+<h2 id="installing-wireshark">Installing Wireshark</h2>
+
+<ol>
+  <li><strong>Download:</strong> Visit <a href="https://www.wireshark.org/">https://www.wireshark.org/</a> and download the installer for your OS.</li>
+  <li><strong>Installation:</strong> Follow the standard installation instructions. On Windows, you may be prompted to install WinPcap or Npcap for packet capture functionality.</li>
+  <li><strong>Launching Wireshark:</strong> Open Wireshark and select a network interface to start capturing traffic.</li>
+</ol>
+
+<h2 id="capturing-and-analyzing-packets">Capturing and Analyzing Packets</h2>
+
+<ol>
+  <li><strong>Start a Capture:</strong> Choose the desired interface and click “Start Capture.”</li>
+  <li><strong>Inspect Packets:</strong> As packets flow through the network, Wireshark displays them in real-time with details such as source/destination IPs, protocols, and packet length.</li>
+  <li><strong>Filtering Traffic:</strong> Use display filters to focus on specific traffic, e.g., <code class="language-plaintext highlighter-rouge">http</code> for web traffic or <code class="language-plaintext highlighter-rouge">tcp.port==443</code> for HTTPS traffic.</li>
+</ol>
+
+<p><strong>Example Filter Usage:</strong></p>
+
+<p>```text
+tcp.port == 80
+ip.src == 192.168.1.10</p>]]></content><author><name></name></author><category term="network analysis" /><category term="tools" /><category term="wireshark" /><category term="packet capture" /><category term="traffic analysis" /><category term="cybersecurity" /><summary type="html"><![CDATA[Getting Started with Wireshark for Network Analysis]]></summary></entry><entry><title type="html">Getting Started with Cybersecurity: My Journey Begins</title><link href="http://localhost:4000/cybersecurityblog/2025/09/20/intro-to-cyber/" rel="alternate" type="text/html" title="Getting Started with Cybersecurity: My Journey Begins" /><published>2025-09-20T00:00:00+12:00</published><updated>2025-09-20T00:00:00+12:00</updated><id>http://localhost:4000/cybersecurityblog/2025/09/20/intro-to-cyber</id><content type="html" xml:base="http://localhost:4000/cybersecurityblog/2025/09/20/intro-to-cyber/"><![CDATA[<h1 id="getting-started-with-cybersecurity-my-journey-begins">Getting Started with Cybersecurity: My Journey Begins</h1>
+
+<p>Starting my cybersecurity journey has been both exciting and challenging. After months of research and planning, I’ve finally decided to document my learning process and share it with others who might be on a similar path. This blog will serve as a record of my experiences, challenges, and victories as I navigate the complex world of information security. I hope that by sharing my journey, I can help others avoid some of the mistakes I make along the way.</p>
+
+<h2 id="why-cybersecurity">Why Cybersecurity?</h2>
+
+<p>The decision to pursue cybersecurity came from a combination of factors. First, I’ve always been fascinated by how things work under the hood, especially computer systems and networks. Second, the increasing importance of digital security in our daily lives made me realize this is a field where I can make a real difference. Finally, the constant evolution of threats and defense mechanisms means there’s always something new to learn.</p>
+
+<h2 id="my-learning-path">My Learning Path</h2>
+
+<p>I’ve structured my learning approach around several key areas:</p>
+
+<ol>
+  <li><strong>Fundamentals</strong>: Understanding networking, operating systems, and programming</li>
+  <li><strong>Security Concepts</strong>: Learning about common vulnerabilities and attack vectors</li>
+  <li><strong>Hands-on Practice</strong>: Setting up a home lab and working through CTF challenges</li>
+  <li><strong>Certifications</strong>: Planning to pursue CompTIA Security+ and eventually CEH</li>
+</ol>
+
+<h2 id="setting-up-my-home-lab">Setting Up My Home Lab</h2>
+
+<p>One of the first things I did was set up a dedicated home lab environment. I’m using VirtualBox to run multiple virtual machines, including:</p>
+
+<ul>
+  <li>Kali Linux for penetration testing</li>
+  <li>Ubuntu Server for practicing Linux administration</li>
+  <li>Windows 10 for understanding Windows security</li>
+  <li>Metasploitable 2 as a deliberately vulnerable target</li>
+</ul>
+
+<p>This setup allows me to practice various attack and defense techniques in a safe, isolated environment without risking any production systems.</p>
+
+<h2 id="resources-im-using">Resources I’m Using</h2>
+
+<p>Here are some of the resources that have been invaluable so far:</p>
+
+<ul>
+  <li><strong>TryHackMe</strong>: Excellent for beginners with guided learning paths</li>
+  <li><strong>HackTheBox</strong>: More challenging but great for practical experience</li>
+  <li><strong>OWASP Top 10</strong>: Essential reading for web application security</li>
+  <li><strong>YouTube Channels</strong>: NetworkChuck, John Hammond, IppSec</li>
+  <li><strong>Books</strong>: “The Web Application Hacker’s Handbook” and “Practical Malware Analysis”</li>
+</ul>
+
+<h2 id="challenges-so-far">Challenges So Far</h2>
+
+<p>The learning curve has been steep. Some challenges I’ve encountered:</p>
+
+<ul>
+  <li><strong>Information Overload</strong>: There’s so much to learn, it’s hard to know where to focus</li>
+  <li><strong>Imposter Syndrome</strong>: Feeling like I’ll never know enough</li>
+  <li><strong>Time Management</strong>: Balancing learning with other responsibilities</li>
+  <li><strong>Technical Hurdles</strong>: Setting up lab environments and troubleshooting issues</li>
+</ul>
+
+<h2 id="whats-next">What’s Next?</h2>
+
+<p>Over the coming months, I plan to:</p>
+
+<ol>
+  <li>Complete the TryHackMe Offensive Pentesting path</li>
+  <li>Start documenting CTF writeups on this blog</li>
+  <li>Build several security-focused projects</li>
+  <li>Begin studying for Security+ certification</li>
+  <li>Attend local security meetups and conferences</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This is just the beginning of what I hope will be a long and rewarding journey in cybersecurity. I’m committed to documenting my progress, sharing what I learn, and hopefully helping others who are starting out. If you’re also beginning your cybersecurity journey, I’d love to hear from you!</p>
+
+<p>Stay tuned for more posts where I’ll dive deeper into specific topics, share writeups from CTF challenges, and document my projects.</p>
+
+<hr />
+
+<p><em>Follow my journey and feel free to reach out with questions or suggestions. We’re all learning together!</em></p>]]></content><author><name></name></author><category term="Learning" /><category term="Cybersecurity" /><category term="Beginner" /><category term="Journey" /><summary type="html"><![CDATA[Getting Started with Cybersecurity: My Journey Begins]]></summary></entry></feed>
