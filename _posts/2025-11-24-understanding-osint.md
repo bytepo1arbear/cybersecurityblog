@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding OSINT: Gathering Intelligence from Public Sources"
-date: 2025-11-24 20:00:00 +0000
+date: 2025-10-23 20:00:00 +0000
 categories: [osint, intelligence]
 tags: [open source intelligence, recon, investigation, cybersecurity]
 ---
