@@ -1,4 +1,5 @@
 ---
+layout: writeup
 title: "OWASP WebGoat: SQL Injection Notes"
 date: 2025-10-10
 difficulty: Easy
