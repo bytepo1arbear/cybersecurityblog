@@ -99,6 +99,31 @@ body::before {
 }
 
 /* ===========================
+   PAGE TITLES (H1 in content)
+   =========================== */
+.content > h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.content > h1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 70%;
+  background: linear-gradient(180deg, var(--accent-primary), var(--accent-secondary));
+  border-radius: 3px;
+  box-shadow: 0 0 10px var(--accent-primary);
+}
+
+/* ===========================
    NAVIGATION BAR
    =========================== */
 .navbar {
@@ -363,6 +388,10 @@ section h2::before {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+}
+
+.writeup-preview {
+  margin: 1.5rem 0;
 }
 
 .writeup-preview.featured {
@@ -634,6 +663,136 @@ article h3 a,
 }
 
 /* ===========================
+   RESOURCE LINKS & CATEGORIES
+   =========================== */
+.resource-category {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.resource-category:hover {
+  border-color: var(--accent-primary);
+  box-shadow: 0 4px 12px rgba(255, 51, 102, 0.15);
+}
+
+.resource-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8rem 0;
+  transition: all 0.3s ease;
+  font-size: 1.05rem;
+}
+
+.resource-link:hover {
+  color: var(--accent-secondary);
+  transform: translateX(5px);
+}
+
+.resource-link i {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.resource-link:hover i {
+  transform: scale(1.2);
+}
+
+.resource-category .muted {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem 2.2rem;
+  font-style: italic;
+}
+
+/* ===========================
+   ABOUT PAGE STYLING
+   =========================== */
+.about-section {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  border-radius: 12px;
+  border-left: 4px solid var(--accent-primary);
+}
+
+.about-section h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--accent-primary);
+  padding-left: 0;
+}
+
+.about-section h2::before {
+  display: none;
+}
+
+.about-section p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 0.8rem;
+}
+
+.about-section ul {
+  list-style: none;
+}
+
+.about-section ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.about-section ul li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent-primary);
+  font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.2rem;
+  background: var(--accent-glow);
+  border: 1px solid rgba(255, 51, 102, 0.3);
+  color: var(--accent-primary);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: rgba(255, 51, 102, 0.2);
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 51, 102, 0.15);
+}
+
+.social-link i {
+  font-size: 1.1rem;
+}
+
+/* ===========================
    FOOTER
    =========================== */
 footer {
@@ -700,8 +859,21 @@ footer .container {
     padding-left: 1rem;
   }
 
+  .content > h1 {
+    padding-left: 1rem;
+  }
+
   .content {
     padding: 0 1rem 3rem 1rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+  }
+
+  .social-link {
+    width: 100%;
+    justify-content: center;
   }
 }
 

@@ -9,6 +9,7 @@ permalink: /resources/
 Curated resources for cybersecurity learning and homelab projects:
 
 ## Tools
+
 <div class="resource-category">
 <a class="resource-link" href="https://nmap.org/" target="_blank" rel="noopener"><i class="fas fa-network-wired"></i> Nmap</a>
 <p class="muted">Network scanning and enumeration</p>
@@ -19,6 +20,7 @@ Curated resources for cybersecurity learning and homelab projects:
 </div>
 
 ## Tutorials
+
 <div class="resource-category">
 <a class="resource-link" href="https://www.hackthebox.eu/" target="_blank" rel="noopener"><i class="fas fa-lock"></i> Hack The Box</a>
 <p class="muted">Labs for pentesting</p>
@@ -29,10 +31,10 @@ Curated resources for cybersecurity learning and homelab projects:
 </div>
 
 ## Articles
+
 <div class="resource-category">
 <a class="resource-link" href="https://www.darkreading.com/" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> DarkReading</a>
 <p class="muted">Industry news</p>
 <a class="resource-link" href="https://jekyllrb.com/docs/" target="_blank" rel="noopener"><i class="fas fa-cog"></i> Jekyll Documentation</a>
 <p class="muted">Static site generation</p>
 </div>
-
