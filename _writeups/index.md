@@ -2,6 +2,7 @@
 layout: default
 title: "Writeups"
 permalink: /writeups/
+exclude_from_collection: true
 ---
 
 # Writeups
