@@ -17,8 +17,8 @@ permalink: /
     <div class="post-grid">
       {% for post in site.posts limit:2 %}
       <article class="post-preview">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncate: 240 }}</p>
       </article>
       {% endfor %}
     </div>
