@@ -28,16 +28,16 @@ permalink: /
 
 <section class="projects">
   <div class="container">
-    <h2>My Projects</h2>
+    <h2>Projects</h2>
     <div class="project-grid">
       {% for project in site.projects limit:2 %}
       <article class="project-preview">
         <h3>{{ project.title }}</h3>
         <p>{{ project.excerpt | strip_html | truncate: 120 }}</p>
-        <a href="{{ project.url }}" class="btn">View Project</a>
       </article>
       {% endfor %}
     </div>
+    <a href="{{ '/projects/' | relative_url }}" class="btn">View All Projects</a>
   </div>
 </section>
 
@@ -49,7 +49,6 @@ permalink: /
       <article class="writeup-preview">
         <h3>{{ writeup.title }}</h3>
         <p>{{ writeup.excerpt | strip_html | truncate: 120 }}</p>
-        <a href="{{ writeup.url }}" class="btn">Read Writeup</a>
       </article>
       {% endfor %}
     </div>
