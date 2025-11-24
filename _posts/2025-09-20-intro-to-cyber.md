@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Getting Started with Cybersecurity: My Journey Begins"
 date: 2025-09-20
 category: "Learning"
