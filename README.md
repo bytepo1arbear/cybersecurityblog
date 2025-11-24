@@ -96,15 +96,6 @@ cybersecurityblog/
 └── README.md       # This file
 ```
 
-## 🎨 Design Features
-
-- **Modern UI/UX** – Clean, professional design with red and blue cybersecurity-themed color scheme
-- **Responsive Design** – Fully mobile-friendly and optimized for all screen sizes
-- **Sticky Navigation** – Easy-to-use floating navigation bar for seamless browsing
-- **Animated Elements** – Smooth transitions and hover effects for enhanced user experience
-- **Syntax Highlighting** – Code blocks with proper formatting for technical content
-- **Tag System** – Organized content with categorization and tagging
-
 ## 📊 Technologies Used
 
 <div align="center">
