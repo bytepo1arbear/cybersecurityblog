@@ -1,4 +1,5 @@
 ---
+layout: projects
 title: "Homelab Setup"
 date: 2024-06-01
 tags: [homelab, virtualization]
