@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Getting Started with Cybersecurity: My Journey Begins"
-date: 2024-11-24
+date: 2025-11-15
 category: "Learning"
 tags: [Cybersecurity, Beginner, Journey]
 ---
