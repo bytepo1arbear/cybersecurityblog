@@ -115,43 +115,27 @@ cybersecurityblog/
 
 I'm continuously expanding my knowledge in:
 - **Penetration Testing** – Network and web application security testing
-- **Digital Forensics** – Incident response and evidence analysis
 - **Threat Intelligence** – Understanding attack vectors and threat actors
 - **Security Tools** – Mastering industry-standard tools and frameworks
-- **Programming** – Python, Bash, PowerShell for security automation
+- **Scripting** – Python, Bash, PowerShell for security automation
 
 ### 🏆 Current Goals
 - [ ] Complete TryHackMe Offensive Pentesting path
 - [ ] Earn CompTIA Security+ certification
-- [ ] Build 10+ security-focused projects
 - [ ] Contribute to open-source security tools
 - [ ] Attend cybersecurity conferences and meetups
-
-## 🤝 Contributing
-
-While this is a personal blog, I welcome:
-- **Feedback** – Suggestions for improvement or corrections
-- **Discussions** – Thoughts on posts or techniques
-- **Collaboration** – Ideas for joint projects or research
-
-Feel free to open an issue or reach out!
 
 ## 📬 Connect With Me
 
 - **GitHub**: [@BytePolarBear](https://github.com/BytePolarBear)
 - **Blog**: [bytepolar bear.github.io/cybersecurityblog](https://bytepo1arbear.github.io/cybersecurityblog/)
-- **Email**: [Your Email] *(Optional)*
-- **LinkedIn**: [Your Profile] *(Optional)*
-- **Twitter**: [@YourHandle] *(Optional)*
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **LinkedIn**: [Your Profile] 
+- **Twitter**: [@YourHandle]
 
 ## 🙏 Acknowledgments
 
 - Thanks to the cybersecurity community for their endless knowledge sharing
-- Inspired by amazing content creators like IppSec, John Hammond, and NetworkChuck
+- Inspired by amazing content creators like John Hammond and NetworkChuck
 - Built with Jekyll and hosted on GitHub Pages
 - Special thanks to all the CTF platforms and educational resources that make learning accessible
 
@@ -165,6 +149,6 @@ All content on this blog is for **educational purposes only**. The techniques an
 
 **⭐ If you find this blog helpful, consider giving it a star!**
 
-Made with ❤️ by BytePolarBear | Last Updated: November 2024
+Made with ❤️ by BytePolarBear | Last Updated: November 2025
 
 </div>
