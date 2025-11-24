@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
 <section class="hero">
   <div class="container">
     <h1>My Cybersecurity Learning Journey</h1>
@@ -9,37 +15,44 @@
   <div class="container">
     <h2>Latest Blog Posts</h2>
     <div class="post-grid">
-      <article class="post">
-        <h3>Introduction to SQL injection</h3>
-        <p>Explaining the in's and out's of SQL injection.</p>
+      {% for post in site.posts limit:2 %}
+      <article class="post-preview">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
       </article>
-      <article class="post">
-        <h3>Setting Up a Kali Linux VM</h3>
-        <p>Step-by-step instructions for creating a virtual machine with Kali Linux.</p>
-      </article>
-      <a href="blog" class="button primary">Read My Latest Post</a>
+      {% endfor %}
     </div>
+    <a href="{{ '/blog/' | relative_url }}" class="btn">View All Blog Posts</a>
   </div>
 </section>
 
 <section class="projects">
   <div class="container">
     <h2>My Projects</h2>
-    <p>Here are some of the projects I've been working on to solidify my skills.</p>
     <div class="project-grid">
-      <!-- Example Project - Replace with your project details -->
-      <article class="project">
-        <h3>Port Scanner</h3>
-        <p>A simple port scanner written in Python.</p>
-        <a href="projects" class="button secondary">View Details</a>
+      {% for project in site.projects limit:2 %}
+      <article class="project-preview">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.excerpt | strip_html | truncate: 120 }}</p>
+        <a href="{{ project.url }}" class="btn">View Project</a>
       </article>
-      <!-- Add more projects here -->
+      {% endfor %}
     </div>
   </div>
 </section>
 
-<footer>
+<section class="writeups">
   <div class="container">
-    <p>&copy; 2023 My Cybersecurity Journey. All rights reserved.</p>
+    <h2>Latest Writeups</h2>
+    <div class="writeup-grid">
+      {% for writeup in site.writeups limit:2 %}
+      <article class="writeup-preview">
+        <h3>{{ writeup.title }}</h3>
+        <p>{{ writeup.excerpt | strip_html | truncate: 120 }}</p>
+        <a href="{{ writeup.url }}" class="btn">Read Writeup</a>
+      </article>
+      {% endfor %}
+    </div>
+    <a href="{{ '/writeups/' | relative_url }}" class="btn">View All Writeups</a>
   </div>
-</footer>
+</section>
