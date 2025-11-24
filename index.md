@@ -15,10 +15,10 @@ permalink: /
   <div class="container">
     <h2>Latest Blog Posts</h2>
     <div class="post-grid">
-      {% for post in site.posts limit:2 %}
+      {% for post in site.posts limit:10 %}
       <article class="post-preview">
         <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html | truncate: 240 }}</p>
+        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
       </article>
       {% endfor %}
     </div>
