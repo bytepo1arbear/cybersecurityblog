@@ -4,7 +4,7 @@
 ---
 layout: post
 title: "Introduction to Reverse Engineering with Ghidra"
-date: 2024-10-28 16:00:00 +0000
+date: 2025-10-28 16:00:00 +0000
 categories: [reverse engineering, tools]
 tags: [ghidra, malware analysis, disassembly, debugging]
 ---
