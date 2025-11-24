@@ -8,9 +8,9 @@
   --bg-secondary: #0f1419;
   --bg-card: #141920;
   --bg-card-hover: #1a1f2e;
-  --accent-primary: #00ff88;
-  --accent-secondary: #0088ff;
-  --accent-glow: rgba(0, 255, 136, 0.15);
+  --accent-primary: #ff3366;
+  --accent-secondary: #3366ff;
+  --accent-glow: rgba(255, 51, 102, 0.15);
   --text-primary: #e6edf3;
   --text-secondary: #8b949e;
   --text-muted: #6e7681;
@@ -19,7 +19,7 @@
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 20px rgba(0, 255, 136, 0.2);
+  --shadow-glow: 0 0 20px rgba(255, 51, 102, 0.2);
 }
 
 /* ===========================
@@ -211,7 +211,7 @@ body::before {
   text-align: center;
   padding: 4rem 2rem;
   margin-bottom: 3rem;
-  background: linear-gradient(135deg, rgba(0, 136, 255, 0.1) 0%, rgba(0, 255, 136, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(255, 51, 102, 0.1) 0%, rgba(51, 102, 255, 0.1) 100%);
   border-radius: 16px;
   border: 1px solid var(--border-accent);
   position: relative;
@@ -225,8 +225,8 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 30% 50%, rgba(0, 255, 136, 0.1), transparent 50%),
-              radial-gradient(circle at 70% 50%, rgba(0, 136, 255, 0.1), transparent 50%);
+  background: radial-gradient(circle at 30% 50%, rgba(255, 51, 102, 0.1), transparent 50%),
+              radial-gradient(circle at 70% 50%, rgba(51, 102, 255, 0.1), transparent 50%);
   animation: heroGlow 8s ease-in-out infinite;
 }
 
@@ -293,6 +293,64 @@ section h2::before {
 }
 
 /* ===========================
+   FEATURED POST (Latest Blog Post)
+   =========================== */
+.featured-post {
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  border-radius: 16px;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.featured-post::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+}
+
+.featured-post:hover {
+  border-color: var(--accent-primary);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-2px);
+}
+
+.featured-post-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.featured-post h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.featured-post:hover h3 {
+  color: var(--accent-primary);
+  transition: color 0.3s ease;
+}
+
+.post-excerpt {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+/* ===========================
    CARD PREVIEWS
    =========================== */
 .post-preview, .project-preview, .writeup-preview {
@@ -303,6 +361,20 @@ section h2::before {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.writeup-preview.featured {
+  padding: 2.5rem;
+}
+
+.card-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .post-preview::before, .project-preview::before, .writeup-preview::before {
@@ -355,7 +427,115 @@ section h2::before {
   background: rgba(255, 255, 255, 0.05);
   padding: 0.3rem 0.8rem;
   border-radius: 6px;
-  margin-bottom: 0.5rem;
+}
+
+.post-category {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--accent-secondary);
+  font-weight: 600;
+  background: rgba(51, 102, 255, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid rgba(51, 102, 255, 0.3);
+}
+
+/* ===========================
+   TAGS
+   =========================== */
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--accent-primary);
+  background: var(--accent-glow);
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 51, 102, 0.3);
+  font-family: 'JetBrains Mono', monospace;
+  transition: all 0.2s ease;
+}
+
+.tag:hover {
+  background: rgba(255, 51, 102, 0.2);
+  border-color: var(--accent-primary);
+}
+
+/* ===========================
+   DIFFICULTY BADGES
+   =========================== */
+.difficulty {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+}
+
+.difficulty-easy {
+  background: rgba(51, 255, 102, 0.15);
+  color: #33ff66;
+  border: 1px solid rgba(51, 255, 102, 0.4);
+}
+
+.difficulty-medium {
+  background: rgba(255, 193, 7, 0.15);
+  color: #ffc107;
+  border: 1px solid rgba(255, 193, 7, 0.4);
+}
+
+.difficulty-hard {
+  background: rgba(255, 82, 82, 0.15);
+  color: #ff5252;
+  border: 1px solid rgba(255, 82, 82, 0.4);
+}
+
+/* ===========================
+   READ MORE BUTTON
+   =========================== */
+.btn-read-more {
+  display: inline-block;
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.btn-read-more:hover {
+  color: var(--accent-secondary);
+  transform: translateX(5px);
+}
+
+/* ===========================
+   SECTION FOOTER
+   =========================== */
+.section-footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* ===========================
+   EMPTY STATE
+   =========================== */
+.empty-state {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: var(--bg-card);
+  border: 1px dashed var(--border-accent);
+  border-radius: 12px;
+  color: var(--text-muted);
+  font-style: italic;
 }
 
 /* ===========================
@@ -365,7 +545,7 @@ section h2::before {
   display: inline-block;
   padding: 0.8rem 2rem;
   background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  color: var(--bg-primary);
+  color: #ffffff;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
@@ -373,7 +553,7 @@ section h2::before {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 51, 102, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -398,7 +578,7 @@ section h2::before {
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 255, 136, 0.4);
+  box-shadow: 0 6px 20px rgba(255, 51, 102, 0.4);
 }
 
 .btn:active {
