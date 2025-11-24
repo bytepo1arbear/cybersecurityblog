@@ -13,45 +13,95 @@ permalink: /
 
 <section class="latest-posts">
   <div class="container">
-    <h2>Latest Blog Posts</h2>
-    <div class="post-grid">
-      {% for post in site.posts limit:1 %}
-      <article class="post-preview">
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html | truncate: 350 }}</p>
-      </article>
-      {% endfor %}
+    <h2>Latest Blog Post</h2>
+    {% for post in site.posts limit:1 %}
+    <article class="featured-post">
+      <div class="featured-post-header">
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        {% if post.category %}
+        <span class="post-category">{{ post.category }}</span>
+        {% endif %}
+      </div>
+      <h3>{{ post.title }}</h3>
+      <div class="post-excerpt">
+        {{ post.content | strip_html | truncatewords: 60 }}
+      </div>
+      {% if post.tags %}
+      <div class="post-tags">
+        {% for tag in post.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <a href="{{ post.url | relative_url }}" class="btn-read-more">Read Full Post →</a>
+    </article>
+    {% else %}
+    <div class="empty-state">
+      <p>No blog posts yet. Check back soon!</p>
     </div>
-    <a href="{{ '/blog/' | relative_url }}" class="btn">View All Blog Posts</a>
+    {% endfor %}
+    <div class="section-footer">
+      <a href="{{ '/blog/' | relative_url }}" class="btn">View All Blog Posts</a>
+    </div>
   </div>
 </section>
 
 <section class="projects">
   <div class="container">
-    <h2>Projects</h2>
+    <h2>Latest Projects</h2>
     <div class="project-grid">
       {% for project in site.projects limit:2 %}
       <article class="project-preview">
+        <div class="card-header">
+          <span class="post-date">{{ project.date | date: "%B %Y" }}</span>
+        </div>
         <h3>{{ project.title }}</h3>
-        <p>{{ project.excerpt | strip_html | truncate: 350 }}</p>
+        <p>{{ project.excerpt | strip_html | truncatewords: 50 }}</p>
+        <a href="{{ project.url | relative_url }}" class="btn-read-more">View Project →</a>
       </article>
+      {% else %}
+      <div class="empty-state">
+        <p>No projects yet. Coming soon!</p>
+      </div>
       {% endfor %}
     </div>
-    <a href="{{ '/projects/' | relative_url }}" class="btn">View All Projects</a>
+    <div class="section-footer">
+      <a href="{{ '/projects/' | relative_url }}" class="btn">View All Projects</a>
+    </div>
   </div>
 </section>
 
 <section class="writeups">
   <div class="container">
-    <h2>Latest Writeups</h2>
+    <h2>Latest Writeup</h2>
     <div class="writeup-grid">
-      {% for writeup in site.writeups limit:2 %}
-      <article class="writeup-preview">
+      {% for writeup in site.writeups limit:1 %}
+      <article class="writeup-preview featured">
+        <div class="card-header">
+          <span class="post-date">{{ writeup.date | date: "%B %d, %Y" }}</span>
+          {% if writeup.difficulty %}
+          <span class="difficulty difficulty-{{ writeup.difficulty | downcase }}">{{ writeup.difficulty }}</span>
+          {% endif %}
+        </div>
         <h3>{{ writeup.title }}</h3>
-        <p>{{ writeup.excerpt | strip_html | truncate: 350 }}</p>
+        <p>{{ writeup.excerpt | strip_html | truncatewords: 60 }}</p>
+        {% if writeup.tags %}
+        <div class="post-tags">
+          {% for tag in writeup.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <a href="{{ writeup.url | relative_url }}" class="btn-read-more">Read Writeup →</a>
       </article>
+      {% else %}
+      <div class="empty-state">
+        <p>No writeups yet. Stay tuned!</p>
+      </div>
       {% endfor %}
     </div>
-    <a href="{{ '/writeups/' | relative_url }}" class="btn">View All Writeups</a>
+    <div class="section-footer">
+      <a href="{{ '/writeups/' | relative_url }}" class="btn">View All Writeups</a>
+    </div>
   </div>
 </section>
