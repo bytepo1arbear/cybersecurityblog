@@ -1,4 +1,5 @@
 ---
+layout: projects
 title: "Penetration Testing Lab"
 date: 2024-11-01
 tags: [pentesting, lab, vulnhub]
