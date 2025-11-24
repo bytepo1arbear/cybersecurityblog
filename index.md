@@ -15,10 +15,10 @@ permalink: /
   <div class="container">
     <h2>Latest Blog Posts</h2>
     <div class="post-grid">
-      {% for post in site.posts limit:10 %}
+      {% for post in site.posts limit:1 %}
       <article class="post-preview">
         <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        <p>{{ post.excerpt | strip_html | truncate: 350 }}</p>
       </article>
       {% endfor %}
     </div>
@@ -33,7 +33,7 @@ permalink: /
       {% for project in site.projects limit:2 %}
       <article class="project-preview">
         <h3>{{ project.title }}</h3>
-        <p>{{ project.excerpt | strip_html | truncate: 120 }}</p>
+        <p>{{ project.excerpt | strip_html | truncate: 350 }}</p>
       </article>
       {% endfor %}
     </div>
@@ -48,7 +48,7 @@ permalink: /
       {% for writeup in site.writeups limit:2 %}
       <article class="writeup-preview">
         <h3>{{ writeup.title }}</h3>
-        <p>{{ writeup.excerpt | strip_html | truncate: 120 }}</p>
+        <p>{{ writeup.excerpt | strip_html | truncate: 350 }}</p>
       </article>
       {% endfor %}
     </div>
