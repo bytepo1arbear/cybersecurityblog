@@ -10,7 +10,7 @@ exclude_from_collection: true
 All lab experiments and notes:
 
 {% assign visible_writeups = site.writeups | where_exp: "item", "item.exclude_from_collection != true" %}
-{% for writeup in site.writeups %}
+{% for writeup in visible_writeups %}
   <article class="writeup-preview">
     <div class="card-header">
       <span class="post-date">{{ writeup.date | date: "%B %d, %Y" }}</span>
