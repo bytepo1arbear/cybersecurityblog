@@ -50,8 +50,8 @@ permalink: /
   <div class="container">
     <h2>Latest Projects</h2>
     <div class="project-grid">
+      {% assign visible_projects = site.projects | where_exp: "item", "item.exclude_from_collection != true" %}
       {% for project in site.projects limit:3 %}
-        {% unless project.exclude_from_collection %}
       <article class="project-preview">
         <div class="card-header">
           <span class="post-date">{{ project.date | date: "%B %Y" }}</span>
@@ -60,7 +60,6 @@ permalink: /
         <p>{{ project.excerpt | strip_html | truncatewords: 50 }}</p>
         <a href="{{ project.url | relative_url }}" class="btn-read-more">View Project →</a>
       </article>
-      {% endunless %}
       {% else %}
       <div class="empty-state">
         <p>No projects yet. Coming soon!</p>
@@ -77,8 +76,8 @@ permalink: /
   <div class="container">
     <h2>Latest Writeup</h2>
     <div class="writeup-grid">
+      {% assign visible_projects = site.projects | where_exp: "item", "item.exclude_from_collection != true" %}
       {% for writeup in site.writeups limit:3 %}
-        {% unless writeup.exclude_from_collection %}
       <article class="writeup-preview featured">
         <div class="card-header">
           <span class="post-date">{{ writeup.date | date: "%B %d, %Y" }}</span>
@@ -101,7 +100,6 @@ permalink: /
       <div class="empty-state">
         <p>No writeups yet. Stay tuned!</p>
       </div>
-      {% endunless %}
       {% endfor %}
     </div>
     <div class="section-footer">
