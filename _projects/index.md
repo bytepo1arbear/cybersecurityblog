@@ -11,7 +11,7 @@ Welcome to my homelab and cybersecurity projects.
 
 <div class="project-grid">
 {% assign visible_projects = site.projects | where_exp: "item", "item.exclude_from_collection != true" %}
-{% for project in site.projects %}
+{% for project in visible_projects %}
   <article class="project-preview">
     <div class="card-header">
       <span class="post-date">{{ project.date | date: "%B %Y" }}</span>
