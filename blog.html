@@ -11,9 +11,9 @@ permalink: /blog/
 	<article class="post-preview">
 		<div class="card-header">
 			<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-			{% if post.category %}
-			<span class="post-category">{{ post.category }}</span>
-			{% endif %}
+			{% for category in post.categories %}
+			<span class="post-category">{{ category }}</span>
+			{% endfor %}
 		</div>
 		<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 		<p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
