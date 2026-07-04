@@ -6,8 +6,6 @@ permalink: /about/
 
 # About Me
 
-Hello! I'm Jack, a cybersecurity enthusiast documenting my learning journey and home lab experiments.
-
 <div class="about-section">
 <h2>About This Blog</h2>
 <p>I created this blog to share my progress and experiments in cybersecurity. Whether you're just starting your journey or looking for specific resources, I hope you find something valuable here. This platform documents everything from home lab setups to penetration testing writeups and security research.</p>

@@ -2,69 +2,89 @@
 layout: default
 title: "Threat Intel"
 permalink: /threat-intel/
+sources:
+  - name: "Abuse.ch MalwareBazaar"
+    category: "Malware Intelligence"
+    details: "Community-driven malware sample repository and IOC feed for emerging malware families."
+  - name: "CISA Known Exploited Vulnerabilities"
+    category: "Vulnerability Intelligence"
+    details: "Official list of vulnerabilities observed in active exploitation campaigns."
+  - name: "AlienVault OTX"
+    category: "Indicator Sharing"
+    details: "Collaborative threat feed sharing malicious IPs, domains, URLs, and file hashes." 
 ---
 
 <section class="page-hero">
   <div class="container">
     <h1>Threat Intelligence</h1>
-    <p class="page-subtitle">A dedicated dashboard for tracking phishing campaigns and IOC data relevant to blue team operations.</p>
+    <p class="page-subtitle">Consolidated threat feed summary and source overview for defensive analysis.</p>
   </div>
 </section>
 
 <div class="container threat-board">
   <article class="threat-panel">
-    <h2>Live Phishing Campaign Tracker</h2>
-    <div class="phishing-tracker">
-      <div class="phishing-row">
-        <div><strong>Campaign:</strong> Cloud Credential Harvest</div>
-        <div><span class="severity-pill severity-medium">Medium</span></div>
-      </div>
-      <div class="phishing-row">
-        <div><strong>Target:</strong> Enterprise SaaS Users</div>
-        <div><strong>Stage:</strong> Credential Capture</div>
-      </div>
-      <div class="phishing-row">
-        <div><strong>Indicators:</strong> suspicious login forms, forged headers, redirect domains.</div>
-        <div><a href="https://otx.alienvault.com/" target="_blank" rel="noopener">View Feed</a></div>
-      </div>
-      <p class="threat-note">This tracker is a placeholder UI for SOC analysts to monitor phishing campaign behavior and validate email filtering controls.</p>
-    </div>
-  </article>
-
-  <article class="threat-panel">
-    <h2>IOC Matrix Table</h2>
+    <h2>Threat Feed Summary</h2>
     <div class="ioc-matrix">
       <table>
         <thead>
           <tr>
-            <th>Indicator</th>
+            <th>Source</th>
             <th>Type</th>
-            <th>Severity</th>
             <th>Description</th>
           </tr>
         </thead>
         <tbody>
+          {% for source in page.sources %}
           <tr>
-            <td>192.168.100.77</td>
-            <td>IP</td>
-            <td><span class="severity-pill severity-high">High</span></td>
-            <td>Detected C2 host associated with credential stuffing operations.</td>
+            <td>{{ source.name }}</td>
+            <td>{{ source.category }}</td>
+            <td>{{ source.details }}</td>
           </tr>
-          <tr>
-            <td>malicious.example.com</td>
-            <td>Domain</td>
-            <td><span class="severity-pill severity-medium">Medium</span></td>
-            <td>Phishing landing page used in recent BEC campaigns.</td>
-          </tr>
-          <tr>
-            <td>e3b0c44298fc1c14</td>
-            <td>Hash</td>
-            <td><span class="severity-pill severity-high">High</span></td>
-            <td>Malware sample observed during endpoint compromise testing.</td>
-          </tr>
+          {% endfor %}
         </tbody>
       </table>
     </div>
-    <p class="threat-note">Use the IOC matrix to prioritize detection coverage and correlate artifacts across sensors.</p>
+    <p class="threat-note">This page pulls together the selected intelligence sources into a concise operational summary for incident response and threat hunting.</p>
+  </article>
+
+  <article class="threat-panel">
+    <h2>Threat Intelligence Sources</h2>
+    <ul class="source-list">
+      {% for source in page.sources %}
+      <li><strong>{{ source.name }}</strong> — {{ source.category }}</li>
+      {% endfor %}
+    </ul>
+  </article>
+
+  <article class="threat-panel">
+    <h2>Latest Feed Items</h2>
+    <!-- NOTE: Threat feed data is refreshed daily by a scheduled GitHub Action that writes to `_data/threats.yml`. -->
+    {% if site.data.threats and site.data.threats.items and site.data.threats.items.size > 0 %}
+    <div class="ioc-matrix">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Source</th>
+            <th>Title</th>
+            <th>Summary</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in site.data.threats.items limit:30 %}
+          <tr>
+            <td>{{ item.published | default: site.data.threats.last_updated }}</td>
+            <td>{{ item.source }}</td>
+            <td><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></td>
+            <td>{{ item.summary | strip_html | truncate: 180 }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p class="threat-note">Showing the most recent items aggregated from configured sources. Last updated: {{ site.data.threats.last_updated }}</p>
+    {% else %}
+    <p class="threat-note">Threat feed data is not yet available. The site will show live updates after the scheduled fetch runs. You can also trigger the update manually via GitHub Actions.</p>
+    {% endif %}
   </article>
 </div>

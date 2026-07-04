@@ -12,8 +12,6 @@ permalink: /resources/
 </section>
 
 <div class="resources-grid">
-
-<div class="resources-grid">
   <div class="resource-section">
     <h2><i class="fas fa-tools"></i> Tools</h2>
     <div class="resource-buttons">
