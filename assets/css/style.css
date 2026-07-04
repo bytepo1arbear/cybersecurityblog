@@ -27,6 +27,8 @@
   --shadow-md: 0 14px 50px rgba(0, 0, 0, 0.28);
   --shadow-lg: 0 24px 90px rgba(0, 0, 0, 0.32);
   --shadow-glow: 0 0 24px rgba(59, 134, 255, 0.14);
+  --bg-card: rgba(11, 22, 38, 0.95);
+  --bg-card-hover: rgba(18, 28, 46, 0.96);
 }
 
 /* ===========================
@@ -679,6 +681,15 @@ body::before {
   font-size: 0.95rem;
 }
 
+/* Fixed top-right SOC status for dashboard feel */
+.soc-status {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  z-index: 1200;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.45);
+}
+
 .soc-dot {
   width: 0.72rem;
   height: 0.72rem;
@@ -862,12 +873,12 @@ section h2::before {
 /* ===========================
    CARD PREVIEWS
    =========================== */
-.post-preview, .project-preview, .writeup-preview {
+.post-preview, .project-preview, .writeup-preview, .resource-section, .resource-section-full, .feed-card {
   background: var(--bg-card);
   border: 1px solid var(--border-accent);
-  border-radius: 12px;
-  padding: 2rem;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 16px;
+  padding: 1.75rem;
+  transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -903,7 +914,7 @@ section h2::before {
   transition: transform 0.3s ease;
 }
 
-.post-preview:hover, .project-preview:hover, .writeup-preview:hover {
+.post-preview:hover, .project-preview:hover, .writeup-preview:hover, .resource-section:hover, .resource-section-full:hover, .feed-card:hover {
   background: var(--bg-card-hover);
   border-color: var(--accent-primary);
   transform: translateY(-4px);
@@ -1300,6 +1311,11 @@ footer .container {
     display: block;
   }
 
+  /* hide fixed SOC pill on small screens to avoid overlap */
+  .soc-status {
+    display: none;
+  }
+
   .nav-list {
     display: none;
     flex-direction: column;
@@ -1454,32 +1470,21 @@ pre code {
   margin-bottom: 2rem;
 }
 
-.resource-section {
-  background: rgba(9, 18, 40, 0.96);
-  border: 1px solid rgba(59, 134, 255, 0.18);
-  border-radius: 16px;
-  padding: 2rem;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.resource-section:hover {
-  border-color: var(--accent-primary);
-  box-shadow: 0 4px 12px rgba(59, 134, 255, 0.15);
-}
-
+.resource-section,
 .resource-section-full {
-  background: rgba(9, 18, 40, 0.96);
-  border: 1px solid rgba(59, 134, 255, 0.18);
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
   border-radius: 16px;
   padding: 2rem;
   transition: all 0.3s ease;
   text-align: center;
 }
 
+.resource-section:hover,
 .resource-section-full:hover {
-  border-color: var(--accent-secondary);
-  box-shadow: 0 4px 12px rgba(59, 134, 255, 0.15);
+  border-color: var(--accent-primary);
+  background: var(--bg-card-hover);
+  box-shadow: 0 6px 18px rgba(59, 134, 255, 0.12);
 }
 
 .resource-section h2,

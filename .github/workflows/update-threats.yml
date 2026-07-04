@@ -31,8 +31,15 @@ jobs:
         run: |
           python scripts/fetch_threats.py
 
+      - name: Show generated threats data (debug)
+        run: |
+          echo "_data directory contents:"; ls -la _data || true
+          echo "---- threats.yml (first 200 lines) ----"; sed -n '1,200p' _data/threats.yml || true
+          echo "---- end threats.yml ----"
+
       - name: Commit changes
         run: |
+          echo "git status before commit:"; git status --porcelain || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain)" ]; then

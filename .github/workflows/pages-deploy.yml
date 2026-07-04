@@ -30,6 +30,12 @@ jobs:
         run: |
           jekyll build --destination _site
 
+      - name: Show `_site` build output (debug)
+        run: |
+          echo "_site size:"; du -sh _site || true
+          echo "_site top-level files:"; ls -la _site || true
+          echo "_site sample files:"; find _site -maxdepth 2 -type f | head -n 50 || true
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
