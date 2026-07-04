@@ -1,4 +1,4 @@
-last_updated: '2026-07-04T11:29:15Z'
+last_updated: '2026-07-04T12:24:57Z'
 count: 50
 items:
 - title: SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT
@@ -329,6 +329,16 @@ items:
     a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June
     30, where a judge ordered him held in custody. Finnish police
   source: The Hacker News
+- title: North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider
+    Campaign
+  link: https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
+  published: Sat, 04 Jul 2026 16:47:24 +0530
+  summary: The North Korean threat actors linked to the Contagious Interview campaign
+    have been observed publishing 108 unique packages and web browser extensions spanning
+    npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred
+    to as PolinRider. "The campaign remains active, and new malicious packages are
+    likely to continue appearing as threat actors compromise maintainer accounts,
+  source: The Hacker News
 - title: Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded
     Devices
   link: https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
@@ -406,15 +416,6 @@ items:
     is open. The noise is not all noise, either. Forums are talking, researchers are
     finding easy cracks, and defenders have more cleanup waiting. Here’s the full
     Monday recap. ⚡ Threat of the Week New DirtyClone Linux Kernel Flaw Lets Local
-  source: The Hacker News
-- title: 236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers
-  link: https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html
-  published: Mon, 29 Jun 2026 17:27:40 +0530
-  summary: New findings unearthed by Infoblox show that more than 236,000 websites
-    are using investment scam templates built using a legitimate Chinese open-source,
-    cross-platform application development framework called DCloud Uni-App. The templates
-    power bogus cryptocurrency exchanges, multi-language pig-butchering operations,
-    WhatsApp phishing networks, fake gambling platforms, brand-impersonation
   source: The Hacker News
 - title: North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer
     Secrets
