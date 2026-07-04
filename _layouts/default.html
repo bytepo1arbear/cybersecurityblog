@@ -13,6 +13,9 @@
   <!-- <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}"> -->
 </head>
 <body>
+  <div class="soc-status">
+    <span class="soc-dot"></span> SOC Status: Active Monitoring
+  </div>
   <!-- SITE TITLE -->
   <header class="site-header">
     <div class="site-title-group">
@@ -35,9 +38,7 @@
         <li><a href="{{ '/threat-intel/' | relative_url }}" {% if page.url contains '/threat-intel' %}class="active"{% endif %}>Threat Intel</a></li>
         <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' or page.url contains '/resources' %}class="active"{% endif %}>About / Resources</a></li>
       </ul>
-      <div class="soc-status">
-        <span class="soc-dot"></span> SOC Status: Active Monitoring
-      </div>
+      
     </div>
   </nav>
 

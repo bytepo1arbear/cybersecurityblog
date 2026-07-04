@@ -48,6 +48,15 @@ permalink: /about/
 	</div>
 
 	<div class="about-section">
+	<h2>Certifications</h2>
+	<p>Recently earned: <strong>CompTIA Network+</strong> and <strong>CompTIA Security+</strong>.</p>
+	<p>Verify my digital badges on Credly:</p>
+	<div style="margin-top:0.8rem;">
+		<a class="btn" href="https://www.credly.com/users/jackthepolarbear" target="_blank" rel="noopener">View Credly Profile</a>
+	</div>
+	</div>
+
+	<div class="about-section">
 	<h2>Get in Touch</h2>
 	<p>Feel free to reach out to me via the links below. I'm always open to discussing cybersecurity topics, home lab setups, or potential collaborations.</p>
 	<div class="social-links">

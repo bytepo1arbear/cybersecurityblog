@@ -1441,14 +1441,51 @@ pre code {
    CONTAINER UTILITY
    =========================== */
 .container {
-  max-width: 1200px;
+  max-width: calc(100% - 3rem);
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem;
+  }
+}
+
+/* smaller button variant for table links */
+.btn-small {
+  display: inline-block;
+  padding: 0.45rem 0.85rem;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: none;
+}
+
+/* Writeups two-column lists */
+.writeup-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.writeup-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .writeup-columns {
+    grid-template-columns: 1fr;
   }
 }
 

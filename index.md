@@ -26,12 +26,17 @@ permalink: /
     <article class="widget-card secondary">
       <h2>Latest Defensive Alerts</h2>
       <div class="alert-list">
-        {% for post in site.posts limit:3 %}
-        <a href="{{ post.url | relative_url }}" class="alert-item">
-          <h3>{{ post.title }}</h3>
-          <p>{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
-        </a>
-        {% endfor %}
+        {% if site.data.threats and site.data.threats.items and site.data.threats.items.size > 0 %}
+          {% for item in site.data.threats.items limit:3 %}
+          <div class="alert-item">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.summary | strip_html | truncate: 18 }}</p>
+            <div style="margin-top:0.75rem;text-align:right;"><a class="btn-small" href="{{ item.link }}" target="_blank" rel="noopener">Source</a></div>
+          </div>
+          {% endfor %}
+        {% else %}
+          <p class="threat-note">No recent feed items yet. The feed updates daily.</p>
+        {% endif %}
       </div>
     </article>
   </div>
