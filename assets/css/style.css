@@ -66,7 +66,8 @@ body::before {
   background-size: 45px 45px, 45px 45px, 320px 320px, 320px 320px;
   opacity: 0.35;
   z-index: -1;
-  animation: gridMove 20s linear infinite;
+  /* static background for dashboard stability */
+  animation: none !important;
 }
 
 @keyframes gridMove {
@@ -671,9 +672,9 @@ body::before {
   gap: 0.75rem;
   padding: 0.65rem 1rem;
   border-radius: 999px;
-  border: 1px solid rgba(108, 255, 143, 0.24);
-  background: rgba(12, 28, 45, 0.84);
-  color: #b8ffcc;
+  border: 1px solid rgba(59, 134, 255, 0.22);
+  background: rgba(8, 18, 36, 0.9);
+  color: var(--text-secondary);
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.95rem;
 }
@@ -682,9 +683,8 @@ body::before {
   width: 0.72rem;
   height: 0.72rem;
   border-radius: 50%;
-  background: #77ff9c;
-  box-shadow: 0 0 10px rgba(119, 255, 156, 0.35);
-  animation: pulse 1.8s infinite ease-in-out;
+  background: var(--accent-cyan);
+  box-shadow: 0 0 10px rgba(59, 134, 255, 0.22);
 }
 
 /* Hamburger menu */
@@ -1507,9 +1507,9 @@ pre code {
 
 .resource-buttons {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
-  justify-items: center;
+  justify-items: stretch;
 }
 
 .resource-btn {
@@ -1519,9 +1519,9 @@ pre code {
   flex-wrap: wrap;
   gap: 0.8rem;
   min-height: 72px;
-  min-width: 240px;
   width: 100%;
-  max-width: 360px;
+  min-width: 0;
+  max-width: none;
   padding: 1rem 1.4rem;
   background: rgba(12, 22, 44, 0.98);
   border: 1px solid rgba(59, 134, 255, 0.18);

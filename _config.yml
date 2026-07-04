@@ -12,7 +12,6 @@ collections:
   resources:
     output: true
 
-theme: minima
 plugins:
   - jekyll-feed
 exclude:
