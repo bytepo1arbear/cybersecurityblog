@@ -13,6 +13,9 @@ exclude_from_collection: true
 </section>
 
 <div class="container platform-grid">
+  {% assign all_writeups = site.writeups | sort: 'date' | reverse %}
+  {% assign thm_posts = all_writeups | where_exp: "w", "w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM'" %}
+  {% assign htb_posts = all_writeups | where_exp: "w", "w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox'" %}
   <article class="platform-card thm">
     <h3>TryHackMe (THM)</h3>
     <p>Targeted lessons and blue team challenges with a focus on defensive control implementation and adversary learning.</p>
@@ -21,7 +24,7 @@ exclude_from_collection: true
       <span><strong>OS:</strong> Linux / Windows</span>
       <span><strong>Concepts:</strong> Privilege Escalation, Log Analysis, Alert Triage</span>
     </div>
-    <div class="platform-count">Completed writeups: <strong>{% assign all_writeups = site.writeups | sort: 'date' | reverse %}{% assign thm_posts = all_writeups | where_exp: "w", "w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM'" %}{{ thm_posts | size }}</strong></div>
+    <div class="platform-count">Completed writeups: <strong>{{ thm_posts | size }}</strong></div>
   </article>
   <article class="platform-card htb">
     <h3>HackTheBox (HTB)</h3>
@@ -31,7 +34,7 @@ exclude_from_collection: true
       <span><strong>OS:</strong> Linux / Windows</span>
       <span><strong>Concepts:</strong> Network Exploitation, Persistence, Evasion</span>
     </div>
-    <div class="platform-count">Completed writeups: <strong>{% assign htb_posts = all_writeups | where_exp: "w", "w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox'" %}{{ htb_posts | size }}</strong></div>
+    <div class="platform-count">Completed writeups: <strong>{{ htb_posts | size }}</strong></div>
   </article>
 </div>
 <section class="timeline-section container">
