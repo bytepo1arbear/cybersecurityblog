@@ -16,6 +16,16 @@ permalink: /threat-intel/
     <h2>Latest Feed Items</h2>
     <!-- NOTE: Threat feed data is refreshed daily by a scheduled GitHub Action that writes to `_data/threats.yml`. -->
     {% if site.data.threats and site.data.threats.items and site.data.threats.items.size > 0 %}
+    <div class="threat-feed-section">
+      <div class="feed-summary widget-card">
+        <h3>Feed Sources Summary</h3>
+        <p>Aggregated from the following configured sources. These feeds include news, advisories, and malware/IOC exports used for defensive awareness.</p>
+        <ul style="list-style:none;padding-left:0;margin-top:0.75rem;">
+          {% for s in site.data.threat_sources %}
+            <li><strong>{{ s.name }}</strong> — <em>{{ s.category }}</em>{% if s.notes %}: {{ s.notes }}{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </div>
     <div class="ioc-matrix">
       <table id="threat-table">
         <thead>
@@ -32,7 +42,7 @@ permalink: /threat-intel/
           {%- assign shown = 0 -%}
           {%- assign printed_titles = "" -%}
 
-          {%- for g in groups -%}
+          {%- for g in groups limit:3 -%}
             {%- assign item = g.items[0] -%}
             <tr class="threat-row">
               <td>{{ item.published | default: site.data.threats.last_updated }}</td>
@@ -45,8 +55,11 @@ permalink: /threat-intel/
             {%- assign printed_titles = printed_titles | append: item.title | append: "||" -%}
           {%- endfor -%}
 
+          {%- comment -%}
+          If less than 3 unique sources present, fill from remaining items (deduped) until 3 shown.
+          {%- endcomment -%}
           {%- for item in site.data.threats.items -%}
-            {%- if shown >= 15 -%}
+            {%- if shown >= 3 -%}
               {%- break -%}
             {%- endif -%}
             {%- unless printed_titles contains item.title -%}

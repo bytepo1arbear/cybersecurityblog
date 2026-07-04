@@ -45,16 +45,20 @@ permalink: /
     <h2>Quick-Stats</h2>
     <div class="stats-board">
       <div class="stats-card">
-        <strong>{{ site.posts | size }}</strong>
-        <span>Rooms Cleared</span>
+        <strong>{{ site.writeups | size }}</strong>
+        <span>Writeups</span>
       </div>
       <div class="stats-card">
-        <strong>12</strong>
-        <span>Labs Deployed</span>
+        <strong>2</strong>
+        <span>Certifications</span>
       </div>
       <div class="stats-card">
-        <strong>34</strong>
-        <span>SIEM Rules Configured</span>
+        <strong>{% if site.data.threats and site.data.threats.items %}{{ site.data.threats.items | size }}{% else %}0{% endif %}</strong>
+        <span>Threat Items</span>
+      </div>
+      <div class="stats-card">
+        <strong>{{ site.projects | size }}</strong>
+        <span>Projects</span>
       </div>
     </div>
   </article>
