@@ -33,7 +33,7 @@ layout: default
     {{ content }}
   </div>
 
-  <footer class="single-post-footer">
+  <div class="single-post-footer">
     <div class="post-navigation">
       {% if page.previous.url %}
       <a href="{{ page.previous.url | relative_url }}" class="post-nav-btn prev">
@@ -53,5 +53,5 @@ layout: default
         <i class="fas fa-arrow-left"></i> Back to All Writeups
       </a>
     </div>
-  </footer>
+  </div>
 </article>
