@@ -170,17 +170,22 @@ body::before {
 .feed-card,
 .timeline-card,
 .platform-card,
-.stats-card {
+.stats-card,
+.post-preview,
+.project-preview,
+.writeup-preview,
+.resource-section,
+.resource-section-full,
+.single-post,
+.alert-item,
+.timeline-card {
   background: rgba(11, 22, 38, 0.95);
   border: 1px solid rgba(61, 209, 255, 0.12);
   border-left: 4px solid transparent;
   border-radius: 22px;
   padding: 1.75rem;
-  box-shadow: var(--shadow-sm);
-}
-
-.widget-card.primary {
-  border-left-color: var(--accent-amber);
+  box-shadow: var(--shadow-sm), 0 0 28px rgba(59, 134, 255, 0.08);
+  transition: transform 0.24s ease, box-shadow 0.24s ease;
 }
 
 .widget-card.secondary {
@@ -191,6 +196,18 @@ body::before {
   border-left-color: var(--accent-alert);
 }
 
+.widget-card.primary h2 {
+  color: var(--accent-primary);
+}
+
+.widget-card.secondary h2 {
+  color: var(--accent-blue);
+}
+
+.widget-card.tertiary h2 {
+  color: var(--accent-alert);
+}
+
 .widget-card h2,
 .panel-card h2,
 .timeline-card h3,
@@ -199,6 +216,7 @@ body::before {
   font-size: 1.3rem;
   margin-bottom: 1rem;
   color: var(--text-primary);
+  text-shadow: 0 0 12px rgba(255,255,255,0.05);
 }
 
 .widget-card p,
@@ -242,25 +260,110 @@ body::before {
 
 .stats-board {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1rem;
   margin-top: 1.3rem;
 }
 
 .stats-card {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  min-height: 140px;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1rem;
+  min-height: 170px;
+  padding: 1.5rem;
 }
 
 .stats-card strong {
-  font-size: 2.4rem;
+  font-size: 1.95rem;
+  line-height: 1.1;
   color: var(--accent-cyan);
 }
 
 .stats-card span {
   color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.stat-graph {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.45rem;
+  align-items: end;
+  height: 42px;
+  margin-top: 0.6rem;
+}
+
+.stat-bar {
+  width: 100%;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-bar::after {
+  content: '';
+  display: block;
+  width: var(--fill, 50%);
+  height: 100%;
+  background: linear-gradient(180deg, rgba(59, 134, 255, 0.7), rgba(255, 42, 42, 0.8));
+  transition: width 0.4s ease;
+}
+
+.stat-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+}
+
+.stat-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.stat-meta .trend-up {
+  color: #7efc63;
+}
+
+.stat-meta .trend-down {
+  color: #ff8b8b;
+}
+
+.dashboard-grid.single-column {
+  grid-template-columns: 1fr;
+}
+
+.soc-dot {
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  box-shadow: 0 0 10px rgba(59, 134, 255, 0.22);
+  animation: socPulse 6s ease-in-out infinite;
+}
+
+@keyframes socPulse {
+  0%, 40%, 100% {
+    background: var(--accent-cyan);
+    box-shadow: 0 0 10px rgba(59, 134, 255, 0.22);
+  }
+  20%, 60%, 80% {
+    background: var(--accent-red);
+    box-shadow: 0 0 18px rgba(255, 42, 42, 0.3);
+  }
+}
+
+h1 i,
+h2 i,
+h3 i,
+h4 i {
+  margin-right: 0.65rem;
+  color: var(--accent-primary);
 }
 
 .container,
@@ -358,10 +461,13 @@ body::before {
 
 .platform-card.thm {
   text-align: center;
+  border-left-color: var(--accent-red);
 }
 
+.platform-card.thm h3 {
   font-size: 2rem;
-  border-left-color: var(--accent-red);
+  line-height: 1.1;
+  word-break: break-word;
 }
 
 .platform-card h3 {
@@ -370,8 +476,6 @@ body::before {
   gap: 0.75rem;
 }
 
-  line-height: 1.1;
-  word-break: break-word;
 .platform-card .platform-meta {
   display: grid;
   gap: 0.55rem;
@@ -1632,7 +1736,8 @@ pre code {
    SINGLE POST/PROJECT/WRITEUP PAGE STYLING
    =========================== */
 .single-post {
-  max-width: 900px;
+  width: 100%;
+  max-width: 1080px;
   margin: 0 auto;
   background: var(--bg-card);
   border: 1px solid var(--border-accent);
