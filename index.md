@@ -13,7 +13,7 @@ permalink: /
 
 <div class="container dashboard-grid">
   <div class="widget-stack">
-    <article class="widget-card primary">
+    <article class="widget-card primary mission-card">
       <h2>Mission Statement & Career Objective</h2>
       <p>Enable enterprise detection and response through continuous monitoring, log-driven investigations, and rapid incident validation. Build Blue Team skills while leveraging offensive security context for more effective defenses.</p>
       <ul style="list-style:none; padding-left:0; margin-top:1rem; display:grid; gap:0.8rem; color: var(--text-secondary);">
@@ -27,7 +27,7 @@ permalink: /
       <h2>Latest Defensive Alerts</h2>
       <div class="alert-list">
         {% if site.data.threats and site.data.threats.items and site.data.threats.items.size > 0 %}
-          {% for item in site.data.threats.items limit:3 %}
+          {% for item in site.data.threats.items limit:4 %}
           <div class="alert-item">
             <h3>{{ item.title }}</h3>
             <p>{{ item.summary | strip_html | truncate: 18 }}</p>

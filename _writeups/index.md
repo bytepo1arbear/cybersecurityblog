@@ -54,9 +54,9 @@ exclude_from_collection: true
       {% assign thm_shown = 0 %}
       {% for w in all_writeups %}
         {% if w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM' %}
-      <div class="writeup-card">
+      <div class="writeup-card writeup-list-item">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
-          <h4 style="margin:0;"><a class="btn-read-more" href="{{ w.url | relative_url }}">{{ w.title }}</a></h4>
+          <h4 style="margin:0;">{{ w.title }}</h4>
           <span class="post-date">{{ w.date | date: "%b %d, %Y" }}</span>
         </div>
         <p style="margin:0;color:var(--text-secondary);">{{ w.excerpt | strip_html | truncatewords: 28 }}</p>
@@ -75,9 +75,9 @@ exclude_from_collection: true
       {% assign htb_shown = 0 %}
       {% for w in all_writeups %}
         {% if w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox' %}
-      <div class="writeup-card">
+      <div class="writeup-card writeup-list-item">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
-          <h4 style="margin:0;"><a href="{{ w.url | relative_url }}">{{ w.title }}</a></h4>
+          <h4 style="margin:0;">{{ w.title }}</h4>
           <span class="post-date">{{ w.date | date: "%b %d, %Y" }}</span>
         </div>
         <p style="margin:0;color:var(--text-secondary);">{{ w.excerpt | strip_html | truncatewords: 28 }}</p>

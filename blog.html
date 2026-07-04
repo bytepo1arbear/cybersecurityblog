@@ -15,41 +15,6 @@ permalink: /blog/
   <article class="widget-card secondary">
     <h2><i class="fas fa-bullseye"></i> Current Focus</h2>
     <p>Review tactical detection guidance, adversary activity analysis, and defense validation notes. This timeline highlights new entries and research relevant to ongoing SOC operations.</p>
-    <div class="stats-board">
-      <div class="stats-card">
-        <strong>{{ site.posts | size }}</strong>
-        <span>Threat Intel Reports</span>
-        <div class="stat-graph">
-          <div class="stat-bar" style="--fill: 70%"></div>
-          <div class="stat-bar" style="--fill: 55%"></div>
-          <div class="stat-bar" style="--fill: 80%"></div>
-          <div class="stat-bar" style="--fill: 65%"></div>
-          <div class="stat-bar" style="--fill: 90%"></div>
-        </div>
-      </div>
-      <div class="stats-card">
-        <strong>14</strong>
-        <span>Active Blue Team Notes</span>
-        <div class="stat-graph">
-          <div class="stat-bar" style="--fill: 75%"></div>
-          <div class="stat-bar" style="--fill: 68%"></div>
-          <div class="stat-bar" style="--fill: 82%"></div>
-          <div class="stat-bar" style="--fill: 79%"></div>
-          <div class="stat-bar" style="--fill: 88%"></div>
-        </div>
-      </div>
-      <div class="stats-card">
-        <strong>6</strong>
-        <span>Investigation Walkthroughs</span>
-        <div class="stat-graph">
-          <div class="stat-bar" style="--fill: 60%"></div>
-          <div class="stat-bar" style="--fill: 70%"></div>
-          <div class="stat-bar" style="--fill: 55%"></div>
-          <div class="stat-bar" style="--fill: 75%"></div>
-          <div class="stat-bar" style="--fill: 85%"></div>
-        </div>
-      </div>
-    </div>
   </article>
 </div>
 
@@ -61,7 +26,7 @@ permalink: /blog/
         <span class="timeline-marker"></span>
         <div class="timeline-card">
           <div class="timeline-meta">{{ post.date | date: "%B %d, %Y" }} • {% for category in post.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
-          <h3><a class="btn-read-more" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <h3>{{ post.title }}</h3>
           <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
           {% if post.tags %}
           <div class="post-tags">

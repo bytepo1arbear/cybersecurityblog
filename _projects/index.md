@@ -19,7 +19,7 @@ exclude_from_collection: true
     {% if project_titles contains project.title %}
     <article class="project-preview">
       <div class="card-header"><span class="post-date">{{ project.date | date: "%B %Y" }}</span></div>
-      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      <h3>{{ project.title }}</h3>
       <p>{{ project.excerpt | strip_html | truncatewords: 40 }}</p>
       <a href="{{ project.url | relative_url }}" class="btn-read-more">View Project →</a>
     </article>
