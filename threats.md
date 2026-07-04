@@ -45,24 +45,22 @@ permalink: /threat-intel/
             {%- assign printed_titles = printed_titles | append: item.title | append: "||" -%}
           {%- endfor -%}
 
-          {%- if shown < 15 -%}
-            {%- for item in site.data.threats.items -%}
-              {%- if shown >= 15 -%}
-                {%- break -%}
-              {%- endif -%}
-              {%- unless printed_titles contains item.title -%}
-                <tr class="threat-row extra-row" style="display:none;">
-                  <td>{{ item.published | default: site.data.threats.last_updated }}</td>
-                  <td>{{ item.source }}</td>
-                  <td><a class="btn-small" href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></td>
-                  <td>{{ item.summary | strip_html | truncate: 120 }}</td>
-                  <td></td>
-                </tr>
-                {%- assign shown = shown | plus: 1 -%}
-                {%- assign printed_titles = printed_titles | append: item.title | append: "||" -%}
-              {%- endunless -%}
-            {%- endfor -%}
-          {%- endif -%}
+          {%- for item in site.data.threats.items -%}
+            {%- if shown >= 15 -%}
+              {%- break -%}
+            {%- endif -%}
+            {%- unless printed_titles contains item.title -%}
+              <tr class="threat-row">
+                <td>{{ item.published | default: site.data.threats.last_updated }}</td>
+                <td>{{ item.source }}</td>
+                <td><a class="btn-small" href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></td>
+                <td>{{ item.summary | strip_html | truncate: 120 }}</td>
+                <td></td>
+              </tr>
+              {%- assign shown = shown | plus: 1 -%}
+              {%- assign printed_titles = printed_titles | append: item.title | append: "||" -%}
+            {%- endunless -%}
+          {%- endfor -%}
         </tbody>
       </table>
     </div>
