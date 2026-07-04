@@ -72,10 +72,29 @@
 <ul>
   <li>Proxmox installation and configuration</li>
   <li>VM templates and backups</li>
-  <li>VLANs and virtual networks</li>
+  <li>VLANs and virtual networks
+This project documents the personal home lab used for hosting self-hosted services, media, and experimentation. Below are primary services and applications I run and why they’re useful.</li>
 </ul>
 
-<p>Read on to see config snippets and diagrams.</p>
+<p>Services &amp; Apps</p>
+<ul>
+  <li>Proxmox: Type-1 hypervisor used to run and manage virtual machines and containers. I use it for VM orchestration, snapshots, and resource management.</li>
+  <li>TrueNAS: Network-attached storage for robust file storage, backups, and ZFS-based datasets. Provides shared storage for VMs and media.</li>
+  <li>Docker &amp; Portainer: Container runtime for lightweight application deployment; Portainer provides a simple web UI to manage containers and stacks.</li>
+  <li>Jellyfin: Self-hosted media server for streaming personal media libraries (movies, TV, music) to devices.</li>
+  <li>Immich: Self-hosted photo management and backup platform for personal photos and videos.</li>
+  <li>WireGuard: Lightweight VPN for secure remote access to the homelab network and services.</li>
+</ul>
+
+<p>Brief usage notes</p>
+<ul>
+  <li>Proxmox hosts several VMs and LXC containers: services are grouped by function (media, storage, networking, lab sandboxes).</li>
+  <li>TrueNAS serves as the primary datastore for VM backups and media shares; integrates with Proxmox storage via NFS/iSCSI.</li>
+  <li>Docker/Portainer host many small services (Jellyfin, Immich, web apps) for easy updates and isolation.</li>
+  <li>WireGuard allows secure access from outside networks to the homelab; used for tunneling and remote management.</li>
+</ul>
+
+<p>Read on for configuration tips, recommended resource allocations, and backup strategies.</p>
 
   </div>
 

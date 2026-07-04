@@ -1116,49 +1116,26 @@ article h3 a,
 /* ===========================
    BUTTONS
    =========================== */
-.btn {
+ .btn {
   display: inline-block;
-  padding: 0.8rem 2rem;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  color: #ffffff;
+  padding: 0.25rem 0.35rem;
+  background: transparent;
+  color: var(--accent-primary);
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.98rem;
+  transition: color 0.18s ease, background 0.18s ease;
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 15px rgba(255, 42, 42, 0.3);
-  position: relative;
-  overflow: hidden;
-}
+ }
 
-.btn::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.3);
-  transform: translate(-50%, -50%);
-  transition: width 0.6s, height 0.6s;
-}
+ .btn:hover {
+  background: rgba(59,134,255,0.06);
+  color: var(--accent-secondary);
+ }
 
-.btn:hover::before {
-  width: 300px;
-  height: 300px;
-}
-
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 42, 42, 0.4);
-}
-
-.btn:active {
-  transform: translateY(0);
-}
+ .btn:active { transform: translateY(0); }
 
 /* ===========================
    RESOURCE LINKS & CATEGORIES
@@ -1456,37 +1433,29 @@ pre code {
 }
 
 /* smaller button variant for table links */
-.btn-small {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.55rem 1rem;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  color: #ffffff;
+ .btn-small {
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  background: transparent;
+  color: var(--accent-primary);
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: 700;
-  font-size: 0.95rem;
-  border: none;
-  transition: all 0.25s ease;
-}
+  font-size: 0.92rem;
+ }
 
 /* Make read-more style consistent across site */
-.btn-read-more {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.6rem 1.1rem;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  color: #ffffff;
+ .btn-read-more {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  background: transparent;
+  color: var(--accent-primary);
   text-decoration: none;
   font-weight: 700;
-  border-radius: 8px;
-}
-.btn-read-more:hover, .btn-small:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.36);
-}
+ }
+ .btn-read-more:hover, .btn-small:hover {
+  color: var(--accent-secondary);
+ }
 
 /* Writeups two-column lists */
 .writeup-columns {

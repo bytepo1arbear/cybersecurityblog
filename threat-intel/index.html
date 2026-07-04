@@ -56,6 +56,28 @@
     <h2>Latest Feed Items</h2>
     <!-- NOTE: Threat feed data is refreshed daily by a scheduled GitHub Action that writes to `_data/threats.yml`. -->
     
+    <div class="threat-feed-section">
+      <div class="feed-summary widget-card">
+        <h3>Feed Sources Summary</h3>
+        <p>Aggregated from the following configured sources. These feeds include news, advisories, and malware/IOC exports used for defensive awareness.</p>
+        <ul style="list-style:none;padding-left:0;margin-top:0.75rem;">
+          
+            <li><strong>Abuse.ch MalwareBazaar</strong> — <em>Malware Intelligence</em>: Malware sample/IOC feed (CSV/RSS depending on export).</li>
+          
+            <li><strong>US-CERT Alerts</strong> — <em>Vulnerability/Advisory</em>: CISA/US-CERT vulnerability and incident advisories.</li>
+          
+            <li><strong>The Hacker News</strong> — <em>News</em>: General security news and incident reports.</li>
+          
+            <li><strong>Krebs on Security</strong> — <em>Investigative Security Journalism</em>: In-depth investigative reporting on breaches and cybercrime.</li>
+          
+            <li><strong>Dark Reading</strong> — <em>Industry News</em>: Technical news and analysis for security professionals.</li>
+          
+            <li><strong>SANS Internet Storm Center</strong> — <em>Vulnerability/IOC</em>: Technical advisories, logs, and incident analysis from SANS ISC.</li>
+          
+            <li><strong>Cisco Talos</strong> — <em>Threat Research</em>: Technical threat research and indicators from Cisco Talos.</li>
+          
+        </ul>
+      </div>
     <div class="ioc-matrix">
       <table id="threat-table">
         <thead>
@@ -85,78 +107,6 @@
                 <td><a class="btn-small" href="https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html" target="_blank" rel="noopener">Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures</a></td>
                 <td>A Brazilian banking trojan called Ousaban is going after Windows users who bank in Spain and Portugal. Fortinet's For...</td>
                 <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 20:55:46 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html" target="_blank" rel="noopener">Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic</a></td>
-                <td>Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 20:12:54 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html" target="_blank" rel="noopener">Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands</a></td>
-                <td>Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety ...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 19:26:18 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html" target="_blank" rel="noopener">Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts</a></td>
-                <td>A recently disclosed critical security flaw impacting Progress Kemp LoadMaster is seeing active exploitation attempts...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 18:29:19 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html" target="_blank" rel="noopener">AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android</a></td>
-                <td>Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attac...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 17:00:00 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html" target="_blank" rel="noopener">2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience</a></td>
-                <td>Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience ...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 16:11:36 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html" target="_blank" rel="noopener">Microsoft Accelerates Post-Quantum Cryptography Shift to 2029</a></td>
-                <td>Microsoft on Tuesday said it's accelerating its quantum safe security roadmap, stating technology advances in quantum...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 12:50:51 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html" target="_blank" rel="noopener">Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware</a></td>
-                <td>Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up dom...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 12:16:17 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html" target="_blank" rel="noopener">Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls</a></td>
-                <td>Anthropic is putting Claude Fable 5 back online worldwide. On June 30, the U.S. Commerce Department lifted the export...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 11:16:03 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html" target="_blank" rel="noopener">Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts</a></td>
-                <td>Cybersecurity researchers have warned of a "massive, ongoing, automated password spray attack" aimed at Microsoft's A...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 11:02:12 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html" target="_blank" rel="noopener">Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery</a></td>
-                <td>ClickFix, the trick that fools people into running malware by hand, has quietly grown a back office. New research sho...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Wed, 01 Jul 2026 09:24:22 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html" target="_blank" rel="noopener">Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service</a></td>
-                <td>Citrix on Tuesday released security updates to address multiple flaws in NetScaler ADC (formerly Citrix ADC) and NetS...</td>
-                <td></td>
-              </tr><tr class="threat-row">
-                <td>Tue, 30 Jun 2026 23:16:07 +0530</td>
-                <td>The Hacker News</td>
-                <td><a class="btn-small" href="https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html" target="_blank" rel="noopener">Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data</a></td>
-                <td>New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than ...</td>
-                <td></td>
               </tr></tbody>
       </table>
     </div>
@@ -175,8 +125,9 @@
       });
     </script>
     
-  </article>
+  &lt;/article&gt;
 </div>
+</article></div>
 
   </main>
 

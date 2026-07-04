@@ -72,6 +72,25 @@
 
 <p>Includes configuration for attacking machines, typical workflows, and a short list of intentionally vulnerable boxes.</p>
 
+<p>Cyber Security Lab — Services &amp; Tools</p>
+
+<p>The lab is designed to emulate attacker/defender workflows and includes the following components:</p>
+
+<ul>
+  <li>Proxmox: Hypervisor platform to host attack &amp; defense VMs, network segments, and orchestration for reproducible lab environments.</li>
+  <li>Docker: Container runtime for deploying tools and services when lightweight isolation is preferred.</li>
+  <li>pfSense: Firewall and virtual router for network segmentation, NAT, and controlled ingress/egress in the lab network.</li>
+  <li>Caldera: Adversary emulation and automation framework to simulate attacker behavior and validate detection.</li>
+  <li>Wazuh: Host-based detection and SIEM integration for log collection, alerting, and threat detection telemetry.</li>
+  <li>DVWA / BWAPP: Intentionally vulnerable web applications used for web-app vulnerability practice and detection tuning.</li>
+  <li>Metasploit &amp; Metasploitable: Exploitation framework and intentionally vulnerable VMs for practicing exploitation and post-exploitation techniques.</li>
+  <li>Nessus: Vulnerability scanner for mapping vulnerable services and prioritising patching/testing.</li>
+  <li>Kali Linux: Attacker toolkit distribution for enumeration, exploitation, and post-exploitation work.</li>
+  <li>Windows 10/11: Target OS images for realistic endpoint exploitation and detection validation.</li>
+</ul>
+
+<p>These tools together provide a full stack for both offensive practice and blue team validation. The project documents deployment steps, network layout, and sample attack/playbook scenarios.</p>
+
   </div>
 
   <footer class="single-post-footer">
