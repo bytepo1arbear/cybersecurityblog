@@ -25,7 +25,7 @@ exclude_from_collection: true
     {% endif %}
   {% endfor %}
   <article class="platform-card thm">
-    <h3>TryHackMe (THM)</h3>
+    <h3><i class="fas fa-fire"></i> TryHackMe (THM)</h3>
     <p>Targeted lessons and blue team challenges with a focus on defensive control implementation and adversary learning.</p>
     <div class="platform-meta">
       <span><strong>Difficulty:</strong> Medium / Hard</span>
@@ -35,7 +35,7 @@ exclude_from_collection: true
     <div class="platform-count">Completed writeups: <strong>{{ thm_count }}</strong></div>
   </article>
   <article class="platform-card htb">
-    <h3>HackTheBox (HTB)</h3>
+    <h3><i class="fas fa-shield-virus"></i> HackTheBox (HTB)</h3>
     <p>Professional machine writeups documenting attacker techniques, post-exploitation, and detection validation.</p>
     <div class="platform-meta">
       <span><strong>Difficulty:</strong> Pro / Insane</span>
@@ -50,7 +50,7 @@ exclude_from_collection: true
 
   <div class="writeup-columns">
     <div>
-      <h3 style="margin-bottom:1rem;">TryHackMe Writeups</h3>
+      <h3 style="margin-bottom:1rem;"><i class="fas fa-map-pin"></i> TryHackMe Writeups</h3>
       {% assign thm_shown = 0 %}
       {% for w in all_writeups %}
         {% if w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM' %}
@@ -71,7 +71,7 @@ exclude_from_collection: true
     </div>
 
     <div>
-      <h3 style="margin-bottom:1rem;">HackTheBox Writeups</h3>
+      <h3 style="margin-bottom:1rem;"><i class="fas fa-terminal"></i> HackTheBox Writeups</h3>
       {% assign htb_shown = 0 %}
       {% for w in all_writeups %}
         {% if w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox' %}
