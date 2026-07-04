@@ -231,7 +231,7 @@ body::before {
 .alert-item h3 {
   margin: 0 0 0.35rem;
   font-size: 1rem;
-  color: var(--accent-amber);
+  color: var(--accent-primary);
 }
 
 .alert-item p {
@@ -249,7 +249,7 @@ body::before {
 
 .stats-card {
   display: grid;
-  gap: 0.5rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   min-height: 140px;
   align-content: center;
 }
@@ -357,10 +357,10 @@ body::before {
 }
 
 .platform-card.thm {
-  border-left-color: var(--accent-blue);
+  text-align: center;
 }
 
-.platform-card.htb {
+  font-size: 2rem;
   border-left-color: var(--accent-red);
 }
 
@@ -370,6 +370,8 @@ body::before {
   gap: 0.75rem;
 }
 
+  line-height: 1.1;
+  word-break: break-word;
 .platform-card .platform-meta {
   display: grid;
   gap: 0.55rem;
@@ -458,6 +460,7 @@ body::before {
 .severity-high { background: rgba(255, 42, 42, 0.18); color: #ffb3b3; }
 
 .threat-note {
+  .project-preview { width: 100%; max-width: 100%; }
   margin-top: 1.3rem;
   color: var(--text-secondary);
   font-size: 0.95rem;
@@ -810,9 +813,10 @@ section h2::before {
    =========================== */
 .post-grid, .project-grid, .writeup-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+  max-width: 1260px;
 }
 
 /* ===========================
@@ -1021,6 +1025,7 @@ article h3 a,
 .post-tags {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
 }

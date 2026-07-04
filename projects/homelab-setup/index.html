@@ -72,39 +72,39 @@
 <ul>
   <li>Proxmox installation and configuration</li>
   <li>VM templates and backups</li>
-  <li>VLANs and virtual networks
-This project documents the personal home lab used for hosting self-hosted services, media, and experimentation. Below are primary services and applications I run and why they’re useful.</li>
+  <li>VLANs and virtual networks</li>
+  <li>Secure remote access and backups</li>
 </ul>
+
+<p>This project documents the personal home lab used for hosting self-hosted services, media, and experimentation. Below are primary services and applications I run and why they’re useful.</p>
 
 <p>Services &amp; Apps</p>
 <ul>
-  <li>Proxmox: Type-1 hypervisor used to run and manage virtual machines and containers. I use it for VM orchestration, snapshots, and resource management.</li>
-  <li>TrueNAS: Network-attached storage for robust file storage, backups, and ZFS-based datasets. Provides shared storage for VMs and media.</li>
-  <li>Docker &amp; Portainer: Container runtime for lightweight application deployment; Portainer provides a simple web UI to manage containers and stacks.</li>
-  <li>Jellyfin: Self-hosted media server for streaming personal media libraries (movies, TV, music) to devices.</li>
-  <li>Immich: Self-hosted photo management and backup platform for personal photos and videos.</li>
-  <li>WireGuard: Lightweight VPN for secure remote access to the homelab network and services.</li>
+  <li>Proxmox: Type-1 hypervisor used to run and manage virtual machines and containers. I use it for VM orchestration, snapshots, resource scheduling, and creating isolated lab environments.</li>
+  <li>TrueNAS: Network-attached storage for robust file storage, backups, and ZFS-based datasets. Provides shared storage for VMs, media libraries, and encrypted backup targets.</li>
+  <li>Docker &amp; Portainer: Container runtime for lightweight application deployment; Portainer provides a web UI to manage containers, stacks, and deployments in a reproducible manner.</li>
+  <li>Jellyfin: Self-hosted media server for streaming personal media libraries (movies, TV, music) to devices across the home network.</li>
+  <li>Immich: Self-hosted photo management and backup platform for securely storing and syncing personal photos and videos.</li>
+  <li>WireGuard: Lightweight VPN for secure remote access to the homelab network and services, with easy mobile and desktop client configuration.</li>
+  <li>Home Assistant: Home automation and monitoring, device health tracking, and notifications for lab infrastructure events.</li>
+  <li>Vaultwarden: Password management service for securely storing login credentials and secrets used across lab systems.</li>
 </ul>
 
-<p>Brief usage notes</p>
+<p>Configuration details</p>
 <ul>
-  <li>Proxmox hosts several VMs and LXC containers: services are grouped by function (media, storage, networking, lab sandboxes).</li>
-  <li>TrueNAS serves as the primary datastore for VM backups and media shares; integrates with Proxmox storage via NFS/iSCSI.</li>
-  <li>Docker/Portainer host many small services (Jellyfin, Immich, web apps) for easy updates and isolation.</li>
-  <li>WireGuard allows secure access from outside networks to the homelab; used for tunneling and remote management.</li>
+  <li>Proxmox hosts several VMs and LXC containers, with services grouped by function (media, storage, networking, lab sandboxes, and tool infrastructure).</li>
+  <li>TrueNAS serves as the primary datastore for VM backups, media shares, and synced datasets; it integrates with Proxmox storage using NFS and iSCSI.</li>
+  <li>Docker/Portainer host multiple service containers, allowing quick updates, rollback, and separation of workloads from the base VM environment.</li>
+  <li>WireGuard provides secure access to the lab from outside networks; I use it for encrypted tunnels, remote SSH access, and cross-site service access.</li>
+  <li>Home Assistant collects telemetry from the lab and provides dashboard alerting for service health, while Vaultwarden stores API keys and SSH key passphrases securely.</li>
 </ul>
 
-<p>Read on for configuration tips, recommended resource allocations, and backup strategies.</p>
+<p>Read on for configuration tips, recommended resource allocations, backup strategies, and security hardening notes.</p>
 
   </div>
 
   <footer class="single-post-footer">
     <div class="post-navigation">
-      
-      <a href="/cybersecurityblog/projects/homelab-architecture/" class="post-nav-btn prev">
-        <i class="fas fa-arrow-left"></i>
-        <span>Homelab Architecture</span>
-      </a>
       
       
       <a href="/cybersecurityblog/projects/" class="post-nav-btn next">
