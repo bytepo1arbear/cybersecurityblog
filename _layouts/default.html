@@ -30,12 +30,14 @@
       <ul class="nav-list">
         <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
         <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
+        <li><a href="{{ '/writeups/' | relative_url }}" {% if page.url contains '/writeups' %}class="active"{% endif %}>Write-ups</a></li>
         <li><a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a></li>
-        <li><a href="{{ '/writeups/' | relative_url }}" {% if page.url contains '/writeups' %}class="active"{% endif %}>Writeups</a></li>
-        <li><a href="{{ '/resources/' | relative_url }}" {% if page.url contains '/resources' %}class="active"{% endif %}>Resources</a></li>
-        <li><a href="{{ '/threats/' | relative_url }}" {% if page.url contains '/threats' %}class="active"{% endif %}>Threat Feeds</a></li>
-        <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About Me</a></li>
+        <li><a href="{{ '/threat-intel/' | relative_url }}" {% if page.url contains '/threat-intel' %}class="active"{% endif %}>Threat Intel</a></li>
+        <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' or page.url contains '/resources' %}class="active"{% endif %}>About / Resources</a></li>
       </ul>
+      <div class="soc-status">
+        <span class="soc-dot"></span> SOC Status: Active Monitoring
+      </div>
     </div>
   </nav>
 

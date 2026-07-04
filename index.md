@@ -4,106 +4,53 @@ title: Home
 permalink: /
 ---
 
-<section class="hero">
+<section class="page-hero">
   <div class="container">
-    <h1>My Cybersecurity Learning Journey</h1>
-    <p>Sharing my experiences, lessons learned, and resources along the way.</p>
+    <h1>SOC Analyst Dashboard</h1>
+    <p class="page-subtitle">Operationalizing a Blue Team posture with tactical alerting, SIEM coverage, and offensive-aware risk intelligence.</p>
   </div>
 </section>
 
-<section class="latest-posts">
-  <div class="container">
-    <h2>Latest Blog Post</h2>
-    {% for post in site.posts limit:1 %}
-    <article class="featured-post">
-      <div class="featured-post-header">
-        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-        {% if post.category %}
-        <span class="post-category">{{ post.category }}</span>
-        {% endif %}
-      </div>
-      <h3>{{ post.title }}</h3>
-      <div class="post-excerpt">
-        {{ post.content | strip_html | truncatewords: 60 }}
-      </div>
-      {% if post.tags %}
-      <div class="post-tags">
-        {% for tag in post.tags %}
-        <span class="tag">{{ tag }}</span>
+<div class="container dashboard-grid">
+  <div class="widget-stack">
+    <article class="widget-card primary">
+      <h2>Mission Statement & Career Objective</h2>
+      <p>Enable enterprise detection and response through continuous monitoring, log-driven investigations, and rapid incident validation. Build Blue Team skills while leveraging offensive security context for more effective defenses.</p>
+      <ul style="list-style:none; padding-left:0; margin-top:1rem; display:grid; gap:0.8rem; color: var(--text-secondary);">
+        <li>Targeting SOC L1 / Blue Team readiness and security operations execution.</li>
+        <li>Prioritizing attack surface reduction, alert accuracy, and adversary-informed defense.</li>
+        <li>Supporting career growth with hands-on analysis, threat hunting, and response workflows.</li>
+      </ul>
+    </article>
+
+    <article class="widget-card secondary">
+      <h2>Latest Defensive Alerts</h2>
+      <div class="alert-list">
+        {% for post in site.posts limit:3 %}
+        <a href="{{ post.url | relative_url }}" class="alert-item">
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+        </a>
         {% endfor %}
       </div>
-      {% endif %}
-      <a href="{{ post.url | relative_url }}" class="btn-read-more">Read Full Post →</a>
     </article>
-    {% else %}
-    <div class="empty-state">
-      <p>No blog posts yet. Check back soon!</p>
-    </div>
-    {% endfor %}
-    <div class="section-footer">
-      <a href="{{ '/blog/' | relative_url }}" class="btn">View All Blog Posts</a>
-    </div>
   </div>
-</section>
 
-<section class="projects">
-  <div class="container">
-    <h2>Latest Projects</h2>
-    <div class="project-grid">
-      {% assign visible_projects = site.projects | where_exp: "item", "item.exclude_from_collection != true" %}
-      {% for project in visible_projects limit:3 %}
-      <article class="project-preview">
-        <div class="card-header">
-          <span class="post-date">{{ project.date | date: "%B %Y" }}</span>
-        </div>
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.excerpt | strip_html | truncatewords: 50 }}</p>
-        <a href="{{ project.url | relative_url }}" class="btn-read-more">View Project →</a>
-      </article>
-      {% else %}
-      <div class="empty-state">
-        <p>No projects yet. Coming soon!</p>
+  <article class="widget-card tertiary">
+    <h2>Quick-Stats</h2>
+    <div class="stats-board">
+      <div class="stats-card">
+        <strong>{{ site.posts | size }}</strong>
+        <span>Rooms Cleared</span>
       </div>
-      {% endfor %}
-    </div>
-    <div class="section-footer">
-      <a href="{{ '/projects/' | relative_url }}" class="btn">View All Projects</a>
-    </div>
-  </div>
-</section>
-
-<section class="writeups">
-  <div class="container">
-    <h2>Latest Writeup</h2>
-    <div class="writeup-grid">
-      {% assign visible_writeups = site.projects | where_exp: "item", "item.exclude_from_collection != true" %}
-      {% for writeup in visible_writeups limit:3 %}
-      <article class="writeup-preview featured">
-        <div class="card-header">
-          <span class="post-date">{{ writeup.date | date: "%B %d, %Y" }}</span>
-          {% if writeup.difficulty %}
-          <span class="difficulty difficulty-{{ writeup.difficulty | downcase }}">{{ writeup.difficulty }}</span>
-          {% endif %}
-        </div>
-        <h3>{{ writeup.title }}</h3>
-        <p>{{ writeup.excerpt | strip_html | truncatewords: 60 }}</p>
-        {% if writeup.tags %}
-        <div class="post-tags">
-          {% for tag in writeup.tags %}
-          <span class="tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
-        <a href="{{ writeup.url | relative_url }}" class="btn-read-more">Read Writeup →</a>
-      </article>
-      {% else %}
-      <div class="empty-state">
-        <p>No writeups yet. Stay tuned!</p>
+      <div class="stats-card">
+        <strong>12</strong>
+        <span>Labs Deployed</span>
       </div>
-      {% endfor %}
+      <div class="stats-card">
+        <strong>34</strong>
+        <span>SIEM Rules Configured</span>
+      </div>
     </div>
-    <div class="section-footer">
-      <a href="{{ '/writeups/' | relative_url }}" class="btn">View All Writeups</a>
-    </div>
-  </div>
-</section>
+  </article>
+</div>
