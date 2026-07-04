@@ -26,3 +26,12 @@ The lab is designed to emulate attacker/defender workflows and includes the foll
 - Windows 10/11: Target OS images for realistic endpoint exploitation and detection validation.
 
 These tools together provide a full stack for both offensive practice and blue team validation. The project documents deployment steps, network layout, and sample attack/playbook scenarios.
+
+Detailed lab notes
+- Network segmentation: I separate attack, target, monitoring, and management zones to mirror real-world controls while keeping the lab safe.
+- Detection validation: Wazuh and Caldera allow me to test alerts, collector rules, and detection pipelines against simulated adversary behavior.
+- Workflow examples: The writeup includes enumeration checklists, exploitation paths, post-exploitation cleanup, and how to document findings.
+- Tool chaining: I use Nmap and Nessus for discovery, Burp Suite for web testing, Metasploit for exploitation, and custom scripts for privilege escalation analysis.
+- Coverage: The lab includes both Linux and Windows targets so I can practise cross-platform attacks, lateral movement, and endpoint detection.
+
+The lab is organized so I can practice both attack workflows and defensive monitoring, with a focus on repeatable, measurable results.

@@ -74,10 +74,28 @@ permalink: /threat-intel/
               {%- assign printed_titles = printed_titles | append: item.title | append: "||" -%}
             {%- endunless -%}
           {%- endfor -%}
+
+          {%- comment -%} render hidden extra rows up to 15, revealed by Show more button {%- endcomment -%}
+          {%- for item in site.data.threats.items -%}
+            {%- if shown >= 15 -%}
+              {%- break -%}
+            {%- endif -%}
+            {%- unless printed_titles contains item.title -%}
+              <tr class="threat-row extra-row" style="display:none;">
+                <td>{{ item.published | default: site.data.threats.last_updated }}</td>
+                <td>{{ item.source }}</td>
+                <td><a class="btn-small" href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></td>
+                <td>{{ item.summary | strip_html | truncate: 120 }}</td>
+                <td></td>
+              </tr>
+              {%- assign shown = shown | plus: 1 -%}
+              {%- assign printed_titles = printed_titles | append: item.title | append: "||" -%}
+            {%- endunless -%}
+          {%- endfor -%}
         </tbody>
       </table>
     </div>
-    <p class="threat-note">Showing up to 15 aggregated items (one per source, then latest). Last updated: {{ site.data.threats.last_updated }}</p>
+    <p class="threat-note">Showing 3 items (one per source) — click Show more to reveal up to 15 aggregated items. Last updated: {{ site.data.threats.last_updated }}</p>
     <div style="text-align:center;margin-top:1rem;">
       <button id="show-more-btn" class="btn">Show more</button>
     </div>

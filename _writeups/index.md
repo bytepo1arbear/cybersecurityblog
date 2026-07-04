@@ -56,7 +56,7 @@ exclude_from_collection: true
         {% if w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM' %}
       <div class="writeup-card">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
-          <h4 style="margin:0;"><a href="{{ w.url | relative_url }}">{{ w.title }}</a></h4>
+          <h4 style="margin:0;"><a class="btn-read-more" href="{{ w.url | relative_url }}">{{ w.title }}</a></h4>
           <span class="post-date">{{ w.date | date: "%b %d, %Y" }}</span>
         </div>
         <p style="margin:0;color:var(--text-secondary);">{{ w.excerpt | strip_html | truncatewords: 28 }}</p>

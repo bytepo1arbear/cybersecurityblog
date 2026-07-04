@@ -6,7 +6,7 @@ layout: post
 title: "Introduction to Reverse Engineering with Ghidra"
 date: 2025-10-28
 categories: [reverse engineering, tools]
-tags: [ghidra, malware analysis, disassembly, debugging]
+tags: [ghidra, malware analysis, disassembly, debugging, binary analysis, static analysis]
 ---
 
 # Introduction to Reverse Engineering with Ghidra

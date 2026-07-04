@@ -57,6 +57,10 @@ permalink: /
         <span>Threat Items</span>
       </div>
       <div class="stats-card">
+        <strong>{{ site.posts | size }}</strong>
+        <span>Blog Posts</span>
+      </div>
+      <div class="stats-card">
         <strong>{{ site.projects | size }}</strong>
         <span>Projects</span>
       </div>

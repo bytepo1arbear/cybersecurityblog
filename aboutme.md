@@ -15,12 +15,14 @@ permalink: /about/
 
 	<div class="about-section">
 	<h2>About This Blog</h2>
-	<p>I created this blog to share my progress and experiments in cybersecurity. Whether you're just starting your journey or looking for specific resources, I hope you find something valuable here. This platform documents everything from home lab setups to penetration testing writeups and security research.</p>
+	<p>I created this blog to share my progress, experiments, and lessons learned in cybersecurity. It is designed as a practical lab journal for hands-on projects, tool tutorials, incident investigation notes, and threat research.</p>
+	<p>Each post is meant to be actionable: I document what I built, how I configured it, what worked, and what I changed after testing. The goal is to make this a useful resource for learners, defenders, and anyone exploring security operations or ethical hacking.</p>
 	</div>
 
 	<div class="about-section">
 	<h2>My Background</h2>
-	<p>With a passion for cybersecurity and ethical hacking, I spend my time building virtualized lab environments, practicing penetration testing, and learning about digital forensics. My goal is to develop practical security skills while maintaining ethical standards and contributing to the security community.</p>
+	<p>With a passion for cybersecurity and ethical hacking, I spend my time building virtualized lab environments, practicing penetration testing, and learning about digital forensics. I come from a self-taught technical background and have focused on practical, lab-driven learning rather than theory alone.</p>
+	<p>My experience includes building blue team detection pipelines, designing segmented home labs, analysing malware samples, and writing up investigation workflows. I aim to develop practical security skills while maintaining ethical standards and contributing back to the security community through shared documentation.</p>
 	</div>
 
 	<div class="about-section">
@@ -49,7 +51,7 @@ permalink: /about/
 
 	<div class="about-section">
 	<h2>Certifications</h2>
-	<p>Recently earned: <strong>CompTIA Network+</strong> and <strong>CompTIA Security+</strong>.</p>
+	<p>Recently earned: <strong>CompTIA Network+</strong> and <strong>CompTIA Security+</strong>. Also completed: <strong>TryHackMe — Cyber Security 101</strong>.</p>
 	<p>Verify my digital badges on Credly:</p>
 	<div style="margin-top:0.8rem;">
 		<a class="btn" href="https://www.credly.com/users/jackthepolarbear" target="_blank" rel="noopener">View Credly Profile</a>
