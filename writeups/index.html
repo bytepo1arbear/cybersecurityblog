@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+  <title>Cyber Security Portfolio</title>
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Favicon (optional - add your own) -->
+  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
+</head>
+<body>
+  <div class="soc-status">
+    <span class="soc-dot"></span> SOC Status: Active Monitoring
+  </div>
+  <!-- SITE TITLE -->
+  <header class="site-header">
+    <div class="site-title-group">
+      <h1>Cyber Security Portfolio</h1>
+      <p class="site-tagline">Documenting my cybersecurity learning journey & homelab projects</p>
+    </div>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <ul class="nav-list">
+        <li><a href="/cybersecurityblog/" >Home</a></li>
+        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
+        <li><a href="/cybersecurityblog/writeups/" class="active">Write-ups</a></li>
+        <li><a href="/cybersecurityblog/projects/" >Projects</a></li>
+        <li><a href="/cybersecurityblog/threat-intel/" >Threat Intel</a></li>
+        <li><a href="/cybersecurityblog/about/" >About / Resources</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <section class="page-hero">
+  <div class="container">
+    <h1>Writeups</h1>
+    <p class="page-subtitle">Capture the Flag solutions, lab findings, and incident-style analysis.</p>
+  </div>
+</section>
+
+<div class="container platform-grid">
+  
+  
+  
+  
+  <article class="platform-card thm">
+    <h3>TryHackMe (THM)</h3>
+    <p>Targeted lessons and blue team challenges with a focus on defensive control implementation and adversary learning.</p>
+    <div class="platform-meta">
+      <span><strong>Difficulty:</strong> Medium / Hard</span>
+      <span><strong>OS:</strong> Linux / Windows</span>
+      <span><strong>Concepts:</strong> Privilege Escalation, Log Analysis, Alert Triage</span>
+    </div>
+    <div class="platform-count">Completed writeups: <strong>1</strong></div>
+  </article>
+  <article class="platform-card htb">
+    <h3>HackTheBox (HTB)</h3>
+    <p>Professional machine writeups documenting attacker techniques, post-exploitation, and detection validation.</p>
+    <div class="platform-meta">
+      <span><strong>Difficulty:</strong> Pro / Insane</span>
+      <span><strong>OS:</strong> Linux / Windows</span>
+      <span><strong>Concepts:</strong> Network Exploitation, Persistence, Evasion</span>
+    </div>
+    <div class="platform-count">Completed writeups: <strong>1</strong></div>
+  </article>
+</div>
+<section class="timeline-section container">
+  
+
+  <div class="writeup-columns">
+    <div>
+      <h3 style="margin-bottom:1rem;">TryHackMe Writeups</h3>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      <div class="writeup-card">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          <h4 style="margin:0;"><a href="/cybersecurityblog/writeups/basic-pentesting/">TryHackMe: Basic Pentesting Walkthrough</a></h4>
+          <span class="post-date">Nov 22, 2024</span>
+        </div>
+        <p style="margin:0;color:var(--text-secondary);">TryHackMe: Basic Pentesting Walkthrough
+</p>
+        <div style="margin-top:auto;text-align:right;"><a class="btn-small" href="/cybersecurityblog/writeups/basic-pentesting/">Read</a></div>
+      </div>
+        
+        
+      
+      
+    </div>
+
+    <div>
+      <h3 style="margin-bottom:1rem;">HackTheBox Writeups</h3>
+      
+      
+        
+      
+        
+      
+        
+      <div class="writeup-card">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          <h4 style="margin:0;"><a href="/cybersecurityblog/writeups/hackthebox-lame/">HackTheBox: Lame Walkthrough</a></h4>
+          <span class="post-date">Oct 01, 2025</span>
+        </div>
+        <p style="margin:0;color:var(--text-secondary);">A step-by-step walkthrough for the 'Lame' box on HackTheBox focusing on enumeration and privilege escalation.</p>
+        <div style="margin-top:auto;text-align:right;"><a class="btn-small" href="/cybersecurityblog/writeups/hackthebox-lame/">Read</a></div>
+      </div>
+        
+        
+      
+        
+      
+      
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Cyber Security Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+      const nav = document.querySelector('.nav-container');
+      const button = document.querySelector('.hamburger');
+      if (!nav.contains(e.target) && !button.contains(e.target)) {
+        document.body.classList.remove('nav-open');
+      }
+    });
+
+    // Add scrolled class to navbar on scroll
+    let lastScroll = 0;
+    const navbar = document.getElementById('navbar');
+    
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+      
+      lastScroll = currentScroll;
+    });
+
+    // Close mobile menu when nav link is clicked
+    document.querySelectorAll('.nav-list a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.body.classList.remove('nav-open');
+      });
+    });
+  </script>
+</body>
+</html>

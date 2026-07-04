@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+  <title>Cyber Security Portfolio</title>
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Favicon (optional - add your own) -->
+  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
+</head>
+<body>
+  <div class="soc-status">
+    <span class="soc-dot"></span> SOC Status: Active Monitoring
+  </div>
+  <!-- SITE TITLE -->
+  <header class="site-header">
+    <div class="site-title-group">
+      <h1>Cyber Security Portfolio</h1>
+      <p class="site-tagline">Documenting my cybersecurity learning journey & homelab projects</p>
+    </div>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <ul class="nav-list">
+        <li><a href="/cybersecurityblog/" >Home</a></li>
+        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
+        <li><a href="/cybersecurityblog/writeups/" >Write-ups</a></li>
+        <li><a href="/cybersecurityblog/projects/" class="active">Projects</a></li>
+        <li><a href="/cybersecurityblog/threat-intel/" >Threat Intel</a></li>
+        <li><a href="/cybersecurityblog/about/" >About / Resources</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <section class="page-hero">
+  <div class="container">
+    <h1>Proxmox &amp; Docker Architecture</h1>
+    <p class="page-subtitle">Enterprise-style homelab architecture with virtual machines, container services, and segmented security domains.</p>
+  </div>
+</section>
+
+<h2 id="network--services-topology">Network &amp; Services Topology</h2>
+
+<p>Below is the current design for my homelab, with a focus on Proxmox VE, Docker orchestration, and segmented security zones.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Internet] --&gt; [Edge Firewall] --&gt; [VLAN 10 | Core Services] --&gt; [Proxmox VE Cluster]
+                                          |--&gt; [Docker Host]
+                                          |      |--&gt; [Jellyfin Container]
+                                          |      |--&gt; [SIEM / Log Aggregation]
+                                          |      |--&gt; [Red Team Lab Containers]
+                                          |      |--&gt; [Vulnerability Scanner]
+                                          |--&gt; [VLAN 20 | Security Labs]
+                                          |      |--&gt; [Kali Linux VM]
+                                          |      |--&gt; [Blue Team VM]
+                                          |      |--&gt; [Forensic Analysis VM]
+</code></pre></div></div>
+
+<h2 id="architecture-overview">Architecture Overview</h2>
+
+<ul>
+  <li><strong>Proxmox VE</strong>: Virtualization platform for running isolated lab VMs and service nodes.</li>
+  <li><strong>Docker Containers</strong>: Rapid service deployment for monitoring, security tooling, and media services.</li>
+  <li><strong>Jellyfin</strong>: Media server running inside a segmented container to keep non-security workloads isolated.</li>
+  <li><strong>Network Segmentation</strong>: Separate zones for production-style services, attack infrastructure, and management.</li>
+</ul>
+
+<h2 id="cyber-security-lab--tool-testing-showcase">Cyber Security Lab &amp; Tool Testing Showcase</h2>
+
+<p>This project documents my security lab built for defensive testing, infrastructure hardening, and offensive validation.</p>
+
+<h3 id="log-aggregation--monitoring-siem">Log Aggregation &amp; Monitoring (SIEM)</h3>
+
+<ul>
+  <li>Centralized log collection from host systems, containers, and network sensors.</li>
+  <li>SIEM pipeline supports alerting, rule tuning, and incident validation.</li>
+  <li>Designed for real-world defensive scenarios and tabletop exercise support.</li>
+</ul>
+
+<h3 id="attack-infrastructure">Attack Infrastructure</h3>
+
+<ul>
+  <li>Dedicated offensive lab VMs and containerized tooling for exploit development.</li>
+  <li>Isolated network segment prevents accidental cross-contamination into defensive zones.</li>
+  <li>Includes simulated C2 infrastructure, phishing landing zones, and adversary emulation assets.</li>
+</ul>
+
+<h3 id="defense-validation">Defense Validation</h3>
+
+<ul>
+  <li>IDS/IPS and host monitoring running against simulated attack traffic.</li>
+  <li>Validation workflows include detection testing, alert triage, and control verification.</li>
+  <li>Traffic analysis and response exercises support SOC readiness.</li>
+</ul>
+
+<h3 id="hands-on-tools">Hands-on Tools</h3>
+
+<ul>
+  <li><strong>Kali Linux</strong>: offensive toolset for exploitation, reconnaissance, and lateral movement.</li>
+  <li><strong>Wireshark</strong>: packet capture and network anomaly analysis.</li>
+  <li><strong>Suricata / Zeek</strong>: network detection and threat telemetry.</li>
+  <li><strong>OpenSearch / Elasticsearch</strong>: centralized logs, dashboards, and search.</li>
+  <li><strong>Metasploit</strong>: attack infrastructure for penetration tests and exploit validation.</li>
+</ul>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Cyber Security Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+      const nav = document.querySelector('.nav-container');
+      const button = document.querySelector('.hamburger');
+      if (!nav.contains(e.target) && !button.contains(e.target)) {
+        document.body.classList.remove('nav-open');
+      }
+    });
+
+    // Add scrolled class to navbar on scroll
+    let lastScroll = 0;
+    const navbar = document.getElementById('navbar');
+    
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+      
+      lastScroll = currentScroll;
+    });
+
+    // Close mobile menu when nav link is clicked
+    document.querySelectorAll('.nav-list a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.body.classList.remove('nav-open');
+      });
+    });
+  </script>
+</body>
+</html>

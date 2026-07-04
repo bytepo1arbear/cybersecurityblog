@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+  <title>Cyber Security Portfolio</title>
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Favicon (optional - add your own) -->
+  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
+</head>
+<body>
+  <div class="soc-status">
+    <span class="soc-dot"></span> SOC Status: Active Monitoring
+  </div>
+  <!-- SITE TITLE -->
+  <header class="site-header">
+    <div class="site-title-group">
+      <h1>Cyber Security Portfolio</h1>
+      <p class="site-tagline">Documenting my cybersecurity learning journey & homelab projects</p>
+    </div>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <ul class="nav-list">
+        <li><a href="/cybersecurityblog/" >Home</a></li>
+        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
+        <li><a href="/cybersecurityblog/writeups/" >Write-ups</a></li>
+        <li><a href="/cybersecurityblog/projects/" class="active">Projects</a></li>
+        <li><a href="/cybersecurityblog/threat-intel/" >Threat Intel</a></li>
+        <li><a href="/cybersecurityblog/about/" >About / Resources</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <article class="single-post">
+  <header class="single-post-header">
+    <h1>Penetration Testing Lab</h1>
+    <div class="post-meta">
+      <span class="post-date">
+        <i class="far fa-calendar"></i>
+        November 2024
+      </span>
+      
+    </div>
+    
+    <div class="post-tags">
+      
+      <span class="tag">pentesting</span>
+      
+      <span class="tag">lab</span>
+      
+      <span class="tag">vulnhub</span>
+      
+    </div>
+    
+  </header>
+
+  <div class="single-post-content">
+    <p>This project documents the build and management of a penetration testing lab: vulnerable VMs, network isolation, and tooling.</p>
+
+<p>Includes configuration for attacking machines, typical workflows, and a short list of intentionally vulnerable boxes.</p>
+
+  </div>
+
+  <footer class="single-post-footer">
+    <div class="post-navigation">
+      
+      <a href="/cybersecurityblog/projects/network-monitoring/" class="post-nav-btn prev">
+        <i class="fas fa-arrow-left"></i>
+        <span>Network Monitoring</span>
+      </a>
+      
+      
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/cybersecurityblog/projects/" class="btn">
+        <i class="fas fa-arrow-left"></i> Back to All Projects
+      </a>
+    </div>
+  </footer>
+</article>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Cyber Security Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+      const nav = document.querySelector('.nav-container');
+      const button = document.querySelector('.hamburger');
+      if (!nav.contains(e.target) && !button.contains(e.target)) {
+        document.body.classList.remove('nav-open');
+      }
+    });
+
+    // Add scrolled class to navbar on scroll
+    let lastScroll = 0;
+    const navbar = document.getElementById('navbar');
+    
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+      
+      lastScroll = currentScroll;
+    });
+
+    // Close mobile menu when nav link is clicked
+    document.querySelectorAll('.nav-list a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.body.classList.remove('nav-open');
+      });
+    });
+  </script>
+</body>
+</html>

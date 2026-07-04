@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+  <title>Cyber Security Portfolio</title>
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Favicon (optional - add your own) -->
+  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
+</head>
+<body>
+  <div class="soc-status">
+    <span class="soc-dot"></span> SOC Status: Active Monitoring
+  </div>
+  <!-- SITE TITLE -->
+  <header class="site-header">
+    <div class="site-title-group">
+      <h1>Cyber Security Portfolio</h1>
+      <p class="site-tagline">Documenting my cybersecurity learning journey & homelab projects</p>
+    </div>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <ul class="nav-list">
+        <li><a href="/cybersecurityblog/" >Home</a></li>
+        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
+        <li><a href="/cybersecurityblog/writeups/" >Write-ups</a></li>
+        <li><a href="/cybersecurityblog/projects/" >Projects</a></li>
+        <li><a href="/cybersecurityblog/threat-intel/" class="active">Threat Intel</a></li>
+        <li><a href="/cybersecurityblog/about/" >About / Resources</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <section class="page-hero">
+  <div class="container">
+    <h1>Threat Intelligence</h1>
+    <p class="page-subtitle">Consolidated threat feed summary and source overview for defensive analysis.</p>
+  </div>
+</section>
+
+<div class="container threat-board">
+  <article class="threat-panel">
+    <h2>Latest Feed Items</h2>
+    <!-- NOTE: Threat feed data is refreshed daily by a scheduled GitHub Action that writes to `_data/threats.yml`. -->
+    
+    <div class="ioc-matrix">
+      <table id="threat-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Source</th>
+            <th>Title</th>
+            <th>Summary</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody><tr class="threat-row">
+              <td>Wed, 01 Jul 2026 23:23:06 +0530</td>
+              <td>The Hacker News</td>
+              <td><a class="btn-small" href="https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html" target="_blank" rel="noopener">SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT</a></td>
+              <td>Unknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT. Ka...</td>
+              <td></td>
+            </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 22:48:50 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html" target="_blank" rel="noopener">VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer</a></td>
+                  <td>Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering a...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 20:56:55 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html" target="_blank" rel="noopener">Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures</a></td>
+                  <td>A Brazilian banking trojan called Ousaban is going after Windows users who bank in Spain and Portugal. Fortinet's For...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 20:55:46 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html" target="_blank" rel="noopener">Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic</a></td>
+                  <td>Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 20:12:54 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html" target="_blank" rel="noopener">Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands</a></td>
+                  <td>Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety ...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 19:26:18 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html" target="_blank" rel="noopener">Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts</a></td>
+                  <td>A recently disclosed critical security flaw impacting Progress Kemp LoadMaster is seeing active exploitation attempts...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 18:29:19 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html" target="_blank" rel="noopener">AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android</a></td>
+                  <td>Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attac...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 17:00:00 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html" target="_blank" rel="noopener">2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience</a></td>
+                  <td>Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience ...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 16:11:36 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html" target="_blank" rel="noopener">Microsoft Accelerates Post-Quantum Cryptography Shift to 2029</a></td>
+                  <td>Microsoft on Tuesday said it's accelerating its quantum safe security roadmap, stating technology advances in quantum...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 12:50:51 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html" target="_blank" rel="noopener">Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware</a></td>
+                  <td>Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up dom...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 12:16:17 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html" target="_blank" rel="noopener">Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls</a></td>
+                  <td>Anthropic is putting Claude Fable 5 back online worldwide. On June 30, the U.S. Commerce Department lifted the export...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 11:16:03 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html" target="_blank" rel="noopener">Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts</a></td>
+                  <td>Cybersecurity researchers have warned of a "massive, ongoing, automated password spray attack" aimed at Microsoft's A...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 11:02:12 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html" target="_blank" rel="noopener">Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery</a></td>
+                  <td>ClickFix, the trick that fools people into running malware by hand, has quietly grown a back office. New research sho...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Wed, 01 Jul 2026 09:24:22 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html" target="_blank" rel="noopener">Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service</a></td>
+                  <td>Citrix on Tuesday released security updates to address multiple flaws in NetScaler ADC (formerly Citrix ADC) and NetS...</td>
+                  <td></td>
+                </tr><tr class="threat-row extra-row" style="display:none;">
+                  <td>Tue, 30 Jun 2026 23:16:07 +0530</td>
+                  <td>The Hacker News</td>
+                  <td><a class="btn-small" href="https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html" target="_blank" rel="noopener">Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data</a></td>
+                  <td>New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than ...</td>
+                  <td></td>
+                </tr></tbody>
+      </table>
+    </div>
+    <p class="threat-note">Showing up to 15 aggregated items (one per source, then latest). Last updated: 2026-07-04T12:24:57Z</p>
+    <div style="text-align:center;margin-top:1rem;">
+      <button id="show-more-btn" class="btn">Show more</button>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        const btn = document.getElementById('show-more-btn');
+        if(!btn) return;
+        btn.addEventListener('click', function(){
+          document.querySelectorAll('.extra-row').forEach(r => r.style.display = 'table-row');
+          btn.style.display = 'none';
+        });
+      });
+    </script>
+    
+  </article>
+</div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Cyber Security Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+      const nav = document.querySelector('.nav-container');
+      const button = document.querySelector('.hamburger');
+      if (!nav.contains(e.target) && !button.contains(e.target)) {
+        document.body.classList.remove('nav-open');
+      }
+    });
+
+    // Add scrolled class to navbar on scroll
+    let lastScroll = 0;
+    const navbar = document.getElementById('navbar');
+    
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+      
+      lastScroll = currentScroll;
+    });
+
+    // Close mobile menu when nav link is clicked
+    document.querySelectorAll('.nav-list a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.body.classList.remove('nav-open');
+      });
+    });
+  </script>
+</body>
+</html>
