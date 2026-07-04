@@ -5,9 +5,12 @@ permalink: /projects/
 exclude_from_collection: true
 ---
 
-# Projects
-
-Welcome to my homelab and cybersecurity projects.
+<section class="page-hero">
+  <div class="container">
+    <h1>Projects</h1>
+    <p class="page-subtitle">Hands-on builds, lab infrastructure, and defensive/offensive security tooling.</p>
+  </div>
+</section>
 
 <div class="project-grid">
 {% assign visible_projects = site.projects | where_exp: "item", "item.exclude_from_collection != true" %}

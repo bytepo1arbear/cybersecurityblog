@@ -5,9 +5,18 @@ permalink: /writeups/
 exclude_from_collection: true
 ---
 
-# Writeups
+<section class="page-hero">
+  <div class="container">
+    <h1>Writeups</h1>
+    <p class="page-subtitle">Capture the Flag solutions, lab findings, and incident-style analysis.</p>
+  </div>
+</section>
 
-All lab experiments and notes:
+<section class="threat-feed-section">
+  <div class="container">
+    <p class="page-subtitle">Explore my practical offensive and defensive notes compiled from security exercises.</p>
+  </div>
+</section>
 
 {% assign visible_writeups = site.writeups | where_exp: "item", "item.exclude_from_collection != true" %}
 {% for writeup in visible_writeups %}

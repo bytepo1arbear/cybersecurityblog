@@ -4,9 +4,14 @@ title: "Resources"
 permalink: /resources/
 ---
 
-# Resources
+<section class="page-hero">
+  <div class="container">
+    <h1>Resources</h1>
+    <p class="page-subtitle">Open-source tools, training, and intelligence feeds for both defense and offense.</p>
+  </div>
+</section>
 
-<p class="page-subtitle">Curated resources for cybersecurity learning and homelab projects</p>
+<div class="resources-grid">
 
 <div class="resources-grid">
   <div class="resource-section">
