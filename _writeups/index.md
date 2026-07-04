@@ -14,8 +14,16 @@ exclude_from_collection: true
 
 <div class="container platform-grid">
   {% assign all_writeups = site.writeups | sort: 'date' | reverse %}
-  {% assign thm_posts = all_writeups | where_exp: "w", "w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM'" %}
-  {% assign htb_posts = all_writeups | where_exp: "w", "w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox'" %}
+  {% assign thm_count = 0 %}
+  {% assign htb_count = 0 %}
+  {% for w in all_writeups %}
+    {% if w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM' %}
+      {% assign thm_count = thm_count | plus: 1 %}
+    {% endif %}
+    {% if w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox' %}
+      {% assign htb_count = htb_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
   <article class="platform-card thm">
     <h3>TryHackMe (THM)</h3>
     <p>Targeted lessons and blue team challenges with a focus on defensive control implementation and adversary learning.</p>
@@ -24,7 +32,7 @@ exclude_from_collection: true
       <span><strong>OS:</strong> Linux / Windows</span>
       <span><strong>Concepts:</strong> Privilege Escalation, Log Analysis, Alert Triage</span>
     </div>
-    <div class="platform-count">Completed writeups: <strong>{{ thm_posts | size }}</strong></div>
+    <div class="platform-count">Completed writeups: <strong>{{ thm_count }}</strong></div>
   </article>
   <article class="platform-card htb">
     <h3>HackTheBox (HTB)</h3>
@@ -34,19 +42,18 @@ exclude_from_collection: true
       <span><strong>OS:</strong> Linux / Windows</span>
       <span><strong>Concepts:</strong> Network Exploitation, Persistence, Evasion</span>
     </div>
-    <div class="platform-count">Completed writeups: <strong>{{ htb_posts | size }}</strong></div>
+    <div class="platform-count">Completed writeups: <strong>{{ htb_count }}</strong></div>
   </article>
 </div>
 <section class="timeline-section container">
   {% assign all_writeups = site.writeups | sort: 'date' | reverse %}
-  {% assign thm_posts = all_writeups | where_exp: "w", "w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM'" %}
-  {% assign htb_posts = all_writeups | where_exp: "w", "w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox'" %}
 
   <div class="writeup-columns">
     <div>
       <h3 style="margin-bottom:1rem;">TryHackMe Writeups</h3>
-      {% if thm_posts and thm_posts.size > 0 %}
-      {% for w in thm_posts %}
+      {% assign thm_shown = 0 %}
+      {% for w in all_writeups %}
+        {% if w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM' %}
       <div class="writeup-card">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
           <h4 style="margin:0;"><a href="{{ w.url | relative_url }}">{{ w.title }}</a></h4>
@@ -55,16 +62,19 @@ exclude_from_collection: true
         <p style="margin:0;color:var(--text-secondary);">{{ w.excerpt | strip_html | truncatewords: 28 }}</p>
         <div style="margin-top:auto;text-align:right;"><a class="btn-small" href="{{ w.url | relative_url }}">Read</a></div>
       </div>
+        {% assign thm_shown = thm_shown | plus: 1 %}
+        {% endif %}
       {% endfor %}
-      {% else %}
+      {% if thm_shown == 0 %}
         <p class="empty-state">No TryHackMe writeups found yet.</p>
       {% endif %}
     </div>
 
     <div>
       <h3 style="margin-bottom:1rem;">HackTheBox Writeups</h3>
-      {% if htb_posts and htb_posts.size > 0 %}
-      {% for w in htb_posts %}
+      {% assign htb_shown = 0 %}
+      {% for w in all_writeups %}
+        {% if w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox' %}
       <div class="writeup-card">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
           <h4 style="margin:0;"><a href="{{ w.url | relative_url }}">{{ w.title }}</a></h4>
@@ -73,8 +83,10 @@ exclude_from_collection: true
         <p style="margin:0;color:var(--text-secondary);">{{ w.excerpt | strip_html | truncatewords: 28 }}</p>
         <div style="margin-top:auto;text-align:right;"><a class="btn-small" href="{{ w.url | relative_url }}">Read</a></div>
       </div>
+        {% assign htb_shown = htb_shown | plus: 1 %}
+        {% endif %}
       {% endfor %}
-      {% else %}
+      {% if htb_shown == 0 %}
         <p class="empty-state">No HackTheBox writeups found yet.</p>
       {% endif %}
     </div>
