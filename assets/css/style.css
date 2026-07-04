@@ -345,8 +345,11 @@ body::before {
 }
 
 .platform-grid {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 1.25rem;
   margin-top: 2rem;
+  align-items: start;
 }
 
 .platform-card {
@@ -629,10 +632,10 @@ body::before {
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
   padding: 0 1.5rem;
@@ -719,7 +722,7 @@ body::before {
    CONTENT CONTAINER
    =========================== */
 .content {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 3rem auto;
   padding: 0 2rem 4rem 2rem;
 }
@@ -1454,8 +1457,10 @@ pre code {
 
 /* smaller button variant for table links */
 .btn-small {
-  display: inline-block;
-  padding: 0.45rem 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem;
   background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
   color: #ffffff;
   text-decoration: none;
@@ -1463,6 +1468,24 @@ pre code {
   font-weight: 700;
   font-size: 0.95rem;
   border: none;
+  transition: all 0.25s ease;
+}
+
+/* Make read-more style consistent across site */
+.btn-read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.btn-read-more:hover, .btn-small:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.36);
 }
 
 /* Writeups two-column lists */
