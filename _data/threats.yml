@@ -1,6 +1,71 @@
-last_updated: '2026-07-04T12:24:57Z'
-count: 50
+last_updated: '2026-07-04T13:18:02Z'
+count: 100
 items:
+- title: MediaArea heap-based buffer overflow vulnerabilities
+  link: https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/
+  published: Wed, 27 May 2026 14:00:14 GMT
+  summary: Talos researchers find 4 heap-based buffer overflow vulnerabilities in
+    MediaArea's MediaInfoLib.
+  source: Cisco Talos
+- title: Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure
+  link: https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure
+  published: Wed, 24 Jun 2026 21:16:41 GMT
+  summary: Researchers believe rogue peering was used to connect to the victim's SD-WAN
+    devices to gain admin privileges and root-level access.
+  source: Dark Reading
+- title: 2026 FIFA World Cup Faces Surge in Cyber Threats
+  link: https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats
+  published: Wed, 24 Jun 2026 20:29:08 GMT
+  summary: Persistent cybercrime, social engineering, and infrastructure threats continue
+    to plague the FIFA 2026 World Cup across the US, Canada, and Mexico.
+  source: Dark Reading
+- title: Do CISOs Need a Code of Ethics?
+  link: https://www.darkreading.com/cybersecurity-operations/ciso-code-of-ethics
+  published: Wed, 24 Jun 2026 19:10:17 GMT
+  summary: 'Dark Reading Confidential Episode 19: Kickbacks, no-show jobs, "dirty"
+    VCs, and shelf ware — industry expert Robert "RSnake" Hansen explains why he thinks
+    it''s time for a CISO code of ethics. It could ensure cybersecurity bosses aren''t
+    engaged in self-dealing that could risk enterprise, and even national, security.'
+  source: Dark Reading
+- title: More Malicious OpenClaw Skills Threaten AI Supply Chain
+  link: https://www.darkreading.com/cyber-risk/malicious-openclaw-skills-clawhub-threaten-ai-supply-chain
+  published: Wed, 24 Jun 2026 16:56:49 GMT
+  summary: OpenClaw removed five packages from its ClawHub skills marketplace that
+    bypassed security checks even though they included infostealers and other threats.
+  source: Dark Reading
+- title: Apple's MacOS Gap Lets Users Disable Security Tools
+  link: https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
+  published: Wed, 24 Jun 2026 12:00:00 GMT
+  summary: Attackers can exploit the issue to disable security and integrated browser
+    tools without needing administrator privileges or kernel exploits.
+  source: Dark Reading
+- title: Linux Process Name Masquerading, (Wed, Jun 24th)
+  link: https://isc.sans.edu/diary/rss/33102
+  published: Wed, 24 Jun 2026 06:29:03 GMT
+  summary: "In a previous diary, I talked about stack strings&#;x26;#;x5b;1&#;x26;#;x5d;\
+    \ with a practical example of them. Since my SEC670 class, I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;m\
+    \ even more interested&#;x26;#;xc2;&#;x26;#;xa0;in malware obfuscation techniques.\
+    \ I had&#;x26;#;xc2;&#;x26;#;xa0;a look at process names. When you list running\
+    \ processes on a computer, can you trust what you see&#;x26;#;x3f; If you&#;x26;#;39;re\
+    \ facing a rootkit, malicious processes can be simply hidden (the API calls or\
+    \ commands to list processed have been tampered). But a malicious process&#;x26;#;xc2;&#;x26;#;xa0;can\
+    \ also mimic a non-suspicious name by masquerading their name. This technique\
+    \ (T1036 in the MITRE ATT&#;x26;CK framework&#;x26;#;x5b;2&#;x26;#;x5d;) has been\
+    \ used by attackers in many campaigns. A good example of the Velvet Ant Chinese\
+    \ group&#;x26;#;x5b;3&#;x26;#;x5d;. The goal is to hide the &#;x26;#;xe2;&#;x26;#;x80;œmalware&#;x26;#;xe2;&#;x26;#;x80;\x9D\
+    \ process name by replacing it with something&#;x26;#;xc2;&#;x26;#;xa0;that won&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;t\
+    \ attract the Security Analyst&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;s eyes or\
+    \ defeat security controls.\r"
+  source: SANS Internet Storm Center
+- title: Who Runs the Ransomware Group ‘The Gentlemen?’
+  link: https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
+  published: Wed, 10 Jun 2026 14:03:44 +0000
+  summary: A cybercrime group known as The Gentlemen has emerged as the second most
+    active ransomware gang by victim count, rapidly attracting a talented pool of
+    hackers through an aggressive recruitment strategy that promises affiliates 90
+    percent of any ransom paid by victims. This post examines clues pointing to a
+    real life identity for the administrator of The Gentlemen ransomware group.
+  source: Krebs on Security
 - title: SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT
   link: https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html
   published: Wed, 01 Jul 2026 23:23:06 +0530
@@ -39,6 +104,12 @@ items:
     feature bypass," Adobe said in an alert released Tuesday. The vulnerabilities
     are listed
   source: The Hacker News
+- title: Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS
+  link: https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os
+  published: Wed, 01 Jul 2026 20:31:21 GMT
+  summary: Attackers fingerprint victims through user-agent data to deliver OS-specific
+    payloads, increasing compromise rates and campaign profitability.
+  source: Dark Reading
 - title: Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands
   link: https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html
   published: Wed, 01 Jul 2026 20:12:54 +0530
@@ -48,6 +119,12 @@ items:
     Labs found the pair and named them DuneSlide. They are tracked as CVE-2026-50548 and CVE-2026-50549,
     both rated 9.8 out of 10 (or 9.3
   source: The Hacker News
+- title: And the Winner in Dominant Malware Delivery? ClickFix
+  link: https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix
+  published: Wed, 01 Jul 2026 19:46:34 GMT
+  summary: Researchers say the highly effective social engineering technique is no
+    longer the exception for malware attacks — it's now the rule.
+  source: Dark Reading
 - title: Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts
   link: https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html
   published: Wed, 01 Jul 2026 19:26:18 +0530
@@ -85,6 +162,25 @@ items:
     research and development have shifted the risk horizon," Mark Russinovich, chief
     technology officer of Microsoft Azure, said. "We believe
   source: The Hacker News
+- title: When Too Much Security Data Became the Risk
+  link: https://www.darkreading.com/cyber-risk/too-much-security-data-risk
+  published: Wed, 01 Jul 2026 15:44:41 GMT
+  summary: Rapid growth turned routine firewall logs into a security and budget liability.
+    One CISO used artificial intelligence to filter what data truly belongs in the
+    SIEM.
+  source: Dark Reading
+- title: '''Phantom Squatting'': An Emerging AI-Driven Supply Chain Threat'
+  link: https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
+  published: Wed, 01 Jul 2026 15:17:14 GMT
+  summary: LLMs consistently hallucinate Web domains for legitimate brands that attackers
+    can register for malicious activity in a difficult-to-detect attack vector.
+  source: Dark Reading
+- title: Safe Events Start With Threat Intel & Digital Security
+  link: https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security
+  published: Wed, 01 Jul 2026 13:00:00 GMT
+  summary: Planning ahead to defend against cyber threats is the work that keeps events
+    uneventful.
+  source: Dark Reading
 - title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
   link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
   published: Wed, 01 Jul 2026 12:50:51 +0530
@@ -123,6 +219,21 @@ items:
     give each visitor the same malware in a different disguise. The same research
     also turned up a new delivery method built to slip past Windows' script scanning.
   source: The Hacker News
+- title: 'Martin Lee: Running through the Arctic (and the threat landscape)'
+  link: https://blog.talosintelligence.com/martin-lee-running-through-the-arctic-and-the-threat-landscape/
+  published: Wed, 01 Jul 2026 10:00:57 GMT
+  summary: Ever wonder how someone goes from studying human viruses to leading cybersecurity
+    teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk
+    about his journey into the industry.
+  source: Cisco Talos
+- title: 'ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365'
+  link: https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
+  published: Wed, 01 Jul 2026 10:00:38 GMT
+  summary: Talos has identified "ARToken," a phishing-as-a-service platform that targets
+    Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing,
+    Primary Refresh Token persistence, email access, BEC operations, and SharePoint
+    exfiltration.
+  source: Cisco Talos
 - title: Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service
   link: https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html
   published: Wed, 01 Jul 2026 09:24:22 +0530
@@ -132,6 +243,27 @@ items:
     or trigger a denial-of-service (DoS) condition. The vulnerabilities are listed
     below - CVE-2026-8451 (CVSS score: 8.8) - An insufficient input validation'
   source: The Hacker News
+- title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
+  link: https://isc.sans.edu/diary/rss/33118
+  published: Wed, 01 Jul 2026 05:10:20 GMT
+  summary: "This morning, an interesting phishing email hit my mailbox. It targets\
+    \ Metamask[1], a cryptocurrency wallet, available as a browser extension and a\
+    \ mobile app, that lets users store, send, and receive crypto money. It's pretty\
+    \ popular, so a juicy target for criminals. In February, I already mentioned a\
+    \ campaign against them[2].\r"
+  source: SANS Internet Storm Center
+- title: ISC Stormcast For Wednesday, July 1st, 2026 https://isc.sans.edu/podcastdetail/9990,
+    (Wed, Jul 1st)
+  link: https://isc.sans.edu/diary/rss/33116
+  published: Wed, 01 Jul 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: China-Linked Group Targets Southeast Asia Critical Systems
+  link: https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems
+  published: Wed, 01 Jul 2026 01:00:01 GMT
+  summary: The group compromised at least 10 regional organizations, including two
+    state-owned entities, and deployed a new backdoor.
+  source: Dark Reading
 - title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
   link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
   published: Tue, 30 Jun 2026 23:16:07 +0530
@@ -150,6 +282,12 @@ items:
     QiAnXin's XLab have tracked it since February 2026, and say the real story is
     not how big it is today, but how fast it is changing. The end goal is a
   source: The Hacker News
+- title: Fake Bug Report Hijacks AI Coding Agents at Scale
+  link: https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents
+  published: Tue, 30 Jun 2026 21:37:50 GMT
+  summary: '"Agentjacking" is the latest demonstration of how easily attackers can
+    exploit an AI agent''s inability to differentiate between content and instructions.'
+  source: Dark Reading
 - title: Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints
   link: https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html
   published: Tue, 30 Jun 2026 21:17:20 +0530
@@ -169,6 +307,12 @@ items:
     has been codenamed Silent Swap by McAfee Labs. "The campaign is delivered through
     unsigned installers – observed in both .NET and Golang variants – that
   source: The Hacker News
+- title: Attackers Seize Exposed AI Endpoints to Power Offensive Ops
+  link: https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops
+  published: Tue, 30 Jun 2026 21:01:58 GMT
+  summary: Threat actors don't need any special authentication to reach a target endpoint
+    — they just need to know where it is.
+  source: Dark Reading
 - title: GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection
     Risks
   link: https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html
@@ -189,6 +333,21 @@ items:
     API key, a reusable token, or a backend server that accepted requests with no
     key at all. Whoever grabs it can send model requests on the developer''s account,'
   source: The Hacker News
+- title: Why Identity Security Is Your Cyber Career Entry Point
+  link: https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point
+  published: Tue, 30 Jun 2026 19:11:40 GMT
+  summary: In this "Heard it From a CISO" video, Silverfort CISO John Paul Cunningham
+    explains that AI in cybersecurity workflows is creating opportunities rather than
+    eliminating jobs — and there are more ways than ever to break into this essential
+    field.
+  source: Dark Reading
+- title: Phishers Gain Persistence at EU, Asia Hospitality Orgs
+  link: https://www.darkreading.com/cyberattacks-data-breaches/phishers-persistence-eu-asia-hospitality-orgs
+  published: Tue, 30 Jun 2026 18:59:46 GMT
+  summary: Separate but similar campaigns described by Microsoft and Trend Micro use
+    malicious zip files to spread malware via social engineering and obsfucation,
+    including blockchain abuse.
+  source: Dark Reading
 - title: What the Numbers Say About FIFA 2026 Cyber Risk
   link: https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html
   published: Tue, 30 Jun 2026 17:00:00 +0530
@@ -236,6 +395,12 @@ items:
     according to ZDI. A patch is available. If you run LoadMaster with the API enabled,
     update now. Progress published its advisory on June
   source: The Hacker News
+- title: AI-Generated Workflows Are a Silent Security Disaster
+  link: https://www.darkreading.com/cyber-risk/ai-generated-workflows-silent-security-disaster
+  published: Tue, 30 Jun 2026 13:00:00 GMT
+  summary: Teams are dealing with a truly dangerous problem — automation that works,
+    but that no one understands.
+  source: Dark Reading
 - title: Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild
   link: https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
   published: Tue, 30 Jun 2026 10:34:06 +0530
@@ -245,6 +410,219 @@ items:
     and authentication flaw in Oracle Payments that could be abused to take over susceptible
     instances. "Easily exploitable vulnerability allows'
   source: The Hacker News
+- title: June 2026 Apple Updates, (Tue, Jun 30th)
+  link: https://isc.sans.edu/diary/rss/33114
+  published: Tue, 30 Jun 2026 09:31:27 GMT
+  summary: "Apple released updates for iOS/iPadOS, macOS, and Safari on Monday. There\
+    \ have been no updates for other Apple operating systems (visionOS, watchOS, tvOS).\
+    \ Usually, Apple updates all products at the same time.\r"
+  source: SANS Internet Storm Center
+- title: ISC Stormcast For Tuesday, June 30th, 2026 https://isc.sans.edu/podcastdetail/9988,
+    (Tue, Jun 30th)
+  link: https://isc.sans.edu/diary/rss/33112
+  published: Tue, 30 Jun 2026 02:25:12 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: Scope of Salesforce Attacks Expands as Icarus Leaks Data
+  link: https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data
+  published: Tue, 23 Jun 2026 20:44:09 GMT
+  summary: More victims have emerged after attackers breached application vendor Klue
+    and used its OAuth tokens to steal customers' Salesforce data.
+  source: Dark Reading
+- title: '''Cordyceps'': Mushrooming Malicious Pull Requests Threaten Developer Workflows'
+  link: https://www.darkreading.com/application-security/cordyceps-malicious-pull-requests-developer-workflows
+  published: Tue, 23 Jun 2026 19:16:42 GMT
+  summary: The CI/CD workflow weakness affects Microsoft's Azure Sentinel, Google's
+    AI Agent Development Kit, Apache's Doris analytics database, Cloudflare's Workers
+    SDK, and Python Software Foundation's Black.
+  source: Dark Reading
+- title: Scattered Spider Hackers Plead Guilty on Day 1 of Trial
+  link: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
+  published: Tue, 23 Jun 2026 16:12:49 +0000
+  summary: Two men pleaded guilty in the United Kingdom this week to criminal charges
+    stemming from an August 2024 cyberattack that crippled Transport for London, the
+    entity responsible for the public transport network in the Greater London area.
+    The duo were key members of a prolific cybercrime group known as Scattered Spider,
+    and their guilty pleas came on the first day of what was expected to be a six-week
+    trial.
+  source: Krebs on Security
+- title: SocGholish Takedown Highlights Malicious TDS Threats
+  link: https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats
+  published: Tue, 23 Jun 2026 13:51:33 GMT
+  summary: SocGholish uses traffic distribution systems (TDSs) to provide initial
+    access into victims' networks for cybercrime groups such as the notorious Evil
+    Corp.
+  source: Dark Reading
+- title: FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist
+  link: https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers
+  published: Tue, 23 Jun 2026 12:34:54 GMT
+  summary: The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate
+    firewalls and identify 110 million credentials in the ongoing global campaign.
+  source: Dark Reading
+- title: A Record-Breaking Patch Tuesday for June 2026
+  link: https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/
+  published: Tue, 09 Jun 2026 22:07:28 +0000
+  summary: Microsoft today released software updates to plug nearly 200 security holes
+    across its Windows operating systems and supported software, a record number of
+    fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those
+    bugs earned Microsoft's most dire "critical" rating, and exploit code for at least
+    three of the weaknesses is now publicly available.
+  source: Krebs on Security
+- title: Microsoft Patch Tuesday for June 2026 — Snort rules and prominent vulnerabilities
+  link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
+  published: Tue, 09 Jun 2026 21:21:00 GMT
+  summary: Microsoft Patch Tuesday details for June 2026.
+  source: Cisco Talos
+- title: Less panic patching, more precision
+  link: https://blog.talosintelligence.com/less-panic-patching-more-precision/
+  published: Thu, 28 May 2026 18:00:27 GMT
+  summary: In this newsletter, Thor breaks down why you should stop relying solely
+    on CVSS and start using EPSS and GCVE to focus your patching efforts on the threats
+    that actually matter.
+  source: Cisco Talos
+- title: 'DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens
+    in the heap'
+  link: https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/
+  published: Thu, 28 May 2026 10:00:52 GMT
+  summary: This white paper presents a concrete case study demonstrating the creation
+    of a heap overflow vulnerability through the exploitation of the DICOM file format.
+  source: Cisco Talos
+- title: Robinhood Cuts Access Approval Time to Support High-Velocity Development
+  link: https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development
+  published: Thu, 25 Jun 2026 22:42:36 GMT
+  summary: The fintech company's engineering-first application security team reengineered
+    the process for granting system access, making it easier and more secure for developers
+    working on their projects. Here are the lessons learned from Robinhood's experience.
+  source: Dark Reading
+- title: In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw
+  link: https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw
+  published: Thu, 25 Jun 2026 21:54:34 GMT
+  summary: The flaw enables server-side request forgery (SSRF) and escalates privileges
+    to root, impacting Cisco Unified CM and Unified CM SME deployments.
+  source: Dark Reading
+- title: Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses
+  link: https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense
+  published: Thu, 25 Jun 2026 21:12:01 GMT
+  summary: The FSB state-sponsored operation has gotten a lot better at loading its
+    malware and hiding its servers.
+  source: Dark Reading
+- title: EdTech Attackers Shift From Schools to Their Software Suppliers
+  link: https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers
+  published: Thu, 25 Jun 2026 20:34:14 GMT
+  summary: Educational institutions, the edtech companies they rely on, and, more
+    concerningly, the challenges they pose for schools are the focus of the latest
+    Reporters' Notebook video series.
+  source: Dark Reading
+- title: Local Police Collusion Hampers Crackdown on Asian Scam Centers
+  link: https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers
+  published: Thu, 25 Jun 2026 19:07:41 GMT
+  summary: With tens of billions of dollars flowing into regional economies from cybercrime,
+    scam centers continue to flourish, despite international and law-enforcement efforts.
+  source: Dark Reading
+- title: 'Beyond IOCs: AI-enabled threat intelligence'
+  link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
+  published: Thu, 25 Jun 2026 18:00:26 GMT
+  summary: In this week’s newsletter, Martin considers how AI will help threat intelligence
+    by creating an easily queryable data source of intelligence reports.
+  source: Cisco Talos
+- title: What do Ports Hear When Nobody's Listening? An Assessment of Automated Cybercrime
+    [Guest Diary], (Wed, Jun 24th)
+  link: https://isc.sans.edu/diary/rss/33104
+  published: Thu, 25 Jun 2026 10:01:19 GMT
+  summary: "[This is a Guest Diary by Nicole Phillips, an ISC intern as part of the\
+    \ SANS.edu BACS program]\r"
+  source: SANS Internet Storm Center
+- title: Introduction to COM usage by Windows threats
+  link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+  published: Thu, 25 Jun 2026 10:00:26 GMT
+  summary: Component Object Model (COM) is a fundamental Windows technology used by
+    legitimate applications for object activation, inter-process communication, automation
+    and language-independent component reuse. Those same qualities make it useful
+    to threat actors.
+  source: Cisco Talos
+- title: Europe Evolves Into Ransomware's Favorite Region
+  link: https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region
+  published: Thu, 25 Jun 2026 10:00:00 GMT
+  summary: 'After a global lull, ransomware gangs are setting sights on a rich new
+    arena: attacking EU organizations and their suppliers.'
+  source: Dark Reading
+- title: Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada
+  link: https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/
+  published: Thu, 21 May 2026 21:50:25 +0000
+  summary: Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on
+    suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things
+    botnet that enslaved millions of devices for use in a series of massive distributed
+    denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity publicly
+    named the suspect in February 2026 after the accused launched a volley of DDoS,
+    doxing and swatting campaigns against this author and a security researcher. He
+    now faces criminal hacking charges in both Canada and the United States.
+  source: Krebs on Security
+- title: Novo Nordisk Breach Highlights Software Development Pipeline Risk
+  link: https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk
+  published: Thu, 18 Jun 2026 20:05:47 GMT
+  summary: 'A leaked GitHub token underscores what most organizations get wrong: Treating
+    secrets management as a tooling problem rather than an identity problem.'
+  source: Dark Reading
+- title: Close Encounters of the Human Kind
+  link: https://blog.talosintelligence.com/close-encounters-of-the-human-kind/
+  published: Thu, 18 Jun 2026 18:00:24 GMT
+  summary: In the latest Threat Source, Hazel channels her inner Spielberg to explore
+    why humans are delightfully irrational, reminding us that while security best
+    practices are simple in theory, they’re a lot harder to pull off when you’re busy
+    dealing with real life.
+  source: Cisco Talos
+- title: ‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm
+  link: https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/
+  published: Thu, 18 Jun 2026 17:37:58 +0000
+  summary: 'For the past four years, a sprawling Android-based botnet called Popa
+    has forced millions of consumer TV boxes to relay Internet traffic linked to advertising
+    fraud, account takeovers, and mass data-scraping efforts. This week, researchers
+    from multiple security firms concluded that the Popa botnet is linked to NetNut,
+    a "residential proxy" provider operated by the publicly-traded Israeli firm Alarum
+    Technologies Ltd [NASDAQ: ALAR].'
+  source: Krebs on Security
+- title: 'Scripting the disassembler: Local agentic reverse engineering through vbdec’s
+    live COM object model'
+  link: https://blog.talosintelligence.com/scripting-the-disassembler/
+  published: Thu, 18 Jun 2026 10:00:05 GMT
+  summary: Cisco Talos detailed a new approach to reverse engineering that pairs local
+    AI agents with traditional analysis tools like the VB6 disassembler vbdec. Instead
+    of awkwardly bolting AI onto the software, vbdec exposes its parsed data through
+    a live COM interface.
+  source: Cisco Talos
+- title: A tale of two eras
+  link: https://blog.talosintelligence.com/a-tale-of-two-eras/
+  published: Thu, 11 Jun 2026 18:00:49 GMT
+  summary: In this week’s newsletter, Amy reminisces on the tech toys of their childhood,
+    inspired by a hilarious lesson about why your digital privacy shouldn't be left
+    on an open channel.
+  source: Cisco Talos
+- title: 'Reporting from Vegas: Networking, AI, and good boys'
+  link: https://blog.talosintelligence.com/reporting-from-vegas-networking-ai-and-good-boys/
+  published: Thu, 04 Jun 2026 18:00:59 GMT
+  summary: Joe’s on-the-ground report from Cisco Live U.S. is here, complete with
+    therapy dog pictures and tips on handling conference overstimulation.
+  source: Cisco Talos
+- title: Winning the cyber marathon with Tony Giandomenico
+  link: https://blog.talosintelligence.com/winning-the-cyber-marathon-with-tony-giandomenico/
+  published: Thu, 04 Jun 2026 12:05:31 GMT
+  summary: Tony Giandomenico, Senior Director of Product Management, joins Amy to
+    discuss the Talos Threat Hunting launch what he's excited about for the future
+    of cybersecurity, and, of course, his Ironman triathlons.
+  source: Cisco Talos
+- title: 'Hypotheses, telemetry, and human judgment: Inside Cisco Talos Threat Hunting'
+  link: https://blog.talosintelligence.com/hypotheses-telemetry-and-human-judgment-inside-cisco-talos-threat-hunting/
+  published: Thu, 04 Jun 2026 12:05:05 GMT
+  summary: Learn how Cisco Talos Threat Hunting uses hypothesis-driven methods and
+    multi-domain telemetry correlation to find stealthy threats operating below automated
+    detection thresholds.
+  source: Cisco Talos
+- title: Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs
+  link: https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs
+  published: Thu, 02 Jul 2026 23:01:00 GMT
+  summary: Improved institutional safeguards and stricter regulations have pushed
+    the burdens of protection and risk reduction on to Australian businesses.
+  source: Dark Reading
 - title: 'ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware
     + 14 Stories'
   link: https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html
@@ -255,6 +633,30 @@ items:
     not one big break. It is small permissions, weak checks, open systems, and normal
     tools doing things they were allowed to do. That same pattern runs
   source: The Hacker News
+- title: Apple Reverses Age-Old Patch Policy to Keep Up With AI
+  link: https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai
+  published: Thu, 02 Jul 2026 19:31:58 GMT
+  summary: Expect more compressed patching cycles from Apple going forward, as attackers
+    leverage artificial intelligence to reduce time to exploit.
+  source: Dark Reading
+- title: FBI Seizes NetNut Proxy Platform, Popa Botnet
+  link: https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
+  published: Thu, 02 Jul 2026 19:27:33 +0000
+  summary: 'The Federal Bureau of Investigation (FBI) said today it worked with industry
+    partners to seize hundreds of domains associated with NetNut, a sprawling residential
+    proxy service operated by the publicly-traded Israeli company Alarum Technologies
+    [NASDAQ: ALAR]. The action comes roughly two weeks after KrebsOnSecurity published
+    findings from multiple security firms connecting NetNut to the Popa botnet, a
+    collection of at least two million devices that have been compromised by malicious
+    software with little or no consent from victims.'
+  source: Krebs on Security
+- title: FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
+  link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
+  published: Thu, 02 Jul 2026 19:11:33 GMT
+  summary: After gaining a foothold in thousands of Fortinet firewalls, the attackers
+    are starting to monetize that access, and are also piling on a Nextcloud zero-day
+    bug.
+  source: Dark Reading
 - title: ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API
   link: https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html
   published: Thu, 02 Jul 2026 18:34:13 +0530
@@ -265,6 +667,19 @@ items:
     compromise via APIs," Kaspersky said in a detailed report published this week.
     "
   source: The Hacker News
+- title: Ransomware Thugs Masquerade as Interpol to Entice Small Biz
+  link: https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses
+  published: Thu, 02 Jul 2026 18:07:40 GMT
+  summary: The ransomware campaign relies on basic social engineering and stretches
+    across multiple regions, including the US, Europe, Middle East, and elsewhere.
+  source: Dark Reading
+- title: Catan and Mouse
+  link: https://blog.talosintelligence.com/catan-and-mouse/
+  published: Thu, 02 Jul 2026 18:00:34 GMT
+  summary: What do board games and cybersecurity have in common? Pattern recognition.
+    Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity
+    may be a defender’s most valuable skill.
+  source: Cisco Talos
 - title: Identity Lifecycle Management Wasn't Built for AI Agents
   link: https://thehackernews.com/2026/07/identity-lifecycle-management.html
   published: Thu, 02 Jul 2026 17:00:00 +0530
@@ -301,6 +716,13 @@ items:
     hot new CVEs. Run one, and it quietly lifts your saved passwords, browser cookies,
     and files, then hands the attacker a shell on your machine. YesWeHack and
   source: The Hacker News
+- title: Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them.
+  link: https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-
+  published: Thu, 02 Jul 2026 12:33:57 GMT
+  summary: IBM and Red Hat assign 20,000 engineers to the new Project Lightwell service
+    as Anthropic's Mythos findings ignite debate over how to secure the open-source
+    software supply chain.
+  source: Dark Reading
 - title: SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation
   link: https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
   published: Thu, 02 Jul 2026 11:16:45 +0530
@@ -310,6 +732,12 @@ items:
     The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote
     code execution arising from the deserialization of untrusted data. The issue'
   source: The Hacker News
+- title: ISC Stormcast For Thursday, July 2nd, 2026 https://isc.sans.edu/podcastdetail/9992,
+    (Thu, Jul 2nd)
+  link: https://isc.sans.edu/diary/rss/33120
+  published: Thu, 02 Jul 2026 02:00:02 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes
     Clusters
   link: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
@@ -329,6 +757,17 @@ items:
     a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June
     30, where a judge ordered him held in custody. Finnish police
   source: The Hacker News
+- title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
+  link: https://isc.sans.edu/diary/rss/33106
+  published: Sun, 28 Jun 2026 07:56:44 GMT
+  summary: "YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.\r"
+  source: SANS Internet Storm Center
+- title: Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk
+  link: https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk
+  published: Sat, 27 Jun 2026 11:48:05 GMT
+  summary: Rising threats from third-party actors are forcing institutions to play
+    defense to protect student data from ransomware and other attacks.
+  source: Dark Reading
 - title: North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider
     Campaign
   link: https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
@@ -358,120 +797,4 @@ items:
     It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits
     in the same small stretch of kernel code where Anthropic's most powerful AI model,
     Mythos, recently found a different bug. The AI caught one flaw and missed
-  source: The Hacker News
-- title: New Avalon Malware Framework Packs CrownX Ransomware Capabilities
-  link: https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html
-  published: Sat, 04 Jul 2026 00:25:24 +0530
-  summary: Cybersecurity researchers have discovered a previously undocumented modular
-    malware framework codenamed Avalon that's distributed by means of a multi-stage
-    phishing chain capable of bypassing traditional security controls. Avalon combines
-    credential collection, lateral movement, remote access, recovery disruption, and
-    ransomware execution, bringing together diverse functions under one
-  source: The Hacker News
-- title: WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private
-  link: https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html
-  published: Mon, 29 Jun 2026 21:39:21 +0530
-  summary: WhatsApp on Monday officially announced the start of global reservations
-    of usernames with an aim to protect the privacy of more than three billion users
-    on the messaging platform. The optional feature is designed to help users connect
-    with someone on the service through usernames, as opposed to directly sharing
-    their phone numbers. Username reservations will start rolling out starting today,
-  source: The Hacker News
-- title: Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar
-    Input
-  link: https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html
-  published: Mon, 29 Jun 2026 21:10:00 +0530
-  summary: Microsoft has found a malicious Chrome extension that posed as the AI search
-    engine Perplexity and quietly logged what people searched for. It routed every
-    query and every character typed into the address bar through an attacker-controlled
-    server before redirecting users to real results. Microsoft says Google removed
-    it from the store after responsible disclosure. The extension was called "
-  source: The Hacker News
-- title: Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit
-    Bugs
-  link: https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html
-  published: Mon, 29 Jun 2026 21:00:00 +0530
-  summary: Apple on Monday released security updates for iOS, macOS, and the Safari
-    web browser to address over three dozen flaws, including four vulnerabilities
-    in WebKit that were discovered using artificial intelligence (AI) tools like Anthropic
-    Claude and OpenAI Codex Security. The WebKit vulnerabilities are listed below
-    - CVE-2026-43707 - A memory corruption issue that could result in an
-  source: The Hacker News
-- title: Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government
-    Attacks
-  link: https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html
-  published: Mon, 29 Jun 2026 20:33:40 +0530
-  summary: The China-aligned espionage group Mustang Panda is running two campaigns
-    against the Indian government and hydropower targets, deploying new malware and
-    turning a legitimate cloud service into its command channel. Acronis Threat Research
-    Unit found active compromises inside Indian government networks, including machines
-    used by senior administrative staff, and worked with 
-  source: The Hacker News
-- title: '⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers
-    and More'
-  link: https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html
-  published: Mon, 29 Jun 2026 20:11:07 +0530
-  summary: This week was a reminder that attackers do not always need big tricks.
-    One small mistake, one old access path, one missed patch, and suddenly the door
-    is open. The noise is not all noise, either. Forums are talking, researchers are
-    finding easy cracks, and defenders have more cleanup waiting. Here’s the full
-    Monday recap. ⚡ Threat of the Week New DirtyClone Linux Kernel Flaw Lets Local
-  source: The Hacker News
-- title: North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer
-    Secrets
-  link: https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html
-  published: Fri, 03 Jul 2026 21:37:15 +0530
-  summary: Threat actors with ties to North Korea have been linked to a fresh set
-    of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate
-    remote access and data theft. According to JFrog, the packages "rollup-packages-polyfill-core"
-    and "rollup-runtime-polyfill-core" mimic the legitimate "rollup-plugin-polyfill-node"
-    project, down to the description, repository metadata, and
-  source: The Hacker News
-- title: Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer
-  link: https://thehackernews.com/2026/07/armored-likho-targets-government.html
-  published: Fri, 03 Jul 2026 19:06:33 +0530
-  summary: A previously undocumented threat actor known as Armored Likho has been
-    attributed to cyber attacks targeting government agencies and the electric power
-    sector across Russia, Brazil, and Kazakhstan. "Armored Likho blends financially
-    motivated campaigns targeting private individuals with targeted cyber espionage
-    aimed at organizations," Kaspersky said in a technical analysis published today.
-    "
-  source: The Hacker News
-- title: European Parliament Member Investigating Spyware Was Hacked With Pegasus
-  link: https://thehackernews.com/2026/07/european-parliament-member.html
-  published: Fri, 03 Jul 2026 16:35:43 +0530
-  summary: A new report from the Citizen Lab has revealed that former Member of the
-    European Parliament Stelios Kouloglou had his mobile device repeatedly hacked
-    with the notorious Pegasus spyware while serving on a committee that was tasked
-    with investigating the abuse of such commercial surveillance tools in the bloc.
-    "Through forensic analysis of his device, we found that the attackers could have
-    had
-  source: The Hacker News
-- title: PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords
-  link: https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html
-  published: Fri, 03 Jul 2026 13:33:37 +0530
-  summary: Cybersecurity researchers have flagged a new macOS information stealer
-    called PamStealer that employs a series of clever tricks to infect systems and
-    siphon sensitive data. The stealer, discovered by Jamf Threat Labs, is distributed
-    as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate open-source
-    clipboard manager. It has been codenamed PamStealer owing to its ability to
-  source: The Hacker News
-- title: Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home
-    Devices
-  link: https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html
-  published: Fri, 03 Jul 2026 00:24:06 +0530
-  summary: Google has significantly degraded NetNut, one of the biggest networks that
-    turns home devices into rented relays for other people's traffic. Working with
-    the FBI, Lumen, and others, Google's Threat Intelligence Group (GTIG) said this
-    week it had reduced the network's pool of usable devices by millions. Google identifies
-    NetNut, also tracked as Popa, as a network spread across home
-  source: The Hacker News
-- title: Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials
-  link: https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html
-  published: Fri, 03 Jul 2026 00:00:33 +0530
-  summary: Threat actors associated with the Anubis ransomware operation have been
-    observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain
-    initial access. "Although tactics differ between affiliates, common patterns emerged
-    in tradecraft through use of legitimate Remote Management and Monitoring (RMM)
-    tooling, credential access, and hands-on-keyboard procedures used for lateral
   source: The Hacker News
