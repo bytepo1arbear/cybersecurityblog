@@ -1,4 +1,4 @@
-last_updated: '2026-07-05T06:00:54Z'
+last_updated: '2026-07-06T06:24:44Z'
 count: 100
 items:
 - title: MediaArea heap-based buffer overflow vulnerabilities
@@ -162,7 +162,7 @@ items:
     research and development have shifted the risk horizon," Mark Russinovich, chief
     technology officer of Microsoft Azure, said. "We believe
   source: The Hacker News
-- title: When Too Much Security Data Became the Risk
+- title: When Too Much Security Data Becomes the Risk
   link: https://www.darkreading.com/cyber-risk/too-much-security-data-risk
   published: Wed, 01 Jul 2026 15:44:41 GMT
   summary: Rapid growth turned routine firewall logs into a security and budget liability.
