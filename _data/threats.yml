@@ -1,12 +1,6 @@
-last_updated: '2026-07-07T06:04:40Z'
+last_updated: '2026-07-08T05:18:29Z'
 count: 100
 items:
-- title: MediaArea heap-based buffer overflow vulnerabilities
-  link: https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/
-  published: Wed, 27 May 2026 14:00:14 GMT
-  summary: Talos researchers find 4 heap-based buffer overflow vulnerabilities in
-    MediaArea's MediaInfoLib.
-  source: Cisco Talos
 - title: Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure
   link: https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure
   published: Wed, 24 Jun 2026 21:16:41 GMT
@@ -48,6 +42,12 @@ items:
     percent of any ransom paid by victims. This post examines clues pointing to a
     real life identity for the administrator of The Gentlemen ransomware group.
   source: Krebs on Security
+- title: ISC Stormcast For Wednesday, July 8th, 2026 https://isc.sans.edu/podcastdetail/9998,
+    (Wed, Jul 8th)
+  link: https://isc.sans.edu/diary/rss/33136
+  published: Wed, 08 Jul 2026 02:00:02 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT
   link: https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html
   published: Wed, 01 Jul 2026 23:23:06 +0530
@@ -172,35 +172,6 @@ items:
     Networks' Unit 42 calls the trick phantom squatting, and its new research shows
     it is already happening in the wild. The reason it matters is
   source: The Hacker News
-- title: Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export
-    Controls
-  link: https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html
-  published: Wed, 01 Jul 2026 12:16:17 +0530
-  summary: Anthropic is putting Claude Fable 5 back online worldwide. On June 30,
-    the U.S. Commerce Department lifted the export controls it had imposed on Fable
-    and its more tightly controlled sibling Mythos 5 about two and a half weeks earlier.
-    Fable 5 returns to users on Wednesday, July 1, across Claude.ai, the Claude Platform,
-    Claude Code, and Claude Cowork. Export controls restrict who can
-  source: The Hacker News
-- title: Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts
-  link: https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html
-  published: Wed, 01 Jul 2026 11:16:03 +0530
-  summary: Cybersecurity researchers have warned of a "massive, ongoing, automated
-    password spray attack" aimed at Microsoft's Azure command-line interface (CLI),
-    compromising dozens of accounts in the process. The activity, per Huntress, originates
-    from an IPv6 address range (2a0a:d683::/32) controlled by internet infrastructure
-    provider LSHIY LLC (AS32167). "Between June 12 and June 26, the threat
-  source: The Hacker News
-- title: Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware
-    Delivery
-  link: https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html
-  published: Wed, 01 Jul 2026 11:02:12 +0530
-  summary: ClickFix, the trick that fools people into running malware by hand, has
-    quietly grown a back office. New research shows the malicious commands behind
-    its fake "prove you're human" pages are now handed out by API-driven servers that
-    give each visitor the same malware in a different disguise. The same research
-    also turned up a new delivery method built to slip past Windows' script scanning.
-  source: The Hacker News
 - title: 'Martin Lee: Running through the Arctic (and the threat landscape)'
   link: https://blog.talosintelligence.com/martin-lee-running-through-the-arctic-and-the-threat-landscape/
   published: Wed, 01 Jul 2026 10:00:57 GMT
@@ -216,15 +187,6 @@ items:
     Primary Refresh Token persistence, email access, BEC operations, and SharePoint
     exfiltration.
   source: Cisco Talos
-- title: Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service
-  link: https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html
-  published: Wed, 01 Jul 2026 09:24:22 +0530
-  summary: 'Citrix on Tuesday released security updates to address multiple flaws
-    in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix
-    Gateway) that could be exploited by an attacker to facilitate arbitrary file reads
-    or trigger a denial-of-service (DoS) condition. The vulnerabilities are listed
-    below - CVE-2026-8451 (CVSS score: 8.8) - An insufficient input validation'
-  source: The Hacker News
 - title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
   link: https://isc.sans.edu/diary/rss/33118
   published: Wed, 01 Jul 2026 05:10:20 GMT
@@ -246,75 +208,18 @@ items:
   summary: The group compromised at least 10 regional organizations, including two
     state-owned entities, and deployed a new backdoor.
   source: Dark Reading
-- title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-  link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-  published: Tue, 30 Jun 2026 23:16:07 +0530
-  summary: New Microsoft research shows how attackers can hijack AI agents that act
-    on a user's behalf, using nothing more than a poisoned tool description to make
-    the agent quietly hand over company data to an outsider. The trick is that the
-    agent never breaks a rule. Every step looks routine, so in a default setup no
-    alarm may fire. The work comes from Microsoft Incident Response and its
-  source: The Hacker News
-- title: RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS
-  link: https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html
-  published: Tue, 30 Jun 2026 23:15:25 +0530
-  summary: A new two-stage malware family called RustDuck is hijacking home routers,
-    IP cameras, Android boxes, and poorly secured servers, then stitching them into
-    a network built to knock websites and online services offline. Researchers at
-    QiAnXin's XLab have tracked it since February 2026, and say the real story is
-    not how big it is today, but how fast it is changing. The end goal is a
-  source: The Hacker News
 - title: Fake Bug Report Hijacks AI Coding Agents at Scale
   link: https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents
   published: Tue, 30 Jun 2026 21:37:50 GMT
   summary: '"Agentjacking" is the latest demonstration of how easily attackers can
     exploit an AI agent''s inability to differentiate between content and instructions.'
   source: Dark Reading
-- title: Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints
-  link: https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html
-  published: Tue, 30 Jun 2026 21:17:20 +0530
-  summary: 'Threat actors are continuing to exploit a critical Langflow vulnerability
-    as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The
-    activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthenticated
-    remote code execution (RCE) vulnerability in Langflow, indicating threat actors
-    are scanning and targeting exposed artificial intelligence (AI)'
-  source: The Hacker News
-- title: Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet
-    Addresses
-  link: https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html
-  published: Tue, 30 Jun 2026 21:10:18 +0530
-  summary: Cybersecurity researchers have flagged an active browser extension campaign
-    that is designed to steal cryptocurrency by stealthily replacing wallet addresses
-    when unsuspecting users initiate a transaction. The cryptocurrency clipper activity
-    has been codenamed Silent Swap by McAfee Labs. "The campaign is delivered through
-    unsigned installers – observed in both .NET and Golang variants – that
-  source: The Hacker News
 - title: Attackers Seize Exposed AI Endpoints to Power Offensive Ops
   link: https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops
   published: Tue, 30 Jun 2026 21:01:58 GMT
   summary: Threat actors don't need any special authentication to reach a target endpoint
     — they just need to know where it is.
   source: Dark Reading
-- title: GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection
-    Risks
-  link: https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html
-  published: Tue, 30 Jun 2026 19:56:15 +0530
-  summary: The safety check that is supposed to stop an AI coding agent from running
-    a dangerous command can be walked straight past using a shell trick that has been
-    public for decades. New research from Adversa AI, which is named the bypass GuardFall,
-    found it works against ten of the eleven popular open-source coding and computer-use
-    agents the firm tested. Only one, "Continue," was built to
-  source: The Hacker News
-- title: 282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic
-    Study
-  link: https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html
-  published: Tue, 30 Jun 2026 19:19:34 +0530
-  summary: 'Researchers tested 444 AI chatbot apps for iPhone and found that 282 of
-    them, nearly two-thirds, exposed paid AI access through their network traffic.
-    In many cases, the path in was visible just by watching what the app sent: a plaintext
-    API key, a reusable token, or a backend server that accepted requests with no
-    key at all. Whoever grabs it can send model requests on the developer''s account,'
-  source: The Hacker News
 - title: Why Identity Security Is Your Cyber Career Entry Point
   link: https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point
   published: Tue, 30 Jun 2026 19:11:40 GMT
@@ -379,12 +284,6 @@ items:
     access into victims' networks for cybercrime groups such as the notorious Evil
     Corp.
   source: Dark Reading
-- title: FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist
-  link: https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers
-  published: Tue, 23 Jun 2026 12:34:54 GMT
-  summary: The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate
-    firewalls and identify 110 million credentials in the ongoing global campaign.
-  source: Dark Reading
 - title: A Record-Breaking Patch Tuesday for June 2026
   link: https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/
   published: Tue, 09 Jun 2026 22:07:28 +0000
@@ -398,6 +297,132 @@ items:
   link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
   published: Tue, 09 Jun 2026 21:21:00 GMT
   summary: Microsoft Patch Tuesday details for June 2026.
+  source: Cisco Talos
+- title: RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service
+  link: https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html
+  published: Tue, 07 Jul 2026 22:40:15 +0530
+  summary: A new Android malware operation called RedWing is being rented out on Telegram
+    as a ready-made bank-fraud service. It lets even low-skill criminals take over
+    a victim's phone, steal their banking logins, and capture the one-time codes that
+    protect their accounts. Zimperium's zLabs, which found the operation, says it
+    looks like a new variant of Oblivion, a $300-a-month rent-a-malware tool
+  source: The Hacker News
+- title: Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
+  link: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
+  published: Tue, 07 Jul 2026 22:07:33 +0530
+  summary: A critical flaw in Google's Dialogflow CX could have let an attacker with
+    edit rights on one Code Block-enabled agent compromise other Code Block-enabled
+    agents in the same Google Cloud project. From there, they could read live conversations,
+    steal the data users shared, and make the bots send attacker-written messages,
+    including requests to re-enter a password. Security firm Varonis found it
+  source: The Hacker News
+- title: Big Brand Jobs Scam Targets Marketing Pros' Google Accounts
+  link: https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts
+  published: Tue, 07 Jul 2026 21:02:29 GMT
+  summary: The phishing campaign uses several tactics, including nested redirects,
+    to evade detection and steal credentials from unsuspecting targets.
+  source: Dark Reading
+- title: DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts
+  link: https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html
+  published: Tue, 07 Jul 2026 20:44:14 +0530
+  summary: A Microsoft 365 device code phishing campaign has been observed leveraging
+    collaboration-themed lures to take control of victim accounts between the last
+    week of June 2026 and into early July, per findings from ZeroBEC. "The campaign
+    did not depend on a fake Microsoft password page. It used a malicious collaboration-style
+    lure to push users into the legitimate Microsoft device login experience,
+  source: The Hacker News
+- title: Dialogflow CX 'Rogue Agent' Flaw Enabled AI Chatbot Data Theft
+  link: https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft
+  published: Tue, 07 Jul 2026 20:36:43 GMT
+  summary: Varonis reported the flaw to Google in late 2025 and it has been addressed,
+    but it reminds defenders to take a fresh look at their AI Infrastructure security.
+  source: Dark Reading
+- title: Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private
+    Repo Data
+  link: https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html
+  published: Tue, 07 Jul 2026 19:34:50 +0530
+  summary: A public issue can trick GitHub Agentic Workflows into leaking the contents
+    of an organization's private repositories, researchers at Noma Security have shown.
+    The attacker needs only to open a normal-looking issue on a public repository,
+    with no stolen credentials and no access to the organization. If that organization
+    has given the agent read access across its repositories, private ones
+  source: The Hacker News
+- title: Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered
+    Spider Hacker
+  link: https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html
+  published: Tue, 07 Jul 2026 18:57:20 +0530
+  summary: U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in
+    at a luxury jewelry retailer using a persistent Windows device ID, according to
+    a newly unsealed federal complaint. Microsoft records tied that ID first to the
+    account the attackers used to keep access during the May 2025 intrusion, then
+    to online accounts prosecutors say belong to 19-year-old Peter Stokes. Stokes
+    is
+  source: The Hacker News
+- title: Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants
+  link: https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html
+  published: Tue, 07 Jul 2026 18:57:09 +0530
+  summary: Cybersecurity researchers have disclosed details of a now-patched critical
+    session isolation vulnerability in Writer, an enterprise generative artificial
+    intelligence (AI) platform, that could result in cross-tenant compromise. The
+    one-click vulnerability has been codenamed WriteOut by the Sand Security Research
+    team. "An outsider could go from having no access to taking over any Writer AI
+  source: The Hacker News
+- title: 'More Odd DNS Records: NIMLOC, (Tue, Jul 7th)'
+  link: https://isc.sans.edu/diary/rss/33128
+  published: Tue, 07 Jul 2026 18:09:04 GMT
+  summary: "Yesterday, I talked about NAPTR records and how they are related to RCS.\
+    \ But there is another \"odd\" record that shows up in my DNS logs. This one isn&#;x26;#;39;t\
+    \ new, but I don&#;x26;#;39;t think I ever covered it: NIMLOC. At least that is\
+    \ what Zeek calls it. But let&#;x26;#;39;s see what it is all about.\r"
+  source: SANS Internet Storm Center
+- title: What Changes When Your Software Supply Chain Includes AI Writing Your Code?
+  link: https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html
+  published: Tue, 07 Jul 2026 17:00:00 +0530
+  summary: 'Software supply chain security was hard enough. Then AI joined the build
+    pipeline. For five years, "software supply chain security" meant one question:
+    what''s in your code? Which open-source packages, which versions, which transitive
+    dependencies three layers deep that nobody chose on purpose? SolarWinds, Log4Shell,
+    and XZ Utils all taught the same lesson: the risk lives less in the code a'
+  source: The Hacker News
+- title: '''GitLost'' Flaw Leaks Private Data From GitHub''s Agentic Workflows'
+  link: https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows
+  published: Tue, 07 Jul 2026 15:24:30 GMT
+  summary: The flaw allows an unauthenticated attacker to craft a GitHub Issue in
+    an org's public repository and then silently pull data from its private repos,
+    too.
+  source: Dark Reading
+- title: Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities
+  link: https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html
+  published: Tue, 07 Jul 2026 14:40:51 +0530
+  summary: 'A suspected China-aligned threat activity cluster has been observed exploiting
+    Roundcube webmail software belonging to physics and engineering departments of
+    U.S. and Canadian universities as part of a new campaign. The activity involves
+    the exploitation of now-patched, critical security flaws in the open-source email
+    solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,'
+  source: The Hacker News
+- title: CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
+  link: https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
+  published: Tue, 07 Jul 2026 12:10:47 +0530
+  summary: Several versions of firmware released by Chinese network device manufacturer
+    Tenda have been found to embed an undocumented authentication backdoor that enables
+    administrative access to the devices' web management interfaces, the CERT Coordination
+    Center (CERT/CC) warned Monday. "An attacker can exploit this vulnerability, tracked
+    as CVE-2026-11405, to bypass the password verification process
+  source: The Hacker News
+- title: BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
+  link: https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
+  published: Tue, 07 Jul 2026 10:46:51 +0530
+  summary: 'BeyondTrust has released updates to address two critical security flaws
+    affecting Remote Support (RS) and Privileged Remote Access (PRA) products that,
+    if successfully exploited, could allow unauthenticated attackers to take control
+    of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138
+    (CVSS score: 9.2) - A pre-authentication vulnerability exists in the'
+  source: The Hacker News
+- title: UAT-7810 continues building ORB networks using new malware
+  link: https://blog.talosintelligence.com/uat-7810/
+  published: Tue, 07 Jul 2026 10:00:05 GMT
+  summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues
+    to develop their custom-made malware.
   source: Cisco Talos
 - title: ISC Stormcast For Tuesday, July 7th, 2026 https://isc.sans.edu/podcastdetail/9996,
     (Tue, Jul 7th)
@@ -753,28 +778,3 @@ items:
     bypass vulnerability in SimpleHelp, targeting credentials linking development
     and admin environments to wider enterprise systems.
   source: Dark Reading
-- title: Vulnerabilities Expose Private Data in Indian Government Systems
-  link: https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems
-  published: Mon, 29 Jun 2026 21:05:29 GMT
-  summary: One critical vulnerability, among many discovered by a researcher, could
-    have allowed anyone to walk in and take over a national government portal.
-  source: Dark Reading
-- title: Can Clothes Make You Invisible to Facial Recognition?
-  link: https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition
-  published: Mon, 29 Jun 2026 19:38:04 GMT
-  summary: 'Does life feel Orwellian sometimes? One researcher has a solution for
-    you: graphic tees that confuse the neural networks in surveillance cameras.'
-  source: Dark Reading
-- title: Iran, Russia, China Target Water Systems for Sabotage
-  link: https://www.darkreading.com/ics-ot-security/iran-russia-china-target-water-systems-sabotage
-  published: Mon, 29 Jun 2026 19:12:08 GMT
-  summary: Nation-state attackers breach water systems through weak passwords, exposed
-    PLCs, and poor segmentation — not sophisticated malware.
-  source: Dark Reading
-- title: Adding some Automation to the favicon.ico method of Host Recon, (Mon, Jun
-    29th)
-  link: https://isc.sans.edu/diary/rss/33110
-  published: Mon, 29 Jun 2026 12:00:54 GMT
-  summary: "I&#;x26;#;39;m in the throes of target host recon for another pentest,\
-    \ and thought I&#;x26;#;39;d share some workflow / automation stuff.\r"
-  source: SANS Internet Storm Center
