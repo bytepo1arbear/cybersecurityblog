@@ -1,4 +1,4 @@
-last_updated: '2026-07-08T05:18:29Z'
+last_updated: '2026-07-09T06:01:30Z'
 count: 100
 items:
 - title: Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure
@@ -27,12 +27,6 @@ items:
   summary: OpenClaw removed five packages from its ClawHub skills marketplace that
     bypassed security checks even though they included infostealers and other threats.
   source: Dark Reading
-- title: Apple's MacOS Gap Lets Users Disable Security Tools
-  link: https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
-  published: Wed, 24 Jun 2026 12:00:00 GMT
-  summary: Attackers can exploit the issue to disable security and integrated browser
-    tools without needing administrator privileges or kernel exploits.
-  source: Dark Reading
 - title: Who Runs the Ransomware Group ‘The Gentlemen?’
   link: https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
   published: Wed, 10 Jun 2026 14:03:44 +0000
@@ -42,108 +36,178 @@ items:
     percent of any ransom paid by victims. This post examines clues pointing to a
     real life identity for the administrator of The Gentlemen ransomware group.
   source: Krebs on Security
+- title: AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch
+    Attackers
+  link: https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html
+  published: Wed, 08 Jul 2026 22:32:12 +0530
+  summary: Sophos looked at a week of its own endpoint data and found that AI coding
+    agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection
+    rules written to catch human intruders. The agents are not malicious. They just
+    do a lot of things that, to a behavioral engine, look exactly like an attack.
+    Decrypting browser credentials, listing what sits in Windows' credential store,
+  source: The Hacker News
+- title: Mexico's New Cyber Plan Faces Its First Real Test
+  link: https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test
+  published: Wed, 08 Jul 2026 21:34:21 GMT
+  summary: The Latin American nation's cybersecurity plan — still in the expansion
+    phase — has to survive its own knockout round during the FIFA World Cup.
+  source: Dark Reading
+- title: New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing
+    Botnet Malware
+  link: https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html
+  published: Wed, 08 Jul 2026 20:37:24 +0530
+  summary: 'AI coding assistants have a habit of making things up. Ask one to fetch
+    a popular tool, and it will sometimes hand back a real-sounding name for a project
+    that does not exist. New research, which its authors call HalluSquatting, turns
+    that habit into an attack: work out the fake names an AI reliably invents, register
+    them first, and wait for the assistant to fetch your trap on a user''s'
+  source: The Hacker News
+- title: Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours
+  link: https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment
+  published: Wed, 08 Jul 2026 20:32:22 GMT
+  summary: The attacker exploited AI workflows, chained cloud weaknesses, and stolen
+    credentials to extort a large Amazon customer.
+  source: Dark Reading
+- title: Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect,
+    and OS
+  link: https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html
+  published: Wed, 08 Jul 2026 20:08:05 +0530
+  summary: 'Ubiquiti has shipped updates to address multiple critical security flaws
+    impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS
+    that could result in privilege escalation and arbitrary command execution. The
+    list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An
+    improper access control vulnerability in UniFi Connect Application that an attacker'
+  source: The Hacker News
+- title: New Ghost Phishing Wave Is Breaking Traditional Email Security
+  link: https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html
+  published: Wed, 08 Jul 2026 18:30:00 +0530
+  summary: 'A recent EvilTokens campaign targeting businesses across the US and Europe
+    is exposing a new email security blind spot. This “ghost phishing” technique keeps
+    the malicious page hidden until it decrypts and comes to life inside the victim’s
+    browser. For security leaders, the risk is clear: traditional URL checks may miss
+    the attack while Microsoft 365 access, sensitive data, and response time'
+  source: The Hacker News
+- title: SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users
+  link: https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html
+  published: Wed, 08 Jul 2026 18:22:15 +0530
+  summary: A new banking fraudulent operation is targeting customers of Mexican banks,
+    fintech, payment processors, and cryptocurrency exchanges using ClickFix lures.
+    The activity cluster, tracked by Elastic Security Labs under the moniker REF6045,
+    involves infecting victims through fake CAPTCHA verification pages that deceive
+    them into running a malicious command that installs a PowerShell toolkit dubbed
+  source: The Hacker News
+- title: GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking
+    Signatures
+  link: https://thehackernews.com/2026/07/github-verified-commits-can-be.html
+  published: Wed, 08 Jul 2026 17:21:24 +0530
+  summary: New research shows that a signed Git commit's hash is not the one-of-a-kind
+    name that much of the software world assumes it to be. Given any signed commit,
+    someone without the signing key can mint a second commit with the same files,
+    author, and date, and a valid signature, GitHub still stamps "Verified." Everything
+    a reviewer would check matches. The commit's hash does not. That matters
+  source: The Hacker News
+- title: The Verification Step Is the New ATO Battleground in 2026
+  link: https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html
+  published: Wed, 08 Jul 2026 17:00:00 +0530
+  summary: For years, account takeover (ATO) followed a predictable script. Attackers
+    bought stolen credentials in bulk, ran them through automated tools, and waited
+    for matches. Credential stuffing was cheap, scalable, and for defenders, relatively
+    well understood. That era is ending. Not because attackers gave up, but because
+    the front door finally got harder to kick in. Passkeys are now mainstream.
+  source: The Hacker News
+- title: GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code
+  link: https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html
+  published: Wed, 08 Jul 2026 16:51:07 +0530
+  summary: An AI coding assistant that refuses to answer a dangerous request in its
+    chat box can answer it anyway if the same request is broken into small, ordinary-looking
+    steps inside a code editor. That is the finding of a new study of GitHub Copilot by
+    researchers Abhishek Kumar and Carsten Maple. The models they tested through Copilot,
+    Claude from Anthropic, and Gemini from Google, refused
+  source: The Hacker News
+- title: Vidar Infostealer Hammers SMBs via Malvertising Campaign
+  link: https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign
+  published: Wed, 08 Jul 2026 16:45:54 GMT
+  summary: A financially motivated operation uses lures of cracked or pirated software
+    to deliver a malware two-for-one combo for data theft and cryptomining.
+  source: Dark Reading
+- title: China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware
+  link: https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html
+  published: Wed, 08 Jul 2026 14:34:33 +0530
+  summary: A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke
+    malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing
+    networking devices. According to findings from Cisco Talos, UAT-7810 is an advanced
+    persistent threat (APT) actor that's responsible for maintaining and proliferating
+    LapDogs, an ORB network that first came to light in June 2025.
+  source: The Hacker News
+- title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
+  link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
+  published: Wed, 08 Jul 2026 12:31:39 +0000
+  summary: A cybersecurity startup dangling millions of dollars to acquire zero-day
+    security vulnerabilities in popular software is run by a pair of far-right conspiracy
+    theorists and convicted felons whose most recent ventures included fake intelligence
+    companies and a now-defunct AI-based lobbying platform they operated under assumed
+    names.
+  source: Krebs on Security
+- title: 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux
+    Distros
+  link: https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+  published: Wed, 08 Jul 2026 11:46:44 +0530
+  summary: Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499),
+    a 15-year-old Linux kernel flaw that lets any logged-in user take full root control
+    of a machine that has not been patched. The vulnerable code has shipped by default
+    in essentially every mainstream distribution since 2011. The flaw needs no special
+    permission, no unusual settings, and no network
+  source: The Hacker News
+- title: CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV
+  link: https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
+  published: Wed, 08 Jul 2026 11:03:12 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog,
+    citing evidence of active exploitation. The vulnerabilities are listed below -
+    CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion
+    that could lead to arbitrary code execution in the context of the'
+  source: The Hacker News
+- title: My Stack Simulator, (Wed, Jul 8th)
+  link: https://isc.sans.edu/diary/rss/33138
+  published: Wed, 08 Jul 2026 08:09:03 GMT
+  summary: "The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like\
+    \ local variables and return addresses. Think of the stack as a pile of plates\
+    \ in your kitchen: you can only add a new plate to the top, and you can only take\
+    \ one away from the top too. Programs use this same \"last in, first out\" principle\
+    \ to keep track of what they&#;x26;#;39;re doing. Every time a function is called,\
+    \ the program pushes a new plate onto the stack containing things like local variables\
+    \ and the address to return to once the function finishes. When the function is\
+    \ done, that plate is popped off the top, and execution resumes exactly where\
+    \ it left off. This simple mechanism is what allows programs to call functions\
+    \ within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but\
+    \ it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten\
+    \ with unexpected data, becomes a favorite target for attackers looking to hijack\
+    \ a program&#;x26;#;39;s execution flow.\r"
+  source: SANS Internet Storm Center
+- title: 'State IDs for AI Agents: Will Estonia Set a Precedent?'
+  link: https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia
+  published: Wed, 08 Jul 2026 08:01:00 GMT
+  summary: The world's digital testing ground plans to help people use AI agents for
+    government purposes.
+  source: Dark Reading
 - title: ISC Stormcast For Wednesday, July 8th, 2026 https://isc.sans.edu/podcastdetail/9998,
     (Wed, Jul 8th)
   link: https://isc.sans.edu/diary/rss/33136
   published: Wed, 08 Jul 2026 02:00:02 GMT
   summary: ''
   source: SANS Internet Storm Center
-- title: SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT
-  link: https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html
-  published: Wed, 01 Jul 2026 23:23:06 +0530
-  summary: Unknown threat actors are leveraging the ScreenConnect remote access tool
-    as a way to deploy and execute AsyncRAT. Kaspersky said the activity is part of
-    a "massive, multi-domain, multi-language" campaign that distributes malicious
-    installer archives hosted on spoofed websites. These installers masquerade as
-    popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam, among
-    others.
-  source: The Hacker News
-- title: VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer
-  link: https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html
-  published: Wed, 01 Jul 2026 22:48:50 +0530
-  summary: Cybersecurity researchers have flagged a new multi-stage malware delivery
-    attack chain that uses social engineering and Blogger pages to deliver an information
-    stealer called PureLogs. The activity has been codenamed VEIL#DROP by Securonix.
-    It's suspected that the initial payloads are distributed either via spear-phishing
-    or a drive-by compromise, which occurs when an unsuspecting user lands on
-  source: The Hacker News
-- title: Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures
-  link: https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html
-  published: Wed, 01 Jul 2026 20:56:55 +0530
-  summary: 'A Brazilian banking trojan called Ousaban is going after Windows users
-    who bank in Spain and Portugal. Fortinet''s FortiGuard Labs identified the campaign
-    in May 2026. It opens with a phishing PDF disguised as a corrupted file, checks
-    that the visitor is really in Spain or Portugal, and hides its real payload inside
-    an image. The goal is the usual one: steal banking logins and take'
-  source: The Hacker News
-- title: Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic
-  link: https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html
-  published: Wed, 01 Jul 2026 20:55:46 +0530
-  summary: Adobe has released patches for multiple maximum-severity security flaws
-    impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates
-    "resolves critical and important vulnerabilities that could lead to arbitrary
-    code execution, privilege escalation, arbitrary file system read, and security
-    feature bypass," Adobe said in an alert released Tuesday. The vulnerabilities
-    are listed
-  source: The Hacker News
 - title: Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS
   link: https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os
   published: Wed, 01 Jul 2026 20:31:21 GMT
   summary: Attackers fingerprint victims through user-agent data to deliver OS-specific
     payloads, increasing compromise rates and campaign profitability.
   source: Dark Reading
-- title: Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands
-  link: https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html
-  published: Wed, 01 Jul 2026 20:12:54 +0530
-  summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking
-    prompt break out of the editor's safety sandbox and run any command on a developer's
-    computer. There is no click to fall for and no approval box to ignore. Cato AI
-    Labs found the pair and named them DuneSlide. They are tracked as CVE-2026-50548 and CVE-2026-50549,
-    both rated 9.8 out of 10 (or 9.3
-  source: The Hacker News
 - title: And the Winner in Dominant Malware Delivery? ClickFix
   link: https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix
   published: Wed, 01 Jul 2026 19:46:34 GMT
   summary: Researchers say the highly effective social engineering technique is no
     longer the exception for malware attacks — it's now the rule.
   source: Dark Reading
-- title: Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts
-  link: https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html
-  published: Wed, 01 Jul 2026 19:26:18 +0530
-  summary: 'A recently disclosed critical security flaw impacting Progress Kemp LoadMaster
-    is seeing active exploitation attempts, according to an advisory from eSentire''s
-    Threat Response Unit (TRU). The Canadian cybersecurity company said it identified
-    exploitation attempts targeting CVE-2026-8037 (CVSS score: 9.6), an operating
-    system (OS) command injection flaw that could be exploited to achieve'
-  source: The Hacker News
-- title: AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS,
-    Android
-  link: https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html
-  published: Wed, 01 Jul 2026 18:29:19 +0530
-  summary: Cybersecurity researchers have flagged a new malware artifact generated
-    using DeepSeek that constructed a novel attack path combining "unrealistic browser-malware
-    concepts with a real browser capability" to turn it into a working ransomware
-    technique that runs entirely inside the browser on both Windows and Android devices.
-    "This is the first documented case where a frontier AI model
-  source: The Hacker News
-- title: '2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience'
-  link: https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html
-  published: Wed, 01 Jul 2026 17:00:00 +0530
-  summary: Organizations have never had greater awareness of cyber risk. Yet turning
-    that awareness into operational resilience has never been more challenging. The
-    2026 Bitdefender Cybersecurity Assessment confirms this is the case, as this year's
-    findings reveal a series of surprising contradictions. Here are a few examples,
-    based on the independent survey of 1,200 IT and cybersecurity professionals
-  source: The Hacker News
-- title: Microsoft Accelerates Post-Quantum Cryptography Shift to 2029
-  link: https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html
-  published: Wed, 01 Jul 2026 16:11:36 +0530
-  summary: Microsoft on Tuesday said it's accelerating its quantum safe security roadmap,
-    stating technology advances in quantum computing are making it essential to replace
-    existing encryption standards sooner than previously expected. "Advances in quantum
-    research and development have shifted the risk horizon," Mark Russinovich, chief
-    technology officer of Microsoft Azure, said. "We believe
-  source: The Hacker News
 - title: When Too Much Security Data Becomes the Risk
   link: https://www.darkreading.com/cyber-risk/too-much-security-data-risk
   published: Wed, 01 Jul 2026 15:44:41 GMT
@@ -163,15 +227,6 @@ items:
   summary: Planning ahead to defend against cyber threats is the work that keeps events
     uneventful.
   source: Dark Reading
-- title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-  link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  published: Wed, 01 Jul 2026 12:50:51 +0530
-  summary: Large language models keep inventing web addresses that do not exist. Attackers
-    have started buying those made-up domains before anyone else can, then hosting
-    phishing pages on them to catch traffic that AI tools point their way. Palo Alto
-    Networks' Unit 42 calls the trick phantom squatting, and its new research shows
-    it is already happening in the wild. The reason it matters is
-  source: The Hacker News
 - title: 'Martin Lee: Running through the Arctic (and the threat landscape)'
   link: https://blog.talosintelligence.com/martin-lee-running-through-the-arctic-and-the-threat-landscape/
   published: Wed, 01 Jul 2026 10:00:57 GMT
@@ -195,12 +250,6 @@ items:
     \ mobile app, that lets users store, send, and receive crypto money. It's pretty\
     \ popular, so a juicy target for criminals. In February, I already mentioned a\
     \ campaign against them[2].\r"
-  source: SANS Internet Storm Center
-- title: ISC Stormcast For Wednesday, July 1st, 2026 https://isc.sans.edu/podcastdetail/9990,
-    (Wed, Jul 1st)
-  link: https://isc.sans.edu/diary/rss/33116
-  published: Wed, 01 Jul 2026 02:00:03 GMT
-  summary: ''
   source: SANS Internet Storm Center
 - title: China-Linked Group Targets Southeast Asia Critical Systems
   link: https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems
@@ -241,32 +290,6 @@ items:
   summary: Teams are dealing with a truly dangerous problem — automation that works,
     but that no one understands.
   source: Dark Reading
-- title: June 2026 Apple Updates, (Tue, Jun 30th)
-  link: https://isc.sans.edu/diary/rss/33114
-  published: Tue, 30 Jun 2026 09:31:27 GMT
-  summary: "Apple released updates for iOS/iPadOS, macOS, and Safari on Monday. There\
-    \ have been no updates for other Apple operating systems (visionOS, watchOS, tvOS).\
-    \ Usually, Apple updates all products at the same time.\r"
-  source: SANS Internet Storm Center
-- title: ISC Stormcast For Tuesday, June 30th, 2026 https://isc.sans.edu/podcastdetail/9988,
-    (Tue, Jun 30th)
-  link: https://isc.sans.edu/diary/rss/33112
-  published: Tue, 30 Jun 2026 02:25:12 GMT
-  summary: ''
-  source: SANS Internet Storm Center
-- title: Scope of Salesforce Attacks Expands as Icarus Leaks Data
-  link: https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data
-  published: Tue, 23 Jun 2026 20:44:09 GMT
-  summary: More victims have emerged after attackers breached application vendor Klue
-    and used its OAuth tokens to steal customers' Salesforce data.
-  source: Dark Reading
-- title: '''Cordyceps'': Mushrooming Malicious Pull Requests Threaten Developer Workflows'
-  link: https://www.darkreading.com/application-security/cordyceps-malicious-pull-requests-developer-workflows
-  published: Tue, 23 Jun 2026 19:16:42 GMT
-  summary: The CI/CD workflow weakness affects Microsoft's Azure Sentinel, Google's
-    AI Agent Development Kit, Apache's Doris analytics database, Cloudflare's Workers
-    SDK, and Python Software Foundation's Black.
-  source: Dark Reading
 - title: Scattered Spider Hackers Plead Guilty on Day 1 of Trial
   link: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
   published: Tue, 23 Jun 2026 16:12:49 +0000
@@ -277,13 +300,6 @@ items:
     and their guilty pleas came on the first day of what was expected to be a six-week
     trial.
   source: Krebs on Security
-- title: SocGholish Takedown Highlights Malicious TDS Threats
-  link: https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats
-  published: Tue, 23 Jun 2026 13:51:33 GMT
-  summary: SocGholish uses traffic distribution systems (TDSs) to provide initial
-    access into victims' networks for cybercrime groups such as the notorious Evil
-    Corp.
-  source: Dark Reading
 - title: A Record-Breaking Patch Tuesday for June 2026
   link: https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/
   published: Tue, 09 Jun 2026 22:07:28 +0000
@@ -550,6 +566,46 @@ items:
     inspired by a hilarious lesson about why your digital privacy shouldn't be left
     on an open channel.
   source: Cisco Talos
+- title: Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It
+  link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
+  published: Thu, 09 Jul 2026 10:45:02 +0530
+  summary: Ask an AI coding agent to scan open-source code for security holes, and
+    it might run the attacker's code on your own machine instead. That is the finding
+    in a proof-of-concept published Wednesday by the AI Now Institute, an attack it
+    calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex
+    when either is running in an autonomous mode that approves its own
+  source: The Hacker News
+- title: GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding
+    Agents
+  link: https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html
+  published: Thu, 09 Jul 2026 09:57:18 +0530
+  summary: Researchers at Wiz found that a flaw in six popular AI coding assistants
+    lets a booby-trapped code project quietly take control of a developer's computer.
+    The assistant asks permission to edit one harmless-looking file, but the write
+    lands on a sensitive one instead. The affected tools are Amazon Q Developer, Anthropic's
+    Claude Code, Augment, Cursor, Google Antigravity, and Windsurf.
+  source: The Hacker News
+- title: Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes
+  link: https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html
+  published: Thu, 09 Jul 2026 09:31:49 +0530
+  summary: Cybersecurity researchers have disclosed details of a new threat actor
+    dubbed Lurking Lizard that has been operating an end-to-end malicious residential
+    proxy business using an infrastructure comprising more than 230 lookalike domains.
+    The activity dates back to at least August 2022, according to DNS threat intelligence
+    firm Infoblox. Once such campaign, observed earlier this year, involved the
+  source: The Hacker News
+- title: ISC Stormcast For Thursday, July 9th, 2026 https://isc.sans.edu/podcastdetail/10000,
+    (Thu, Jul 9th)
+  link: https://isc.sans.edu/diary/rss/33140
+  published: Thu, 09 Jul 2026 02:00:02 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: _HELP_ME_ESCAPE_FROM_BELARUS_PLEASE_ [Guest Diary], (Tue, Jul 7th)
+  link: https://isc.sans.edu/diary/rss/33130
+  published: Thu, 09 Jul 2026 01:20:02 GMT
+  summary: "[This is a Guest Diary by Jason Callahan, an ISC intern as part of the\
+    \ SANS.edu BACS program]\r"
+  source: SANS Internet Storm Center
 - title: 'Reporting from Vegas: Networking, AI, and good boys'
   link: https://blog.talosintelligence.com/reporting-from-vegas-networking-ai-and-good-boys/
   published: Thu, 04 Jun 2026 18:00:59 GMT
@@ -660,15 +716,6 @@ items:
     FortiBleed's infrastructure was found actively working negotiation panels for
     both groups, tying mass FortiGate credential theft directly to ransomware deployment
   source: The Hacker News
-- title: New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos
-  link: https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
-  published: Thu, 02 Jul 2026 12:54:23 +0530
-  summary: Attackers are hiding a data-stealing trojan inside fake exploit code aimed
-    at the people who hunt bugs for a living. The malware, called ChocoPoC, travels
-    in Python proof-of-concept (PoC) repositories on GitHub that claim to exploit
-    hot new CVEs. Run one, and it quietly lifts your saved passwords, browser cookies,
-    and files, then hands the attacker a shell on your machine. YesWeHack and
-  source: The Hacker News
 - title: Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them.
   link: https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-
   published: Thu, 02 Jul 2026 12:33:57 GMT
@@ -676,40 +723,12 @@ items:
     as Anthropic's Mythos findings ignite debate over how to secure the open source
     software supply chain.
   source: Dark Reading
-- title: SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation
-  link: https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
-  published: Thu, 02 Jul 2026 11:16:45 +0530
-  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
-    added a high-severity flaw impacting Microsoft SharePoint Server to its Known
-    Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
-    The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote
-    code execution arising from the deserialization of untrusted data. The issue'
-  source: The Hacker News
 - title: ISC Stormcast For Thursday, July 2nd, 2026 https://isc.sans.edu/podcastdetail/9992,
     (Thu, Jul 2nd)
   link: https://isc.sans.edu/diary/rss/33120
   published: Thu, 02 Jul 2026 02:00:02 GMT
   summary: ''
   source: SANS Internet Storm Center
-- title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes
-    Clusters
-  link: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
-  published: Thu, 02 Jul 2026 01:10:06 +0530
-  summary: Argo CD, a widely used tool for deploying software to Kubernetes, has an
-    unpatched flaw in its repo-server component that lets an unauthenticated attacker
-    run code, provided they can reach the component's internal network port. Synacktiv,
-    which found the bug, says it can lead to a full cluster takeover. There is no
-    fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in
-  source: The Hacker News
-- title: 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges
-  link: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
-  published: Thu, 02 Jul 2026 00:58:07 +0530
-  summary: A teenager accused of belonging to the hacking group Scattered Spider has
-    been extradited from Finland to face U.S. charges of conspiracy, computer intrusion,
-    and fraud, the U.S. Department of Justice announced on July 1. Peter Stokes, 19,
-    a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June
-    30, where a judge ordered him held in custody. Finnish police
-  source: The Hacker News
 - title: Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk
   link: https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk
   published: Sat, 27 Jun 2026 11:48:05 GMT
@@ -770,11 +789,4 @@ items:
   summary: The National Institute of Standards and Technology (NIST) scaled back the
     number of CVEs it selects for in-depth analysis, but the move has produced mixed
     results, according to researchers.
-  source: Dark Reading
-- title: '''Djinn'' Stealer Targets Cloud, AI Credentials'
-  link: https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
-  published: Mon, 29 Jun 2026 21:29:15 GMT
-  summary: The infostealer was delivered via CVE-2026-48558, a critical authentication
-    bypass vulnerability in SimpleHelp, targeting credentials linking development
-    and admin environments to wider enterprise systems.
   source: Dark Reading
