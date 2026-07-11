@@ -1,4 +1,4 @@
-last_updated: '2026-07-10T06:00:11Z'
+last_updated: '2026-07-11T05:10:16Z'
 count: 100
 items:
 - title: Who Runs the Ransomware Group ‘The Gentlemen?’
@@ -141,23 +141,6 @@ items:
     CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion
     that could lead to arbitrary code execution in the context of the'
   source: The Hacker News
-- title: My Stack Simulator, (Wed, Jul 8th)
-  link: https://isc.sans.edu/diary/rss/33138
-  published: Wed, 08 Jul 2026 08:09:03 GMT
-  summary: "The stack is a memory region where a program stores temporary data -&#;x26;#;xc2;&#;x26;#;xa0;like\
-    \ local variables and return addresses. Think of the stack as a pile of plates\
-    \ in your kitchen: you can only add a new plate to the top, and you can only take\
-    \ one away from the top too. Programs use this same \"last in, first out\" principle\
-    \ to keep track of what they&#;x26;#;39;re doing. Every time a function is called,\
-    \ the program pushes a new plate onto the stack containing things like local variables\
-    \ and the address to return to once the function finishes. When the function is\
-    \ done, that plate is popped off the top, and execution resumes exactly where\
-    \ it left off. This simple mechanism is what allows programs to call functions\
-    \ within functions within functions, and always find their way back -&#;x26;#;xc2;&#;x26;#;xa0;but\
-    \ it&#;x26;#;39;s also precisely why a stack that grows too large, or gets overwritten\
-    \ with unexpected data, becomes a favorite target for attackers looking to hijack\
-    \ a program&#;x26;#;39;s execution flow.\r"
-  source: SANS Internet Storm Center
 - title: 'State IDs for AI Agents: Will Estonia Set a Precedent?'
   link: https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia
   published: Wed, 08 Jul 2026 08:01:00 GMT
@@ -420,25 +403,6 @@ items:
     activity, which has primarily singled out IT providers and government sectors,
     has been attributed to a threat cluster tracked by Check Point Research
   source: The Hacker News
-- title: Robinhood Cuts Access Approval Time to Support High-Velocity Development
-  link: https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development
-  published: Thu, 25 Jun 2026 22:42:36 GMT
-  summary: The fintech company's engineering-first application security team reengineered
-    the process for granting system access, making it easier and more secure for developers
-    working on their projects. Here are the lessons learned from Robinhood's experience.
-  source: Dark Reading
-- title: In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw
-  link: https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw
-  published: Thu, 25 Jun 2026 21:54:34 GMT
-  summary: The flaw enables server-side request forgery (SSRF) and escalates privileges
-    to root, impacting Cisco Unified CM and Unified CM SME deployments.
-  source: Dark Reading
-- title: Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses
-  link: https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense
-  published: Thu, 25 Jun 2026 21:12:01 GMT
-  summary: The FSB state-sponsored operation has gotten a lot better at loading its
-    malware and hiding its servers.
-  source: Dark Reading
 - title: 'Beyond IOCs: AI-enabled threat intelligence'
   link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
   published: Thu, 25 Jun 2026 18:00:26 GMT
@@ -540,11 +504,11 @@ items:
     (PoC) exploit for the Windows Defender vulnerability in early June after dropping
     several other Microsoft zero-days.
   source: Dark Reading
-- title: AI Agents Are a New Kind of Identity & Most Organizations Aren't Ready
+- title: AI Agents Are a New Kind of Identity — and Most Organizations Aren't Ready
   link: https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready
   published: Thu, 09 Jul 2026 19:16:02 GMT
-  summary: If you're handling them like a service account or API token, consider yourself
-    behind. AI agents need a fundamentally different approach.
+  summary: If you're handling AI agents like a service account or API token, consider
+    yourself behind. AI agents need a fundamentally different approach.
   source: Dark Reading
 - title: WolfSSL, GeoVision, VTK vulnerabilities
   link: https://blog.talosintelligence.com/wolfssl-vulnerabilities/
@@ -589,10 +553,10 @@ items:
     Hunter Team from Symantec, the ransomware was first publicly spotted in the wild
     on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware,
   source: The Hacker News
-- title: As Global Conflicts Go Digital, Businesses Need Wartime Gameplans
+- title: As Global Conflicts Go Digital, Businesses Need Wartime Game Plans
   link: https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans
   published: Thu, 09 Jul 2026 14:31:20 GMT
-  summary: The fate of a Ukrainian tax software company shows how modern cyberwarfare
+  summary: The fate of a Ukrainian tax software company shows how modern cyber warfare
     can claim casualties far beyond the battlefield, and how businesses across the
     ocean still need to protect themselves.
   source: Dark Reading
@@ -744,54 +708,79 @@ items:
     as Anthropic's Mythos findings ignite debate over how to secure the open source
     software supply chain.
   source: Dark Reading
-- title: ISC Stormcast For Thursday, July 2nd, 2026 https://isc.sans.edu/podcastdetail/9992,
-    (Thu, Jul 2nd)
-  link: https://isc.sans.edu/diary/rss/33120
-  published: Thu, 02 Jul 2026 02:00:02 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk
   link: https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk
   published: Sat, 27 Jun 2026 11:48:05 GMT
   summary: Rising threats from third-party actors are forcing institutions to play
     defense to protect student data from ransomware and other attacks.
   source: Dark Reading
-- title: U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
-  link: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
-  published: Sat, 04 Jul 2026 18:17:53 +0530
-  summary: 'A U.S. government entity paid about $1 million to keep stolen files from
-    being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC,
-    built on a leaked negotiation chat and the blockchain trail the payment left.
-    The odd part: the group that took the money calls itself Kairos, but it may not
-    be a ransomware gang at all. Krishnan found no sign that it ever locked a single'
+- title: NIST Enrichment Reductions Impact CVE Coverage, Accuracy
+  link: https://www.darkreading.com/vulnerabilities-threats/nist-enrichment-reductions-cve-coverage-accuracy
+  published: Mon, 29 Jun 2026 22:46:45 GMT
+  summary: The National Institute of Standards and Technology (NIST) scaled back the
+    number of CVEs it selects for in-depth analysis, but the move has produced mixed
+    results, according to researchers.
+  source: Dark Reading
+- title: '''Djinn'' Stealer Targets Cloud, AI Credentials'
+  link: https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
+  published: Mon, 29 Jun 2026 21:29:15 GMT
+  summary: The infostealer was delivered via CVE-2026-48558, a critical authentication
+    bypass vulnerability in SimpleHelp, targeting credentials linking development
+    and admin environments to wider enterprise systems.
+  source: Dark Reading
+- title: Vulnerabilities Expose Private Data in Indian Government Systems
+  link: https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems
+  published: Mon, 29 Jun 2026 21:05:29 GMT
+  summary: One critical vulnerability, among many discovered by a researcher, could
+    have allowed anyone to walk in and take over a national government portal.
+  source: Dark Reading
+- title: Can Clothes Make You Invisible to Facial Recognition?
+  link: https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition
+  published: Mon, 29 Jun 2026 19:38:04 GMT
+  summary: 'Does life feel Orwellian sometimes? One researcher has a solution for
+    you: graphic tees that confuse the neural networks in surveillance cameras.'
+  source: Dark Reading
+- title: Iran, Russia, China Target Water Systems for Sabotage
+  link: https://www.darkreading.com/ics-ot-security/iran-russia-china-target-water-systems-sabotage
+  published: Mon, 29 Jun 2026 19:12:08 GMT
+  summary: Nation-state attackers breach water systems through weak passwords, exposed
+    PLCs, and poor segmentation — not sophisticated malware.
+  source: Dark Reading
+- title: Amazon Q VS Extension Flaw Leads to Cloud Credential Theft
+  link: https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft
+  published: Mon, 29 Jun 2026 11:44:42 GMT
+  summary: Adversaries could plant a malicious repository that can execute arbitrary
+    code and steal cloud credentials by exploiting the vulnerability, which showcases
+    growing MCP risk.
+  source: Dark Reading
+- title: Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
+  link: https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
+  published: Mon, 25 May 2026 13:21:49 +0000
+  summary: Authorities in the Netherlands have arrested the co-owners of two related
+    Internet hosting companies for operating IT infrastructure used by Russia to carry
+    out cyberattacks, influence operations and disinformation campaigns inside the
+    European Union. The two men were the focus of a 2025 KrebsOnSecurity story about
+    how their hosting companies had assumed control over the technical infrastructure
+    of Stark Industries Solutions, an Internet service provider sanctioned last year
+    by the EU as a frequent staging ground for cyber mischief from Russia's intelligence
+    agencies.
+  source: Krebs on Security
+- title: 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD
+    x86 Systems
+  link: https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
+  published: Mon, 06 Jul 2026 23:07:01 +0530
+  summary: A use-after-free bug in Linux's KVM hypervisor can be triggered from a
+    guest virtual machine to corrupt the shadow-page state of the host kernel that
+    runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the
+    shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept
+    panics the host; the researcher claims that a separate, unreleased exploit
   source: The Hacker News
-- title: North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider
-    Campaign
-  link: https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
-  published: Sat, 04 Jul 2026 16:47:24 +0530
-  summary: The North Korean threat actors linked to the Contagious Interview campaign
-    have been observed publishing 108 unique packages and web browser extensions spanning
-    npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred
-    to as PolinRider. "The campaign remains active, and new malicious packages are
-    likely to continue appearing as threat actors compromise maintainer accounts,
-  source: The Hacker News
-- title: Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded
-    Devices
-  link: https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
-  published: Sat, 04 Jul 2026 01:49:31 +0530
-  summary: Security firm runZero has disclosed seven vulnerabilities in FatFs, a small
-    filesystem library that lets a device read and write the FAT and exFAT formats
-    used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere.
-    It ships inside the firmware that runs security cameras, drones, industrial controllers,
-    hardware crypto wallets, and other devices built on
-  source: The Hacker News
-- title: New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits
-    Android
-  link: https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
-  published: Sat, 04 Jul 2026 01:10:01 +0530
-  summary: A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets
-    an ordinary user with no special access take full control of a machine as root.
-    It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits
-    in the same small stretch of kernel code where Anthropic's most powerful AI model,
-    Mythos, recently found a different bug. The AI caught one flaw and missed
+- title: Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure
+  link: https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
+  published: Mon, 06 Jul 2026 21:58:59 +0530
+  summary: 'Threat actors have been observed attempting to exploit a recently patched
+    critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability
+    in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from
+    the DevOps platform trusting the "X-WEBAUTH-USER" header from any source IP address,
+    effectively allowing an unauthenticated internet client to get elevated'
   source: The Hacker News
