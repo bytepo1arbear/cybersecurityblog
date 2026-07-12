@@ -1,4 +1,4 @@
-last_updated: '2026-07-11T05:10:16Z'
+last_updated: '2026-07-12T05:23:57Z'
 count: 100
 items:
 - title: Who Runs the Ransomware Group ‘The Gentlemen?’
@@ -714,6 +714,39 @@ items:
   summary: Rising threats from third-party actors are forcing institutions to play
     defense to protect student data from ransomware and other attacks.
   source: Dark Reading
+- title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+  link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+  published: Sat, 11 Jul 2026 23:29:26 +0530
+  summary: The jscrambler npm package was compromised, and simply installing its 8.14.0 release
+    runs an infostealer on your machine. Published on July 11, 2026, the malicious
+    version carries a preinstall hook that drops and executes a native binary, one
+    build each for Windows, macOS, and Linux. Socket flagged the release six minutes
+    after it was published. If you or one of your
+  source: The Hacker News
+- title: Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
+  link: https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html
+  published: Sat, 11 Jul 2026 23:19:31 +0530
+  summary: Cybersecurity researchers have disclosed details of sustained cyber espionage
+    activity against several Pakistani law enforcement organizations undertaken by
+    suspected China- and India-aligned threat actors between February 2024 and April
+    2026. "At Balochistan Police, the compromised assets included servers hosting
+    web applications that manage police and citizen data, such as criminal and
+  source: The Hacker News
+- title: Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User
+    Sessions
+  link: https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html
+  published: Sat, 11 Jul 2026 12:15:55 +0530
+  summary: Zimbra is urging customers to apply updates to address a critical security
+    vulnerability impacting the Classic Web Client that could result in arbitrary
+    code execution. The vulnerability has been described as a case of stored cross-site
+    scripting (XSS) that could allow specially crafted emails to execute malicious
+    scripts in a user's session. It has yet to be assigned a CVE identifier. "The
+  source: The Hacker News
+- title: Wireshark 4.6.7 Released, (Sat, Jul 11th)
+  link: https://isc.sans.edu/diary/rss/33146
+  published: Sat, 11 Jul 2026 09:07:06 GMT
+  summary: "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.\r"
+  source: SANS Internet Storm Center
 - title: NIST Enrichment Reductions Impact CVE Coverage, Accuracy
   link: https://www.darkreading.com/vulnerabilities-threats/nist-enrichment-reductions-cve-coverage-accuracy
   published: Mon, 29 Jun 2026 22:46:45 GMT
@@ -746,41 +779,3 @@ items:
   summary: Nation-state attackers breach water systems through weak passwords, exposed
     PLCs, and poor segmentation — not sophisticated malware.
   source: Dark Reading
-- title: Amazon Q VS Extension Flaw Leads to Cloud Credential Theft
-  link: https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft
-  published: Mon, 29 Jun 2026 11:44:42 GMT
-  summary: Adversaries could plant a malicious repository that can execute arbitrary
-    code and steal cloud credentials by exploiting the vulnerability, which showcases
-    growing MCP risk.
-  source: Dark Reading
-- title: Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
-  link: https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
-  published: Mon, 25 May 2026 13:21:49 +0000
-  summary: Authorities in the Netherlands have arrested the co-owners of two related
-    Internet hosting companies for operating IT infrastructure used by Russia to carry
-    out cyberattacks, influence operations and disinformation campaigns inside the
-    European Union. The two men were the focus of a 2025 KrebsOnSecurity story about
-    how their hosting companies had assumed control over the technical infrastructure
-    of Stark Industries Solutions, an Internet service provider sanctioned last year
-    by the EU as a frequent staging ground for cyber mischief from Russia's intelligence
-    agencies.
-  source: Krebs on Security
-- title: 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD
-    x86 Systems
-  link: https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
-  published: Mon, 06 Jul 2026 23:07:01 +0530
-  summary: A use-after-free bug in Linux's KVM hypervisor can be triggered from a
-    guest virtual machine to corrupt the shadow-page state of the host kernel that
-    runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the
-    shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept
-    panics the host; the researcher claims that a separate, unreleased exploit
-  source: The Hacker News
-- title: Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure
-  link: https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
-  published: Mon, 06 Jul 2026 21:58:59 +0530
-  summary: 'Threat actors have been observed attempting to exploit a recently patched
-    critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability
-    in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from
-    the DevOps platform trusting the "X-WEBAUTH-USER" header from any source IP address,
-    effectively allowing an unauthenticated internet client to get elevated'
-  source: The Hacker News
