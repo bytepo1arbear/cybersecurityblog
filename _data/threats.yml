@@ -1,4 +1,4 @@
-last_updated: '2026-07-12T05:23:57Z'
+last_updated: '2026-07-13T05:33:44Z'
 count: 100
 items:
 - title: Who Runs the Ransomware Group ‘The Gentlemen?’
@@ -388,12 +388,6 @@ items:
   summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues
     to develop their custom-made malware.
   source: Cisco Talos
-- title: ISC Stormcast For Tuesday, July 7th, 2026 https://isc.sans.edu/podcastdetail/9996,
-    (Tue, Jul 7th)
-  link: https://isc.sans.edu/diary/rss/33126
-  published: Tue, 07 Jul 2026 02:00:02 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations
   link: https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
   published: Tue, 07 Jul 2026 00:04:26 +0530
@@ -618,7 +612,7 @@ items:
     dubbed Lurking Lizard that has been operating an end-to-end malicious residential
     proxy business using an infrastructure comprising more than 230 lookalike domains.
     The activity dates back to at least August 2022, according to DNS threat intelligence
-    firm Infoblox. Once such campaign, observed earlier this year, involved the
+    firm Infoblox. One such campaign, observed earlier this year, involved the
   source: The Hacker News
 - title: European Organizations Have a Collaboration Security Confidence Gap
   link: https://www.darkreading.com/cybersecurity-operations/european-organizations-collaboration-security-confidence-gap
@@ -778,4 +772,11 @@ items:
   published: Mon, 29 Jun 2026 19:12:08 GMT
   summary: Nation-state attackers breach water systems through weak passwords, exposed
     PLCs, and poor segmentation — not sophisticated malware.
+  source: Dark Reading
+- title: Amazon Q VS Extension Flaw Leads to Cloud Credential Theft
+  link: https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft
+  published: Mon, 29 Jun 2026 11:44:42 GMT
+  summary: Adversaries could plant a malicious repository that can execute arbitrary
+    code and steal cloud credentials by exploiting the vulnerability, which showcases
+    growing MCP risk.
   source: Dark Reading
