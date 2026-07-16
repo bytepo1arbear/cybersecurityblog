@@ -1,6 +1,127 @@
-last_updated: '2026-07-15T04:48:49Z'
+last_updated: '2026-07-16T04:57:06Z'
 count: 100
 items:
+- title: Forgotten Bootloaders Expose Secure Boot Blind Spot
+  link: https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot
+  published: Wed, 15 Jul 2026 21:19:19 GMT
+  summary: Nearly a dozen vulnerable and now revoked UEFI shim bootloaders remained
+    trusted for years, giving attackers a path to bypass Secure Boot.
+  source: Dark Reading
+- title: OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor
+    Apps
+  link: https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html
+  published: Wed, 15 Jul 2026 21:00:30 +0530
+  summary: A malware framework called OkoBot has been running on Windows machines
+    since April 2025, and one of its modules is built to con hardware wallet owners
+    out of their recovery phrase. On an infected PC, the request comes from inside
+    the wallet's own desktop software. Sometimes it waits until you plug the device
+    in first. The page is malicious. The app around it is the real one you installed,
+    and
+  source: The Hacker News
+- title: Identity Attacks Overtake Exploits as Top Ransomware Cause
+  link: https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause
+  published: Wed, 15 Jul 2026 20:16:13 GMT
+  summary: Email attacks overtook exploits as the top ransomware root cause last year.
+    Multifactor authentication (MFA) was deployed in 97% of credential-based attacks
+    but failed to prevent compromise.
+  source: Dark Reading
+- title: Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security
+    Flaws
+  link: https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html
+  published: Wed, 15 Jul 2026 18:48:53 +0530
+  summary: 'Mozilla has released updates to address two critical flaws in Firefox
+    for which it warned that exploit code has been published. The vulnerabilities
+    are listed below - CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly
+    component CVE-2026-15719, a site isolation in the DOM: Navigation component "We
+    are aware that exploit code for this is public, however we are not aware of'
+  source: The Hacker News
+- title: Guten Tag, Bonjour, Hola to Our European Cyber Defenders!
+  link: https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders
+  published: Wed, 15 Jul 2026 18:08:56 GMT
+  summary: We're thrilled to unveil the latest evolution of Dark Reading's DR Global
+    section — your go-to source for region-specific cybersecurity intelligence beyond
+    North America.
+  source: Dark Reading
+- title: SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.
+  link: https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html
+  published: Wed, 15 Jul 2026 17:20:01 +0530
+  summary: For years, routing traffic through cloud proxies was good enough. Then
+    work moved to the browser, AI entered the workflow, and the inspection model stopped
+    keeping up. Enterprise workflows now live across SaaS applications, browsers,
+    and an expanding ecosystem of generative AI tools, unsanctioned browser extensions,
+    and autonomous agents. Employees routinely paste intellectual property into
+  source: The Hacker News
+- title: Is 'Tech-xit' Imminent? UK Steps Up Sovereignty Push Amid AI Strife
+  link: https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife
+  published: Wed, 15 Jul 2026 17:03:23 GMT
+  summary: The US government's restrictions on Anthropic and OpenAI frontier models
+    have intensified calls in the UK and other countries to reduce their reliance
+    on US tech companies, with significant cyber implications.
+  source: Dark Reading
+- title: Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+  link: https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html
+  published: Wed, 15 Jul 2026 16:37:07 +0530
+  summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released
+    a new proof-of-concept (PoC) exploit called LegacyHive. It has been described
+    as a Windows User Profile Service arbitrary hive load elevation of privileges
+    vulnerability. The Windows User Profile Service, also referred to as ProfSvc,
+    is a core system component that manages user accounts and environments. "The PoC
+    requires
+  source: The Hacker News
+- title: 'New Webinar: Closing the Approval Gap in AI-Era Ad Tech'
+  link: https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html
+  published: Wed, 15 Jul 2026 16:36:57 +0530
+  summary: A single approved marketing tag can quietly load fourth-party code your
+    security team has never seen, granting full access to your forms, customer data,
+    and checkout pages. This on-demand webinar reveals how this Approval Gap forms,
+    and gives your team the blueprint to close it before an auditor, regulator, or
+    attacker finds it first. The Reality of the Approval Gap It's a pattern every
+  source: The Hacker News
+- title: Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution
+  link: https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html
+  published: Wed, 15 Jul 2026 16:25:22 +0530
+  summary: Open a repository in Cursor on Windows and, if a file named git.exe is
+    sitting in the project root, Cursor runs it. No click, no approval dialog, no
+    warning that anything in the folder is about to execute. Whatever that binary
+    does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor
+    keeps re-running it for as long as the project stays open. No prompt
+  source: The Hacker News
+- title: Claude Flaw Automatically Sends Malicious Prompts to AI Agents
+  link: https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents
+  published: Wed, 15 Jul 2026 15:27:35 GMT
+  summary: When combined with another exploit, the "PromptFiction" vulnerability,
+    which has been fixed, could have enabled an end-to-end attack on a targeted system.
+  source: Dark Reading
+- title: Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware
+  link: https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
+  published: Wed, 15 Jul 2026 14:46:13 +0530
+  summary: Four compromised npm packages in the @asyncapi namespace have been observed
+    distributing a multi-stage botnet loader, according to findings from OX Security,
+    SafeDep, Socket, and StepSecurity. The affected packages are listed below - @asyncapi/generator-helpers@1.1.1
+    @asyncapi/generator-components@0.7.1 @asyncapi/generator@3.3.1 @asyncapi/specs(v6.11.2,
+    v6.11.2-alpha.1) "The
+  source: The Hacker News
+- title: 2-Click Cursor Exploit Enables Dev Environment Takeover
+  link: https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover
+  published: Wed, 15 Jul 2026 13:00:00 GMT
+  summary: Simple age-old bugs give bad actors access to developers' secrets and source
+    code-rich environments.
+  source: Dark Reading
+- title: Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands
+  link: https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
+  published: Wed, 15 Jul 2026 11:00:21 +0530
+  summary: 'SonicWall has warned of active exploitation of two zero-day vulnerabilities
+    impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could
+    be exploited to achieve arbitrary command execution. The vulnerabilities are listed
+    below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF)
+    vulnerability that a remote unauthenticated attacker could exploit to'
+  source: The Hacker News
+- title: Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits
+  link: https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits
+  published: Wed, 15 Jul 2026 08:00:00 GMT
+  summary: The West African country advanced rules to force organizations to disclose
+    cyberattacks, joining other nations in a shift to mandated transparency.
+  source: Dark Reading
 - title: ISC Stormcast For Wednesday, July 15th, 2026 https://isc.sans.edu/podcastdetail/10008,
     (Wed, Jul 15th)
   link: https://isc.sans.edu/diary/rss/33158
@@ -24,6 +145,14 @@ items:
     \ some minor tweaks. This update currently is using ELK stack version 8.19.15,\
     \ contains some additional dashboards and new logs.\r"
   source: SANS Internet Storm Center
+- title: Cribl Adds Agentic Detection Engineering & Boosts SecOps With CardinalOps
+    Deal
+  link: https://www.darkreading.com/cybersecurity-operations/cribl-adds-agentic-detection-engineering-boosts-secops-with-cardinalops-deal
+  published: Wed, 15 Jul 2026 00:05:31 GMT
+  summary: CardinalOps will give Cribl customers the ability to map detection rules
+    and security controls to the MITRE ATT&CK framework. SecOps teams can identify
+    coverage gaps and operationalize threat intelligence.
+  source: Dark Reading
 - title: Who Runs the Ransomware Group ‘The Gentlemen?’
   link: https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
   published: Wed, 10 Jun 2026 14:03:44 +0000
@@ -91,12 +220,6 @@ items:
   summary: LLMs consistently hallucinate Web domains for legitimate brands that attackers
     can register for malicious activity in a difficult-to-detect attack vector.
   source: Dark Reading
-- title: Safe Events Start With Threat Intel & Digital Security
-  link: https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security
-  published: Wed, 01 Jul 2026 13:00:00 GMT
-  summary: Planning ahead to defend against cyber threats is the work that keeps events
-    uneventful.
-  source: Dark Reading
 - title: 'Martin Lee: Running through the Arctic (and the threat landscape)'
   link: https://blog.talosintelligence.com/martin-lee-running-through-the-arctic-and-the-threat-landscape/
   published: Wed, 01 Jul 2026 10:00:57 GMT
@@ -112,45 +235,6 @@ items:
     Primary Refresh Token persistence, email access, BEC operations, and SharePoint
     exfiltration.
   source: Cisco Talos
-- title: China-Linked Group Targets Southeast Asia Critical Systems
-  link: https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems
-  published: Wed, 01 Jul 2026 01:00:01 GMT
-  summary: The group compromised at least 10 regional organizations, including two
-    state-owned entities, and deployed a new backdoor.
-  source: Dark Reading
-- title: Fake Bug Report Hijacks AI Coding Agents at Scale
-  link: https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents
-  published: Tue, 30 Jun 2026 21:37:50 GMT
-  summary: '"Agentjacking" is the latest demonstration of how easily attackers can
-    exploit an AI agent''s inability to differentiate between content and instructions.'
-  source: Dark Reading
-- title: Attackers Seize Exposed AI Endpoints to Power Offensive Ops
-  link: https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops
-  published: Tue, 30 Jun 2026 21:01:58 GMT
-  summary: Threat actors don't need any special authentication to reach a target endpoint
-    — they just need to know where it is.
-  source: Dark Reading
-- title: Why Identity Security Is Your Cyber Career Entry Point
-  link: https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point
-  published: Tue, 30 Jun 2026 19:11:40 GMT
-  summary: In this "Heard it From a CISO" video, Silverfort CISO John Paul Cunningham
-    explains that AI in cybersecurity workflows is creating opportunities rather than
-    eliminating jobs — and there are more ways than ever to break into this essential
-    field.
-  source: Dark Reading
-- title: Phishers Gain Persistence at EU, Asia Hospitality Orgs
-  link: https://www.darkreading.com/cyberattacks-data-breaches/phishers-persistence-eu-asia-hospitality-orgs
-  published: Tue, 30 Jun 2026 18:59:46 GMT
-  summary: Separate but similar campaigns described by Microsoft and Trend Micro use
-    malicious zip files to spread malware via social engineering and obsfucation,
-    including blockchain abuse.
-  source: Dark Reading
-- title: AI-Generated Workflows Are a Silent Security Disaster
-  link: https://www.darkreading.com/cyber-risk/ai-generated-workflows-silent-security-disaster
-  published: Tue, 30 Jun 2026 13:00:00 GMT
-  summary: Teams are dealing with a truly dangerous problem — automation that works,
-    but that no one understands.
-  source: Dark Reading
 - title: Scattered Spider Hackers Plead Guilty on Day 1 of Trial
   link: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
   published: Tue, 23 Jun 2026 16:12:49 +0000
@@ -199,11 +283,9 @@ items:
 - title: Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities
   link: https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
   published: Tue, 14 Jul 2026 20:27:33 GMT
-  summary: <p>Microsoft has released its monthly security update for July 2026, which
+  summary: Microsoft has released its monthly security update for July 2026, which
     includes 622 vulnerabilities affecting a range of products, including 57 that
-    Microsoft marked as "critical".</p><p>Microsoft notes that two of the vulnerabilities
-    disclosed this month have been exploited in the wild.</p><p><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56155">CVE-2026-56155</a>
-    is an important-</p>
+    Microsoft marked as "critical."
   source: Cisco Talos
 - title: 6 GHz Wi-Fi Flaws Could Disrupt Critical Systems
   link: https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems
@@ -443,6 +525,21 @@ items:
     of awkwardly bolting AI onto the software, vbdec exposes its parsed data through
     a live COM interface.
   source: Cisco Talos
+- title: ISC Stormcast For Thursday, July 16th, 2026 https://isc.sans.edu/podcastdetail/10010,
+    (Thu, Jul 16th)
+  link: https://isc.sans.edu/diary/rss/33160
+  published: Thu, 16 Jul 2026 02:40:10 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development
+  link: https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html
+  published: Thu, 16 Jul 2026 00:13:08 +0530
+  summary: Cybersecurity researchers have disclosed details of a previously unreported
+    Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows
+    signs of being developed with assistance from a large language model (LLM), albeit
+    with not so successful results. "While the AI complied with their request to generate
+    botnet code, it included a safety disclaimer that the developer failed
+  source: The Hacker News
 - title: A tale of two eras
   link: https://blog.talosintelligence.com/a-tale-of-two-eras/
   published: Thu, 11 Jun 2026 18:00:49 GMT
@@ -468,16 +565,6 @@ items:
     designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary
     noted that the following npm install behaviors that used to run automatically
     before have been made opt-in - allowScripts defaults to off, meaning
-  source: The Hacker News
-- title: 'ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust
-    + 17 More Stories'
-  link: https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html
-  published: Thu, 09 Jul 2026 20:39:28 +0530
-  summary: Most security mess starts as admin work. A link gets clicked. A tool gets
-    trusted. A bucket name gets reused. A setting stays loose because nobody wants
-    to touch it. This week is full of that kind of damage. Not loud. Not clever. Just
-    small gaps doing big jobs. The worst part is how normal it all looks until the
-    bill arrives. The full ThreatsDay list is below. Global
   source: The Hacker News
 - title: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure
   link: https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure
@@ -513,34 +600,6 @@ items:
   summary: With Wimbledon's help, Hazel argues against the popular myth that "Attackers
     only need to be right once, but defenders need to be right 100% of the time."
   source: Cisco Talos
-- title: AI Attacks Move in Minutes. Join This Webinar on Building a Defense That
-    Keeps Up
-  link: https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html
-  published: Thu, 09 Jul 2026 17:56:58 +0530
-  summary: AI has changed how fast attacks move. Work that once took an attacker days
-    now takes minutes. Using models like Mythos, attackers write tailored bait, pick
-    targets, test what lands, and jump to the next host before your team clears the
-    first alert. That is the gap, and it is not your fault. The tools and runbooks
-    most teams run on were built for attackers who work at human speed. AI-driven
-  source: The Hacker News
-- title: Summer of Clearinghouses
-  link: https://thehackernews.com/2026/07/summer-of-clearinghouses.html
-  published: Thu, 09 Jul 2026 16:30:00 +0530
-  summary: Everyone seems to have announced a clearinghouse over the past few weeks.
-    We did too. Ours is called Athena, and the main thing that sets it apart is that
-    it was already real and running when we announced it — built quietly months earlier,
-    heads down, taking findings and shipping fixes, because customers kept asking
-    us to. We only announced it now because everyone else started announcing theirs,
-  source: The Hacker News
-- title: GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses
-  link: https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html
-  published: Thu, 09 Jul 2026 16:13:09 +0530
-  summary: Cybersecurity researchers have flagged a new ransomware family called GodDamn
-    that employs the PoisonX kernel driver to neutralize security software as part
-    of its defense evasion strategy. According to a new report published by the Threat
-    Hunter Team from Symantec, the ransomware was first publicly spotted in the wild
-    on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware,
-  source: The Hacker News
 - title: As Global Conflicts Go Digital, Businesses Need Wartime Game Plans
   link: https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans
   published: Thu, 09 Jul 2026 14:31:20 GMT
@@ -548,66 +607,18 @@ items:
     can claim casualties far beyond the battlefield, and how businesses across the
     ocean still need to protect themselves.
   source: Dark Reading
-- title: Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges
-  link: https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html
-  published: Thu, 09 Jul 2026 14:18:48 +0530
-  summary: 'Microsoft has released security updates for a Defender vulnerability known
-    as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability,
-    tracked as CVE-2026-50656 (CVSS score: 7.8), is a privilege escalation issue in
-    the Microsoft Malware Protection Engine ("mpengine.dll"), which provides scanning,
-    detection, and cleaning capabilities for its antivirus and'
-  source: The Hacker News
 - title: AI Gateways Offer Attackers the Keys to the Kingdom
   link: https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom
   published: Thu, 09 Jul 2026 13:01:00 GMT
   summary: A cryptomining incident highlights how AI gateways can provide access to
     AI models, cloud infrastructure, and identity and access management (IAM) data.
   source: Dark Reading
-- title: Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in
-    AI Images
-  link: https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html
-  published: Thu, 09 Jul 2026 12:51:06 +0530
-  summary: Meta has announced that its new artificial intelligence (AI) model Muse
-    Image lets people use public Instagram posts and reels to generate AI content,
-    and it's enabled by default. "You can also @-mention Instagram accounts in the
-    Meta AI app to bring specific Instagram profiles right into your images," the
-    social media giant said in a post. "Whether you want to design a custom event
-    invitation
-  source: The Hacker News
-- title: Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It
-  link: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
-  published: Thu, 09 Jul 2026 10:45:02 +0530
-  summary: Ask an AI coding agent to scan open-source code for security holes, and
-    it might run the attacker's code on your own machine instead. That is the finding
-    in a proof-of-concept published Wednesday by the AI Now Institute, an attack it
-    calls "Friendly Fire." It works against Anthropic's Claude Code and OpenAI's Codex
-    when either is running in an autonomous mode that approves its own
-  source: The Hacker News
 - title: '''GodDamn'' Ransomware Uses BYOVD to Smite US Companies'
   link: https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies
   published: Thu, 09 Jul 2026 10:00:00 GMT
   summary: Microsoft signed a malicious kernel driver, and now it's being used to
     kill security software in ransomware attacks.
   source: Dark Reading
-- title: GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding
-    Agents
-  link: https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html
-  published: Thu, 09 Jul 2026 09:57:18 +0530
-  summary: Researchers at Wiz found that a flaw in six popular AI coding assistants
-    lets a booby-trapped code project quietly take control of a developer's computer.
-    The assistant asks permission to edit one harmless-looking file, but the write
-    lands on a sensitive one instead. The affected tools are Amazon Q Developer, Anthropic's
-    Claude Code, Augment, Cursor, Google Antigravity, and Windsurf.
-  source: The Hacker News
-- title: Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes
-  link: https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html
-  published: Thu, 09 Jul 2026 09:31:49 +0530
-  summary: Cybersecurity researchers have disclosed details of a new threat actor
-    dubbed Lurking Lizard that has been operating an end-to-end malicious residential
-    proxy business using an infrastructure comprising more than 230 lookalike domains.
-    The activity dates back to at least August 2022, according to DNS threat intelligence
-    firm Infoblox. One such campaign, observed earlier this year, involved the
-  source: The Hacker News
 - title: European Organizations Have a Collaboration Security Confidence Gap
   link: https://www.darkreading.com/cybersecurity-operations/european-organizations-collaboration-security-confidence-gap
   published: Thu, 09 Jul 2026 08:00:00 GMT
@@ -697,13 +708,6 @@ items:
   published: Sat, 11 Jul 2026 09:07:06 GMT
   summary: "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.\r"
   source: SANS Internet Storm Center
-- title: NIST Enrichment Reductions Impact CVE Coverage, Accuracy
-  link: https://www.darkreading.com/vulnerabilities-threats/nist-enrichment-reductions-cve-coverage-accuracy
-  published: Mon, 29 Jun 2026 22:46:45 GMT
-  summary: The National Institute of Standards and Technology (NIST) scaled back the
-    number of CVEs it selects for in-depth analysis, but the move has produced mixed
-    results, according to researchers.
-  source: Dark Reading
 - title: Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
   link: https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
   published: Mon, 25 May 2026 13:21:49 +0000
@@ -776,12 +780,3 @@ items:
   summary: In some companies, engineers are building defense and attack tools to test
     the potential of artificial intelligence for cybersecurity — and its threat.
   source: Dark Reading
-- title: Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling
-  link: https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html
-  published: Mon, 13 Jul 2026 17:24:46 +0530
-  summary: 'Meta has filed a patent application for an AI that listens to your voice
-    throughout the day, works out how it thinks you are feeling from the way you sound,
-    and keeps a timestamped log of every read. Each read gets pinned to the moment
-    it happened: the time, your location, what you were doing, even how you were using
-    your phone. Some versions in the filing would listen all day; others would'
-  source: The Hacker News
