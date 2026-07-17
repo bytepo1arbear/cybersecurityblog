@@ -1,4 +1,4 @@
-last_updated: '2026-07-16T04:57:06Z'
+last_updated: '2026-07-17T05:10:42Z'
 count: 100
 items:
 - title: Forgotten Bootloaders Expose Secure Boot Blind Spot
@@ -200,25 +200,6 @@ items:
   published: Wed, 01 Jul 2026 20:31:21 GMT
   summary: Attackers fingerprint victims through user-agent data to deliver OS-specific
     payloads, increasing compromise rates and campaign profitability.
-  source: Dark Reading
-- title: And the Winner in Dominant Malware Delivery? ClickFix
-  link: https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix
-  published: Wed, 01 Jul 2026 19:46:34 GMT
-  summary: Researchers say the highly effective social engineering technique is no
-    longer the exception for malware attacks — it's now the rule.
-  source: Dark Reading
-- title: When Too Much Security Data Becomes the Risk
-  link: https://www.darkreading.com/cyber-risk/too-much-security-data-risk
-  published: Wed, 01 Jul 2026 15:44:41 GMT
-  summary: Rapid growth turned routine firewall logs into a security and budget liability.
-    One CISO used artificial intelligence to filter what data truly belongs in the
-    SIEM.
-  source: Dark Reading
-- title: '''Phantom Squatting'': An Emerging AI-Driven Supply Chain Threat'
-  link: https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
-  published: Wed, 01 Jul 2026 15:17:14 GMT
-  summary: LLMs consistently hallucinate Web domains for legitimate brands that attackers
-    can register for malicious activity in a difficult-to-detect attack vector.
   source: Dark Reading
 - title: 'Martin Lee: Running through the Arctic (and the threat landscape)'
   link: https://blog.talosintelligence.com/martin-lee-running-through-the-arctic-and-the-threat-landscape/
@@ -454,11 +435,6 @@ items:
     bugs earned Microsoft's most dire "critical" rating, and exploit code for at least
     three of the weaknesses is now publicly available.
   source: Krebs on Security
-- title: Microsoft Patch Tuesday for June 2026 — Snort rules and prominent vulnerabilities
-  link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
-  published: Tue, 09 Jun 2026 21:21:00 GMT
-  summary: Microsoft Patch Tuesday details for June 2026.
-  source: Cisco Talos
 - title: Big Brand Jobs Scam Targets Marketing Pros' Google Accounts
   link: https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts
   published: Tue, 07 Jul 2026 21:02:29 GMT
@@ -516,15 +492,161 @@ items:
     a "residential proxy" provider operated by the publicly-traded Israeli firm Alarum
     Technologies Ltd [NASDAQ: ALAR].'
   source: Krebs on Security
-- title: 'Scripting the disassembler: Local agentic reverse engineering through vbdec’s
-    live COM object model'
-  link: https://blog.talosintelligence.com/scripting-the-disassembler/
-  published: Thu, 18 Jun 2026 10:00:05 GMT
-  summary: Cisco Talos detailed a new approach to reverse engineering that pairs local
-    AI agents with traditional analysis tools like the VB6 disassembler vbdec. Instead
-    of awkwardly bolting AI onto the software, vbdec exposes its parsed data through
-    a live COM interface.
+- title: Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack
+  link: https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html
+  published: Thu, 16 Jul 2026 22:39:25 +0530
+  summary: Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and
+    a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack
+    of Transport for London. The attack left 148 TfL systems inoperable and forced
+    all 27,000 of the transport authority's employees into an office to get their
+    passwords reset in person. Both the NCA and the CPS put TfL's losses and recovery
+  source: The Hacker News
+- title: 'ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking
+    + 12 More Stories'
+  link: https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html
+  published: Thu, 16 Jul 2026 21:11:15 +0530
+  summary: A lot of this week’s trouble starts with something that looks close enough.
+    A familiar repo. A useful installer. A harmless sync setting. Then the handoff
+    goes bad, the box starts talking to someone else, and the damage moves faster
+    than the explanation. Old bugs are back, weak defaults are earning their keep,
+    and some attack paths are so plain they barely feel like research. Here’s the
+    mess.
+  source: The Hacker News
+- title: 'Agentic AI Is Untamable: Ask the Right Security Questions'
+  link: https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions
+  published: Thu, 16 Jul 2026 20:57:47 GMT
+  summary: Forget about attackers. Agentic artificial intelligence is creating enough
+    risks for organizations and demands a security reframe.
+  source: Dark Reading
+- title: 1M+ Emails Use Hidden Text to Dupe AI Security Filters
+  link: https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters
+  published: Thu, 16 Jul 2026 19:41:31 GMT
+  summary: Artificial intelligence and LLMs can be surprisingly ineffective against
+    text salting, allowing phishing emails to slide right into your inbox.
+  source: Dark Reading
+- title: n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another
+    Issuer
+  link: https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html
+  published: Thu, 16 Jul 2026 19:03:25 +0530
+  summary: n8n, the workflow automation platform, handed out the wrong accounts at
+    login. On Enterprise instances configured to trust more than one external token
+    issuer, it matched an incoming JWT to a local user on the sub claim alone and
+    ignored iss. A valid token from issuer A carrying a sub that belongs to someone
+    under issuer B logged you in as them. Their password never
+  source: The Hacker News
+- title: New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands
+  link: https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html
+  published: Thu, 16 Jul 2026 18:20:13 +0530
+  summary: Cybersecurity researchers have called attention to a new modular malware
+    called TELEPUZ that's been spreading via websites infected with ClickFix lures
+    since late April 2026. "The malware is full-featured, lightweight, and modular,"
+    Elastic Security Labs researcher Cyril François said in a technical report. "While
+    the number of C2 [command-and-control] domains is currently small, the daily
+  source: The Hacker News
+- title: New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their
+    Password
+  link: https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
+  published: Thu, 16 Jul 2026 18:03:42 +0530
+  summary: ClickLock Stealer, a new macOS infostealer, answers a victim's refusal
+    by killing their apps on a loop until they hand over the login password. It arrives
+    as a command pasted into Terminal, asks for the password behind a fake system
+    dialog, and when the victim cancels, installs two LaunchAgents and quietly exits.
+    At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and
+  source: The Hacker News
+- title: Begun, the Patch Wars have
+  link: https://blog.talosintelligence.com/begun-the-patch-wars-have/
+  published: Thu, 16 Jul 2026 18:00:50 GMT
+  summary: Long foretold, the Great Patching has begun and it’s a doozy. Buckle in
+    as Joe takes you through the story.
   source: Cisco Talos
+- title: 20+ Hijacked Government Websites Became an Attack Channel
+  link: https://thehackernews.com/2026/07/20-hijacked-government-websites.html
+  published: Thu, 16 Jul 2026 17:28:00 +0530
+  summary: More than 20 Brazilian government websites were hijacked and turned into
+    malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN,
+    a leading provider of interactive malware analysis and threat intelligence solutions.
+    The investigation revealed previously undocumented backdoor behavior, hidden infrastructure
+    relationships, and multiple attack arms behind a campaign
+  source: The Hacker News
+- title: New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker
+    Commands
+  link: https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html
+  published: Thu, 16 Jul 2026 17:02:28 +0530
+  summary: Ask an AI agent to summarize the reviews on a product page, and a single
+    planted review can make it click "Buy Now" instead. Ask a coding assistant to
+    apply a maintainer's fix from a GitHub thread, and a fake comment can make it
+    run a stranger's command on your computer. Neither trick hijacks the agent's task.
+    Each one just corrupts the facts it trusts and lets it carry on with the job you
+  source: The Hacker News
+- title: Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor
+  link: https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html
+  published: Thu, 16 Jul 2026 16:47:23 +0530
+  summary: An advanced malware previously attributed to a China-linked threat actor
+    has resurfaced after more than four years within a Taiwan manufacturing firm,
+    along with a previously unreported backdoor dubbed Stupig. Daxin ("srt64.sys"),
+    as the kernel-mode rootkit is referred to, was first documented by Broadcom-owned
+    Symantec in March 2022, with evidence indicating its use in targeted attacks aimed
+  source: The Hacker News
+- title: AI Can Find Bugs, But Human Knowledge Still Proves Them
+  link: https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html
+  published: Thu, 16 Jul 2026 15:40:00 +0530
+  summary: 'Artificial intelligence (AI) is changing offensive security, but it has
+    not changed the standard that matters most: a finding has to be proven before
+    it becomes useful. AI-assisted tools can read code quickly, generate payloads,
+    summarize attack surfaces, explain unfamiliar APIs, and run repetitive testing
+    workflows at impressive speed. That is a real advantage for security teams. It
+    also'
+  source: The Hacker News
+- title: Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide
+  link: https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html
+  published: Thu, 16 Jul 2026 14:53:19 +0530
+  summary: 'Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum,
+    and you can run root commands on other people''s Shark vacuums across the same
+    AWS region: watch the camera, drive the robot, read the map of the house, and
+    take the Wi-Fi password in plaintext. A researcher publishing under the handle
+    tokay0 put the method online on Monday, having tested it only against vacuums
+    he'
+  source: The Hacker News
+- title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
+  link: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
+  published: Thu, 16 Jul 2026 14:12:31 +0530
+  summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming
+    model that scales prompt injection vulnerability discovery with an aim to fix
+    issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer,
+    and our previous models are highly vulnerable to its prompt injection attacks,"
+    the artificial intelligence (AI) company said. "We use GPT‑Red to adversarially
+    train
+  source: The Hacker News
+- title: Zoom Patches Critical Windows Flaw That Could Enable Account Takeover
+  link: https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html
+  published: Thu, 16 Jul 2026 12:52:44 +0530
+  summary: 'Zoom has released security updates for a critical security flaw impacting
+    Zoom Workplace for Windows that could facilitate account takeover. The vulnerability,
+    tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Desktop Client for Windows,
+    Zoom VDI Client for Windows, and Zoom Meeting SDK for Windows. "Improper Input
+    Validation in Zoom Desktop Client for Windows, Zoom VDI Client for'
+  source: The Hacker News
+- title: 'The Hunter''s Paradox: Is it time to embrace automated threat hunting?'
+  link: https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/
+  published: Thu, 16 Jul 2026 10:00:07 GMT
+  summary: Humans can no longer keep up with the volume and velocity of security data
+    on their own, but AI can't be fully trusted. David discusses the merits of both
+    and muses on what the future might look like.
+  source: Cisco Talos
+- title: UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially
+    motivated campaign
+  link: https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/
+  published: Thu, 16 Jul 2026 10:00:01 GMT
+  summary: Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking,
+    financially motivated adversary that has been conducting a malicious campaign
+    targeting users in the U.S. and Europe since at least June 2025.
+  source: Cisco Talos
+- title: Police Disrupt a €140M Cyber Fraud Ring in Spain
+  link: https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain
+  published: Thu, 16 Jul 2026 07:00:00 GMT
+  summary: Iberian hackers carried out a variety of cyberattacks and laundered the
+    winnings through complex financial networks.
+  source: Dark Reading
 - title: ISC Stormcast For Thursday, July 16th, 2026 https://isc.sans.edu/podcastdetail/10010,
     (Thu, Jul 16th)
   link: https://isc.sans.edu/diary/rss/33160
@@ -539,32 +661,6 @@ items:
     signs of being developed with assistance from a large language model (LLM), albeit
     with not so successful results. "While the AI complied with their request to generate
     botnet code, it included a safety disclaimer that the developer failed
-  source: The Hacker News
-- title: A tale of two eras
-  link: https://blog.talosintelligence.com/a-tale-of-two-eras/
-  published: Thu, 11 Jun 2026 18:00:49 GMT
-  summary: In this week’s newsletter, Amy reminisces on the tech toys of their childhood,
-    inspired by a hilarious lesson about why your digital privacy shouldn't be left
-    on an open channel.
-  source: Cisco Talos
-- title: New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and
-    Spyware
-  link: https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html
-  published: Thu, 09 Jul 2026 23:38:07 +0530
-  summary: 'Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper.
-    What stands out is how it is built: not one tool but three older destructive programs
-    bolted into one, offered as commands the operator can choose from. Each is a different
-    way to break a machine: wipe the whole disk, overwrite the Windows drive, or run
-    fake "ransomware" that scrambles files with a key it never saves'
-  source: The Hacker News
-- title: npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk
-  link: https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html
-  published: Thu, 09 Jul 2026 22:19:02 +0530
-  summary: GitHub has officially announced the release of npm version 12 with install
-    scripts disabled by default, along with deprecating granular access tokens (GATs)
-    designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary
-    noted that the following npm install behaviors that used to run automatically
-    before have been made opt-in - allowScripts defaults to off, meaning
   source: The Hacker News
 - title: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure
   link: https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure
@@ -693,90 +789,3 @@ items:
     2026. "At Balochistan Police, the compromised assets included servers hosting
     web applications that manage police and citizen data, such as criminal and
   source: The Hacker News
-- title: Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User
-    Sessions
-  link: https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html
-  published: Sat, 11 Jul 2026 12:15:55 +0530
-  summary: Zimbra is urging customers to apply updates to address a critical security
-    vulnerability impacting the Classic Web Client that could result in arbitrary
-    code execution. The vulnerability has been described as a case of stored cross-site
-    scripting (XSS) that could allow specially crafted emails to execute malicious
-    scripts in a user's session. It has yet to be assigned a CVE identifier. "The
-  source: The Hacker News
-- title: Wireshark 4.6.7 Released, (Sat, Jul 11th)
-  link: https://isc.sans.edu/diary/rss/33146
-  published: Sat, 11 Jul 2026 09:07:06 GMT
-  summary: "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.\r"
-  source: SANS Internet Storm Center
-- title: Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
-  link: https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
-  published: Mon, 25 May 2026 13:21:49 +0000
-  summary: Authorities in the Netherlands have arrested the co-owners of two related
-    Internet hosting companies for operating IT infrastructure used by Russia to carry
-    out cyberattacks, influence operations and disinformation campaigns inside the
-    European Union. The two men were the focus of a 2025 KrebsOnSecurity story about
-    how their hosting companies had assumed control over the technical infrastructure
-    of Stark Industries Solutions, an Internet service provider sanctioned last year
-    by the EU as a frequent staging ground for cyber mischief from Russia's intelligence
-    agencies.
-  source: Krebs on Security
-- title: CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks
-  link: https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
-  published: Mon, 13 Jul 2026 23:06:12 +0530
-  summary: Cybersecurity researchers have flagged a new macOS information stealer
-    called CrashStealer that's capable of harvesting sensitive data from compromised
-    systems. Unlike other information stealers that are built on AppleScript droppers
-    or Objective-C-based wrappers, CrashStealer is implemented in native C++, according
-    to Jamf Threat Labs. "It validates the victim's login password locally before
-  source: The Hacker News
-- title: Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant
-    Collector Found
-  link: https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html
-  published: Mon, 13 Jul 2026 22:47:24 +0530
-  summary: Google and Microsoft have pulled ModHeader, a popular header-editing extension
-    with roughly 1.6 million installs across Chrome and Edge, after researchers found
-    a hidden browsing-history collector built into its official store version. The
-    collector was dormant. An empty allow-list kept it switched off, and no proof
-    has emerged that it ever gathered or sent a single browsing domain. The
-  source: The Hacker News
-- title: Weak Security Continues to Fuel Russian Cyberattacks
-  link: https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks
-  published: Mon, 13 Jul 2026 21:24:59 GMT
-  summary: In a first, the UK and the EU jointly imposed sanctions on Russian individuals
-    and entities for cyberattacks and disinformation campaigns in the region.
-  source: Dark Reading
-- title: '⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks,
-    and More'
-  link: https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html
-  published: Mon, 13 Jul 2026 20:35:57 +0530
-  summary: Somewhere right now, a security tool is quietly finding bugs faster than
-    any human can fix them. That's supposed to be the good news. The catch is that
-    the attackers have the same tools, pointed the other way, and they don't file
-    tickets. That's the shape of this week. Trusted code turns on the people who installed
-    it. Old bugs from last year are still landing because the fix sat in a queue too
-  source: The Hacker News
-- title: New MemGhost Attack Plants Persistent False Memories in AI Agents Through
-    One Email
-  link: https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html
-  published: Mon, 13 Jul 2026 19:19:48 +0530
-  summary: Give an AI assistant a memory and access to your inbox, and you hand an
-    attacker a way to rewrite what it thinks it knows about you. A single email can
-    trick that agent into saving a false "fact" about the user, hide the change, and
-    quietly steer its answers in later sessions. When it works, the person reads an
-    ordinary-looking reply and never learns their assistant was tampered with. The
-  source: The Hacker News
-- title: Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft
-  link: https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html
-  published: Mon, 13 Jul 2026 18:33:33 +0530
-  summary: A new phishing-as-a-service (PhaaS) operation called Forg365 is using a
-    combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot
-    evasion, artificial intelligence (AI)-assisted lure creation, and post-compromise
-    mailbox operations targeting Microsoft 365 accounts. Distributed via Telegram
-    and costing $400 a month (or $3,800 per year), attack chains leverage phishing
-  source: The Hacker News
-- title: '''Yellow Teams'' Are Defining the Future of AI Security'
-  link: https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security
-  published: Mon, 13 Jul 2026 18:18:30 GMT
-  summary: In some companies, engineers are building defense and attack tools to test
-    the potential of artificial intelligence for cybersecurity — and its threat.
-  source: Dark Reading
