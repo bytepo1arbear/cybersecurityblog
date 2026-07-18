@@ -1,4 +1,4 @@
-last_updated: '2026-07-17T05:10:42Z'
+last_updated: '2026-07-18T04:46:16Z'
 count: 100
 items:
 - title: Forgotten Bootloaders Expose Secure Boot Blind Spot
@@ -194,12 +194,6 @@ items:
   published: Wed, 08 Jul 2026 08:01:00 GMT
   summary: The world's digital testing ground plans to help people use AI agents for
     government purposes.
-  source: Dark Reading
-- title: Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS
-  link: https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os
-  published: Wed, 01 Jul 2026 20:31:21 GMT
-  summary: Attackers fingerprint victims through user-agent data to deliver OS-specific
-    payloads, increasing compromise rates and campaign profitability.
   source: Dark Reading
 - title: 'Martin Lee: Running through the Arctic (and the threat landscape)'
   link: https://blog.talosintelligence.com/martin-lee-running-through-the-arctic-and-the-threat-landscape/
@@ -512,11 +506,11 @@ items:
     and some attack paths are so plain they barely feel like research. Here’s the
     mess.
   source: The Hacker News
-- title: 'Agentic AI Is Untamable: Ask the Right Security Questions'
+- title: 'Agentic AI: Taming the Unpredictable'
   link: https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions
   published: Thu, 16 Jul 2026 20:57:47 GMT
-  summary: Forget about attackers. Agentic artificial intelligence is creating enough
-    risks for organizations and demands a security reframe.
+  summary: Agentic artificial intelligence is creating enough risks for organizations
+    to demand a security reframe.
   source: Dark Reading
 - title: 1M+ Emails Use Hidden Text to Dupe AI Security Filters
   link: https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters
@@ -622,9 +616,9 @@ items:
   published: Thu, 16 Jul 2026 12:52:44 +0530
   summary: 'Zoom has released security updates for a critical security flaw impacting
     Zoom Workplace for Windows that could facilitate account takeover. The vulnerability,
-    tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Desktop Client for Windows,
-    Zoom VDI Client for Windows, and Zoom Meeting SDK for Windows. "Improper Input
-    Validation in Zoom Desktop Client for Windows, Zoom VDI Client for'
+    tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Workplace for Windows
+    before version 7.0.0 and Zoom Workplace VDI Client for Windows before version
+    7.0.10, 6.6.15, and 6.5.18 in their respective branches. "Improper Input'
   source: The Hacker News
 - title: 'The Hunter''s Paradox: Is it time to embrace automated threat hunting?'
   link: https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/
@@ -744,19 +738,6 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
-- title: FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
-  link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
-  published: Thu, 02 Jul 2026 19:11:33 GMT
-  summary: After gaining a foothold in thousands of Fortinet firewalls, the attackers
-    are starting to monetize that access, and are also piling on a Nextcloud zero-day
-    bug.
-  source: Dark Reading
-- title: Ransomware Thugs Masquerade as Interpol to Entice Small Biz
-  link: https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses
-  published: Thu, 02 Jul 2026 18:07:40 GMT
-  summary: The ransomware campaign relies on basic social engineering and stretches
-    across multiple regions, including the US, Europe, Middle East, and elsewhere.
-  source: Dark Reading
 - title: Catan and Mouse
   link: https://blog.talosintelligence.com/catan-and-mouse/
   published: Thu, 02 Jul 2026 18:00:34 GMT
@@ -764,28 +745,56 @@ items:
     Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity
     may be a defender’s most valuable skill.
   source: Cisco Talos
-- title: Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them.
-  link: https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-
-  published: Thu, 02 Jul 2026 12:33:57 GMT
-  summary: IBM and Red Hat assign 20,000 engineers to the new Project Lightwell service
-    as Anthropic's Mythos findings ignite debate over how to secure the open source
-    software supply chain.
-  source: Dark Reading
-- title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
-  link: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-  published: Sat, 11 Jul 2026 23:29:26 +0530
-  summary: The jscrambler npm package was compromised, and simply installing its 8.14.0 release
-    runs an infostealer on your machine. Published on July 11, 2026, the malicious
-    version carries a preinstall hook that drops and executes a native binary, one
-    build each for Windows, macOS, and Linux. Socket flagged the release six minutes
-    after it was published. If you or one of your
+- title: New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
+  link: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
+  published: Sat, 18 Jul 2026 02:50:10 +0530
+  summary: An anonymous HTTP request can run code on a WordPress site. The bug is
+    in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0
+    site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled
+    what it calls forced updates through its auto-update system. Adam Kues at Assetnote,
+    Searchlight Cyber's attack surface management arm, found the flaw and reported
   source: The Hacker News
-- title: Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
-  link: https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html
-  published: Sat, 11 Jul 2026 23:19:31 +0530
-  summary: Cybersecurity researchers have disclosed details of sustained cyber espionage
-    activity against several Pakistani law enforcement organizations undertaken by
-    suspected China- and India-aligned threat actors between February 2024 and April
-    2026. "At Balochistan Police, the compromised assets included servers hosting
-    web applications that manage police and citizen data, such as criminal and
+- title: OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests
+  link: https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html
+  published: Sat, 18 Jul 2026 01:50:53 +0530
+  summary: Eleven bytes will make an unpatched OpenSSL server set aside up to 131
+    KB of memory for a message that never arrives. On the glibc systems Okta tested,
+    that memory is gone until the process restarts. OpenSSL shipped the HollowByte
+    fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's
+    Red Team, which reported the denial-of-service bug and named it, published the
+  source: The Hacker News
+- title: Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT
+  link: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
+  published: Sat, 18 Jul 2026 00:24:51 +0530
+  summary: Cybersecurity researchers have discovered a cluster of seven malicious
+    npm packages targeting the Vite frontend tooling ecosystem as part of a software
+    supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx,
+    marks an expansion of ChainVeil, which was observed using an "unprecedented" four-tier
+    blockchain-based command-and-control (C2) infrastructure spanning Tron,
+  source: The Hacker News
+- title: Wireshark 4.6.7 Released, (Sat, Jul 11th)
+  link: https://isc.sans.edu/diary/rss/33146
+  published: Sat, 11 Jul 2026 09:07:06 GMT
+  summary: "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.\r"
+  source: SANS Internet Storm Center
+- title: Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
+  link: https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
+  published: Mon, 25 May 2026 13:21:49 +0000
+  summary: Authorities in the Netherlands have arrested the co-owners of two related
+    Internet hosting companies for operating IT infrastructure used by Russia to carry
+    out cyberattacks, influence operations and disinformation campaigns inside the
+    European Union. The two men were the focus of a 2025 KrebsOnSecurity story about
+    how their hosting companies had assumed control over the technical infrastructure
+    of Stark Industries Solutions, an Internet service provider sanctioned last year
+    by the EU as a frequent staging ground for cyber mischief from Russia's intelligence
+    agencies.
+  source: Krebs on Security
+- title: CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks
+  link: https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
+  published: Mon, 13 Jul 2026 23:06:12 +0530
+  summary: Cybersecurity researchers have flagged a new macOS information stealer
+    called CrashStealer that's capable of harvesting sensitive data from compromised
+    systems. Unlike other information stealers that are built on AppleScript droppers
+    or Objective-C-based wrappers, CrashStealer is implemented in native C++, according
+    to Jamf Threat Labs. "It validates the victim's login password locally before
   source: The Hacker News
