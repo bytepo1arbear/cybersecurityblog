@@ -1,4 +1,4 @@
-last_updated: '2026-07-18T04:46:16Z'
+last_updated: '2026-07-19T05:18:30Z'
 count: 100
 items:
 - title: Forgotten Bootloaders Expose Secure Boot Blind Spot
@@ -748,11 +748,11 @@ items:
 - title: New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
   link: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
   published: Sat, 18 Jul 2026 02:50:10 +0530
-  summary: An anonymous HTTP request can run code on a WordPress site. The bug is
-    in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0
-    site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled
-    what it calls forced updates through its auto-update system. Adam Kues at Assetnote,
-    Searchlight Cyber's attack surface management arm, found the flaw and reported
+  summary: 'Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism
+    has been published, a persistent-object-cache condition has surfaced, and a working
+    proof-of-concept is public. The story below reflects all of it. An anonymous HTTP
+    request can run code on a WordPress site. The bug is in core, so a bare install
+    with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until'
   source: The Hacker News
 - title: OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests
   link: https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html
