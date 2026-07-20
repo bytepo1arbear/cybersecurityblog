@@ -1,4 +1,4 @@
-last_updated: '2026-07-19T05:18:30Z'
+last_updated: '2026-07-20T05:36:07Z'
 count: 100
 items:
 - title: Forgotten Bootloaders Expose Secure Boot Blind Spot
@@ -390,16 +390,6 @@ items:
     the developers who might install them. The operators used the registry as free
     hosting for a booby-trapped proxy site and let the students who came to dodge
   source: The Hacker News
-- title: Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters
-    Activity
-  link: https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
-  published: Tue, 14 Jul 2026 11:49:24 +0530
-  summary: Attackers whose methods line up with the data-extortion group ShinyHunters have
-    spent the past year walking into corporate Salesforce environments without exploiting
-    a single flaw in the platform. The way in has been the trust the organization
-    had already extended, usually through the OAuth connections that tie Salesforce
-    to the apps and third-party vendors around it. In 
-  source: The Hacker News
 - title: '[Video] Where protection starts: Cisco Talos Intelligence Integrations'
   link: https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/
   published: Tue, 14 Jul 2026 10:47:18 GMT
@@ -745,6 +735,31 @@ items:
     Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity
     may be a defender’s most valuable skill.
   source: Cisco Talos
+- title: UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
+  link: https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
+  published: Sun, 19 Jul 2026 19:00:55 +0530
+  summary: Russian state-sponsored threat actors have been observed leveraging the
+    infamous ClickFix strategy to trick Ukrainian targets into infecting their own
+    machines with data-stealing malware. According to the Computer Emergency Response
+    Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a sub-cluster
+    within Sandworm, an advanced hacking unit affiliated with GRU, Russia's
+  source: The Hacker News
+- title: SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access
+  link: https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
+  published: Sun, 19 Jul 2026 18:48:56 +0530
+  summary: A previously undocumented threat actor has been attributed to the exploitation
+    of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances
+    as zero-days prior their public disclosure since June 22, 2026. Cybersecurity
+    company Volexity is tracking the activity under the moniker UTA0533. The discovery
+    was made following an incident response investigation earlier this
+  source: The Hacker News
+- title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
+  link: https://isc.sans.edu/diary/rss/33164
+  published: Sun, 19 Jul 2026 15:00:38 GMT
+  summary: "We have been following issues with Hikvision cameras for a long, long\
+    \ time. Like many similar products, Hikvision cameras have a long history of vulnerabilities\
+    \ and are often targeted by internet-wide scans that our honeypot network detects.\r"
+  source: SANS Internet Storm Center
 - title: New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
   link: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
   published: Sat, 18 Jul 2026 02:50:10 +0530
@@ -772,11 +787,6 @@ items:
     marks an expansion of ChainVeil, which was observed using an "unprecedented" four-tier
     blockchain-based command-and-control (C2) infrastructure spanning Tron,
   source: The Hacker News
-- title: Wireshark 4.6.7 Released, (Sat, Jul 11th)
-  link: https://isc.sans.edu/diary/rss/33146
-  published: Sat, 11 Jul 2026 09:07:06 GMT
-  summary: "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.\r"
-  source: SANS Internet Storm Center
 - title: Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
   link: https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
   published: Mon, 25 May 2026 13:21:49 +0000
@@ -789,12 +799,3 @@ items:
     by the EU as a frequent staging ground for cyber mischief from Russia's intelligence
     agencies.
   source: Krebs on Security
-- title: CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks
-  link: https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
-  published: Mon, 13 Jul 2026 23:06:12 +0530
-  summary: Cybersecurity researchers have flagged a new macOS information stealer
-    called CrashStealer that's capable of harvesting sensitive data from compromised
-    systems. Unlike other information stealers that are built on AppleScript droppers
-    or Objective-C-based wrappers, CrashStealer is implemented in native C++, according
-    to Jamf Threat Labs. "It validates the victim's login password locally before
-  source: The Hacker News
