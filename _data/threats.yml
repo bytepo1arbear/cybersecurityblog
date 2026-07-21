@@ -1,4 +1,4 @@
-last_updated: '2026-07-20T05:36:07Z'
+last_updated: '2026-07-21T05:17:40Z'
 count: 100
 items:
 - title: Forgotten Bootloaders Expose Secure Boot Blind Spot
@@ -220,6 +220,12 @@ items:
     and their guilty pleas came on the first day of what was expected to be a six-week
     trial.
   source: Krebs on Security
+- title: ISC Stormcast For Tuesday, July 21st, 2026 https://isc.sans.edu/podcastdetail/10016,
+    (Tue, Jul 21st)
+  link: https://isc.sans.edu/diary/rss/33170
+  published: Tue, 21 Jul 2026 02:00:02 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
   link: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
   published: Tue, 14 Jul 2026 23:47:57 +0530
@@ -277,15 +283,6 @@ items:
     release last month. Microsoft attributed the burgeoning patch counts to vulnerability
     discoveries aided by artificial intelligence.
   source: Krebs on Security
-- title: RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata
-  link: https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html
-  published: Tue, 14 Jul 2026 19:18:07 +0530
-  summary: Cybersecurity researchers have disclosed details of two access control-related
-    flaws impacting the RabbitMQ message broker service that could allow attackers
-    to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover
-    risks, and bypass tenant boundaries. Miggo's security team, which discovered and
-    reported the flaws, said one "leaks the broker's confidential OAuth
-  source: The Hacker News
 - title: Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul
     14th)
   link: https://isc.sans.edu/diary/rss/33154
@@ -295,51 +292,12 @@ items:
     \ Microsoft&#;x26;#;39;s Edge browser. 62 of the vulnerabilities are rated critical.\
     \ One was disclosed before today, and two have already been exploited.\r"
   source: SANS Internet Storm Center
-- title: 11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure
-    Boot
-  link: https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html
-  published: Tue, 14 Jul 2026 18:16:18 +0530
-  summary: Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified
-    Extensible Firmware Interface (UEFI) applications that could be abused to bypass
-    Secure Boot on most systems using the modern firmware standard. "An attacker exploiting
-    one of these vulnerable applications can execute untrusted code during system
-    boot, enabling deployment of malicious UEFI bootkits or other malware,"
-  source: The Hacker News
 - title: Manage Vendor Risk in a Few Practical Steps
   link: https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps
   published: Tue, 14 Jul 2026 17:44:55 GMT
   summary: Risk tolerance, exposure visibility, board oversight — handling third-party
     risk is complicated but achievable with disciplined, precise governance.
   source: Dark Reading
-- title: Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking
-    Risks
-  link: https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html
-  published: Tue, 14 Jul 2026 17:25:00 +0530
-  summary: Researchers at KU Leuven tested 85 of the most popular crypto wallets that
-    run as browser extensions and found that the wallets themselves leak enough to
-    link and track the people using them. The way these wallets talk to websites and
-    blockchain servers can tie a person's separate addresses together and let outsiders
-    follow them from site to site. And on a site that already holds a name or
-  source: The Hacker News
-- title: How Pentera Turns AI Security Workflows into Validation Engines
-  link: https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html
-  published: Tue, 14 Jul 2026 17:00:00 +0530
-  summary: 'AI security agents are starting to influence real security decisions.
-    They summarize findings, prioritize remediation, recommend next steps, and help
-    teams move faster. But most still rely on fragmented risk signals: scanner output,
-    severity scores, threat intelligence, configuration findings, and exposure data.
-    That fragmentation matters because attackers do not move through environments
-    one'
-  source: The Hacker News
-- title: OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
-  link: https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html
-  published: Tue, 14 Jul 2026 16:51:35 +0530
-  summary: At least two distinct threat actors are weaponizing a novel evasion technique
-    called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry.
-    The activity allows users to enumerate user accounts and validate stolen credentials
-    in Microsoft Entra ID environments, without ever generating a successful sign-in
-    event that would otherwise alert defenders. And bad actors have begun
-  source: The Hacker News
 - title: 'Frontier AI: The Genie''s Out of the Bottle, but Where''s the Rulebook?'
   link: https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook
   published: Tue, 14 Jul 2026 16:02:39 GMT
@@ -353,26 +311,6 @@ items:
   summary: The attack vector is available for rent at scale, and evades AV and EDR,
     leaving YARA analysis as the best detection option.
   source: Dark Reading
-- title: Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files
-    It Read
-  link: https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html
-  published: Tue, 14 Jul 2026 14:32:48 +0530
-  summary: xAI's Grok Build coding CLI was uploading entire Git repositories, full
-    commit history and all, to a Google Cloud Storage bucket run by xAI, not just
-    the files a coding task needed. A researcher publishing as cereblab, testing version
-    0.2.93, captured one of those uploads, cloned the git bundle out of the intercepted
-    request, and pulled back a file the agent had been told in plain terms not
-  source: The Hacker News
-- title: U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware
-    Support
-  link: https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html
-  published: Tue, 14 Jul 2026 13:32:33 +0530
-  summary: The U.S. Treasury Department's Office of Foreign Assets Control (OFAC)
-    has designated two individuals and a VPN service provider for enabling ransomware
-    actors' and other cybercriminals' malicious activities, including ransomware attacks
-    against Americans. The VPN, named First VPN Service (1VPNS), has been accused
-    of offering its tools to ransomware groups, along with its 45-year-old Ukrainian
-  source: The Hacker News
 - title: Cursor IDE Auto-Executes Malicious Code in Poisoned Repos
   link: https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos
   published: Tue, 14 Jul 2026 13:00:00 GMT
@@ -380,16 +318,6 @@ items:
     remains in the popular AI coding platform and can be exploited in poisoned repository
     attacks.
   source: Dark Reading
-- title: 148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS
-    Botnet
-  link: https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html
-  published: Tue, 14 Jul 2026 12:38:36 +0530
-  summary: A campaign of 148 npm packages disguised as student web proxies turned
-    visitors' browsers into a distributed denial-of-service botnet for roughly two
-    weeks in May, according to new research from JFrog. The packages did not go after
-    the developers who might install them. The operators used the registry as free
-    hosting for a booby-trapped proxy site and let the students who came to dodge
-  source: The Hacker News
 - title: '[Video] Where protection starts: Cisco Talos Intelligence Integrations'
   link: https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/
   published: Tue, 14 Jul 2026 10:47:18 GMT
@@ -705,18 +633,6 @@ items:
   summary: A new survey shows security leaders have an inflated sense of safety regarding
     their collaboration tools and platforms.
   source: Dark Reading
-- title: Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs
-  link: https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs
-  published: Thu, 02 Jul 2026 23:01:00 GMT
-  summary: Improved institutional safeguards and stricter regulations have pushed
-    the burdens of protection and risk reduction on to Australian businesses.
-  source: Dark Reading
-- title: Apple Reverses Age-Old Patch Policy to Keep Up With AI
-  link: https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai
-  published: Thu, 02 Jul 2026 19:31:58 GMT
-  summary: Expect more compressed patching cycles from Apple going forward, as attackers
-    leverage artificial intelligence to reduce time to exploit.
-  source: Dark Reading
 - title: FBI Seizes NetNut Proxy Platform, Popa Botnet
   link: https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
   published: Thu, 02 Jul 2026 19:27:33 +0000
@@ -799,3 +715,81 @@ items:
     by the EU as a frequent staging ground for cyber mischief from Russia's intelligence
     agencies.
   source: Krebs on Security
+- title: FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware
+  link: https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html
+  published: Mon, 20 Jul 2026 23:53:03 +0530
+  summary: Cybersecurity researchers have discovered nearly 7,600 malicious GitHub
+    repositories, out of which more than 800 pose as artificial intelligence (AI)
+    skills or Model Context Protocol (MCP) servers to deliver a malware family known
+    as SmartLoader as part of an ongoing campaign codenamed FakeGit. "FakeGit uses
+    copied projects, lookalike developer profiles, convincing READMEs, and malicious
+    ZIP
+  source: The Hacker News
+- title: Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware
+    Campaign
+  link: https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html
+  published: Mon, 20 Jul 2026 22:59:50 +0530
+  summary: 'A malware operator left its delivery server wide open, and Rapid7 pulled
+    down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing
+    tests, execution experiments, droppers, builder notes, and two campaign chains.
+    One was already live against Windows users in Mexico, delivering an infostealer
+    through a fake government ID-lookup site over WebDAV. What makes it more than
+    a'
+  source: The Hacker News
+- title: '''WP2Shell'' Opens Millions of WordPress Sites to Remote Takeover'
+  link: https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
+  published: Mon, 20 Jul 2026 21:38:18 GMT
+  summary: Barely three days after disclosure, attackers are widely chaining together
+    CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest
+    attack surfaces on the Internet.
+  source: Dark Reading
+- title: 'Remediating Vulnerabilities With LLMs: Inside Ivanti''s Automation Push'
+  link: https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation
+  published: Mon, 20 Jul 2026 20:26:56 GMT
+  summary: Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness
+    in early stages; but cost and human-in-the-loop viability remain open questions.
+  source: Dark Reading
+- title: HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated
+    2050
+  link: https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html
+  published: Mon, 20 Jul 2026 20:03:43 +0530
+  summary: A newly discovered espionage implant has been using a hijacked Microsoft
+    365 calendar as its command channel, planting operator instructions and smuggling
+    out stolen files as attachments on calendar events dated to the year 2050. Group-IB,
+    which named the malware HollowGraph, says the approach moves tasking and stolen
+    data through legitimate Microsoft Graph API traffic, so the activity looks
+  source: The Hacker News
+- title: CISOs Feel the Heat Over AI Risk
+  link: https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk
+  published: Mon, 20 Jul 2026 19:07:01 GMT
+  summary: Job pressures have increased as companies run headlong into AI adoption,
+    causing 26% of top security executives to consider leaving their position.
+  source: Dark Reading
+- title: '⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint
+    0-Day and More'
+  link: https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
+  published: Mon, 20 Jul 2026 19:02:26 +0530
+  summary: 'A single request should not be able to do this much. But this week, small
+    inputs led to code execution, memory loss, stolen keys, and disabled security
+    tools. The paths were often simple: exposed systems, weak checks, old drivers,
+    fake prompts, and public code used for malware delivery. Some bugs were new. Others
+    were already being used before defenders had time to patch. Here is the full'
+  source: The Hacker News
+- title: WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)
+  link: https://isc.sans.edu/diary/rss/33168
+  published: Mon, 20 Jul 2026 18:41:24 GMT
+  summary: "Last week, Searchlight Cyber released details about a vulnerability they\
+    \ are calling \"wp2shell\". The vulnerability was initially announced without\
+    \ a CVE number. But now has been assigned CVE-2026-63030. Many WordPress plugin\
+    \ vulnerabilities are never assigned CVE numbers. But wp2shell is different. It\
+    \ is a SQL injection vulnerability in WordPress Core, not a plugin, and can lead\
+    \ to unauthenticated remote code execution. Shortly after being announced, the\
+    \ vulnerability started to be exploited.\r"
+  source: SANS Internet Storm Center
+- title: Attackers Combo Up Evasion Tactics for BEC Phishing
+  link: https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing
+  published: Mon, 20 Jul 2026 18:30:22 GMT
+  summary: '"The TFF Trap" uses fileless techniques and loaders with low detection
+    rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm,
+    and Best Private Logger.'
+  source: Dark Reading
