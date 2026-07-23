@@ -1,6 +1,121 @@
-last_updated: '2026-07-22T05:16:19Z'
+last_updated: '2026-07-23T05:21:20Z'
 count: 100
 items:
+- title: Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs
+  link: https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html
+  published: Wed, 22 Jul 2026 23:37:16 +0530
+  summary: 'Cybersecurity researchers have disclosed details of a new local privilege
+    escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger
+    to obtain root access and gain complete control of a target environment. The high-severity
+    flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations
+    of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as'
+  source: The Hacker News
+- title: Attackers Are Learning to Live Off the AI Toolchain
+  link: https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain
+  published: Wed, 22 Jul 2026 21:29:01 GMT
+  summary: Sandworm_Mode is an early example of malware that exploits trusted AI tools
+    and workflows to make malicious activity virtually indistinguishable from normal
+    activity.
+  source: Dark Reading
+- title: Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data
+  link: https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html
+  published: Wed, 22 Jul 2026 20:31:21 +0530
+  summary: 'Cybersecurity researchers have disclosed details of a now-patched vulnerability
+    chain in the Adobe Acrobat Chrome extension that has over 314 million users, which,
+    if exploited, could facilitate a silent hijack of a user''s WhatsApp data. The
+    shortcoming has been codenamed HermeticReader by Guardio Labs. It''s officially
+    tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability'
+  source: The Hacker News
+- title: Fake Bahrain Alert App Deploys Android Surveillance Malware
+  link: https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware
+  published: Wed, 22 Jul 2026 19:42:42 GMT
+  summary: A malicious application delivers four-stage Android spyware via phony Google
+    Play sites, exploiting civilian fear during Iranian missile strikes.
+  source: Dark Reading
+- title: Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication
+  link: https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html
+  published: Wed, 22 Jul 2026 18:06:36 +0530
+  summary: 'A high-severity security flaw impacting open-source developer platform
+    Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability
+    in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path
+    traversal impacting Windmill''s "get_log_file" endpoint ("/api/w/{workspace}/jobs_u/get_log_file/{filename}").
+    "The filename parameter is concatenated into'
+  source: The Hacker News
+- title: Rondo Meets Geoserver, (Wed, Jul 22nd)
+  link: https://isc.sans.edu/diary/rss/33176
+  published: Wed, 22 Jul 2026 17:35:33 GMT
+  summary: "This isn&#;x26;#;39;t a new attack, but something I saw \"pop-up\" in\
+    \ our logs this week:\r"
+  source: SANS Internet Storm Center
+- title: The Fastest Path to AI Adoption Runs Through Security
+  link: https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html
+  published: Wed, 22 Jul 2026 17:28:00 +0530
+  summary: Security leaders who build fast, visible paths to AI adoption are becoming
+    the most valued partners in their organizations. AI governance done right gives
+    security teams the visibility they need, employees the tools they want, and CISOs
+    the strategic influence they have earned. According to McKinsey's State of AI
+    report, 76 percent of employees now use AI in some capacity at work, up from 55
+  source: The Hacker News
+- title: OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat
+    Benchmark
+  link: https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html
+  published: Wed, 22 Jul 2026 17:00:02 +0530
+  summary: OpenAI on Tuesday said a combination of its artificial intelligence (AI)
+    models, including GPT-5.6 Sol and an "even more capable pre-release model," was
+    behind the security incident that targeted Hugging Face's production infrastructure
+    last week. The AI company said the models were operating with "reduced cyber refusals
+    for evaluation purposes" that might otherwise limit their ability to
+  source: The Hacker News
+- title: Why Modern SOCs Need Multi-Layered Detections
+  link: https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html
+  published: Wed, 22 Jul 2026 16:55:35 +0530
+  summary: 'The cycle is over. For years, cybersecurity followed a familiar pattern:
+    defenses improved, attackers adapted, and the back-and-forth continued. Today,
+    AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass
+    endpoint and malware-based detection entirely. The CrowdStrike Global Threat Report
+    estimates around 79% of attacks are malware-free, as threat actors rely on'
+  source: The Hacker News
+- title: 'When AI Attacks: OpenAI Models Autonomously Hack Hugging Face'
+  link: https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face
+  published: Wed, 22 Jul 2026 15:53:47 GMT
+  summary: Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious
+    benchmark test objective.
+  source: Dark Reading
+- title: Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions
+    and Bypass MFA
+  link: https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html
+  published: Wed, 22 Jul 2026 12:08:45 +0530
+  summary: German and US law enforcement have taken down the core infrastructure of
+    Kratos, described by German investigators as one of the world's most widely used
+    criminal phishing kits, and Indonesian authorities arrested the man they say developed
+    and ran it. In a joint announcement on Monday, the Frankfurt public prosecutor's
+    cybercrime unit (ZIT) and Germany's Federal Criminal Police Office (BKA)
+  source: The Hacker News
+- title: Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library
+  link: https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html
+  published: Wed, 22 Jul 2026 11:30:06 +0530
+  summary: 'Cybersecurity researchers have discovered a NuGet typosquat that''s unlike
+    the typical information-stealing malware distributed via package registries: usual
+    info-stealers: it''s designed to rig live game results on Digitain. The package,
+    named "Newtonsoftt.Json.Net," masquerades as the Newtonsoft.Json library and is
+    a trojanized fork. Seven versions of the package have been published to the'
+  source: The Hacker News
+- title: EU Financial Institutions Leak Data Through Cookie Trackers
+  link: https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers
+  published: Wed, 22 Jul 2026 11:30:00 GMT
+  summary: European and US banks inadvertently transmitted customer data to ad platforms
+    via tracking pixels, raising serious compliance, security, and privacy concerns.
+  source: Dark Reading
+- title: Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review
+    Agents
+  link: https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html
+  published: Wed, 22 Jul 2026 10:27:52 +0530
+  summary: A single invisible comment in an Azure DevOps pull request can turn a reviewer's
+    own AI coding agent against them, driving it into projects the attacker has no
+    rights to reach and quietly leaking what it finds. The flaw is in Microsoft's
+    official Azure DevOps MCP server, and it works because one of its tools returns
+    pull request descriptions without a prompt-injection guardrail the company had
+  source: The Hacker News
 - title: ISC Stormcast For Wednesday, July 22nd, 2026 https://isc.sans.edu/podcastdetail/10018,
     (Wed, Jul 22nd)
   link: https://isc.sans.edu/diary/rss/33174
@@ -71,19 +186,6 @@ items:
   summary: The West African country advanced rules to force organizations to disclose
     cyberattacks, joining other nations in a shift to mandated transparency.
   source: Dark Reading
-- title: ISC Stormcast For Wednesday, July 15th, 2026 https://isc.sans.edu/podcastdetail/10008,
-    (Wed, Jul 15th)
-  link: https://isc.sans.edu/diary/rss/33158
-  published: Wed, 15 Jul 2026 02:00:02 GMT
-  summary: ''
-  source: SANS Internet Storm Center
-- title: Recent DShield SIEM Update, (Tue, Jul 14th)
-  link: https://isc.sans.edu/diary/rss/33156
-  published: Wed, 15 Jul 2026 01:38:43 GMT
-  summary: "The last update to the DShield SIEM [4] was in Sep 2025 which contained\
-    \ some minor tweaks. This update currently is using ELK stack version 8.19.15,\
-    \ contains some additional dashboards and new logs.\r"
-  source: SANS Internet Storm Center
 - title: Cribl Adds Agentic Detection Engineering & Boosts SecOps With CardinalOps
     Deal
   link: https://www.darkreading.com/cybersecurity-operations/cribl-adds-agentic-detection-engineering-boosts-secops-with-cardinalops-deal
@@ -101,24 +203,6 @@ items:
     percent of any ransom paid by victims. This post examines clues pointing to a
     real life identity for the administrator of The Gentlemen ransomware group.
   source: Krebs on Security
-- title: Mexico's New Cyber Plan Faces Its First Real Test
-  link: https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test
-  published: Wed, 08 Jul 2026 21:34:21 GMT
-  summary: The Latin American nation's cybersecurity plan — still in the expansion
-    phase — has to survive its own knockout round during the FIFA World Cup.
-  source: Dark Reading
-- title: Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours
-  link: https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment
-  published: Wed, 08 Jul 2026 20:32:22 GMT
-  summary: The attacker exploited AI workflows, chained cloud weaknesses, and stolen
-    credentials to extort a large Amazon customer.
-  source: Dark Reading
-- title: Vidar Infostealer Hammers SMBs via Malvertising Campaign
-  link: https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign
-  published: Wed, 08 Jul 2026 16:45:54 GMT
-  summary: A financially motivated operation uses lures of cracked or pirated software
-    to deliver a two-for-one malware combo for data theft and cryptomining.
-  source: Dark Reading
 - title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
   link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
   published: Wed, 08 Jul 2026 12:31:39 +0000
@@ -153,7 +237,7 @@ items:
     and their guilty pleas came on the first day of what was expected to be a six-week
     trial.
   source: Krebs on Security
-- title: Ransomware Is Accelerating, But It's Not Because of AI
+- title: Ransomware Is Accelerating, but It's Not Because of AI
   link: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai
   published: Tue, 21 Jul 2026 21:48:05 GMT
   summary: Researchers pointed to fragmentation of the ransomware ecosystem, the emergence
@@ -392,6 +476,27 @@ items:
     and language-independent component reuse. Those same qualities make it useful
     to threat actors.
   source: Cisco Talos
+- title: ISC Stormcast For Thursday, July 23rd, 2026 https://isc.sans.edu/podcastdetail/10020,
+    (Thu, Jul 23rd)
+  link: https://isc.sans.edu/diary/rss/33178
+  published: Thu, 23 Jul 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain
+  link: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain
+  published: Thu, 23 Jul 2026 01:00:00 GMT
+  summary: A cyberattack on a food and logistics firm disrupts the supply of frozen
+    food to thousands of clients, including major franchises like Kentucky Fried Chicken.
+  source: Dark Reading
+- title: GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier
+  link: https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html
+  published: Thu, 23 Jul 2026 00:07:42 +0530
+  summary: Beginning July 27, 2026, GitHub will cut public bug bounty payouts by at
+    least half at every severity level. Critical findings will drop from $20,000-$30,000+
+    to a fixed $10,000, while its permanent invite-only VIP tier will pay $30,000
+    or more. Reports filed before that date, including those already in GitHub's growing
+    triage queue, will retain the previous payout terms. GitHub said the
+  source: The Hacker News
 - title: Close Encounters of the Human Kind
   link: https://blog.talosintelligence.com/close-encounters-of-the-human-kind/
   published: Thu, 18 Jun 2026 18:00:24 GMT
@@ -452,98 +557,12 @@ items:
     ignored iss. A valid token from issuer A carrying a sub that belongs to someone
     under issuer B logged you in as them. Their password never
   source: The Hacker News
-- title: New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands
-  link: https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html
-  published: Thu, 16 Jul 2026 18:20:13 +0530
-  summary: Cybersecurity researchers have called attention to a new modular malware
-    called TELEPUZ that's been spreading via websites infected with ClickFix lures
-    since late April 2026. "The malware is full-featured, lightweight, and modular,"
-    Elastic Security Labs researcher Cyril François said in a technical report. "While
-    the number of C2 [command-and-control] domains is currently small, the daily
-  source: The Hacker News
-- title: New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their
-    Password
-  link: https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html
-  published: Thu, 16 Jul 2026 18:03:42 +0530
-  summary: ClickLock Stealer, a new macOS infostealer, answers a victim's refusal
-    by killing their apps on a loop until they hand over the login password. It arrives
-    as a command pasted into Terminal, asks for the password behind a fake system
-    dialog, and when the victim cancels, installs two LaunchAgents and quietly exits.
-    At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and
-  source: The Hacker News
 - title: Begun, the Patch Wars have
   link: https://blog.talosintelligence.com/begun-the-patch-wars-have/
   published: Thu, 16 Jul 2026 18:00:50 GMT
   summary: Long foretold, the Great Patching has begun and it’s a doozy. Buckle in
     as Joe takes you through the story.
   source: Cisco Talos
-- title: 20+ Hijacked Government Websites Became an Attack Channel
-  link: https://thehackernews.com/2026/07/20-hijacked-government-websites.html
-  published: Thu, 16 Jul 2026 17:28:00 +0530
-  summary: More than 20 Brazilian government websites were hijacked and turned into
-    malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN,
-    a leading provider of interactive malware analysis and threat intelligence solutions.
-    The investigation revealed previously undocumented backdoor behavior, hidden infrastructure
-    relationships, and multiple attack arms behind a campaign
-  source: The Hacker News
-- title: New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker
-    Commands
-  link: https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html
-  published: Thu, 16 Jul 2026 17:02:28 +0530
-  summary: Ask an AI agent to summarize the reviews on a product page, and a single
-    planted review can make it click "Buy Now" instead. Ask a coding assistant to
-    apply a maintainer's fix from a GitHub thread, and a fake comment can make it
-    run a stranger's command on your computer. Neither trick hijacks the agent's task.
-    Each one just corrupts the facts it trusts and lets it carry on with the job you
-  source: The Hacker News
-- title: Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor
-  link: https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html
-  published: Thu, 16 Jul 2026 16:47:23 +0530
-  summary: An advanced malware previously attributed to a China-linked threat actor
-    has resurfaced after more than four years within a Taiwan manufacturing firm,
-    along with a previously unreported backdoor dubbed Stupig. Daxin ("srt64.sys"),
-    as the kernel-mode rootkit is referred to, was first documented by Broadcom-owned
-    Symantec in March 2022, with evidence indicating its use in targeted attacks aimed
-  source: The Hacker News
-- title: AI Can Find Bugs, But Human Knowledge Still Proves Them
-  link: https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html
-  published: Thu, 16 Jul 2026 15:40:00 +0530
-  summary: 'Artificial intelligence (AI) is changing offensive security, but it has
-    not changed the standard that matters most: a finding has to be proven before
-    it becomes useful. AI-assisted tools can read code quickly, generate payloads,
-    summarize attack surfaces, explain unfamiliar APIs, and run repetitive testing
-    workflows at impressive speed. That is a real advantage for security teams. It
-    also'
-  source: The Hacker News
-- title: Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide
-  link: https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html
-  published: Thu, 16 Jul 2026 14:53:19 +0530
-  summary: 'Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum,
-    and you can run root commands on other people''s Shark vacuums across the same
-    AWS region: watch the camera, drive the robot, read the map of the house, and
-    take the Wi-Fi password in plaintext. A researcher publishing under the handle
-    tokay0 put the method online on Monday, having tested it only against vacuums
-    he'
-  source: The Hacker News
-- title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
-  link: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
-  published: Thu, 16 Jul 2026 14:12:31 +0530
-  summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming
-    model that scales prompt injection vulnerability discovery with an aim to fix
-    issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer,
-    and our previous models are highly vulnerable to its prompt injection attacks,"
-    the artificial intelligence (AI) company said. "We use GPT‑Red to adversarially
-    train
-  source: The Hacker News
-- title: Zoom Patches Critical Windows Flaw That Could Enable Account Takeover
-  link: https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html
-  published: Thu, 16 Jul 2026 12:52:44 +0530
-  summary: 'Zoom has released security updates for a critical security flaw impacting
-    Zoom Workplace for Windows that could facilitate account takeover. The vulnerability,
-    tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Workplace for Windows
-    before version 7.0.0 and Zoom Workplace VDI Client for Windows before version
-    7.0.10, 6.6.15, and 6.5.18 in their respective branches. "Improper Input'
-  source: The Hacker News
 - title: 'The Hunter''s Paradox: Is it time to embrace automated threat hunting?'
   link: https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/
   published: Thu, 16 Jul 2026 10:00:07 GMT
@@ -571,15 +590,6 @@ items:
   published: Thu, 16 Jul 2026 02:40:10 GMT
   summary: ''
   source: SANS Internet Storm Center
-- title: TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development
-  link: https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html
-  published: Thu, 16 Jul 2026 00:13:08 +0530
-  summary: Cybersecurity researchers have disclosed details of a previously unreported
-    Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows
-    signs of being developed with assistance from a large language model (LLM), albeit
-    with not so successful results. "While the AI complied with their request to generate
-    botnet code, it included a safety disclaimer that the developer failed
-  source: The Hacker News
 - title: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure
   link: https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure
   published: Thu, 09 Jul 2026 20:32:00 GMT
@@ -626,18 +636,6 @@ items:
   published: Thu, 09 Jul 2026 13:01:00 GMT
   summary: A cryptomining incident highlights how AI gateways can provide access to
     AI models, cloud infrastructure, and identity and access management (IAM) data.
-  source: Dark Reading
-- title: '''GodDamn'' Ransomware Uses BYOVD to Smite US Companies'
-  link: https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies
-  published: Thu, 09 Jul 2026 10:00:00 GMT
-  summary: Microsoft signed a malicious kernel driver, and now it's being used to
-    kill security software in ransomware attacks.
-  source: Dark Reading
-- title: European Organizations Have a Collaboration Security Confidence Gap
-  link: https://www.darkreading.com/cybersecurity-operations/european-organizations-collaboration-security-confidence-gap
-  published: Thu, 09 Jul 2026 08:00:00 GMT
-  summary: A new survey shows security leaders have an inflated sense of safety regarding
-    their collaboration tools and platforms.
   source: Dark Reading
 - title: FBI Seizes NetNut Proxy Platform, Popa Botnet
   link: https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
