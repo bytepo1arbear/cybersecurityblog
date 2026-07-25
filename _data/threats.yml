@@ -1,4 +1,4 @@
-last_updated: '2026-07-24T05:17:27Z'
+last_updated: '2026-07-25T05:11:41Z'
 count: 100
 items:
 - title: Flaws in Passkey Implementation Show Old Attacks Still Work
@@ -256,8 +256,7 @@ items:
     IDE, rewrite its own configuration file and run an attacker's code on a developer's
     machine, with no approval step able to stop it. Intezer, in research with Kodem
     Security, found that a request as ordinary as asking Kiro to summarize a page
-    could end in remote code execution. AWS has patched the issue, and no CVE has
-    been
+    could end in remote code execution. AWS has patched the issue and says it is
   source: The Hacker News
 - title: Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task
   link: https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task
@@ -556,11 +555,11 @@ items:
     Installs
   link: https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html
   published: Thu, 23 Jul 2026 13:34:35 +0530
-  summary: RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600,
+  summary: RefluXFS, a Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600,
     lets an unprivileged local user overwrite root-owned files on an XFS filesystem
     and gain persistent root access. Qualys said default installations of Red Hat
     Enterprise Linux and its derivatives, Fedora Server, and Amazon Linux can meet
-    the conditions for exploitation. The company demonstrated the race
+    the conditions for exploitation. The company demonstrated the race against
   source: The Hacker News
 - title: Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access
   link: https://thehackernews.com/2026/07/check-point-patches-exploited.html
@@ -668,12 +667,6 @@ items:
   summary: Iberian hackers carried out a variety of cyberattacks and laundered the
     winnings through complex financial networks.
   source: Dark Reading
-- title: Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure
-  link: https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure
-  published: Thu, 09 Jul 2026 20:32:00 GMT
-  summary: Obscurity isn't a defense. If your company has any Internet-facing vulnerability,
-    you're at risk from multiple threats.
-  source: Dark Reading
 - title: WolfSSL, GeoVision, VTK vulnerabilities
   link: https://blog.talosintelligence.com/wolfssl-vulnerabilities/
   published: Thu, 09 Jul 2026 18:52:29 GMT
@@ -707,24 +700,6 @@ items:
     Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity
     may be a defender’s most valuable skill.
   source: Cisco Talos
-- title: UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
-  link: https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
-  published: Sun, 19 Jul 2026 19:00:55 +0530
-  summary: Russian state-sponsored threat actors have been observed leveraging the
-    infamous ClickFix strategy to trick Ukrainian targets into infecting their own
-    machines with data-stealing malware. According to the Computer Emergency Response
-    Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a sub-cluster
-    within Sandworm, an advanced hacking unit affiliated with GRU, Russia's
-  source: The Hacker News
-- title: SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access
-  link: https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
-  published: Sun, 19 Jul 2026 18:48:56 +0530
-  summary: A previously undocumented threat actor has been attributed to the exploitation
-    of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances
-    as zero-days prior their public disclosure since June 22, 2026. Cybersecurity
-    company Volexity is tracking the activity under the moniker UTA0533. The discovery
-    was made following an incident response investigation earlier this
-  source: The Hacker News
 - title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
   link: https://isc.sans.edu/diary/rss/33164
   published: Sun, 19 Jul 2026 15:00:38 GMT
@@ -732,33 +707,6 @@ items:
     \ time. Like many similar products, Hikvision cameras have a long history of vulnerabilities\
     \ and are often targeted by internet-wide scans that our honeypot network detects.\r"
   source: SANS Internet Storm Center
-- title: New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
-  link: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
-  published: Sat, 18 Jul 2026 02:50:10 +0530
-  summary: 'Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism
-    has been published, a persistent-object-cache condition has surfaced, and a working
-    proof-of-concept is public. The story below reflects all of it. An anonymous HTTP
-    request can run code on a WordPress site. The bug is in core, so a bare install
-    with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until'
-  source: The Hacker News
-- title: OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests
-  link: https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html
-  published: Sat, 18 Jul 2026 01:50:53 +0530
-  summary: Eleven bytes will make an unpatched OpenSSL server set aside up to 131
-    KB of memory for a message that never arrives. On the glibc systems Okta tested,
-    that memory is gone until the process restarts. OpenSSL shipped the HollowByte
-    fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's
-    Red Team, which reported the denial-of-service bug and named it, published the
-  source: The Hacker News
-- title: Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT
-  link: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
-  published: Sat, 18 Jul 2026 00:24:51 +0530
-  summary: Cybersecurity researchers have discovered a cluster of seven malicious
-    npm packages targeting the Vite frontend tooling ecosystem as part of a software
-    supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx,
-    marks an expansion of ChainVeil, which was observed using an "unprecedented" four-tier
-    blockchain-based command-and-control (C2) infrastructure spanning Tron,
-  source: The Hacker News
 - title: FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware
   link: https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html
   published: Mon, 20 Jul 2026 23:53:03 +0530
@@ -787,3 +735,52 @@ items:
     CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest
     attack surfaces on the Internet.
   source: Dark Reading
+- title: 'Remediating Vulnerabilities With LLMs: Inside Ivanti''s Automation Push'
+  link: https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation
+  published: Mon, 20 Jul 2026 20:26:56 GMT
+  summary: Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness
+    in early stages, but cost and human-in-the-loop viability remain open questions.
+  source: Dark Reading
+- title: HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated
+    2050
+  link: https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html
+  published: Mon, 20 Jul 2026 20:03:43 +0530
+  summary: A newly discovered espionage implant has been using a hijacked Microsoft
+    365 calendar as its command channel, planting operator instructions and smuggling
+    out stolen files as attachments on calendar events dated to the year 2050. Group-IB,
+    which named the malware HollowGraph, says the approach moves tasking and stolen
+    data through legitimate Microsoft Graph API traffic, so the activity looks
+  source: The Hacker News
+- title: '25 Years After Code Red: What the Worm Era Can Teach Us About AI Security'
+  link: https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2
+  published: Mon, 20 Jul 2026 19:32:04 GMT
+  summary: Marc Maiffret reflects on Code Red's legacy and the security lessons helping
+    organizations navigate AI risk today.
+  source: Dark Reading
+- title: CISOs Feel the Heat Over AI Risk
+  link: https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk
+  published: Mon, 20 Jul 2026 19:07:01 GMT
+  summary: Job pressures have increased as companies run headlong into AI adoption,
+    causing 26% of top security executives to consider leaving their position.
+  source: Dark Reading
+- title: '⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint
+    0-Day and More'
+  link: https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
+  published: Mon, 20 Jul 2026 19:02:26 +0530
+  summary: 'A single request should not be able to do this much. But this week, small
+    inputs led to code execution, memory loss, stolen keys, and disabled security
+    tools. The paths were often simple: exposed systems, weak checks, old drivers,
+    fake prompts, and public code used for malware delivery. Some bugs were new. Others
+    were already being used before defenders had time to patch. Here is the full'
+  source: The Hacker News
+- title: WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)
+  link: https://isc.sans.edu/diary/rss/33168
+  published: Mon, 20 Jul 2026 18:41:24 GMT
+  summary: "Last week, Searchlight Cyber released details about a vulnerability they\
+    \ are calling \"wp2shell\". The vulnerability was initially announced without\
+    \ a CVE number. But now has been assigned CVE-2026-63030. Many WordPress plugin\
+    \ vulnerabilities are never assigned CVE numbers. But wp2shell is different. It\
+    \ is a SQL injection vulnerability in WordPress Core, not a plugin, and can lead\
+    \ to unauthenticated remote code execution. Shortly after being announced, the\
+    \ vulnerability started to be exploited.\r"
+  source: SANS Internet Storm Center
