@@ -1,4 +1,4 @@
-last_updated: '2026-07-25T05:11:41Z'
+last_updated: '2026-07-26T05:28:35Z'
 count: 100
 items:
 - title: Flaws in Passkey Implementation Show Old Attacks Still Work
@@ -700,6 +700,15 @@ items:
     Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity
     may be a defender’s most valuable skill.
   source: Cisco Talos
+- title: Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
+  link: https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
+  published: Sun, 26 Jul 2026 00:18:44 +0530
+  summary: A malvertising operation dubbed SourTrade is making victims' browsers build
+    the final Windows executable themselves, using a legitimate Bun runtime as its
+    base instead of serving one complete malicious file from a fixed URL. Confiant,
+    which detailed the campaign on July 23, 2026, said it has operated since late
+    2024 and impersonated TradingView, Solana, and Luno to target retail traders and
+  source: The Hacker News
 - title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
   link: https://isc.sans.edu/diary/rss/33164
   published: Sun, 19 Jul 2026 15:00:38 GMT
@@ -707,6 +716,55 @@ items:
     \ time. Like many similar products, Hikvision cameras have a long history of vulnerabilities\
     \ and are often targeted by internet-wide scans that our honeypot network detects.\r"
   source: SANS Internet Storm Center
+- title: Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
+  link: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
+  published: Sat, 25 Jul 2026 18:22:43 +0530
+  summary: Security firms ThreatBook and Imperva say attackers are targeting a critical
+    flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications,
+    a malicious JSON request can execute code without authentication, with the privileges
+    of the Java process. Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned
+    CVSS score of 9.0. The confirmed chain requires
+  source: The Hacker News
+- title: Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands
+    as Git
+  link: https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
+  published: Sat, 25 Jul 2026 15:44:26 +0530
+  summary: Security researchers at depthfirst published working exploit code on July
+    24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs
+    commands as git on any self-managed 18.11.3 server that has not taken the update.
+    Any authenticated user who can push to a project can run it. The attacker commits
+    a crafted Jupyter notebook and opens its commit diff, which leaks a heap
+  source: The Hacker News
+- title: CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time
+    Account Hijacking
+  link: https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
+  published: Sat, 25 Jul 2026 15:44:21 +0530
+  summary: For years, phishing campaigns targeting financial institutions followed
+    the same playbook. Victims were tricked into entering usernames and passwords,
+    attackers collected the credentials, and accounts were compromised later when
+    an opportunity arose. That model is changing. Recent investigations into insurance-focused
+    phishing operations reveal a more immediate approach. Instead of harvesting
+  source: The Hacker News
+- title: Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated
+    RCE
+  link: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+  published: Sat, 25 Jul 2026 15:44:03 +0530
+  summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful
+    Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed
+    PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.
+    "Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL
+    endpoint with a server-side flaw in the Windchill login servlet, enabling
+  source: The Hacker News
+- title: DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate
+    Payouts
+  link: https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
+  published: Sat, 25 Jul 2026 15:23:41 +0530
+  summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining
+    a dedicated web platform that offers affiliates the ability to build payloads,
+    oversee earnings, and manage various aspects related to victims. Swiss cybersecurity
+    company PRODAFT is tracking the centrally administered RaaS operation under the
+    name Funky Mantis. "The portal combined build generation, finance,
+  source: The Hacker News
 - title: FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware
   link: https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html
   published: Mon, 20 Jul 2026 23:53:03 +0530
@@ -735,52 +793,3 @@ items:
     CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest
     attack surfaces on the Internet.
   source: Dark Reading
-- title: 'Remediating Vulnerabilities With LLMs: Inside Ivanti''s Automation Push'
-  link: https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation
-  published: Mon, 20 Jul 2026 20:26:56 GMT
-  summary: Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness
-    in early stages, but cost and human-in-the-loop viability remain open questions.
-  source: Dark Reading
-- title: HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated
-    2050
-  link: https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html
-  published: Mon, 20 Jul 2026 20:03:43 +0530
-  summary: A newly discovered espionage implant has been using a hijacked Microsoft
-    365 calendar as its command channel, planting operator instructions and smuggling
-    out stolen files as attachments on calendar events dated to the year 2050. Group-IB,
-    which named the malware HollowGraph, says the approach moves tasking and stolen
-    data through legitimate Microsoft Graph API traffic, so the activity looks
-  source: The Hacker News
-- title: '25 Years After Code Red: What the Worm Era Can Teach Us About AI Security'
-  link: https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2
-  published: Mon, 20 Jul 2026 19:32:04 GMT
-  summary: Marc Maiffret reflects on Code Red's legacy and the security lessons helping
-    organizations navigate AI risk today.
-  source: Dark Reading
-- title: CISOs Feel the Heat Over AI Risk
-  link: https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk
-  published: Mon, 20 Jul 2026 19:07:01 GMT
-  summary: Job pressures have increased as companies run headlong into AI adoption,
-    causing 26% of top security executives to consider leaving their position.
-  source: Dark Reading
-- title: '⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint
-    0-Day and More'
-  link: https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
-  published: Mon, 20 Jul 2026 19:02:26 +0530
-  summary: 'A single request should not be able to do this much. But this week, small
-    inputs led to code execution, memory loss, stolen keys, and disabled security
-    tools. The paths were often simple: exposed systems, weak checks, old drivers,
-    fake prompts, and public code used for malware delivery. Some bugs were new. Others
-    were already being used before defenders had time to patch. Here is the full'
-  source: The Hacker News
-- title: WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)
-  link: https://isc.sans.edu/diary/rss/33168
-  published: Mon, 20 Jul 2026 18:41:24 GMT
-  summary: "Last week, Searchlight Cyber released details about a vulnerability they\
-    \ are calling \"wp2shell\". The vulnerability was initially announced without\
-    \ a CVE number. But now has been assigned CVE-2026-63030. Many WordPress plugin\
-    \ vulnerabilities are never assigned CVE numbers. But wp2shell is different. It\
-    \ is a SQL injection vulnerability in WordPress Core, not a plugin, and can lead\
-    \ to unauthenticated remote code execution. Shortly after being announced, the\
-    \ vulnerability started to be exploited.\r"
-  source: SANS Internet Storm Center
