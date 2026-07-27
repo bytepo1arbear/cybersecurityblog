@@ -1,4 +1,4 @@
-last_updated: '2026-07-26T05:28:35Z'
+last_updated: '2026-07-27T05:45:51Z'
 count: 100
 items:
 - title: Flaws in Passkey Implementation Show Old Attacks Still Work
@@ -700,6 +700,18 @@ items:
     Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity
     may be a defender’s most valuable skill.
   source: Cisco Talos
+- title: Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul
+    26th)
+  link: https://isc.sans.edu/diary/rss/33184
+  published: Sun, 26 Jul 2026 15:26:14 GMT
+  summary: "ESAFENET&#;x26;#;39;s CDG showed up in our data before. The company focused\
+    \ on secure document management and data leakage prevention solutions. The \"\
+    CDG\" stands for \"Content Data Guard\", and the product appears to be mostly\
+    \ targeting the Chinese market [1]. Sadly, like so many security products, it\
+    \ suffers from basic security vulnerabilities like SQL Injection, XSS, and default\
+    \ passwords. We have seen scanning for ESAFENET CDG before, in particular after\
+    \ the cross-site scripting vulnerability was made public.\r"
+  source: SANS Internet Storm Center
 - title: Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
   link: https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
   published: Sun, 26 Jul 2026 00:18:44 +0530
@@ -709,13 +721,6 @@ items:
     which detailed the campaign on July 23, 2026, said it has operated since late
     2024 and impersonated TradingView, Solana, and Luno to target retail traders and
   source: The Hacker News
-- title: Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)
-  link: https://isc.sans.edu/diary/rss/33164
-  published: Sun, 19 Jul 2026 15:00:38 GMT
-  summary: "We have been following issues with Hikvision cameras for a long, long\
-    \ time. Like many similar products, Hikvision cameras have a long history of vulnerabilities\
-    \ and are often targeted by internet-wide scans that our honeypot network detects.\r"
-  source: SANS Internet Storm Center
 - title: Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
   link: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
   published: Sat, 25 Jul 2026 18:22:43 +0530
@@ -765,6 +770,12 @@ items:
     company PRODAFT is tracking the centrally administered RaaS operation under the
     name Funky Mantis. "The portal combined build generation, finance,
   source: The Hacker News
+- title: ISC Stormcast For Monday, July 27th, 2026 https://isc.sans.edu/podcastdetail/10024,
+    (Mon, Jul 27th)
+  link: https://isc.sans.edu/diary/rss/33186
+  published: Mon, 27 Jul 2026 02:00:02 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware
   link: https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html
   published: Mon, 20 Jul 2026 23:53:03 +0530
@@ -786,10 +797,3 @@ items:
     through a fake government ID-lookup site over WebDAV. What makes it more than
     a'
   source: The Hacker News
-- title: '''WP2Shell'' Opens Millions of WordPress Sites to Remote Takeover'
-  link: https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover
-  published: Mon, 20 Jul 2026 21:38:18 GMT
-  summary: Barely three days after disclosure, attackers are widely chaining together
-    CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest
-    attack surfaces on the Internet.
-  source: Dark Reading
