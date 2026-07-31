@@ -1,4 +1,4 @@
-last_updated: '2026-07-30T04:55:44Z'
+last_updated: '2026-07-31T05:32:11Z'
 count: 100
 items:
 - title: Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files
@@ -33,10 +33,10 @@ items:
 - title: OpenAI's Rogue Model Claims More Victims Beyond Hugging Face
   link: https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face
   published: Wed, 29 Jul 2026 19:48:12 GMT
-  summary: OpenAI revealed rogue AI models compromised more services than initially
-    disclosed, including a Modal customer environment and others.
+  summary: OpenAI's goal-seeking agent compromised a Modal customer environment and
+    others during its sandbox escape.
   source: Dark Reading
-- title: 'Red Agents vs. Blue Agents: How to Make AI Better At Defense'
+- title: 'Red Agents vs. Blue Agents: How to Make AI Better at Defense'
   link: https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense
   published: Wed, 29 Jul 2026 19:46:20 GMT
   summary: The agentic AI playing field was heavily tilted toward offense, so researchers
@@ -77,7 +77,7 @@ items:
     of how OpenAI's agent AI system broke out of its sandbox and decided to target
     Hugging Face, and what CISOs should be aware of.
   source: Dark Reading
-- title: Hugging Face Hack Lessons for Cyber Defenders
+- title: 'Hugging Face Hack: Lessons for Cyber Defenders'
   link: https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders
   published: Wed, 29 Jul 2026 17:35:23 GMT
   summary: 'Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons
@@ -254,13 +254,6 @@ items:
     companies and a now-defunct AI-based lobbying platform they operated under assumed
     names.
   source: Krebs on Security
-- title: 'Martin Lee: Running through the Arctic (and the threat landscape)'
-  link: https://blog.talosintelligence.com/martin-lee-running-through-the-arctic-and-the-threat-landscape/
-  published: Wed, 01 Jul 2026 10:00:57 GMT
-  summary: Ever wonder how someone goes from studying human viruses to leading cybersecurity
-    teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk
-    about his journey into the industry.
-  source: Cisco Talos
 - title: Ghost Credentials Expose Cloud Systems to Hidden Identity Risks
   link: https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path
   published: Tue, 28 Jul 2026 21:33:23 GMT
@@ -491,6 +484,152 @@ items:
   summary: Talos’ latest findings on UAT-7810 indicate that the threat actor continues
     to develop their custom-made malware.
   source: Cisco Talos
+- title: DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing
+    Malware
+  link: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
+  published: Thu, 30 Jul 2026 23:48:24 +0530
+  summary: Threat actors with ties to North Korea have been attributed to a sophisticated
+    macOS malvertising campaign that involves redirecting users to fake web pages
+    displaying a full-screen non-existent update sequence to deliver malware as part
+    of a new iteration of the long-running Contagious Interview campaign. The defining
+    aspect of the attack is that bogus macOS software update screen stealthily
+  source: The Hacker News
+- title: Minnesota Water Utility Attacks Expose Sector's Cyber-Risks
+  link: https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks
+  published: Thu, 30 Jul 2026 21:16:13 GMT
+  summary: A likely Iran-backed actor targeted more than 30 community water systems
+    in Minnesota in a sobering reminder of rising threats to US critical infrastructure.
+  source: Dark Reading
+- title: 'ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS
+    Hijacking + 22 More Stories'
+  link: https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html
+  published: Thu, 30 Jul 2026 20:55:57 +0530
+  summary: 'A lot of security still comes down to trusting the wrong screen. This
+    week, that screen might be a login page, an install guide, a recruiter call, or
+    a familiar service behaving slightly wrong. Behind it: reused credentials, exposed
+    systems, quiet loaders, abused trust, and exploit paths that should have been
+    harder. Some defenses improved. The loose parts still got found first. Anyway,'
+  source: The Hacker News
+- title: AI Harnesses Burst With Potential Exploit Opps
+  link: https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps
+  published: Thu, 30 Jul 2026 19:40:40 GMT
+  summary: A myriad of software makes up the typical AI harness, and trust issues
+    between the components can create concerning attack vectors.
+  source: Dark Reading
+- title: Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
+  link: https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
+  published: Thu, 30 Jul 2026 19:04:09 +0530
+  summary: A now-patched vulnerability in Azure Cosmos DB could have let an attacker
+    escape the service's Gremlin query sandbox and obtain full read and write access
+    to databases across customer tenants, according to Wiz. Wiz, which codenamed the
+    chain CosmosEscape, said the exploit chain began with a crafted query against
+    a Gremlin database controlled by the attacker. From there, code execution on a
+  source: The Hacker News
+- title: You were onto something with “It’s the Climb,” Miley
+  link: https://blog.talosintelligence.com/you-were-onto-something-with-its-the-climb-miley/
+  published: Thu, 30 Jul 2026 18:00:35 GMT
+  summary: Amy hikes Virginia’s most difficult trail and muses on the persistent challenges
+    of cybersecurity. The two aren't dissimilar.
+  source: Cisco Talos
+- title: Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents
+  link: https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html
+  published: Thu, 30 Jul 2026 17:24:49 +0530
+  summary: Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite
+    figures in a report, then copy the same instructions into the finished file. Håkon
+    Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft.
+    In his proof of concept, the internally generated file triggered the same behavior
+    when it was used in a second Copilot drafting session. Måløy's
+  source: The Hacker News
+- title: The Network Has Become the Control Plane for AI Security
+  link: https://thehackernews.com/2026/07/the-network-has-become-control-plane.html
+  published: Thu, 30 Jul 2026 17:02:46 +0530
+  summary: 'Network firewalls are the workhorses of modern cybersecurity. They are
+    trusted to protect the network, blocking malicious traffic and preventing intrusions
+    and breaches. And for decades, network security teams have built controls around
+    a relatively stable model: users connect to applications, applications exchange
+    data, and security tools inspect packets, protocols, and destinations. Firewalls'
+  source: The Hacker News
+- title: Read This Before You Buy That TV Streaming Stick
+  link: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
+  published: Thu, 30 Jul 2026 16:49:00 +0000
+  summary: Security experts have been sounding the alarm for years about the risks
+    of using generic TV boxes that promise unlimited content streaming for a one-time
+    fee, warning that they secretly rent the user's Internet connection out to strangers.
+    But a groundbreaking new analysis finds these devices also routinely spoof themselves
+    as mobile phones clicking ads on AI-generated websites as part of sprawling operation
+    that seeks to defraud online merchants and advertising networks.
+  source: Krebs on Security
+- title: Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without
+    Prompts
+  link: https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
+  published: Thu, 30 Jul 2026 16:03:15 +0530
+  summary: South Korean authorities and four security firms have disclosed a state-sponsored
+    campaign that compromised trusted domestic websites. The attackers used those
+    sites to exploit locally installed financial-security software and infect targeted
+    visitors with SIGNBT or COPPERHEDGE backdoors. A compromised page could infect
+    a system running a vulnerable AnySign4PC version without a prompt or
+  source: The Hacker News
+- title: SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT
+  link: https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html
+  published: Thu, 30 Jul 2026 16:02:59 +0530
+  summary: The Chinese cybercrime group known as Silver Fox has been observed using
+    new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting
+    a Japanese organization in the industrial manufacturing sector to ultimately deliver
+    ValleyRAT (aka Winos 4.0) for persistent remote access. "In this campaign, the
+    group combines new vulnerable-driver abuse, newly observed abuse of legitimate
+  source: The Hacker News
+- title: 'Claude Mythos — Hype vs. Reality: What Security Teams Need to Know'
+  link: https://www.darkreading.com/cybersecurity-operations/claude-mythos-hype-vs-reality
+  published: Thu, 30 Jul 2026 15:28:43 GMT
+  summary: In this edition of Reporters' Notebook, our journalists discuss the ins
+    and outs of Anthropic's Claude Mythos rollout. How seriously should we take its
+    risks? How big of a deal is it?
+  source: Dark Reading
+- title: Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential
+    Rotation
+  link: https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html
+  published: Thu, 30 Jul 2026 13:10:48 +0530
+  summary: The Russian threat actors recently linked to the exploitation of a now-patched
+    vulnerability in Zimbra have been observed exploiting another vulnerability, this
+    time in Microsoft Outlook Web Access (OWA), to target U.S. and European government
+    entities, as well as the telecommunications, financial, hospitality, and aerospace
+    sectors. The activity, which began on July 22, 2026, involves the
+  source: The Hacker News
+- title: FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks
+  link: https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html
+  published: Thu, 30 Jul 2026 12:58:43 +0530
+  summary: The Federal Communications Commission (FCC) added foreign-produced mobile
+    robots and networked power inverters to its Covered List on July 28. The move
+    generally prevents new models from receiving the equipment authorization required
+    for import, marketing, or sale in the US. Previously authorized models can still
+    be sold, and devices people already own are unaffected. Federal purchases and
+    use
+  source: The Hacker News
+- title: Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
+  link: https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html
+  published: Thu, 30 Jul 2026 11:35:17 +0530
+  summary: 'Amazon has tied the September 2025 hijack of the npm packages debug and
+    chalk to North Korea. For ten months, the incident sat in the public record as
+    crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining
+    script pushed into at least 18 packages carrying more than 2 billion weekly downloads
+    between them. The original Aikido and Wiz reports did not attribute the'
+  source: The Hacker News
+- title: Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive
+    Data
+  link: https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
+  published: Thu, 30 Jul 2026 10:38:39 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
+    added a newly disclosed security flaw impacting Cisco Secure Firewall Management
+    Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following
+    reports of zero-day exploitation. The vulnerability, assigned CVE-2026-20316 (CVSS
+    score: 5.3), could permit an unauthenticated, remote attacker to log'
+  source: The Hacker News
+- title: 'Black Hat special: Rewind and revisit'
+  link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
+  published: Thu, 30 Jul 2026 10:00:08 GMT
+  summary: Amy looks back at the incredible journeys that brought past guests to the
+    world of threat intelligence.
+  source: Cisco Talos
 - title: ISC Stormcast For Thursday, July 30th, 2026 https://isc.sans.edu/podcastdetail/10030,
     (Thu, Jul 30th)
   link: https://isc.sans.edu/diary/rss/33200
@@ -500,9 +639,9 @@ items:
 - title: SE Asian Cybercriminal Syndicates Become a Global Power
   link: https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power
   published: Thu, 30 Jul 2026 01:00:00 GMT
-  summary: The groups move from goods to services and continue to traffic people from
-    at least 80 countries, costing nations in the region at least $88 billion in 2025
-    alone.
+  summary: The organized crime groups have moved from goods to services and continue
+    to traffic people from at least 80 countries, costing nations in the region at
+    least $88 billion in 2025 alone.
   source: Dark Reading
 - title: 'Reconnaissance First: An SSH Bot That Sizes Up Your Hardware Before Deploying
     a Miner [Guest Diary], (Thu, Jul 30th)'
@@ -572,18 +711,6 @@ items:
     a "residential proxy" provider operated by the publicly-traded Israeli firm Alarum
     Technologies Ltd [NASDAQ: ALAR].'
   source: Krebs on Security
-- title: 'Agentic AI: Taming the Unpredictable'
-  link: https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions
-  published: Thu, 16 Jul 2026 20:57:47 GMT
-  summary: Agentic artificial intelligence is creating enough risks for organizations
-    to demand a security reframe.
-  source: Dark Reading
-- title: 1M+ Emails Use Hidden Text to Dupe AI Security Filters
-  link: https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters
-  published: Thu, 16 Jul 2026 19:41:31 GMT
-  summary: Artificial intelligence and LLMs can be surprisingly ineffective against
-    text salting, allowing phishing emails to slide right into your inbox.
-  source: Dark Reading
 - title: Begun, the Patch Wars have
   link: https://blog.talosintelligence.com/begun-the-patch-wars-have/
   published: Thu, 16 Jul 2026 18:00:50 GMT
@@ -631,13 +758,6 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
-- title: Catan and Mouse
-  link: https://blog.talosintelligence.com/catan-and-mouse/
-  published: Thu, 02 Jul 2026 18:00:34 GMT
-  summary: What do board games and cybersecurity have in common? Pattern recognition.
-    Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity
-    may be a defender’s most valuable skill.
-  source: Cisco Talos
 - title: Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul
     26th)
   link: https://isc.sans.edu/diary/rss/33184
@@ -677,115 +797,4 @@ items:
     commands as git on any self-managed 18.11.3 server that has not taken the update.
     Any authenticated user who can push to a project can run it. The attacker commits
     a crafted Jupyter notebook and opens its commit diff, which leaks a heap
-  source: The Hacker News
-- title: CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time
-    Account Hijacking
-  link: https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
-  published: Sat, 25 Jul 2026 15:44:21 +0530
-  summary: For years, phishing campaigns targeting financial institutions followed
-    the same playbook. Victims were tricked into entering usernames and passwords,
-    attackers collected the credentials, and accounts were compromised later when
-    an opportunity arose. That model is changing. Recent investigations into insurance-focused
-    phishing operations reveal a more immediate approach. Instead of harvesting
-  source: The Hacker News
-- title: Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated
-    RCE
-  link: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
-  published: Sat, 25 Jul 2026 15:44:03 +0530
-  summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful
-    Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed
-    PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.
-    "Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL
-    endpoint with a server-side flaw in the Windchill login servlet, enabling
-  source: The Hacker News
-- title: DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate
-    Payouts
-  link: https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
-  published: Sat, 25 Jul 2026 15:23:41 +0530
-  summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining
-    a dedicated web platform that offers affiliates the ability to build payloads,
-    oversee earnings, and manage various aspects related to victims. Swiss cybersecurity
-    company PRODAFT is tracking the centrally administered RaaS operation under the
-    name Funky Mantis. "The portal combined build generation, finance,
-  source: The Hacker News
-- title: NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework
-  link: https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html
-  published: Mon, 27 Jul 2026 23:40:05 +0530
-  summary: NVIDIA and 36 other organizations have formed the Open Secure AI Alliance
-    to develop and share open technologies, techniques, and tools for securing software
-    and artificial intelligence (AI) agents. The 37-member group spans cloud, security,
-    enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare,
-    CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux
-  source: The Hacker News
-- title: Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid
-    Disruption
-  link: https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html
-  published: Mon, 27 Jul 2026 22:46:28 +0530
-  summary: Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and
-    XLab, has adopted blockchain-based name services and infected-device relays after
-    a March law-enforcement operation against JackSkid infrastructure. The researchers
-    say the design makes the botnet harder to disrupt. CNCERT, China's national computer
-    emergency response team, and XLab, the threat-intelligence lab of Chinese
-  source: The Hacker News
-- title: Agentic Browsers Rewind Web Security by 20 Years
-  link: https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years
-  published: Mon, 27 Jul 2026 21:39:09 GMT
-  summary: PleaseFix class of flaws makes it easy to socially engineer agentic browsers
-    and highlights weaknesses in how they handle cross-origin requests.
-  source: Dark Reading
-- title: '''Confused Deputy'' Flaws Persist in Google Cloud, Microsoft Azure'
-  link: https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
-  published: Mon, 27 Jul 2026 20:57:26 GMT
-  summary: This category of vulnerabilities allows an attacker to easily acquire administrative
-    level permissions and bypass cloud providers' access controls.
-  source: Dark Reading
-- title: 'FBI: Breaking Affiliate Trust Sped Along LockBit''s Takedown'
-  link: https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown
-  published: Mon, 27 Jul 2026 20:33:29 GMT
-  summary: An FBI agent explains how the mulitnational law-enforcement Operation Cronos
-    was successful in disrupting the largest ransomware group of its time.
-  source: Dark Reading
-- title: Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
-  link: https://thehackernews.com/2026/07/public-exploit-released-for-patched.html
-  published: Mon, 27 Jul 2026 20:10:00 +0530
-  summary: Public exploit details released on July 27 show how an unauthenticated
-    request can reach PHP's eval() function inside vBulletin and execute code on an
-    unpatched forum server. The attack requires no account, administrative access,
-    or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1
-    and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version
-  source: The Hacker News
-- title: '⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix
-    Lures and More'
-  link: https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html
-  published: Mon, 27 Jul 2026 19:40:54 +0530
-  summary: Monday starts with the usual promise that everything is under control.
-    Then the logs wake up. This week, trusted tools crossed lines, old flaws found
-    new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking
-    services. Nothing looked strange at first. That helped. That is the mood. Here
-    is the full recap. ⚡ Threat of the Week OpenAI Says Its AI Agent Went Rogue
-  source: The Hacker News
-- title: Why Resetting Passwords No Longer Stops Attackers
-  link: https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks
-  published: Mon, 27 Jul 2026 18:39:50 GMT
-  summary: As attackers shift from password theft to session and token theft to bypass
-    multifactor authentication controls, organizations must move beyond login security
-    and protect authenticated sessions.
-  source: Dark Reading
-- title: n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process
-  link: https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
-  published: Mon, 27 Jul 2026 18:35:15 +0530
-  summary: n8n has patched a high-severity expression-sandbox escape that could let
-    an authenticated workflow editor execute operating-system commands on the server
-    running the automation platform. Security Joes found the flaw while probing n8n's
-    February fix for CVE-2026-27577 for another bypass. The affected ranges are <2.31.5
-    and >=2.32.0,<2.32.1. n8n fixed the flaw in versions 2.31.5 and
-  source: The Hacker News
-- title: Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update
-  link: https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html
-  published: Mon, 27 Jul 2026 18:07:49 +0530
-  summary: Cybersecurity researchers have flagged a Microsoft Teams-themed phishing
-    campaign that employs "secure document" lures to deliver legitimate remote monitoring
-    and management (RMM) tools. "The victim was directed through compromised web infrastructure
-    to a counterfeit Microsoft Store page claiming that Microsoft Teams had to be
-    updated before the shared document could be opened," ZeroBEC said in
   source: The Hacker News
