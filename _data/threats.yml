@@ -1,4 +1,4 @@
-last_updated: '2026-07-31T05:32:11Z'
+last_updated: '2026-08-01T05:23:36Z'
 count: 100
 items:
 - title: Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files
@@ -758,43 +758,38 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
-- title: Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul
-    26th)
-  link: https://isc.sans.edu/diary/rss/33184
-  published: Sun, 26 Jul 2026 15:26:14 GMT
-  summary: "ESAFENET&#;x26;#;39;s CDG showed up in our data before. The company focused\
-    \ on secure document management and data leakage prevention solutions. The \"\
-    CDG\" stands for \"Content Data Guard\", and the product appears to be mostly\
-    \ targeting the Chinese market [1]. Sadly, like so many security products, it\
-    \ suffers from basic security vulnerabilities like SQL Injection, XSS, and default\
-    \ passwords. We have seen scanning for ESAFENET CDG before, in particular after\
-    \ the cross-site scripting vulnerability was made public.\r"
-  source: SANS Internet Storm Center
-- title: Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
-  link: https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
-  published: Sun, 26 Jul 2026 00:18:44 +0530
-  summary: A malvertising operation dubbed SourTrade is making victims' browsers build
-    the final Windows executable themselves, using a legitimate Bun runtime as its
-    base instead of serving one complete malicious file from a fixed URL. Confiant,
-    which detailed the campaign on July 23, 2026, said it has operated since late
-    2024 and impersonated TradingView, Solana, and Luno to target retail traders and
+- title: Suspected Chinese-Speaking Hackers Target Central Asian Governments With
+    OctLurk and SilkLurk
+  link: https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html
+  published: Sat, 01 Aug 2026 00:22:04 +0530
+  summary: A Chinese-speaking threat actor is suspected to be behind a fresh wave
+    of cyber attacks targeting government organizations mainly located in Central
+    Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and
+    the Syrian Arab Republic, since January 2025. These targeted organizations operate
+    across several sectors, such as healthcare, research, government offices,
   source: The Hacker News
-- title: Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
-  link: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
-  published: Sat, 25 Jul 2026 18:22:43 +0530
-  summary: Security firms ThreatBook and Imperva say attackers are targeting a critical
-    flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications,
-    a malicious JSON request can execute code without authentication, with the privileges
-    of the Java process. Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned
-    CVSS score of 9.0. The confirmed chain requires
+- title: NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework
+  link: https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html
+  published: Mon, 27 Jul 2026 23:40:05 +0530
+  summary: NVIDIA and 36 other organizations have formed the Open Secure AI Alliance
+    to develop and share open technologies, techniques, and tools for securing software
+    and artificial intelligence (AI) agents. The 37-member group spans cloud, security,
+    enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare,
+    CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux
   source: The Hacker News
-- title: Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands
-    as Git
-  link: https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
-  published: Sat, 25 Jul 2026 15:44:26 +0530
-  summary: Security researchers at depthfirst published working exploit code on July
-    24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs
-    commands as git on any self-managed 18.11.3 server that has not taken the update.
-    Any authenticated user who can push to a project can run it. The attacker commits
-    a crafted Jupyter notebook and opens its commit diff, which leaks a heap
+- title: Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid
+    Disruption
+  link: https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html
+  published: Mon, 27 Jul 2026 22:46:28 +0530
+  summary: Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and
+    XLab, has adopted blockchain-based name services and infected-device relays after
+    a March law-enforcement operation against JackSkid infrastructure. The researchers
+    say the design makes the botnet harder to disrupt. CNCERT, China's national computer
+    emergency response team, and XLab, the threat-intelligence lab of Chinese
   source: The Hacker News
+- title: Agentic Browsers Rewind Web Security by 20 Years
+  link: https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years
+  published: Mon, 27 Jul 2026 21:39:09 GMT
+  summary: PleaseFix class of flaws makes it easy to socially engineer agentic browsers
+    and highlights weaknesses in how they handle cross-origin requests.
+  source: Dark Reading
