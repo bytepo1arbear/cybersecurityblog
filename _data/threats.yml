@@ -1,4 +1,4 @@
-last_updated: '2026-08-01T05:23:36Z'
+last_updated: '2026-08-02T05:23:10Z'
 count: 100
 items:
 - title: Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files
@@ -758,38 +758,36 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
-- title: Suspected Chinese-Speaking Hackers Target Central Asian Governments With
-    OctLurk and SilkLurk
-  link: https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html
-  published: Sat, 01 Aug 2026 00:22:04 +0530
-  summary: A Chinese-speaking threat actor is suspected to be behind a fresh wave
-    of cyber attacks targeting government organizations mainly located in Central
-    Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and
-    the Syrian Arab Republic, since January 2025. These targeted organizations operate
-    across several sectors, such as healthcare, research, government offices,
+- title: Atomic MacOS (AMOS) stealer infection, (Sun, Aug 2nd)
+  link: https://isc.sans.edu/diary/rss/33208
+  published: Sun, 02 Aug 2026 04:05:08 GMT
+  summary: "Introduction\r"
+  source: SANS Internet Storm Center
+- title: Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes
+  link: https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
+  published: Sat, 01 Aug 2026 22:47:22 +0530
+  summary: An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking
+    1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the
+    sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet
+    made by Canadian firm Coinkite. A March 2021 firmware integration error routed
+    seed generation to a deterministic software pseudorandom number generator (PRNG
   source: The Hacker News
-- title: NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework
-  link: https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html
-  published: Mon, 27 Jul 2026 23:40:05 +0530
-  summary: NVIDIA and 36 other organizations have formed the Open Secure AI Alliance
-    to develop and share open technologies, techniques, and tools for securing software
-    and artificial intelligence (AI) agents. The 37-member group spans cloud, security,
-    enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare,
-    CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux
+- title: Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer
+    Sites
+  link: https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html
+  published: Sat, 01 Aug 2026 14:33:07 +0530
+  summary: Attackers modified a JavaScript file served by advertising technology company
+    Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet
+    addresses. Adform detected the incident on July 27, 2026, removed the malicious
+    code, notified affected clients, and reported it to authorities. Anyone who visited
+    a site carrying the affected script on July 27 and copied a Bitcoin,
   source: The Hacker News
-- title: Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid
-    Disruption
-  link: https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html
-  published: Mon, 27 Jul 2026 22:46:28 +0530
-  summary: Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and
-    XLab, has adopted blockchain-based name services and infected-device relays after
-    a March law-enforcement operation against JackSkid infrastructure. The researchers
-    say the design makes the botnet harder to disrupt. CNCERT, China's national computer
-    emergency response team, and XLab, the threat-intelligence lab of Chinese
+- title: Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
+  link: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
+  published: Sat, 01 Aug 2026 12:42:42 +0530
+  summary: Adobe has released security updates to address a maximum-severity security
+    flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform,
+    that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449,
+    carries a severity score of 10.0 on the CVSS scoring system. It has been described
+    as a case of incorrect authorization that could result in
   source: The Hacker News
-- title: Agentic Browsers Rewind Web Security by 20 Years
-  link: https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years
-  published: Mon, 27 Jul 2026 21:39:09 GMT
-  summary: PleaseFix class of flaws makes it easy to socially engineer agentic browsers
-    and highlights weaknesses in how they handle cross-origin requests.
-  source: Dark Reading
