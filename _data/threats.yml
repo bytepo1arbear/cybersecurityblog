@@ -1,4 +1,4 @@
-last_updated: '2026-08-02T05:23:10Z'
+last_updated: '2026-08-03T05:38:17Z'
 count: 100
 items:
 - title: Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files
@@ -11,6 +11,12 @@ items:
     9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base,
     the Rails master key, database passwords, cloud storage credentials,'
   source: The Hacker News
+- title: Cybersecurity, Then & Now
+  link: https://www.darkreading.com/cyber-risk/cybersecurity-then-now
+  published: Wed, 29 Jul 2026 23:26:46 GMT
+  summary: Since 2006, Dark Reading has been at the forefront of covering cybersecurity.
+    The more things change, the more they stay the same.
+  source: Dark Reading
 - title: Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI
     Memory
   link: https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html
@@ -392,12 +398,6 @@ items:
     \ Threat actors still use it because it's easy to write and powerful. Indeed,\
     \ it can perform all the required actions to inject a payload into a remote process\
     \ as you'll see below.\r"
-  source: SANS Internet Storm Center
-- title: ISC Stormcast For Tuesday, July 28th, 2026 https://isc.sans.edu/podcastdetail/10026,
-    (Tue, Jul 28th)
-  link: https://isc.sans.edu/diary/rss/33190
-  published: Tue, 28 Jul 2026 02:00:03 GMT
-  summary: ''
   source: SANS Internet Storm Center
 - title: AI Agent Drives Espionage Attack on Thai Ministry of Finance
   link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
