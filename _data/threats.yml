@@ -1,4 +1,4 @@
-last_updated: '2026-08-04T05:11:38Z'
+last_updated: '2026-08-05T05:11:36Z'
 count: 100
 items:
 - title: Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files
@@ -129,78 +129,6 @@ items:
     attacker to take over the system and corrupt memory, so bad behavior can persist
     after patching.
   source: Dark Reading
-- title: Public PoC Released for Exploited Check Point SmartConsole Authentication
-    Bypass
-  link: https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html
-  published: Wed, 29 Jul 2026 14:28:27 +0530
-  summary: 'Cybersecurity researchers have shared additional technical details about
-    a recently patched critical security flaw impacting Check Point Security Management
-    Server and Multi-Domain Security Management Server (MDS) that has come under active
-    exploitation in the wild. The vulnerability, tracked as CVE-2026-16232 (CVSS score:
-    9.3), is an authentication bypass in the SmartConsole login process that'
-  source: The Hacker News
-- title: OpenAI Agent Used Exposed Credentials Across Four Services During Hugging
-    Face Breach
-  link: https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html
-  published: Wed, 29 Jul 2026 13:21:00 +0530
-  summary: OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent
-    that escaped its sealed evaluation environment and broke into Hugging Face's production
-    environment also hacked multiple third-party accounts and services as part of
-    the attack. The latest disclosure shows that the security incident, which stemmed
-    from an internal security test, was more extensive in scope than previously
-  source: The Hacker News
-- title: New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands
-  link: https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html
-  published: Wed, 29 Jul 2026 13:17:19 +0530
-  summary: 'Gitea, the self-hosted Git platform, has patched a critical remote code
-    execution vulnerability. A user with ordinary repository write access can turn
-    attacker-controlled patch content into a live Git hook and run shell commands
-    as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the
-    flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1.
-    The'
-  source: The Hacker News
-- title: Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates
-  link: https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html
-  published: Wed, 29 Jul 2026 12:37:23 +0530
-  summary: Source code for the Flying Eagle Android remote access trojan (RAT) framework
-    is circulating through criminal Telegram channels. Hunt.io and independent researcher
-    NetAskari traced matching control panels and certificates to 170 internet servers.
-    They linked the framework to a fake "公安一网通办" Public Security service application
-    targeting Android users in China. The kit supports payment-password
-  source: The Hacker News
-- title: Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js
-  link: https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
-  published: Wed, 29 Jul 2026 09:50:57 +0530
-  summary: Beta release versions of two npm packages in the @joyfill namespace have
-    been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER
-    malware family. The list of affected packages is as follows - @joyfill/layouts@0.1.2-2773.beta.0
-    @joyfill/components@4.0.0-rc24-2773-beta.4 The two packages "contain an import-time
-    JavaScript implant that resolves encrypted code
-  source: The Hacker News
-- title: Apple Patches Everything (July 2026), (Wed, Jul 29th)
-  link: https://isc.sans.edu/diary/rss/33196
-  published: Wed, 29 Jul 2026 07:32:37 GMT
-  summary: "I am a bit late with this summary, but this week Apple released updates\
-    \ to all its operating systems and Safari. The Safari update, as usual, targets\
-    \ macOS prior to macOS 26. macOS updates covered the two older versions (14 and\
-    \ 15), while other operating system patches only covered the current 26 versions.\r"
-  source: SANS Internet Storm Center
-- title: ISC Stormcast For Wednesday, July 29th, 2026 https://isc.sans.edu/podcastdetail/10028,
-    (Wed, Jul 29th)
-  link: https://isc.sans.edu/diary/rss/33194
-  published: Wed, 29 Jul 2026 02:00:02 GMT
-  summary: ''
-  source: SANS Internet Storm Center
-- title: Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round
-    AES Attack
-  link: https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
-  published: Wed, 29 Jul 2026 00:29:07 +0530
-  summary: Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery
-    attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round
-    AES-128. The HAWK attack exploits a previously unused symmetry in the lattice
-    behind the signature scheme. Anthropic's released implementation gives an expected
-    end-to-end runtime of about three hours and 42 minutes on a 96-core server
-  source: The Hacker News
 - title: Flaws in Passkey Implementation Show Old Attacks Still Work
   link: https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work
   published: Wed, 22 Jul 2026 23:50:01 GMT
@@ -225,12 +153,6 @@ items:
   published: Wed, 22 Jul 2026 15:53:47 GMT
   summary: Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious
     benchmark test objective.
-  source: Dark Reading
-- title: EU Financial Institutions Leak Data Through Cookie Trackers
-  link: https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers
-  published: Wed, 22 Jul 2026 11:30:00 GMT
-  summary: European and US banks inadvertently transmitted customer data to ad platforms
-    via tracking pixels, raising serious compliance, security, and privacy concerns.
   source: Dark Reading
 - title: LG to Ban Residential Proxies from Smart TV Apps
   link: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
@@ -260,6 +182,12 @@ items:
     companies and a now-defunct AI-based lobbying platform they operated under assumed
     names.
   source: Krebs on Security
+- title: ISC Stormcast For Wednesday, August 5th, 2026 https://isc.sans.edu/podcastdetail/10038,
+    (Wed, Aug 5th)
+  link: https://isc.sans.edu/diary/rss/33216
+  published: Wed, 05 Aug 2026 02:00:02 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: Ghost Credentials Expose Cloud Systems to Hidden Identity Risks
   link: https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path
   published: Tue, 28 Jul 2026 21:33:23 GMT
@@ -273,30 +201,12 @@ items:
   summary: A host of Internet-exposed remote hardware management processors are subject
     to offline password-cracking attacks — and adversaries have taken note.
   source: Dark Reading
-- title: Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process
-  link: https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html
-  published: Tue, 28 Jul 2026 20:31:33 +0530
-  summary: A new Mirai-derived botnet called Tengu can use a compromised Linux device's
-    hardware watchdog to trigger a reboot when defenders kill its main process. If
-    that happens, Tengu's other persistence mechanisms get another chance to relaunch
-    it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet
-    credential brute force. Tengu supports 25 distributed denial-of-service (
-  source: The Hacker News
 - title: When AI Agents Escape Sandboxes, Old Security Rules Apply
   link: https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply
   published: Tue, 28 Jul 2026 20:27:36 GMT
   summary: 'OpenAI''s recent AI agent sandbox escape proves traditional security principles
     matter more than ever: limit access, isolate execution, log everything.'
   source: Dark Reading
-- title: 24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login
-  link: https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html
-  published: Tue, 28 Jul 2026 20:11:36 +0530
-  summary: Cybersecurity researchers have sounded an alert after finding more than
-    36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent
-    Platform Management Interface (IPMI) protocol to the public internet. Of the 36,872
-    internet-exposed server-management interfaces running IPMI, 24,650 have been found
-    to disclose password-derived authentication hashes before login due to
-  source: The Hacker News
 - title: Stronger AI Safety Requires Peeking Inside the 'Black Box'
   link: https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box
   published: Tue, 28 Jul 2026 20:05:32 GMT
@@ -339,18 +249,6 @@ items:
     and their guilty pleas came on the first day of what was expected to be a six-week
     trial.
   source: Krebs on Security
-- title: Ransomware Is Accelerating, but It's Not Because of AI
-  link: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai
-  published: Tue, 21 Jul 2026 21:48:05 GMT
-  summary: Researchers pointed to fragmentation of the ransomware ecosystem, the emergence
-    of new attackers, and expansion of attacks on less defended organizations.
-  source: Dark Reading
-- title: Using LLMs to Find & Prioritize Vulnerabilities Is No Easy Task
-  link: https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task
-  published: Tue, 21 Jul 2026 21:27:37 GMT
-  summary: The latest large language models have high false-positive rates and fail
-    to take into account the context of scans, leading to more work for AppSec professionals.
-  source: Dark Reading
 - title: Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities
   link: https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
   published: Tue, 14 Jul 2026 20:27:33 GMT
@@ -390,6 +288,117 @@ items:
     bugs earned Microsoft's most dire "critical" rating, and exploit code for at least
     three of the weaknesses is now publicly available.
   source: Krebs on Security
+- title: Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens
+  link: https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
+  published: Tue, 04 Aug 2026 22:57:39 +0530
+  summary: The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness
+    has become the latest crimeware solution to add support for device code phishing,
+    a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization
+    Grant to bypass Multi-Factor Authentication (MFA) and seize control of user accounts.
+    "Greatness supports AiTM [adversary-in-the-middle] credential and
+  source: The Hacker News
+- title: Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and
+    VS Code Hooks
+  link: https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html
+  published: Tue, 04 Aug 2026 19:00:23 +0530
+  summary: A credential-stealing npm worm that first appeared in keyv@6.0.0 spread
+    beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple
+    organizations on August 4, 2026. SafeDep verified 353 poisoned versions across
+    79 package names in the npm registry. Its monitoring put the wider footprint at
+    442 versions across 353 names, while Aikido later reported at least 868 packages
+  source: The Hacker News
+- title: Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access
+  link: https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html
+  published: Tue, 04 Aug 2026 18:41:22 +0530
+  summary: Cybersecurity researchers have disclosed details of an active, multi-wave
+    campaign that employs social engineering lures themed around Adobe and Zoom software
+    updates, business document reviews, and system maintenance utilities to stealthily
+    deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect.
+    The campaign has been codenamed SMOKE#SCREEN by Securonix Threat
+  source: The Hacker News
+- title: Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook
+  link: https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook
+  published: Tue, 04 Aug 2026 18:37:35 GMT
+  summary: The attacks use diverse social engineering lures and rotating payloads
+    to deliver ScreenConnect for persistent remote access to compromised networks.
+  source: Dark Reading
+- title: When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always
+    Wanted
+  link: https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html
+  published: Tue, 04 Aug 2026 17:00:00 +0530
+  summary: The cybersecurity industry has spent decades assuming that offensive capability
+    scales with technical expertise. That assumption is starting to break. Security
+    teams have long estimated risk by ranking attacker sophistication. Nation-state
+    actors sat at one end. Organized criminal groups followed. Inexperienced attackers,
+    dismissed as "script kiddies," sat at the other end, running public
+  source: The Hacker News
+- title: Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger
+    Privileged Agent
+  link: https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html
+  published: Tue, 04 Aug 2026 16:46:23 +0530
+  summary: Google deleted three AI agent workflows from its Agent Development Kit
+    (ADK) Python repository. Pillar Security showed that a public GitHub issue could
+    manipulate a triage agent into triggering a privileged code-fixing agent. The
+    researchers said the public agent could be prompt-injected into posting /adk-issue-fix
+    as adk-bot. They identified the bot as a collaborator, so that comment satisfied
+  source: The Hacker News
+- title: New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database
+    Root
+  link: https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html
+  published: Tue, 04 Aug 2026 16:06:27 +0530
+  summary: 'cPanel has patched a flaw that let an authenticated hosting customer execute
+    SQL in the database''s root context, crossing the privilege boundary between a
+    cPanel account and the server''s administrative database identity. It shipped
+    in a targeted security release that closes two other routes past account boundaries.
+    The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects'
+  source: The Hacker News
+- title: DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager
+    RAT
+  link: https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html
+  published: Tue, 04 Aug 2026 14:33:23 +0530
+  summary: A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using
+    ClickFix lures as a way to stage malware-laced PNG images in victims' browser
+    cache and ultimately deliver CountLoader and a previously undocumented remote
+    access trojan called DeviceManager. "The first stage drops a steganographic PNG
+    image into the browser's cache, retrieves its hidden content, and executes the
+    second
+  source: The Hacker News
+- title: AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls
+  link: https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls
+  published: Tue, 04 Aug 2026 13:00:00 GMT
+  summary: A Google Firebase misconfiguration lets users of tl;dv, an AI meeting tool,
+    query any other users' meeting information and potentially join calls.
+  source: Dark Reading
+- title: Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)
+  link: https://isc.sans.edu/diary/rss/33214
+  published: Tue, 04 Aug 2026 12:46:19 GMT
+  summary: "This morning, I noticed specific sources \"hunting\" for vulnerabilities\
+    \ in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to\
+    \ be associated with diagnostic tools:\r"
+  source: SANS Internet Storm Center
+- title: CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises
+  link: https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html
+  published: Tue, 04 Aug 2026 12:30:13 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday
+    added a high-severity security flaw impacting N-able N-central to its Known Exploited
+    Vulnerabilities (KEV) catalog following reports of active exploitation in the
+    wild. The vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a case
+    of incomplete patching for CVE-2026-18556 (CVSS score: 8.2) that allows'
+  source: The Hacker News
+- title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries
+    are weaponizing AI
+  link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
+  published: Tue, 04 Aug 2026 10:00:11 GMT
+  summary: Talos has collected prompt logs from threat actor endpoints running various
+    applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis
+    of the ways we've seen bad actors leveraging cloud-based AI.
+  source: Cisco Talos
+- title: Device Code Phishing Up 1,500% in 2026; Vishing Doubles
+  link: https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles
+  published: Tue, 04 Aug 2026 07:00:00 GMT
+  summary: Newer social engineering techniques help attackers ignore entrenched security
+    controls and limit the evidence they leave behind.
+  source: Dark Reading
 - title: ISC Stormcast For Tuesday, August 4th, 2026 https://isc.sans.edu/podcastdetail/10036,
     (Tue, Aug 4th)
   link: https://isc.sans.edu/diary/rss/33212
@@ -661,12 +670,6 @@ items:
     in VTK-DICOM.</p><p>The vulnerabilities mentioned in this blog post have been
     patched by their respective vendors, in adherence to<a href="https://sec.cloudapps.cisco.com/security/center/resources/vendor_vulnerability_policy.html"><u>
     Cisco’s third-party vulnerability disclosure policy</u></a>. </p><p>For</p>
-  source: Cisco Talos
-- title: Winning 54% of the time
-  link: https://blog.talosintelligence.com/winning-54-of-the-time/
-  published: Thu, 09 Jul 2026 18:00:06 GMT
-  summary: With Wimbledon's help, Hazel argues against the popular myth that "Attackers
-    only need to be right once, but defenders need to be right 100% of the time."
   source: Cisco Talos
 - title: FBI Seizes NetNut Proxy Platform, Popa Botnet
   link: https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
