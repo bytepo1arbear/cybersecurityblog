@@ -1,4 +1,4 @@
-last_updated: '2026-08-06T05:13:26Z'
+last_updated: '2026-08-07T04:23:05Z'
 count: 100
 items:
 - title: Cybersecurity, Then & Now
@@ -344,15 +344,6 @@ items:
     on repositories such as PyPI or custom web servers, through source and wheel distribution
     formats, to the final installation into virtual or system-wide Python environments.
   source: Cisco Talos
-- title: A Record-Breaking Patch Tuesday for June 2026
-  link: https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/
-  published: Tue, 09 Jun 2026 22:07:28 +0000
-  summary: Microsoft today released software updates to plug nearly 200 security holes
-    across its Windows operating systems and supported software, a record number of
-    fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those
-    bugs earned Microsoft's most dire "critical" rating, and exploit code for at least
-    three of the weaknesses is now publicly available.
-  source: Krebs on Security
 - title: Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens
   link: https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
   published: Tue, 04 Aug 2026 22:57:39 +0530
@@ -479,71 +470,24 @@ items:
     targeting Chinese-speaking environments. One of the packages in question is "lib-mtop,"
     an unscoped package with the same name as a private Alibaba package
   source: The Hacker News
-- title: DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing
-    Malware
-  link: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
-  published: Thu, 30 Jul 2026 23:48:24 +0530
-  summary: Threat actors with ties to North Korea have been attributed to a sophisticated
-    macOS malvertising campaign that involves redirecting users to fake web pages
-    displaying a full-screen non-existent update sequence to deliver malware as part
-    of a new iteration of the long-running Contagious Interview campaign. The defining
-    aspect of the attack is that bogus macOS software update screen stealthily
-  source: The Hacker News
 - title: Minnesota Water Utility Attacks Expose Sector's Cyber-Risks
   link: https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks
   published: Thu, 30 Jul 2026 21:16:13 GMT
   summary: A likely Iran-backed actor targeted more than 30 community water systems
     in Minnesota in a sobering reminder of rising threats to US critical infrastructure.
   source: Dark Reading
-- title: 'ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS
-    Hijacking + 22 More Stories'
-  link: https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html
-  published: Thu, 30 Jul 2026 20:55:57 +0530
-  summary: 'A lot of security still comes down to trusting the wrong screen. This
-    week, that screen might be a login page, an install guide, a recruiter call, or
-    a familiar service behaving slightly wrong. Behind it: reused credentials, exposed
-    systems, quiet loaders, abused trust, and exploit paths that should have been
-    harder. Some defenses improved. The loose parts still got found first. Anyway,'
-  source: The Hacker News
 - title: AI Harnesses Burst With Potential Exploit Opps
   link: https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps
   published: Thu, 30 Jul 2026 19:40:40 GMT
   summary: A myriad of software makes up the typical AI harness, and trust issues
     between the components can create concerning attack vectors.
   source: Dark Reading
-- title: Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database
-  link: https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html
-  published: Thu, 30 Jul 2026 19:04:09 +0530
-  summary: A now-patched vulnerability in Azure Cosmos DB could have let an attacker
-    escape the service's Gremlin query sandbox and obtain full read and write access
-    to databases across customer tenants, according to Wiz. Wiz, which codenamed the
-    chain CosmosEscape, said the exploit chain began with a crafted query against
-    a Gremlin database controlled by the attacker. From there, code execution on a
-  source: The Hacker News
 - title: You were onto something with “It’s the Climb,” Miley
   link: https://blog.talosintelligence.com/you-were-onto-something-with-its-the-climb-miley/
   published: Thu, 30 Jul 2026 18:00:35 GMT
   summary: Amy hikes Virginia’s most difficult trail and muses on the persistent challenges
     of cybersecurity. The two aren't dissimilar.
   source: Cisco Talos
-- title: Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents
-  link: https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html
-  published: Thu, 30 Jul 2026 17:24:49 +0530
-  summary: Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite
-    figures in a report, then copy the same instructions into the finished file. Håkon
-    Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft.
-    In his proof of concept, the internally generated file triggered the same behavior
-    when it was used in a second Copilot drafting session. Måløy's
-  source: The Hacker News
-- title: The Network Has Become the Control Plane for AI Security
-  link: https://thehackernews.com/2026/07/the-network-has-become-control-plane.html
-  published: Thu, 30 Jul 2026 17:02:46 +0530
-  summary: 'Network firewalls are the workhorses of modern cybersecurity. They are
-    trusted to protect the network, blocking malicious traffic and preventing intrusions
-    and breaches. And for decades, network security teams have built controls around
-    a relatively stable model: users connect to applications, applications exchange
-    data, and security tools inspect packets, protocols, and destinations. Firewalls'
-  source: The Hacker News
 - title: Read This Before You Buy That TV Streaming Stick
   link: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
   published: Thu, 30 Jul 2026 16:49:00 +0000
@@ -554,16 +498,6 @@ items:
     as mobile phones clicking ads on AI-generated websites as part of sprawling operation
     that seeks to defraud online merchants and advertising networks.
   source: Krebs on Security
-- title: Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without
-    Prompts
-  link: https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
-  published: Thu, 30 Jul 2026 16:03:15 +0530
-  summary: South Korean authorities and four security firms have disclosed a state-sponsored
-    campaign that compromised trusted domestic websites. The attackers used those
-    sites to exploit locally installed financial-security software and infect targeted
-    visitors with SIGNBT or COPPERHEDGE backdoors. A compromised page could infect
-    a system running a vulnerable AnySign4PC version without a prompt or
-  source: The Hacker News
 - title: 'Claude Mythos — Hype vs. Reality: What Security Teams Need to Know'
   link: https://www.darkreading.com/cybersecurity-operations/claude-mythos-hype-vs-reality
   published: Thu, 30 Jul 2026 15:28:43 GMT
@@ -589,12 +523,6 @@ items:
   published: Thu, 30 Jul 2026 00:30:00 GMT
   summary: A premium-grade malware-as-a-service offering takes flight with multiple
     threat groups, building infostealers that drain victims' bank accounts.
-  source: Dark Reading
-- title: Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets
-  link: https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets
-  published: Thu, 23 Jul 2026 21:23:18 GMT
-  summary: A state-sponsored threat group, dubbed "Laundry Bear," sends "half-click"
-    phishing emails that require a victim only to open or preview the message.
   source: Dark Reading
 - title: Don’t swing at everything
   link: https://blog.talosintelligence.com/dont-swing-at-everything/
@@ -648,15 +576,179 @@ items:
     financially motivated adversary that has been conducting a malicious campaign
     targeting users in the U.S. and Europe since at least June 2025.
   source: Cisco Talos
-- title: WolfSSL, GeoVision, VTK vulnerabilities
-  link: https://blog.talosintelligence.com/wolfssl-vulnerabilities/
-  published: Thu, 09 Jul 2026 18:52:29 GMT
-  summary: <p>Cisco Talos’ Vulnerability Discovery & Research team recently disclosed
-    three vulnerabilities in WolfSSF, fourteen in GeoVision, and one vulnerability
-    in VTK-DICOM.</p><p>The vulnerabilities mentioned in this blog post have been
-    patched by their respective vendors, in adherence to<a href="https://sec.cloudapps.cisco.com/security/center/resources/vendor_vulnerability_policy.html"><u>
-    Cisco’s third-party vulnerability disclosure policy</u></a>. </p><p>For</p>
+- title: New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux
+    Hosts
+  link: https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
+  published: Thu, 06 Aug 2026 23:28:30 +0530
+  summary: Zapscape, a new Linux kernel vulnerability, could allow an attacker with
+    kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation
+    and execute code on the host. The risk applies when nested virtualization is exposed
+    to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects KVM/x86's
+    shadow memory management unit (MMU), which manages shadow page
+  source: The Hacker News
+- title: Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score
+    Bugs
+  link: https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
+  published: Thu, 06 Aug 2026 22:43:15 +0530
+  summary: Cisco has rolled out updates to address multiple critical security vulnerabilities
+    impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal
+    security review. The security issues affect Cisco Catalyst SD-WAN Software, regardless
+    of device configuration, and Cisco IOS XE Software when it is running in autonomous
+    or controller mode. "These vulnerabilities were found
+  source: The Hacker News
+- title: New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and
+    AMD CPUs
+  link: https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html
+  published: Thu, 06 Aug 2026 21:47:13 +0530
+  summary: An unprivileged Linux program can time a hardware interrupt to land in
+    the gap between a processor sanitizing its branch predictor and the kernel using
+    it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers
+    Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an
+    AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation
+    on,
+  source: The Hacker News
+- title: 'The Coordination Gap: How Attackers Are Outpacing Law Enforcement'
+  link: https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement
+  published: Thu, 06 Aug 2026 21:42:50 GMT
+  summary: The fight against cybercrime continues because threat actors have adapted
+    their strategies to avoid deterrents, but law enforcement still operates in silos.
+  source: Dark Reading
+- title: 'ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight
+    + 27 More Stories'
+  link: https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html
+  published: Thu, 06 Aug 2026 20:54:31 +0530
+  summary: 'Apparently, opening the thing is now enough. A repo can run before the
+    first prompt, a package can hide among hundreds, and a harmless-looking PDF can
+    finish the job. This week runs on cheap leverage: exposed servers, recycled bugs,
+    poisoned agent instructions, remote-access tools dressed as support software,
+    and trusted defaults doing attackers a favor. Nothing here is especially mystical.'
+  source: The Hacker News
+- title: Researcher Claims Control of ChatGPT Secure Sandbox
+  link: https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox
+  published: Thu, 06 Aug 2026 20:38:51 GMT
+  summary: A researcher demonstrated a proof-of-concept attack chain that provided
+    C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat
+    USA 2026.
+  source: Dark Reading
+- title: 'From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First
+    Culture'
+  link: https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture
+  published: Thu, 06 Aug 2026 19:00:11 GMT
+  summary: Former chief security officers of the Democratic National Committee explain
+    that a strong security-first mindset requires executive support – and a dose of
+    absurdity.
+  source: Dark Reading
+- title: Why metaphor may dictate your security strategy
+  link: https://blog.talosintelligence.com/why-metaphor-may-dictate-your-security-strategy/
+  published: Thu, 06 Aug 2026 18:00:01 GMT
+  summary: In this week's newsletter, Martin looks at how the metaphors we use to
+    describe AI "escaping" its sandbox can completely change how we react to the threat.
   source: Cisco Talos
+- title: Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities
+  link: https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html
+  published: Thu, 06 Aug 2026 17:46:58 +0530
+  summary: Forescout found 22 internet-facing Rockwell Automation programmable logic
+    controllers (PLCs) in cities hit by recent cyberattacks on US water utilities.
+    Nineteen used the same mobile carrier network. Its August 3 scan counted 4,407
+    exposed Rockwell controllers worldwide, including 2,844 in the United States,
+    but Forescout could not confirm any were compromised. That figure counts exposed
+  source: The Hacker News
+- title: CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet
+    Apps
+  link: https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html
+  published: Thu, 06 Aug 2026 17:19:48 +0530
+  summary: Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random
+    number generator behind the Ill Bloom wallet drains. Introduced in the JavaScript
+    cryptography library 12 years ago, the function supplied weak entropy that affected
+    wallet apps used to generate recovery phrases. Coinspect's on-chain analysis puts
+    the measured theft across two sweeps since late May at a lower bound of
+  source: The Hacker News
+- title: Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses
+  link: https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html
+  published: Thu, 06 Aug 2026 17:03:08 +0530
+  summary: Cybersecurity researchers have disclosed a security issue with Apple's
+    iCloud Private Relay tool that can expose a user's real IP address. Introduced
+    with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users'
+    privacy by routing their Safari web traffic through two relays so that no single
+    third-party, including Apple, can determine where the request is originating from
+  source: The Hacker News
+- title: Canadian Man Pleads Guilty in Snowflake Extortions
+  link: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
+  published: Thu, 06 Aug 2026 17:00:56 +0000
+  summary: A 26-year-old Canadian man once described as one of the most consequential
+    cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy
+    to hack and extort more than 165 organizations that used the cloud data storage
+    provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted
+    to stealing call and text history records of more than 100 million AT&T customers.
+  source: Krebs on Security
+- title: 'AI Recommendation Poisoning: How "Ask AI" Buttons Silently Alter LLM Memory'
+  link: https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html
+  published: Thu, 06 Aug 2026 17:00:00 +0530
+  summary: 'A new class of prompt injection is spreading across commercial websites.
+    It requires no malware, no stolen credentials, and no zero-day exploit. It abuses
+    a standard feature built into almost every major AI assistant: pre-filled deep
+    links. We observed production websites embedding hidden prompt injection payloads
+    inside "Ask AI" buttons on marketing and competitor comparison pages. When a user'
+  source: The Hacker News
+- title: Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows
+    SYSTEM Access
+  link: https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html
+  published: Thu, 06 Aug 2026 14:49:23 +0530
+  summary: Attackers broke into an organization's Oracle database through a SQL injection
+    flaw in a public-facing web application, then installed a post-exploitation toolkit
+    without writing an executable to disk. They fed Java source code to the database,
+    let Oracle compile it into stored schema objects, and ran commands from inside
+    the database engine. Huntress, which tracks the toolkit as khunt,
+  source: The Hacker News
+- title: AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running
+    the Model
+  link: https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html
+  published: Thu, 06 Aug 2026 14:27:30 +0530
+  summary: Security flaws in agent infrastructure from Amazon Web Services (AWS),
+    Google, and Vercel let untrusted or forged instructions reach an agent's tools
+    with no check that a model turn had authorized them. In several of the attack
+    paths, the model never ran at all, so system prompts, content filters, and model-level
+    guardrails never got a chance to intervene. The affected products include Amazon
+  source: The Hacker News
+- title: Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated
+    Root Shells
+  link: https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html
+  published: Thu, 06 Aug 2026 13:35:22 +0530
+  summary: Cybersecurity researchers have disclosed details of a "factory-shipped
+    backdoor" implanted in at least 20 Chinese router models from Zbtlink. According
+    to a new report from VulnCheck, the implant appears in all 21 firmware images
+    currently available from Zbtlink that span more than 2 years. The backdoors are
+    designed such that they start automatically and attempt to beacon to Chinese
+  source: The Hacker News
+- title: Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service
+  link: https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html
+  published: Thu, 06 Aug 2026 12:49:54 +0530
+  summary: A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16
+    years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service
+    operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators
+    attacked at least 18 companies, including firms in California, New York and Nebraska,
+    and others abroad, according to the Justice Department.
+  source: The Hacker News
+- title: CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in
+    the Wild
+  link: https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html
+  published: Thu, 06 Aug 2026 12:21:43 +0530
+  summary: 'A newly patched security flaw impacting on-premise versions of JetBrains
+    TeamCity has come under active exploitation in the wild, according to the U.S.
+    Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in
+    question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted
+    data that could allow an unauthenticated attacker with access to a TeamCity server'
+  source: The Hacker News
+- title: Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million
+    People
+  link: https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+  published: Thu, 06 Aug 2026 11:34:30 +0530
+  summary: Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday
+    to computer fraud, wire fraud, aggravated identity theft and a related conspiracy
+    over the 2024 breaches of Snowflake customer accounts. The intrusions reached
+    at least 165 organizations and exposed records belonging to at least 100 million
+    people. Moucka, 26, of Kitchener, Ontario, personally took at least $495,000 from
+  source: The Hacker News
 - title: ISC Stormcast For Thursday, August 6th, 2026 https://isc.sans.edu/podcastdetail/10040,
     (Thu, Aug 6th)
   link: https://isc.sans.edu/diary/rss/33222
@@ -714,79 +806,3 @@ items:
     made by Canadian firm Coinkite. A March 2021 firmware integration error routed
     seed generation to a deterministic software pseudorandom number generator (PRNG
   source: The Hacker News
-- title: Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer
-    Sites
-  link: https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html
-  published: Sat, 01 Aug 2026 14:33:07 +0530
-  summary: Attackers modified a JavaScript file served by advertising technology company
-    Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet
-    addresses. Adform detected the incident on July 27, 2026, removed the malicious
-    code, notified affected clients, and reported it to authorities. Anyone who visited
-    a site carrying the affected script on July 27 and copied a Bitcoin,
-  source: The Hacker News
-- title: Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
-  link: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
-  published: Sat, 01 Aug 2026 12:42:42 +0530
-  summary: Adobe has released security updates to address a maximum-severity security
-    flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform,
-    that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449,
-    carries a severity score of 10.0 on the CVSS scoring system. It has been described
-    as a case of incorrect authorization that could result in
-  source: The Hacker News
-- title: Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware
-  link: https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html
-  published: Sat, 01 Aug 2026 11:59:05 +0530
-  summary: A fake browser update served over hijacked hotel Wi-Fi has been used to
-    deliver CornFlake, a remote access trojan (RAT) that can capture webcam images,
-    microphone audio, and keystrokes, Microsoft said in its latest report. Researchers
-    track the operation as CaptiveCrunch and attribute it to Storm-2945. It assesses
-    Storm-2945 to be an operational sub-cluster of Midnight Blizzard, also known as
-  source: The Hacker News
-- title: Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)
-  link: https://isc.sans.edu/diary/rss/33206
-  published: Sat, 01 Aug 2026 07:22:32 GMT
-  summary: "Most phishing campaigns rely on the fact that the victim is afraid to\
-    \ loose \"something\": money, access to information, ... Many brands have been\
-    \ impersonated by campaigns but I spotted some phishing emails that focus on AI\
-    \ services like ChatGPT.\r"
-  source: SANS Internet Storm Center
-- title: Suspected Chinese-Speaking Hackers Target Central Asian Governments With
-    OctLurk and SilkLurk
-  link: https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html
-  published: Sat, 01 Aug 2026 00:22:04 +0530
-  summary: A Chinese-speaking threat actor is suspected to be behind a fresh wave
-    of cyber attacks targeting government organizations mainly located in Central
-    Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and
-    the Syrian Arab Republic, since January 2025. These targeted organizations operate
-    across several sectors, such as healthcare, research, government offices,
-  source: The Hacker News
-- title: Agentic Browsers Rewind Web Security by 20 Years
-  link: https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years
-  published: Mon, 27 Jul 2026 21:39:09 GMT
-  summary: PleaseFix class of flaws makes it easy to socially engineer agentic browsers
-    and highlights weaknesses in how they handle cross-origin requests.
-  source: Dark Reading
-- title: '''Confused Deputy'' Flaws Persist in Google Cloud, Microsoft Azure'
-  link: https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure
-  published: Mon, 27 Jul 2026 20:57:26 GMT
-  summary: This category of vulnerabilities allows an attacker to easily acquire administrative
-    level permissions and bypass cloud providers' access controls.
-  source: Dark Reading
-- title: 'FBI: Breaking Affiliate Trust Sped Along LockBit''s Takedown'
-  link: https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown
-  published: Mon, 27 Jul 2026 20:33:29 GMT
-  summary: An FBI agent explains how the mulitnational law-enforcement Operation Cronos
-    was successful in disrupting the largest ransomware group of its time.
-  source: Dark Reading
-- title: Why Resetting Passwords No Longer Stops Attackers
-  link: https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks
-  published: Mon, 27 Jul 2026 18:39:50 GMT
-  summary: As attackers shift from password theft to session and token theft to bypass
-    multifactor authentication controls, organizations must move beyond login security
-    and protect authenticated sessions.
-  source: Dark Reading
-- title: Adversaries Don't Need a Zero-Day — They Read Your Rulebook
-  link: https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook
-  published: Mon, 27 Jul 2026 17:31:18 GMT
-  summary: Confidence in autonomous security tools is declining, and here's why.
-  source: Dark Reading
