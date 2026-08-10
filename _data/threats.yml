@@ -1,4 +1,4 @@
-last_updated: '2026-08-09T03:29:24Z'
+last_updated: '2026-08-10T03:49:34Z'
 count: 100
 items:
 - title: 'Cybersecurity, Then & Now: A Visual Look at 20 Years of Change'
@@ -759,11 +759,6 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
-- title: Atomic MacOS (AMOS) stealer infection, (Sun, Aug 2nd)
-  link: https://isc.sans.edu/diary/rss/33208
-  published: Sun, 02 Aug 2026 04:05:08 GMT
-  summary: "Introduction\r"
-  source: SANS Internet Storm Center
 - title: Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
   link: https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
   published: Sat, 08 Aug 2026 14:24:50 +0530
@@ -799,4 +794,13 @@ items:
     in the Remote Monitoring and Management (RMM) product. "We are proactively expanding
     protections in response to ongoing monitoring of threat actors as they evolve
     their attack techniques," the company said. "This is not a duplicate of our
+  source: The Hacker News
+- title: Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
+  link: https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
+  published: Sat, 08 Aug 2026 12:22:16 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday
+    added a critical-severity security flaw impacting Progress Kemp LoadMaster to
+    its Known Exploited Vulnerabilities (KEV) catalog, following reports of active
+    exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score:
+    9.6), is a command injection flaw that could be weaponized to achieve arbitrary'
   source: The Hacker News
