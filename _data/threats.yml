@@ -1,4 +1,4 @@
-last_updated: '2026-08-10T03:49:34Z'
+last_updated: '2026-08-11T03:39:33Z'
 count: 100
 items:
 - title: 'Cybersecurity, Then & Now: A Visual Look at 20 Years of Change'
@@ -211,35 +211,6 @@ items:
     according to Manifold Security. The packages have been removed from Open VSX as
     of
   source: The Hacker News
-- title: Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing,
-    Then Vouched for Itself
-  link: https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html
-  published: Wed, 05 Aug 2026 13:23:50 +0530
-  summary: An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get
-    a malware dropper merged into a real open-source project during a cyber evaluation
-    by the UK's AI Security Institute. When a bystander publicly warned that the code
-    was malicious, the agent denied it, force-pushed a rewritten branch history to
-    erase the evidence, and posted from a second account it controlled to vouch for
-  source: The Hacker News
-- title: CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited
-  link: https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
-  published: Wed, 05 Aug 2026 13:10:39 +0530
-  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August
-    5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog,
-    citing evidence of active exploitation in the wild. The list of vulnerabilities
-    is as follows - CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability
-    in Langflow that allows unauthenticated attackers to achieve full remote'
-  source: The Hacker News
-- title: QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows
-    Installer
-  link: https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html
-  published: Wed, 05 Aug 2026 11:17:19 +0530
-  summary: Cybersecurity researchers have disclosed what has been described as a "long-standing
-    supply chain attack" on QuickFox, a virtual private network (VPN) and network
-    acceleration tool designed for overseas Chinese users. According to Fortinet FortiGuard
-    Labs, the supply chain attack has been ongoing since at least August 2025 and
-    involves a trojanized version of the application to deliver FDMTP, a
-  source: The Hacker News
 - title: Angola's Largest Telco Breached Hours Before IPO
   link: https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo
   published: Wed, 05 Aug 2026 08:00:00 GMT
@@ -298,12 +269,6 @@ items:
     access and the weaponization of legitimate remote management tools. Learn how
     to sharpen your defenses.
   source: Cisco Talos
-- title: AI Agent Drives Espionage Attack on Thai Ministry of Finance
-  link: https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance
-  published: Tue, 28 Jul 2026 01:00:00 GMT
-  summary: Attackers used Hermes, an autonomous open source tool, in unrestricted
-    "YOLO mode" to conduct espionage against Thailand's Ministry of Finance.
-  source: Dark Reading
 - title: Scattered Spider Hackers Plead Guilty on Day 1 of Trial
   link: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
   published: Tue, 23 Jun 2026 16:12:49 +0000
@@ -344,60 +309,18 @@ items:
     on repositories such as PyPI or custom web servers, through source and wheel distribution
     formats, to the final installation into virtual or system-wide Python environments.
   source: Cisco Talos
-- title: Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens
-  link: https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html
-  published: Tue, 04 Aug 2026 22:57:39 +0530
-  summary: The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness
-    has become the latest crimeware solution to add support for device code phishing,
-    a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization
-    Grant to bypass Multi-Factor Authentication (MFA) and seize control of user accounts.
-    "Greatness supports AiTM [adversary-in-the-middle] credential and
-  source: The Hacker News
-- title: Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and
-    VS Code Hooks
-  link: https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html
-  published: Tue, 04 Aug 2026 19:00:23 +0530
-  summary: A credential-stealing npm worm that first appeared in keyv@6.0.0 spread
-    beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple
-    organizations on August 4, 2026. SafeDep verified 353 poisoned versions across
-    79 package names in the npm registry. Its monitoring put the wider footprint at
-    442 versions across 353 names, while Aikido later reported at least 868 packages
-  source: The Hacker News
-- title: Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access
-  link: https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html
-  published: Tue, 04 Aug 2026 18:41:22 +0530
-  summary: Cybersecurity researchers have disclosed details of an active, multi-wave
-    campaign that employs social engineering lures themed around Adobe and Zoom software
-    updates, business document reviews, and system maintenance utilities to stealthily
-    deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect.
-    The campaign has been codenamed SMOKE#SCREEN by Securonix Threat
-  source: The Hacker News
+- title: ISC Stormcast For Tuesday, August 11th, 2026 https://isc.sans.edu/podcastdetail/10046,
+    (Tue, Aug 11th)
+  link: https://isc.sans.edu/diary/rss/33232
+  published: Tue, 11 Aug 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook
   link: https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook
   published: Tue, 04 Aug 2026 18:37:35 GMT
   summary: The attacks use diverse social engineering lures and rotating payloads
     to deliver ScreenConnect for persistent remote access to compromised networks.
   source: Dark Reading
-- title: When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always
-    Wanted
-  link: https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html
-  published: Tue, 04 Aug 2026 17:00:00 +0530
-  summary: The cybersecurity industry has spent decades assuming that offensive capability
-    scales with technical expertise. That assumption is starting to break. Security
-    teams have long estimated risk by ranking attacker sophistication. Nation-state
-    actors sat at one end. Organized criminal groups followed. Inexperienced attackers,
-    dismissed as "script kiddies," sat at the other end, running public
-  source: The Hacker News
-- title: Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger
-    Privileged Agent
-  link: https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html
-  published: Tue, 04 Aug 2026 16:46:23 +0530
-  summary: Google deleted three AI agent workflows from its Agent Development Kit
-    (ADK) Python repository. Pillar Security showed that a public GitHub issue could
-    manipulate a triage agent into triggering a privileged code-fixing agent. The
-    researchers said the public agent could be prompt-injected into posting /adk-issue-fix
-    as adk-bot. They identified the bot as a collaborator, so that comment satisfied
-  source: The Hacker News
 - title: AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls
   link: https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls
   published: Tue, 04 Aug 2026 13:00:00 GMT
@@ -425,12 +348,6 @@ items:
   summary: Newer social engineering techniques help attackers ignore entrenched security
     controls and limit the evidence they leave behind.
   source: Dark Reading
-- title: ISC Stormcast For Tuesday, August 4th, 2026 https://isc.sans.edu/podcastdetail/10036,
-    (Tue, Aug 4th)
-  link: https://isc.sans.edu/diary/rss/33212
-  published: Tue, 04 Aug 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Minnesota Water Utility Attacks Expose Sector's Cyber-Risks
   link: https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks
   published: Thu, 30 Jul 2026 21:16:13 GMT
@@ -803,4 +720,82 @@ items:
     its Known Exploited Vulnerabilities (KEV) catalog, following reports of active
     exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score:
     9.6), is a command injection flaw that could be weaponized to achieve arbitrary'
+  source: The Hacker News
+- title: Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer
+  link: https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html
+  published: Sat, 08 Aug 2026 00:18:17 +0530
+  summary: A cluster of nearly 800 malicious packages has been published to the npm
+    registry as part of a new campaign designed to deliver cross-platform malware
+    targeting Windows, Mac, and Linux systems. "These packages appear to use AI slop
+    squatted, or randomly generated typo-squatting package names, but all of them
+    deliver a powerful RAT and infostealer payload," OpenSourceMalware researcher
+    Paul
+  source: The Hacker News
+- title: Lessons Learned from CISA’s Recent GitHub Leak
+  link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+  published: Mon, 13 Jul 2026 15:03:28 +0000
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued
+    a postmortem on a data leak in which a contractor published dozens of internal
+    CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository
+    for almost six months before being notified by KrebsOnSecurity. Experts say the
+    gaps identified in the agency's initial response provide important lessons that
+    all security teams should absorb.
+  source: Krebs on Security
+- title: Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development
+  link: https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html
+  published: Mon, 10 Aug 2026 22:59:17 +0530
+  summary: AI is helping development teams produce far more code, far faster. But
+    security teams still have to review vulnerabilities, manage dependencies, prioritize
+    fixes, and control risk at human speed. When software output jumps 10 to 50 times,
+    the problem is no longer just finding vulnerabilities. It is keeping security
+    from becoming the bottleneck, or worse, losing control of what gets shipped.
+  source: The Hacker News
+- title: China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central
+    Flaw
+  link: https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
+  published: Mon, 10 Aug 2026 22:08:37 +0530
+  summary: Microsoft has disclosed that Storm-1175, a financially motivated threat
+    actor linked to China, has deployed a previously undocumented ransomware strain
+    called StormEncryptor. The use of StormEncryptor marks a shift from the adversary's
+    previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.
+    "StormEncryptor is written in C++ and appends the file name extension .encrypted
+  source: The Hacker News
+- title: '''GhostJacking'' Exposes Identity Governance Gaps in AI Agents'
+  link: https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents
+  published: Mon, 10 Aug 2026 21:54:22 GMT
+  summary: New research shows how attackers can use security alerts and blocked events
+    to manipulate and hijack AI agents.
+  source: Dark Reading
+- title: Multistate Water System Attacks Widen, Iran Suspected
+  link: https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected
+  published: Mon, 10 Aug 2026 21:34:38 GMT
+  summary: Attacks targeting water systems just keep flowing across a dozen states,
+    against ill-secured, Internet-exposed PLCs.
+  source: Dark Reading
+- title: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
+  link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
+  published: Mon, 10 Aug 2026 21:02:23 GMT
+  summary: The maximum-severity vulnerability, which still has no CVE, allows malicious,
+    remote administrator access to the business-analytics platform and its downstream
+    users.
+  source: Dark Reading
+- title: '⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks,
+    and Router Backdoors'
+  link: https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
+  published: Mon, 10 Aug 2026 20:30:29 +0530
+  summary: A lot of security problems still begin with someone doing a completely
+    normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting
+    the default. That pretty much covers the mood this week. Old bugs are back, supply
+    chains are getting stranger, and some exploit paths are so short you wonder what
+    was supposed to stop them in the first place. That’s only part of it. Here’s
+  source: The Hacker News
+- title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
+  link: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
+  published: Mon, 10 Aug 2026 18:49:58 +0530
+  summary: North Korea's state hackers are no longer content to type prompts into
+    public chatbots. One of the country's main espionage groups has begun running
+    artificial intelligence (AI) offline on its own servers, connecting document-search
+    tools to files in its possession, and collecting the software parts needed to
+    build AI into its malware. South Korean security firm Genians says it uncovered
+    the
   source: The Hacker News
