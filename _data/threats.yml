@@ -1,4 +1,4 @@
-last_updated: '2026-08-12T04:02:33Z'
+last_updated: '2026-08-13T04:07:25Z'
 count: 100
 items:
 - title: 'Cybersecurity, Then & Now: A Visual Look at 20 Years of Change'
@@ -55,6 +55,137 @@ items:
     webOS store allow unknown third-parties to route their Internet traffic through
     a user's TV.
   source: Krebs on Security
+- title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+  link: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+  published: Wed, 12 Aug 2026 23:09:27 +0530
+  summary: The North Korean threat actor known as Lazarus Group has been attributed
+    to the zero-day exploitation of a newly patched security flaw impacting Microsoft
+    Windows to deliver a never-before-seen backdoor targeting defense and aerospace
+    companies across France, Germany, Brazil, and India. The activity, per Check Point
+    Research, is part of Operation Dream Job, a long-running cyber espionage and
+  source: The Hacker News
+- title: Long-running Data Theft Campaign Targeting Salesforce, ServiceNow
+  link: https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow
+  published: Wed, 12 Aug 2026 21:08:54 GMT
+  summary: The "City-Forum" campaign has been active since at least March 2025 and
+    has targeted organizations across multiple sectors with custom tooling.
+  source: Dark Reading
+- title: 737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If
+    You Have One
+  link: https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html
+  published: Wed, 12 Aug 2026 19:39:50 +0530
+  summary: A massive set of 737 free VPN and proxy extensions have been found to mainly
+    target Russian-speaking users seeking access to blocked services with an aim to
+    intercept browser traffic and route them through a proxy infrastructure. The extensions,
+    published across at least 40 Chrome Web Store developer accounts, racked up 75,486
+    installs. Of those identified, 274 have been found to impersonate 66
+  source: The Hacker News
+- title: OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models'
+    Reasoning
+  link: https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html
+  published: Wed, 12 Aug 2026 17:17:38 +0530
+  summary: A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried
+    hidden AI reasoning between API calls let researchers recover internal reasoning
+    and secrets from session logs, including API keys and passwords. The weakness
+    affected encrypted reasoning objects used by the providers' reasoning APIs, where
+    a block created in one session could be replayed into another and, during testing,
+  source: The Hacker News
+- title: Enterprise Defenses Recovered at the Edge and Collapsed Inside
+  link: https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html
+  published: Wed, 12 Aug 2026 17:11:34 +0530
+  summary: Enterprise defenses are tuned to catch the attacks that make noise. This
+    year's data shows attackers winning by making none. According to Picus Labs' new
+    Blue Report 2026, which measured more than 338 million real attack simulations
+    across actual client production environments in the first half of 2026, defenses
+    are having one of their strongest years yet. Average prevention effectiveness
+  source: The Hacker News
+- title: Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws
+  link: https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html
+  published: Wed, 12 Aug 2026 16:43:03 +0530
+  summary: 'Adobe has shipped updates to address multiple critical security vulnerabilities
+    impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited,
+    could result in arbitrary code execution and privilege escalation. The most severe
+    of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating
+    system command injection vulnerability in ColdFusion that could'
+  source: The Hacker News
+- title: Walmart's "Trusted Agent" Approach to Purple Teaming
+  link: https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming
+  published: Wed, 12 Aug 2026 16:28:04 GMT
+  summary: Walmart co-locates red and blue teams to build trust and improve security
+    through collaborative purple teaming exercises
+  source: Dark Reading
+- title: Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote
+    Access
+  link: https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html
+  published: Wed, 12 Aug 2026 14:31:54 +0530
+  summary: 'Threat actors have begun to actively exploit a recently patched critical
+    security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.
+    The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal
+    vulnerability in the VMware vCenter server that a malicious actor with network
+    access can exploit to execute arbitrary code. Patches for the flaw were'
+  source: The Hacker News
+- title: Linux Kernel Process Accounting, (Wed, Aug 12th)
+  link: https://isc.sans.edu/diary/rss/33240
+  published: Wed, 12 Aug 2026 14:21:10 GMT
+  summary: "A couple of days ago, Xavier posted about Atuin to gain more insight into\
+    \ the command history. Atuin does a great job of better organizing what is usually\
+    \ handled by \"bash&#;x26;#;x5f;history\"&#;x26;#;xc2;&#;x26;#;xa0;and collecting\
+    \ meaningful additional data. Our reader David commented that this can also be\
+    \ done quite well with Linux&#;x26;#;39;s kernel process accounting feature, and\
+    \ I think he is very right. I really like Linux process accounting for a number\
+    \ of reasons, so here is a quick introduction.\r"
+  source: SANS Internet Storm Center
+- title: Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition
+  link: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition
+  published: Wed, 12 Aug 2026 14:00:00 GMT
+  summary: Attackers continue to target critical infrastructure and government-linked
+    organizations in the country, mirroring the increased activity across Latin America.
+  source: Dark Reading
+- title: Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations
+  link: https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html
+  published: Wed, 12 Aug 2026 13:34:52 +0530
+  summary: Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March
+    carrying credential-stealing code capable of harvesting cloud keys, SSH keys,
+    Kubernetes tokens, database passwords, and other secrets from systems that installed
+    them. Threat intelligence firm CloudSEK now says a dataset it obtained, built
+    from roughly 434,000 files the attackers captured, maps potential exposure to
+    more
+  source: The Hacker News
+- title: SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary
+    Code
+  link: https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
+  published: Wed, 12 Aug 2026 13:01:40 +0530
+  summary: SAP has released patches to address a maximum-severity security flaw impacting
+    Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.
+    The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on
+    the CVSS scoring system. It has been described as a case of insufficient authorization
+    checks and input validation. "SAP Commerce Cloud allows an
+  source: The Hacker News
+- title: Walmart Leaders Transform Security Operations Without Going Bananas
+  link: https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas
+  published: Wed, 12 Aug 2026 12:41:03 GMT
+  summary: The big-box giant has scaled its defenses by encouraging trust and innovation.
+    Good communications, transparency, and team spirit are key factors.
+  source: Dark Reading
+- title: ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM
+    Access
+  link: https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
+  published: Wed, 12 Aug 2026 12:11:38 +0530
+  summary: 'The security researcher going by the name Chaotic Eclipse (aka INFINITE
+    NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept
+    (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted
+    in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656
+    (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described'
+  source: The Hacker News
+- title: Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS
+  link: https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
+  published: Wed, 12 Aug 2026 11:45:58 +0530
+  summary: 'Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive
+    Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software
+    has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349
+    (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP
+    requests that could allow an unauthenticated, remote attacker to trigger'
+  source: The Hacker News
 - title: ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048,
     (Wed, Aug 12th)
   link: https://isc.sans.edu/diary/rss/33238
@@ -148,48 +279,12 @@ items:
     AI agents with different privilege levels to trigger automation that could compromise
     the supply chain.
   source: Dark Reading
-- title: 'Don''t Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed,
-    Aug 5th)'
-  link: https://isc.sans.edu/diary/rss/33218
-  published: Wed, 05 Aug 2026 17:56:15 GMT
-  summary: "When you learn that a compromised package executed on one of your build\
-    \ hosts, muscle memory takes over: revoke the npm token, rotate the GitHub PAT,\
-    \ cycle the cloud keys. That reflex has been correct in almost every supply-chain\
-    \ incident I have worked. In the keyv/cacheable compromise that has been unfolding\
-    \ since yesterday, it is the one thing you should not do first â€” because revoking\
-    \ the stolen token is exactly what arms the payload.\r"
-  source: SANS Internet Storm Center
 - title: Angola's Largest Telco Breached Hours Before IPO
   link: https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo
   published: Wed, 05 Aug 2026 08:00:00 GMT
   summary: Unitel, Angola's dominant mobile operator, continues to recover from a
     cyberattack that caused outages the day of the government-owned telco's public
     offering.
-  source: Dark Reading
-- title: Ghost Credentials Expose Cloud Systems to Hidden Identity Risks
-  link: https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path
-  published: Tue, 28 Jul 2026 21:33:23 GMT
-  summary: Dormant nonhuman identities can create security blind spots, says security
-    researcher Aleksandr Krasnov, who plans to release an open source tool next week
-    at Black Hat USA 2026 that sniffs out trust paths.
-  source: Dark Reading
-- title: Thousands of Data Center Controllers Open to Takeover
-  link: https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover
-  published: Tue, 28 Jul 2026 21:07:55 GMT
-  summary: A host of Internet-exposed remote hardware management processors are subject
-    to offline password-cracking attacks — and adversaries have taken note.
-  source: Dark Reading
-- title: When AI Agents Escape Sandboxes, Old Security Rules Apply
-  link: https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply
-  published: Tue, 28 Jul 2026 20:27:36 GMT
-  summary: 'OpenAI''s recent AI agent sandbox escape proves traditional security principles
-    matter more than ever: limit access, isolate execution, log everything.'
-  source: Dark Reading
-- title: Stronger AI Safety Requires Peeking Inside the 'Black Box'
-  link: https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box
-  published: Tue, 28 Jul 2026 20:05:32 GMT
-  summary: Researchers propose focusing on identification of certain cognitive elements
-    in LLMs that indicate when AI systems may take an unwanted action.
   source: Dark Reading
 - title: 'IR Trends Q2 2026: Phishing and weaponized remote management tools drive
     attack chains'
@@ -348,8 +443,7 @@ items:
     that each look routine, place them in channels the assistant already uses, and
     let'
   source: The Hacker News
-- title: Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach
-    Networks
+- title: Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks
   link: https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html
   published: Tue, 11 Aug 2026 14:46:24 +0530
   summary: Cybersecurity and intelligence agencies from South Korea and the U.S. warned
@@ -515,53 +609,29 @@ items:
     financially motivated adversary that has been conducting a malicious campaign
     targeting users in the U.S. and Europe since at least June 2025.
   source: Cisco Talos
-- title: New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux
-    Hosts
-  link: https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
-  published: Thu, 06 Aug 2026 23:28:30 +0530
-  summary: Zapscape, a new Linux kernel vulnerability, could allow an attacker with
-    kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation
-    and execute code on the host. The risk applies when nested virtualization is exposed
-    to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects KVM/x86's
-    shadow memory management unit (MMU), which manages shadow page
-  source: The Hacker News
-- title: Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score
-    Bugs
-  link: https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
-  published: Thu, 06 Aug 2026 22:43:15 +0530
-  summary: Cisco has rolled out updates to address multiple critical security vulnerabilities
-    impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal
-    security review. The security issues affect Cisco Catalyst SD-WAN Software, regardless
-    of device configuration, and Cisco IOS XE Software when it is running in autonomous
-    or controller mode. "These vulnerabilities were found
-  source: The Hacker News
-- title: New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and
-    AMD CPUs
-  link: https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html
-  published: Thu, 06 Aug 2026 21:47:13 +0530
-  summary: An unprivileged Linux program can time a hardware interrupt to land in
-    the gap between a processor sanitizing its branch predictor and the kernel using
-    it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers
-    Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an
-    AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation
-    on,
-  source: The Hacker News
+- title: ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050,
+    (Thu, Aug 13th)
+  link: https://isc.sans.edu/diary/rss/33244
+  published: Thu, 13 Aug 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: Using Gemma4 with Ollama - Testing File Hash Analysis and Recommendations
+    with AI, (Wed, Aug 12th)
+  link: https://isc.sans.edu/diary/rss/33242
+  published: Thu, 13 Aug 2026 01:26:53 GMT
+  summary: "In the past few weeks, I have been using Gemma4 as a Large Language Model\
+    \ (LLM) to see how useful it can be to analyze some of the malware hashes uploaded\
+    \ to the DShield sensor over the past 30 days and figure out how its recommendation\
+    \ can be considered useful about the activity my DShield sensor is collecting\
+    \ and tracking. The model I use for this testing is gemma4:e4b [2] using two sites\
+    \ to compare the data against VirusTotal and CyberGordon. \r"
+  source: SANS Internet Storm Center
 - title: 'The Coordination Gap: How Attackers Are Outpacing Law Enforcement'
   link: https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement
   published: Thu, 06 Aug 2026 21:42:50 GMT
   summary: The fight against cybercrime continues because threat actors have adapted
     their strategies to avoid deterrents, but law enforcement still operates in silos.
   source: Dark Reading
-- title: 'ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight
-    + 27 More Stories'
-  link: https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html
-  published: Thu, 06 Aug 2026 20:54:31 +0530
-  summary: 'Apparently, opening the thing is now enough. A repo can run before the
-    first prompt, a package can hide among hundreds, and a harmless-looking PDF can
-    finish the job. This week runs on cheap leverage: exposed servers, recycled bugs,
-    poisoned agent instructions, remote-access tools dressed as support software,
-    and trusted defaults doing attackers a favor. Nothing here is especially mystical.'
-  source: The Hacker News
 - title: Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride
   link: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
   published: Thu, 06 Aug 2026 20:39:30 GMT
@@ -589,34 +659,6 @@ items:
   summary: In this week's newsletter, Martin looks at how the metaphors we use to
     describe AI "escaping" its sandbox can completely change how we react to the threat.
   source: Cisco Talos
-- title: Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities
-  link: https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html
-  published: Thu, 06 Aug 2026 17:46:58 +0530
-  summary: Forescout found 22 internet-facing Rockwell Automation programmable logic
-    controllers (PLCs) in cities hit by recent cyberattacks on US water utilities.
-    Nineteen used the same mobile carrier network. Its August 3 scan counted 4,407
-    exposed Rockwell controllers worldwide, including 2,844 in the United States,
-    but Forescout could not confirm any were compromised. That figure counts exposed
-  source: The Hacker News
-- title: CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet
-    Apps
-  link: https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html
-  published: Thu, 06 Aug 2026 17:19:48 +0530
-  summary: Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random
-    number generator behind the Ill Bloom wallet drains. Introduced in the JavaScript
-    cryptography library 12 years ago, the function supplied weak entropy that affected
-    wallet apps used to generate recovery phrases. Coinspect's on-chain analysis puts
-    the measured theft across two sweeps since late May at a lower bound of
-  source: The Hacker News
-- title: Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses
-  link: https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html
-  published: Thu, 06 Aug 2026 17:03:08 +0530
-  summary: Cybersecurity researchers have disclosed a security issue with Apple's
-    iCloud Private Relay tool that can expose a user's real IP address. Introduced
-    with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users'
-    privacy by routing their Safari web traffic through two relays so that no single
-    third-party, including Apple, can determine where the request is originating from
-  source: The Hacker News
 - title: Canadian Man Pleads Guilty in Snowflake Extortions
   link: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
   published: Thu, 06 Aug 2026 17:00:56 +0000
@@ -626,48 +668,6 @@ items:
     provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted
     to stealing call and text history records of more than 100 million AT&T customers.
   source: Krebs on Security
-- title: 'AI Recommendation Poisoning: How "Ask AI" Buttons Silently Alter LLM Memory'
-  link: https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html
-  published: Thu, 06 Aug 2026 17:00:00 +0530
-  summary: 'A new class of prompt injection is spreading across commercial websites.
-    It requires no malware, no stolen credentials, and no zero-day exploit. It abuses
-    a standard feature built into almost every major AI assistant: pre-filled deep
-    links. We observed production websites embedding hidden prompt injection payloads
-    inside "Ask AI" buttons on marketing and competitor comparison pages. When a user'
-  source: The Hacker News
-- title: Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows
-    SYSTEM Access
-  link: https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html
-  published: Thu, 06 Aug 2026 14:49:23 +0530
-  summary: Attackers broke into an organization's Oracle database through a SQL injection
-    flaw in a public-facing web application, then installed a post-exploitation toolkit
-    without writing an executable to disk. They fed Java source code to the database,
-    let Oracle compile it into stored schema objects, and ran commands from inside
-    the database engine. Huntress, which tracks the toolkit as khunt,
-  source: The Hacker News
-- title: AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running
-    the Model
-  link: https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html
-  published: Thu, 06 Aug 2026 14:27:30 +0530
-  summary: Security flaws in agent infrastructure from Amazon Web Services (AWS),
-    Google, and Vercel let untrusted or forged instructions reach an agent's tools
-    with no check that a model turn had authorized them. In several of the attack
-    paths, the model never ran at all, so system prompts, content filters, and model-level
-    guardrails never got a chance to intervene. The affected products include Amazon
-  source: The Hacker News
-- title: ISC Stormcast For Thursday, August 6th, 2026 https://isc.sans.edu/podcastdetail/10040,
-    (Thu, Aug 6th)
-  link: https://isc.sans.edu/diary/rss/33222
-  published: Thu, 06 Aug 2026 02:00:02 GMT
-  summary: ''
-  source: SANS Internet Storm Center
-- title: '22 Seconds to Compromise: How Automated SSH Actors Move From Login to Persistence
-    Before You Can Blink [Guest Diary], (Thu, Aug 6th)'
-  link: https://isc.sans.edu/diary/rss/33220
-  published: Thu, 06 Aug 2026 00:15:40 GMT
-  summary: "[This is a Guest Diary by Daryl Jiminez, an ISC intern as part of the\
-    \ SANS.edu BACS program]\r"
-  source: SANS Internet Storm Center
 - title: FBI Seizes NetNut Proxy Platform, Popa Botnet
   link: https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
   published: Thu, 02 Jul 2026 19:27:33 +0000
