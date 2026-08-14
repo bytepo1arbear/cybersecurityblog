@@ -1,4 +1,4 @@
-last_updated: '2026-08-13T04:07:25Z'
+last_updated: '2026-08-14T04:03:45Z'
 count: 100
 items:
 - title: 'Cybersecurity, Then & Now: A Visual Look at 20 Years of Change'
@@ -25,25 +25,6 @@ items:
   summary: Dark Reading walks through the many twists and turns in the bizarre story
     of how OpenAI's agent AI system broke out of its sandbox and decided to target
     Hugging Face, and what CISOs should be aware of.
-  source: Dark Reading
-- title: 'Hugging Face Hack: Lessons for Cyber Defenders'
-  link: https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders
-  published: Wed, 29 Jul 2026 17:35:23 GMT
-  summary: 'Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons
-    cyber teams should pull from the OpenAI agent''s attack on Hugging Face.'
-  source: Dark Reading
-- title: When AppSec Scanners Become a Supply Chain Attack Vector
-  link: https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector
-  published: Wed, 29 Jul 2026 17:06:52 GMT
-  summary: New research shows how security scanners embedded in the software supply
-    chain can be attacked to serve as a foothold for downstream attacks.
-  source: Dark Reading
-- title: Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms
-  link: https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms
-  published: Wed, 29 Jul 2026 14:40:33 GMT
-  summary: The vulnerability in the AI hosting platform Ruflo allows an unauthenticated
-    attacker to take over the system and corrupt memory, so bad behavior can persist
-    after patching.
   source: Dark Reading
 - title: LG to Ban Residential Proxies from Smart TV Apps
   link: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
@@ -108,10 +89,10 @@ items:
     of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating
     system command injection vulnerability in ColdFusion that could'
   source: The Hacker News
-- title: Walmart's "Trusted Agent" Approach to Purple Teaming
+- title: Walmart Takes a 'Trusted Agent' Approach to Purple Teaming
   link: https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming
   published: Wed, 12 Aug 2026 16:28:04 GMT
-  summary: Walmart co-locates red and blue teams to build trust and improve security
+  summary: Walmart colocates red and blue teams to build trust and improve security
     through collaborative purple teaming exercises
   source: Dark Reading
 - title: Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote
@@ -304,13 +285,6 @@ items:
     and their guilty pleas came on the first day of what was expected to be a six-week
     trial.
   source: Krebs on Security
-- title: Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities
-  link: https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/
-  published: Tue, 14 Jul 2026 20:27:33 GMT
-  summary: Microsoft has released its monthly security update for July 2026, which
-    includes 622 vulnerabilities affecting a range of products, including 57 that
-    Microsoft marked as "critical."
-  source: Cisco Talos
 - title: Microsoft Patches a Record 570 Security Flaws
   link: https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/
   published: Tue, 14 Jul 2026 19:22:42 +0000
@@ -320,13 +294,6 @@ items:
     release last month. Microsoft attributed the burgeoning patch counts to vulnerability
     discoveries aided by artificial intelligence.
   source: Krebs on Security
-- title: '[Video] Where protection starts: Cisco Talos Intelligence Integrations'
-  link: https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/
-  published: Tue, 14 Jul 2026 10:47:18 GMT
-  summary: Every day, defenders make high-consequence decisions with incomplete information.
-    Learn how Cisco Talos Intelligence Integrations help reduce uncertainty by turning
-    the latest threat intelligence into proactive protections across Cisco technologies.
-  source: Cisco Talos
 - title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
   link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
   published: Tue, 11 Aug 2026 22:21:02 GMT
@@ -357,8 +324,9 @@ items:
 - title: Microsoft's Patch Tuesday Deluge Continues With August Updates
   link: https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
   published: Tue, 11 Aug 2026 21:42:34 GMT
-  summary: Security experts say prioritization should be the main focus for the August
-    updates, not the massive CVE volume.
+  summary: 'The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a
+    remote code execution (RCE) vulnerability in Windows DNS Server that requires
+    no user interaction.'
   source: Dark Reading
 - title: Microsoft Plugs Nearly 400 Security Holes
   link: https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
@@ -609,6 +577,48 @@ items:
     financially motivated adversary that has been conducting a malicious campaign
     targeting users in the U.S. and Europe since at least June 2025.
   source: Cisco Talos
+- title: Global Threat Campaign Hits Critical VMware vCenter Flaw
+  link: https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw
+  published: Thu, 13 Aug 2026 20:45:17 GMT
+  summary: Exploitation against CVE-2026–59310 began earlier this month, and patching
+    the vulnerability may not be enough to fully mitigate the threat.
+  source: Dark Reading
+- title: Curiouser and Curiouser
+  link: https://blog.talosintelligence.com/curiouser-and-curiouser/
+  published: Thu, 13 Aug 2026 18:00:18 GMT
+  summary: In this edition of the Threat Source newsletter, William reflects on the
+    “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a
+    field where questions can lead to multiple correct answers.
+  source: Cisco Talos
+- title: Attackers Exploit SharePoint Authentication Bypass After Public PoC Release
+  link: https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html
+  published: Thu, 13 Aug 2026 11:39:48 +0530
+  summary: 'Threat actors have begun to exploit a newly disclosed Microsoft SharePoint
+    vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability
+    in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security
+    feature bypass that stems from weak authentication. It was patched by Microsoft
+    as part of its July 2026 Patch Tuesday updates. "The authentication'
+  source: The Hacker News
+- title: Dissecting the JWR phishing framework
+  link: https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/
+  published: Thu, 13 Aug 2026 10:00:35 GMT
+  summary: Cisco Talos recently identified an undocumented phishing framework, internally
+    branded "JWR" by its developer, built to convincingly impersonate checkout and
+    login pages across major payment and shopping platforms.
+  source: Cisco Talos
+- title: '''Jewelbug'' APT Balances State Espionage & Cryptocurrency Theft'
+  link: https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft
+  published: Thu, 13 Aug 2026 10:00:00 GMT
+  summary: Researchers discovered hackers-for-hire performing cyber espionage and
+    financially motivated heists from the same Web panel.
+  source: Dark Reading
+- title: Belgium's eID Authentication Opens Citizen Accounts to RCE
+  link: https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce
+  published: Thu, 13 Aug 2026 07:00:00 GMT
+  summary: The trust framework underlying Belgium's electronic ID system was fully
+    compromised by severe vulnerabilities in a key browser extension, showcasing bigger
+    problems with extensions in general.
+  source: Dark Reading
 - title: ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050,
     (Thu, Aug 13th)
   link: https://isc.sans.edu/diary/rss/33244
@@ -791,14 +801,4 @@ items:
     the default. That pretty much covers the mood this week. Old bugs are back, supply
     chains are getting stranger, and some exploit paths are so short you wonder what
     was supposed to stop them in the first place. That’s only part of it. Here’s
-  source: The Hacker News
-- title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
-  link: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
-  published: Mon, 10 Aug 2026 18:49:58 +0530
-  summary: North Korea's state hackers are no longer content to type prompts into
-    public chatbots. One of the country's main espionage groups has begun running
-    artificial intelligence (AI) offline on its own servers, connecting document-search
-    tools to files in its possession, and collecting the software parts needed to
-    build AI into its malware. South Korean security firm Genians says it uncovered
-    the
   source: The Hacker News
