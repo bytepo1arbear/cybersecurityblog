@@ -1,31 +1,6 @@
-last_updated: '2026-08-14T04:03:45Z'
+last_updated: '2026-08-15T02:47:23Z'
 count: 100
 items:
-- title: 'Cybersecurity, Then & Now: A Visual Look at 20 Years of Change'
-  link: https://www.darkreading.com/cyber-risk/cybersecurity-then-now
-  published: Wed, 29 Jul 2026 23:26:46 GMT
-  summary: Since 2006, Dark Reading has been at the forefront of covering cybersecurity.
-    The more things change, the more they stay the same.
-  source: Dark Reading
-- title: OpenAI's Rogue Model Claims More Victims Beyond Hugging Face
-  link: https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face
-  published: Wed, 29 Jul 2026 19:48:12 GMT
-  summary: OpenAI's goal-seeking agent compromised a Modal customer environment and
-    others during its sandbox escape.
-  source: Dark Reading
-- title: 'Red Agents vs. Blue Agents: How to Make AI Better at Defense'
-  link: https://www.darkreading.com/cybersecurity-operations/red-agents-vs-blue-agents-make-ai-better-defense
-  published: Wed, 29 Jul 2026 19:46:20 GMT
-  summary: The agentic AI playing field was heavily tilted toward offense, so researchers
-    began using red team agents to help teach their blue counterparts.
-  source: Dark Reading
-- title: Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions
-  link: https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions
-  published: Wed, 29 Jul 2026 17:43:38 GMT
-  summary: Dark Reading walks through the many twists and turns in the bizarre story
-    of how OpenAI's agent AI system broke out of its sandbox and decided to target
-    Hugging Face, and what CISOs should be aware of.
-  source: Dark Reading
 - title: LG to Ban Residential Proxies from Smart TV Apps
   link: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
   published: Wed, 22 Jul 2026 01:10:38 +0000
@@ -519,12 +494,6 @@ items:
     to traffic people from at least 80 countries, costing nations in the region at
     least $88 billion in 2025 alone.
   source: Dark Reading
-- title: '''Flying Eagle'' Full-Service Mobile RAT Builder Wings Across China'
-  link: https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china
-  published: Thu, 30 Jul 2026 00:30:00 GMT
-  summary: A premium-grade malware-as-a-service offering takes flight with multiple
-    threat groups, building infostealers that drain victims' bank accounts.
-  source: Dark Reading
 - title: Don’t swing at everything
   link: https://blog.talosintelligence.com/dont-swing-at-everything/
   published: Thu, 23 Jul 2026 18:00:46 GMT
@@ -546,16 +515,6 @@ items:
   summary: Here’s some of the ways Talos is showing up at Black Hat, alongside our
     friends at Cisco and Splunk.
   source: Cisco Talos
-- title: ‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm
-  link: https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/
-  published: Thu, 18 Jun 2026 17:37:58 +0000
-  summary: 'For the past four years, a sprawling Android-based botnet called Popa
-    has forced millions of consumer TV boxes to relay Internet traffic linked to advertising
-    fraud, account takeovers, and mass data-scraping efforts. This week, researchers
-    from multiple security firms concluded that the Popa botnet is linked to NetNut,
-    a "residential proxy" provider operated by the publicly-traded Israeli firm Alarum
-    Technologies Ltd [NASDAQ: ALAR].'
-  source: Krebs on Security
 - title: Begun, the Patch Wars have
   link: https://blog.talosintelligence.com/begun-the-patch-wars-have/
   published: Thu, 16 Jul 2026 18:00:50 GMT
@@ -802,3 +761,50 @@ items:
     chains are getting stranger, and some exploit paths are so short you wonder what
     was supposed to stop them in the first place. That’s only part of it. Here’s
   source: The Hacker News
+- title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
+  link: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
+  published: Mon, 10 Aug 2026 18:49:58 +0530
+  summary: North Korea's state hackers are no longer content to type prompts into
+    public chatbots. One of the country's main espionage groups has begun running
+    artificial intelligence (AI) offline on its own servers, connecting document-search
+    tools to files in its possession, and collecting the software parts needed to
+    build AI into its malware. South Korean security firm Genians says it uncovered
+    the
+  source: The Hacker News
+- title: 'The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists'
+  link: https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists
+  published: Mon, 10 Aug 2026 17:56:34 GMT
+  summary: It's time to turn from CVSS-backed patching to choke-point patching focused
+    on breaking chains to critical assets.
+  source: Dark Reading
+- title: New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant
+    MFA
+  link: https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html
+  published: Mon, 10 Aug 2026 17:55:04 +0530
+  summary: Three separate research efforts last week demonstrated ways to defeat passkey
+    protections without breaking the cryptography they rest on. Passkeys are designed
+    to replace reusable passwords and resist phishing. The attacks instead reused
+    signed authentication material that Windows had exposed, abused a cloud-synced
+    passkey system from malware already on the victim's machine, and used a 
+  source: The Hacker News
+- title: Coruna, DarkSword iOS Exploits Proliferate Globally
+  link: https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally
+  published: Mon, 10 Aug 2026 17:09:20 GMT
+  summary: Sophisticated iPhone exploit chains previously limited to nation-states
+    are spreading far and wide to organized cybercrime groups.
+  source: Dark Reading
+- title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
+  link: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
+  published: Mon, 10 Aug 2026 17:03:41 +0530
+  summary: The threat actor known as Head Mare has been observed weaponizing security
+    flaws in unpatched TrueConf servers once again in attacks targeting Russian companies
+    spanning instrumentation, electronics, transport, energy, IT, and software development
+    sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in
+    July 2026. The activity involves exploiting a vulnerability chain
+  source: The Hacker News
+- title: Outdated Cybercrime Laws Put Security Researchers at Risk
+  link: https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk
+  published: Mon, 10 Aug 2026 16:25:22 GMT
+  summary: A public policy expert mapped global cybercrime laws to develop a five-point
+    framework for protecting ethical hackers and good-faith security research.
+  source: Dark Reading
