@@ -1,4 +1,4 @@
-last_updated: '2026-08-16T02:55:26Z'
+last_updated: '2026-08-17T02:55:12Z'
 count: 100
 items:
 - title: LG to Ban Residential Proxies from Smart TV Apps
@@ -648,6 +648,11 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
+- title: Wireshark 4.6.8 Released, (Sun, Aug 16th)
+  link: https://isc.sans.edu/diary/rss/33248
+  published: Sun, 16 Aug 2026 21:31:48 GMT
+  summary: "Wireshark release 4.6.8 fixes 28 vulnerabilities and 25 bugs.\r"
+  source: SANS Internet Storm Center
 - title: Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
   link: https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
   published: Sat, 08 Aug 2026 14:24:50 +0530
@@ -703,6 +708,12 @@ items:
     deliver a powerful RAT and infostealer payload," OpenSourceMalware researcher
     Paul
   source: The Hacker News
+- title: ISC Stormcast For Monday, August 17th, 2026 https://isc.sans.edu/podcastdetail/10054,
+    (Mon, Aug 17th)
+  link: https://isc.sans.edu/diary/rss/33250
+  published: Mon, 17 Aug 2026 02:00:02 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: Lessons Learned from CISA’s Recent GitHub Leak
   link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
   published: Mon, 13 Jul 2026 15:03:28 +0000
@@ -792,19 +803,4 @@ items:
   published: Mon, 10 Aug 2026 17:09:20 GMT
   summary: Sophisticated iPhone exploit chains previously limited to nation-states
     are spreading far and wide to organized cybercrime groups.
-  source: Dark Reading
-- title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
-  link: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
-  published: Mon, 10 Aug 2026 17:03:41 +0530
-  summary: The threat actor known as Head Mare has been observed weaponizing security
-    flaws in unpatched TrueConf servers once again in attacks targeting Russian companies
-    spanning instrumentation, electronics, transport, energy, IT, and software development
-    sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in
-    July 2026. The activity involves exploiting a vulnerability chain
-  source: The Hacker News
-- title: Outdated Cybercrime Laws Put Security Researchers at Risk
-  link: https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk
-  published: Mon, 10 Aug 2026 16:25:22 GMT
-  summary: A public policy expert mapped global cybercrime laws to develop a five-point
-    framework for protecting ethical hackers and good-faith security research.
   source: Dark Reading
