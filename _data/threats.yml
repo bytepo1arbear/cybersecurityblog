@@ -1,4 +1,4 @@
-last_updated: '2026-08-18T02:51:24Z'
+last_updated: '2026-08-19T02:53:08Z'
 count: 100
 items:
 - title: LG to Ban Residential Proxies from Smart TV Apps
@@ -11,6 +11,19 @@ items:
     webOS store allow unknown third-parties to route their Internet traffic through
     a user's TV.
   source: Krebs on Security
+- title: ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058,
+    (Wed, Aug 19th)
+  link: https://isc.sans.edu/diary/rss/33258
+  published: Wed, 19 Aug 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: China-Linked Hacker Shows AI Capabilities in APAC Attack
+  link: https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack
+  published: Wed, 19 Aug 2026 01:00:00 GMT
+  summary: In the first purported "near-autonomous" attack on a nation-state, a Chinese-language
+    operator used a complex AI framework to target and compromise government agencies,
+    likely in Taiwan.
+  source: Dark Reading
 - title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
   link: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
   published: Wed, 12 Aug 2026 23:09:27 +0530
@@ -142,12 +155,6 @@ items:
     (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP
     requests that could allow an unauthenticated, remote attacker to trigger'
   source: The Hacker News
-- title: ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048,
-    (Wed, Aug 12th)
-  link: https://isc.sans.edu/diary/rss/33238
-  published: Wed, 12 Aug 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active
     Attack
   link: https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
@@ -260,6 +267,123 @@ items:
     and their guilty pleas came on the first day of what was expected to be a six-week
     trial.
   source: Krebs on Security
+- title: Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From
+    Connected Apps
+  link: https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html
+  published: Tue, 18 Aug 2026 23:17:22 +0530
+  summary: Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot
+    Personal that it said could allow a single click on a crafted link to silently
+    pull data from connected apps and other information available to the victim's
+    Copilot session. The flaws, which the researchers collectively named CoSnitch,
+    turn in part on an undocumented URL parameter that the assistant itself surfaced
+  source: The Hacker News
+- title: Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets
+  link: https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html
+  published: Tue, 18 Aug 2026 23:14:05 +0530
+  summary: Two critical vulnerabilities impacting MLflow, an open-source artificial
+    intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software
+    built for operational technology (OT) and industrial automation, are witnessing
+    malicious scanning and exploitation efforts. According to independent reports
+    from watchTowr and VulnCheck, the vulnerabilities in question are as follows -
+  source: The Hacker News
+- title: Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to
+    $60,000
+  link: https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html
+  published: Tue, 18 Aug 2026 22:28:16 +0530
+  summary: A ransomware affiliate calling itself Ransom Busters has been spotted proactively
+    sending emails to victim organizations and claims to delete stolen data from ransomware
+    groups' servers in exchange for a fee ranging from $20,000 to $60,000. "In these
+    messages, the third-party offers to help the victim recover from ransomware attack.
+    This immediately stands out as anomalous," GuidePoint Research
+  source: The Hacker News
+- title: Critical GitLab Zero-Click Flaw Poses Mitigation Challenges
+  link: https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
+  published: Tue, 18 Aug 2026 21:25:58 GMT
+  summary: A lack of technical details could make it hard for organizations running
+    self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.
+  source: Dark Reading
+- title: '''CoSnitch'' Attack Tricked Copilot into Mapping Out Architecture'
+  link: https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture
+  published: Tue, 18 Aug 2026 20:17:24 GMT
+  summary: Researchers discovered a "meta-hacking" technique that can manipulate the
+    AI service into revealing its own security weaknesses.
+  source: Dark Reading
+- title: CISOs Break Their Silence in 'Declassified' Docuseries
+  link: https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries
+  published: Tue, 18 Aug 2026 18:32:01 GMT
+  summary: Million-dollar heists, divorce, and career-ending burnout are all stories
+    told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity
+    community.
+  source: Dark Reading
+- title: AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files
+  link: https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html
+  published: Tue, 18 Aug 2026 18:08:36 +0530
+  summary: Security researchers at Anthropic and Switzerland's EPFL have demonstrated
+    that self-propagating payloads can spread from one artificial intelligence (AI)
+    agent to the next through the editable system prompt files that autonomous agent
+    harnesses use to carry state between sessions. The work, released as a preprint
+    on August 10, 2026, tests the technique in a simulated six-agent coding
+  source: The Hacker News
+- title: TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across
+    Networks
+  link: https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html
+  published: Tue, 18 Aug 2026 18:08:20 +0530
+  summary: Cybersecurity researchers have disclosed details of a previously undocumented
+    Python implant framework dubbed TWINLOOT. "TWINLOOT is a modular, PyArmor-hardened
+    Python implant designed to operate its entire command-and-control infrastructure
+    inside trusted Microsoft services," Ontinue said in a technical report shared
+    with The Hacker News. "Tasking flows through SharePoint Online file
+  source: The Hacker News
+- title: One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025
+  link: https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html
+  published: Tue, 18 Aug 2026 17:00:00 +0530
+  summary: 'A single piece of infrastructure has been pulling records out of Salesforce
+    and ServiceNow customer portals across multiple industries for more than a year,
+    according to research published this week by agent security platform Reco. The
+    activity, which Reco has named the City Forum campaign after a domain tied to
+    the attacker''s IP address, traces back to one server: 158.220.87.79, hosted on
+    a'
+  source: The Hacker News
+- title: 16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets
+  link: https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html
+  published: Tue, 18 Aug 2026 16:50:00 +0530
+  summary: Cybersecurity researchers have flagged a new typosquatting campaign targeting
+    RubyGems users with a Windows-based information stealer. OpenSourceMalware, which
+    discovered the activity on August 15, 2026, is tracking the threat under the moniker
+    StubMaker. The complete list of packages published as part of the campaign is
+    below - ubnuler ubnlder ri18nr reaker rakier orakw joxn
+  source: The Hacker News
+- title: SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers
+  link: https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html
+  published: Tue, 18 Aug 2026 14:40:45 +0530
+  summary: SafePal has disclosed that an authorization flaw in an order-tracking plug-in
+    exposed the names, email addresses, shipping addresses, phone numbers, and purchase
+    details of approximately 39,798 customers. The hardware wallet maker said all
+    affected customers were notified individually by email on August 16 from security@safepal.com,
+    with the subject line "[Important] Your SafePal Order
+  source: The Hacker News
+- title: '''Ransom Busters'': Ransomware Actor Poses as Incident-Recovery Service'
+  link: https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service
+  published: Tue, 18 Aug 2026 13:00:00 GMT
+  summary: A ransomware affiliate appears to be sidling up to victims with offers
+    of aid, masking its true intention of diverting ransom payments.
+  source: Dark Reading
+- title: Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud
+  link: https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud
+  published: Tue, 18 Aug 2026 13:00:00 GMT
+  summary: The Python-based malware framework takes living-off-the-land tactics to
+    a new heights of stealth, with a modular implant that steals credentials and achieves
+    persistence.
+  source: Dark Reading
+- title: CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE
+  link: https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
+  published: Tue, 18 Aug 2026 12:04:20 +0530
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday
+    added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV)
+    catalog, citing evidence of active exploitation. Ray is an open-source, Python-native
+    distributed computing framework designed to scale artificial intelligence and
+    machine learning workloads. As of writing, the GitHub project has more than
+  source: The Hacker News
 - title: Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public
     Projects
   link: https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
@@ -311,16 +435,6 @@ items:
     as CVE-2026-55040 (CVSS 9.1), affects SharePoint Server Subscription Edition,
     SharePoint Server 2019, and SharePoint Server 2016. Microsoft's
   source: The Hacker News
-- title: DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra
-    Harder to Disrupt
-  link: https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html
-  published: Tue, 11 Aug 2026 22:05:27 +0530
-  summary: The ransomware group known as DeadLock has been observed using decentralized
-    infrastructure to facilitate victim communications and data leak operations in
-    a bid to improve operational resilience. "Its recovery ecosystem combines the
-    Session messaging network with blockchain-backed services that store and deliver
-    resources used throughout the extortion process," the Microsoft Threat
-  source: The Hacker News
 - title: Microsoft's Patch Tuesday Deluge Continues With August Updates
   link: https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
   published: Tue, 11 Aug 2026 21:42:34 GMT
@@ -343,85 +457,6 @@ items:
     infrastructure targets with leaked Conti code and old flaws in firewalls and VPN
     appliances.
   source: Dark Reading
-- title: OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development
-  link: https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html
-  published: Tue, 11 Aug 2026 18:41:23 +0530
-  summary: OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber
-    that it said is focused on vulnerability research, penetration testing, and incident
-    response. "Built on GPT‑5.6 Sol, it is trained to improve capabilities on several
-    specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing
-    exploit chains) and to reduce refusals for certain higher-risk
-  source: The Hacker News
-- title: A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular
-    IoT Devices
-  link: https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html
-  published: Tue, 11 Aug 2026 17:35:03 +0530
-  summary: A malicious SIM card can order the device it sits in to run commands of
-    the attacker's choosing. On the cellular modules built into electric-vehicle chargers,
-    industrial routers, and car telematics units, that is enough to take the whole
-    device over. Researchers at the University of Birmingham and the security firm
-    Fuzzware tested 26 phones and cellular modules for the capability, found it
-  source: The Hacker News
-- title: Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands
-    in Private Repo
-  link: https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html
-  published: Tue, 11 Aug 2026 17:34:51 +0530
-  summary: Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird
-    downloads for Linux after an unencrypted copy of it was committed by mistake to
-    one of the company's own private code repositories. That key is how a user, or
-    a Linux distribution packaging the browser, confirms a downloaded Firefox tarball
-    came from Mozilla and was not tampered with. That decision carries a cost for
-  source: The Hacker News
-- title: Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean
-    IT Workers
-  link: https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html
-  published: Tue, 11 Aug 2026 17:05:03 +0530
-  summary: Security researchers invented a cryptocurrency startup, advertised developer
-    jobs, and hired three people they believe were North Korean operatives. Every
-    virtual machine the company issued was recording. The onboarding paperwork is
-    the part hiring teams can use. The first hire claimed to live in Pasadena, Texas,
-    then sent a California driver's license and a New York bank account. The
-  source: The Hacker News
-- title: Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows
-    11
-  link: https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html
-  published: Tue, 11 Aug 2026 16:18:26 +0530
-  summary: Windows Plug and Play can be abused to fetch signed vendor software for
-    an emulated USB device and execute privileged installation components that researchers
-    chained to SYSTEM access on a fully updated Windows 11 machine. The same PnP path
-    can be triggered over Remote Desktop without physical hardware when supported
-    Plug and Play or low-level USB redirection is enabled; Microsoft says that
-  source: The Hacker News
-- title: Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate
-    Secrets
-  link: https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html
-  published: Tue, 11 Aug 2026 15:54:00 +0530
-  summary: 'A malicious tool server connected to an AI coding assistant can quietly
-    walk off with SSH keys, environment secrets, source code, and customer data without
-    ever sending one obviously harmful instruction. The trick can work even after
-    a blunt version of the same theft is refused: split the request into fragments
-    that each look routine, place them in channels the assistant already uses, and
-    let'
-  source: The Hacker News
-- title: Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks
-  link: https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html
-  published: Tue, 11 Aug 2026 14:46:24 +0530
-  summary: Cybersecurity and intelligence agencies from South Korea and the U.S. warned
-    of Gunra ransomware attacks targeting critical infrastructure sectors and organizations
-    across the world. Targets of these attacks include healthcare and public health,
-    financial services, government services and facilities, and professional and nonprofit
-    services. "Gunra is another variant in the ongoing trend of
-  source: The Hacker News
-- title: Hackers Breach Polish Power Plant Controls via Private Cellular Network and
-    Shut Turbine
-  link: https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html
-  published: Tue, 11 Aug 2026 12:25:45 +0530
-  summary: Attackers shut down a steam turbine and the process-water treatment system
-    at a Polish combined heat and power plant by coming in over the private cellular
-    network the local grid operator uses to reach remote equipment. The plant supplies
-    heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the
-    intruders were still active inside the network, and customers lost neither heat
-  source: The Hacker News
 - title: Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook
   link: https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook
   published: Tue, 04 Aug 2026 18:37:35 GMT
@@ -751,12 +786,12 @@ items:
     in "increasingly aggressive" territorial attacks on one another, according to
     Anthropic.
   source: Dark Reading
-- title: Adam Shostack Talks Hugging Face & PHANTOM-B
+- title: Hugging Face Breach Raises Big Questions About AI Security Controls
   link: https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b
   published: Mon, 17 Aug 2026 19:22:56 GMT
-  summary: World-class threat modeler Adam Shostack shared he was "blown away" by
-    OpenAI's revelations about the Hugging Face attack, and explains why his new threat
-    model for LLMs is both "lightweight yet still usable."
+  summary: Adam Shostack, president of Shostack & Associates and an affiliate professor
+    at the University of Washington, talks with the Dark Reading News Desk about why
+    he was "blown away" by OpenAI's revelations regarding the Hugging Face attack.
   source: Dark Reading
 - title: '⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks
     and More'
@@ -778,55 +813,3 @@ items:
     systems, that exposure can silently become a major gap in MCP server security.
     The Model Context Protocol (MCP) allows AI agents to reach the tools and data,
   source: The Hacker News
-- title: Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel
-    Access
-  link: https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html
-  published: Mon, 17 Aug 2026 16:22:34 +0530
-  summary: Security researchers at SSD Secure Disclosure have published a two-stage
-    exploit chain that achieves full Android kernel access on devices running Unisoc
-    modem firmware through a VoLTE video call, with no fix from the chipset maker.
-    The advisory, published August 17, 2026, is the second stage of a chain that began
-    in March 2026, when SSD disclosed remote code execution in the
-  source: The Hacker News
-- title: Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS
-  link: https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos
-  published: Mon, 17 Aug 2026 15:44:34 GMT
-  summary: The botnet adds exploitation modules, credential theft, and reverse SOCKS
-    relays to turn compromised devices into persistent attacker infrastructure.
-  source: Dark Reading
-- title: Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5
-    Proxies
-  link: https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html
-  published: Mon, 17 Aug 2026 14:59:55 +0530
-  summary: Cybersecurity researchers have flagged a previously undocumented Linux
-    botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai
-    botnet source code and is equipped to turn internet-facing devices into SOCKS
-    proxies. "While the malware reuses the DDoS engine from the publicly leaked Mirai
-    source code, it extends the original framework with numerous capabilities, including
-  source: The Hacker News
-- title: Apple Screen Sharing Security, (Mon, Aug 17th)
-  link: https://isc.sans.edu/diary/rss/33252
-  published: Mon, 17 Aug 2026 14:33:58 GMT
-  summary: "About 20 years ago, with macOS 10.5 (Leopard), Apple introduced screen\
-    \ sharing. Apple did not invent a new protocol for screen sharing. Instead, it\
-    \ used the established VNC protocol. VNC is a pretty simple, unencrypted protocol\
-    \ using TCP port 5900. Historically, the protocol used a simple global password\
-    \ for authentication. Apple adapted the protocol for its own use, but overall,\
-    \ left the VNC protocol itself alone.\r"
-  source: SANS Internet Storm Center
-- title: Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived
-    Ransomware
-  link: https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html
-  published: Mon, 17 Aug 2026 13:06:19 +0530
-  summary: 'Cybersecurity researchers have attributed the exploitation of a newly
-    patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced
-    persistent threat (APT). The attacks involve the exploitation of CVE-2026-59310
-    (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter
-    server that could be weaponized by a malicious actor to execute arbitrary code'
-  source: The Hacker News
-- title: ISC Stormcast For Monday, August 17th, 2026 https://isc.sans.edu/podcastdetail/10054,
-    (Mon, Aug 17th)
-  link: https://isc.sans.edu/diary/rss/33250
-  published: Mon, 17 Aug 2026 02:00:02 GMT
-  summary: ''
-  source: SANS Internet Storm Center
