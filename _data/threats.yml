@@ -1,4 +1,4 @@
-last_updated: '2026-08-19T02:53:08Z'
+last_updated: '2026-08-20T02:52:21Z'
 count: 100
 items:
 - title: LG to Ban Residential Proxies from Smart TV Apps
@@ -11,6 +11,115 @@ items:
     webOS store allow unknown third-parties to route their Internet traffic through
     a user's TV.
   source: Krebs on Security
+- title: OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe
+    AI Behavior
+  link: https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
+  published: Wed, 19 Aug 2026 23:36:44 +0530
+  summary: OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training
+    for its latest artificial intelligence (AI) models for two weeks while it shored
+    up additional defenses and increased the scope of its monitoring to avert another
+    Hugging Face-like incident. "As models become more capable, the risks associated
+    with developing and testing them internally also grow," the AI company
+  source: The Hacker News
+- title: No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns
+  link: https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns
+  published: Wed, 19 Aug 2026 20:32:09 GMT
+  summary: The AI company officially forbids illicit use, while offering guardrail-free
+    social engineering, offensive cybercrime, and OSINT scanning to anyone with a
+    bit of cryptocurrency.
+  source: Dark Reading
+- title: SilkParasite Espionage Campaign Targets Central Asian Governments with Five
+    New RATs
+  link: https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
+  published: Wed, 19 Aug 2026 18:42:17 +0530
+  summary: 'A previously unreported cyber espionage operation dubbed SilkParasite
+    has been observed targeting government bodies in Central Asia. The intrusion set
+    makes use of seven remote access tool (RAT) families, five of which have never
+    been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and
+    NodeEdgeRAT. SilkParasite, first discovered in late 2025, is assessed to be a'
+  source: The Hacker News
+- title: Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth
+    Bypasses, and P2P
+  link: https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
+  published: Wed, 19 Aug 2026 17:04:28 +0530
+  summary: Cybersecurity researchers at Hunt.io have disclosed details of a campaign
+    that they say compromised more than 14,530 Dahua devices between June 17 and July
+    22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer
+    (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed
+    from a 407 MB exposed working directory containing 2,616 files
+  source: The Hacker News
+- title: 'Phishing 3.0: The Fight Moves to Agent Versus Agent'
+  link: https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html
+  published: Wed, 19 Aug 2026 17:00:00 +0530
+  summary: Most email defenses still do the job they did a decade ago. Scan the message,
+    look for something malicious, block it. That worked when the danger sat in the
+    payload, a bad link or an attachment. It stopped working when the danger moved
+    into the message's intent, and it is failing now that the sender is no longer
+    a person. From Bad Content to Bad Intent to AI on Both Sides Phishing 1.0 was
+    bad
+  source: The Hacker News
+- title: SilkParasite Threatens Central Asian Orgs With Flurry of RATs
+  link: https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats
+  published: Wed, 19 Aug 2026 16:58:23 GMT
+  summary: A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow
+    provides insight into geopolitical, technical, and strategic global moves by China's
+    APTs.
+  source: Dark Reading
+- title: StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware
+    and Steal Data
+  link: https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html
+  published: Wed, 19 Aug 2026 16:55:28 +0530
+  summary: Cybersecurity researchers have flagged a global cybercrime operation that
+    abuses thousands of hacked WordPress websites as infrastructure to disseminate
+    malware, commandeer infected hosts, store stolen documents, screenshots, and activity
+    logs created to track the status of the activity. "The operation doesn't rely
+    on a single piece of malware, but on a whole toolkit of criminal software
+  source: The Hacker News
+- title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active
+    Exploitation
+  link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  published: Wed, 19 Aug 2026 16:31:48 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV)
+    catalog, stating they are being exploited in the wild. The shortcomings added
+    to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper
+    authentication vulnerability impacting Apple macOS that could allow an'
+  source: The Hacker News
+- title: Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)
+  link: https://isc.sans.edu/diary/rss/33260
+  published: Wed, 19 Aug 2026 14:24:58 GMT
+  summary: "Cloud providers typically expose a REST API at 169.254.169.254 that allows\
+    \ code running on virtual machines to retrieve machine-specific data. Some of\
+    \ the data is more or less harmless, such as the region the machine is running\
+    \ in or its MAC and IP addresses. However, the service may also be used to retrieve\
+    \ credentials for IAM roles and service account tokens.\r"
+  source: SANS Internet Storm Center
+- title: Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure
+  link: https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html
+  published: Wed, 19 Aug 2026 11:31:53 +0530
+  summary: Microsoft Defender Experts have linked more than 30 web domains to MacSync
+    Stealer, a macOS-focused information stealer, after correlating recurring endpoint
+    and network behaviors across changing infrastructure, tracing the malware from
+    payload retrieval through data collection, staging, and exfiltration. The tech
+    giant said it required multiple endpoint and network behaviors to align before
+  source: The Hacker News
+- title: Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering
+    Data
+  link: https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
+  published: Wed, 19 Aug 2026 11:09:25 +0530
+  summary: A JavaServer Pages (JSP) web shell deployed following the exploitation
+    of a critical security flaw in PTC Windchill and FlexPLM servers is specifically
+    designed for the enterprise Product Lifecycle Management (PLM) software, according
+    to new findings from ReliaQuest. The cybersecurity company characterized the web
+    shell as a fully equipped extortion platform capable of mapping sensitive vault
+  source: The Hacker News
+- title: Describing attacks with crime script analysis
+  link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
+  published: Wed, 19 Aug 2026 10:00:52 GMT
+  summary: Martin explores how using crime script analysis to describe an attack with
+    everyday language makes the situation accessible to non-technical audiences and
+    identify points where the crime can be disrupted.
+  source: Cisco Talos
 - title: ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058,
     (Wed, Aug 19th)
   link: https://isc.sans.edu/diary/rss/33258
@@ -93,108 +202,18 @@ items:
     vulnerability in the VMware vCenter server that a malicious actor with network
     access can exploit to execute arbitrary code. Patches for the flaw were'
   source: The Hacker News
-- title: Linux Kernel Process Accounting, (Wed, Aug 12th)
-  link: https://isc.sans.edu/diary/rss/33240
-  published: Wed, 12 Aug 2026 14:21:10 GMT
-  summary: "A couple of days ago, Xavier posted about Atuin to gain more insight into\
-    \ the command history. Atuin does a great job of better organizing what is usually\
-    \ handled by \"bash&#;x26;#;x5f;history\"&#;x26;#;xc2;&#;x26;#;xa0;and collecting\
-    \ meaningful additional data. Our reader David commented that this can also be\
-    \ done quite well with Linux&#;x26;#;39;s kernel process accounting feature, and\
-    \ I think he is very right. I really like Linux process accounting for a number\
-    \ of reasons, so here is a quick introduction.\r"
-  source: SANS Internet Storm Center
 - title: Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition
   link: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition
   published: Wed, 12 Aug 2026 14:00:00 GMT
   summary: Attackers continue to target critical infrastructure and government-linked
     organizations in the country, mirroring the increased activity across Latin America.
   source: Dark Reading
-- title: Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations
-  link: https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html
-  published: Wed, 12 Aug 2026 13:34:52 +0530
-  summary: Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March
-    carrying credential-stealing code capable of harvesting cloud keys, SSH keys,
-    Kubernetes tokens, database passwords, and other secrets from systems that installed
-    them. Threat intelligence firm CloudSEK now says a dataset it obtained, built
-    from roughly 434,000 files the attackers captured, maps potential exposure to
-    more
-  source: The Hacker News
-- title: SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary
-    Code
-  link: https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
-  published: Wed, 12 Aug 2026 13:01:40 +0530
-  summary: SAP has released patches to address a maximum-severity security flaw impacting
-    Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.
-    The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on
-    the CVSS scoring system. It has been described as a case of insufficient authorization
-    checks and input validation. "SAP Commerce Cloud allows an
-  source: The Hacker News
 - title: Walmart Leaders Transform Security Operations Without Going Bananas
   link: https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas
   published: Wed, 12 Aug 2026 12:41:03 GMT
   summary: The big-box giant has scaled its defenses by encouraging trust and innovation.
     Good communications, transparency, and team spirit are key factors.
   source: Dark Reading
-- title: ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM
-    Access
-  link: https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
-  published: Wed, 12 Aug 2026 12:11:38 +0530
-  summary: 'The security researcher going by the name Chaotic Eclipse (aka INFINITE
-    NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept
-    (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted
-    in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656
-    (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described'
-  source: The Hacker News
-- title: Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS
-  link: https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
-  published: Wed, 12 Aug 2026 11:45:58 +0530
-  summary: 'Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive
-    Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software
-    has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349
-    (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP
-    requests that could allow an unauthenticated, remote attacker to trigger'
-  source: The Hacker News
-- title: Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active
-    Attack
-  link: https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
-  published: Wed, 12 Aug 2026 01:40:55 +0530
-  summary: 'Microsoft released its monthly security updates on Tuesday, and one of
-    the flaws it closed is already being used in attacks. The bug sits in a core Windows
-    kernel driver that handles network socket operations. An attacker with code already
-    running on a machine can use it to escalate to SYSTEM. That patch goes out first.
-    The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only'
-  source: The Hacker News
-- title: Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate
-    Browsing
-  link: https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html
-  published: Wed, 12 Aug 2026 01:06:37 +0530
-  summary: Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU
-    Android and Internet of Things (IoT) botnet that comes with significant improvements
-    to improve its operational resilience and conduct distributed denial-of-service
-    (DDoS) attacks. The new version, tracked as Kimwolf v7, was discovered by Palo
-    Alto Networks Unit 42 in February 2026. "Kimwolf v7 adds an HTTP/2-based
-  source: The Hacker News
-- title: Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's
-    Client
-  link: https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html
-  published: Wed, 12 Aug 2026 00:38:47 +0530
-  summary: Anyone sharing their screen on a Zoom call could have taken over the computers
-    of everyone watching, and anyone watching could have taken over the presenter's.
-    The flaw sat in the annotation tool, the feature that lets participants draw and
-    type on a shared screen, and it asked nothing of the victim beyond being in the
-    meeting. No click, no download, no prompt, and nothing on screen to show it
-  source: The Hacker News
-- title: Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run
-    Commands
-  link: https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html
-  published: Wed, 12 Aug 2026 00:06:47 +0530
-  summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed
-    details of a new social engineering campaign orchestrated by Russian nation-state
-    threat actors targeting IT workers in the country by masquerading as recruiters
-    to trick them into installing malware. CERT-UA pinned the activity on a threat
-    cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,
-  source: The Hacker News
 - title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
   link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
   published: Wed, 08 Jul 2026 12:31:39 +0000
@@ -302,11 +321,19 @@ items:
   summary: A lack of technical details could make it hard for organizations running
     self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.
   source: Dark Reading
-- title: '''CoSnitch'' Attack Tricked Copilot into Mapping Out Architecture'
+- title: '''CoSnitch'' Attack Tricked Copilot Into Mapping Out Architecture'
   link: https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture
   published: Tue, 18 Aug 2026 20:17:24 GMT
   summary: Researchers discovered a "meta-hacking" technique that can manipulate the
     AI service into revealing its own security weaknesses.
+  source: Dark Reading
+- title: The 'Industrial Accidents' Behind Rogue AI Agent Attacks — and the Sandbox
+    Failures Exposed
+  link: https://www.darkreading.com/vulnerabilities-threats/industrial-accidents-rogue-ai-agent-attacks-sandbox-failures
+  published: Tue, 18 Aug 2026 19:09:51 GMT
+  summary: Rich Mogull, chief analyst with the Cloud Security Alliance, joins the
+    Dark Reading News Desk with what defenders need to take away from AI agents escaping
+    their environments to launch attacks.
   source: Dark Reading
 - title: CISOs Break Their Silence in 'Declassified' Docuseries
   link: https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries
@@ -362,18 +389,18 @@ items:
     affected customers were notified individually by email on August 16 from security@safepal.com,
     with the subject line "[Important] Your SafePal Order
   source: The Hacker News
-- title: '''Ransom Busters'': Ransomware Actor Poses as Incident-Recovery Service'
-  link: https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service
-  published: Tue, 18 Aug 2026 13:00:00 GMT
-  summary: A ransomware affiliate appears to be sidling up to victims with offers
-    of aid, masking its true intention of diverting ransom payments.
-  source: Dark Reading
 - title: Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud
   link: https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud
   published: Tue, 18 Aug 2026 13:00:00 GMT
   summary: The Python-based malware framework takes living-off-the-land tactics to
     a new heights of stealth, with a modular implant that steals credentials and achieves
     persistence.
+  source: Dark Reading
+- title: '''Ransom Busters'': Ransomware Actor Poses as Incident-Recovery Service'
+  link: https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service
+  published: Tue, 18 Aug 2026 13:00:00 GMT
+  summary: A ransomware affiliate appears to be sidling up to victims with offers
+    of aid, masking its true intention of diverting ransom payments.
   source: Dark Reading
 - title: CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE
   link: https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
@@ -425,16 +452,6 @@ items:
     includes 421 vulnerabilities affecting a range of products, including 62 that
     Microsoft marked as "critical."
   source: Cisco Talos
-- title: Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated
-    RCE
-  link: https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
-  published: Tue, 11 Aug 2026 22:17:44 +0530
-  summary: Security researchers found a way to enter Microsoft SharePoint servers
-    as any user, including an administrator, with no valid account. A significant
-    part of the work that found it was done through an AI agent. The flaw, tracked
-    as CVE-2026-55040 (CVSS 9.1), affects SharePoint Server Subscription Edition,
-    SharePoint Server 2019, and SharePoint Server 2016. Microsoft's
-  source: The Hacker News
 - title: Microsoft's Patch Tuesday Deluge Continues With August Updates
   link: https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
   published: Tue, 11 Aug 2026 21:42:34 GMT
@@ -526,6 +543,22 @@ items:
   summary: Here’s some of the ways Talos is showing up at Black Hat, alongside our
     friends at Cisco and Splunk.
   source: Cisco Talos
+- title: ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060,
+    (Thu, Aug 20th)
+  link: https://isc.sans.edu/diary/rss/33262
+  published: Thu, 20 Aug 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12
+    Bits/Second
+  link: https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html
+  published: Thu, 20 Aug 2026 00:32:40 +0530
+  summary: Cybersecurity researchers have disclosed details of a remote Spectre attack against
+    Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker
+    in the production environment at up to 12 bits per second, 360 times the rate
+    of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker
+    Worker and a victim Worker controlled by the researchers,
+  source: The Hacker News
 - title: Begun, the Patch Wars have
   link: https://blog.talosintelligence.com/begun-the-patch-wars-have/
   published: Thu, 16 Jul 2026 18:00:50 GMT
@@ -538,14 +571,6 @@ items:
   summary: Humans can no longer keep up with the volume and velocity of security data
     on their own, but AI can't be fully trusted. David discusses the merits of both
     and muses on what the future might look like.
-  source: Cisco Talos
-- title: UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially
-    motivated campaign
-  link: https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/
-  published: Thu, 16 Jul 2026 10:00:01 GMT
-  summary: Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking,
-    financially motivated adversary that has been conducting a malicious campaign
-    targeting users in the U.S. and Europe since at least June 2025.
   source: Cisco Talos
 - title: 'ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw
     + 17 More Stories'
@@ -644,17 +669,6 @@ items:
   link: https://isc.sans.edu/diary/rss/33244
   published: Thu, 13 Aug 2026 02:00:03 GMT
   summary: ''
-  source: SANS Internet Storm Center
-- title: Using Gemma4 with Ollama - Testing File Hash Analysis and Recommendations
-    with AI, (Wed, Aug 12th)
-  link: https://isc.sans.edu/diary/rss/33242
-  published: Thu, 13 Aug 2026 01:26:53 GMT
-  summary: "In the past few weeks, I have been using Gemma4 as a Large Language Model\
-    \ (LLM) to see how useful it can be to analyze some of the malware hashes uploaded\
-    \ to the DShield sensor over the past 30 days and figure out how its recommendation\
-    \ can be considered useful about the activity my DShield sensor is collecting\
-    \ and tracking. The model I use for this testing is gemma4:e4b [2] using two sites\
-    \ to compare the data against VirusTotal and CyberGordon. \r"
   source: SANS Internet Storm Center
 - title: 'The Coordination Gap: How Attackers Are Outpacing Law Enforcement'
   link: https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement
@@ -786,30 +800,3 @@ items:
     in "increasingly aggressive" territorial attacks on one another, according to
     Anthropic.
   source: Dark Reading
-- title: Hugging Face Breach Raises Big Questions About AI Security Controls
-  link: https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b
-  published: Mon, 17 Aug 2026 19:22:56 GMT
-  summary: Adam Shostack, president of Shostack & Associates and an affiliate professor
-    at the University of Washington, talks with the Dark Reading News Desk about why
-    he was "blown away" by OpenAI's revelations regarding the Hugging Face attack.
-  source: Dark Reading
-- title: '⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks
-    and More'
-  link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-  published: Mon, 17 Aug 2026 18:53:51 +0530
-  summary: The expensive attacks are not always the clever ones. This week had plenty
-    of proof. Exposed services got hit, old bugs found fresh use, browser sessions
-    became attack paths, and supply-chain problems kept spreading farther than the
-    original compromise. A lot of it came down to access that was already there and
-    defenses that assumed nobody would look too closely. So, nothing magical. Just
-    a
-  source: The Hacker News
-- title: How MCP Servers Can Expose Enterprise Secrets
-  link: https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html
-  published: Mon, 17 Aug 2026 17:28:00 +0530
-  summary: MCP servers can expose enterprise secrets through plaintext configuration
-    files, over-permissioned access and prompt injection, often before security teams
-    even know the server is running. As more organizations adopt AI agents into their
-    systems, that exposure can silently become a major gap in MCP server security.
-    The Model Context Protocol (MCP) allows AI agents to reach the tools and data,
-  source: The Hacker News
