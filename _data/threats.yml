@@ -1,4 +1,4 @@
-last_updated: '2026-08-21T02:58:21Z'
+last_updated: '2026-08-22T02:50:10Z'
 count: 100
 items:
 - title: LG to Ban Residential Proxies from Smart TV Apps
@@ -179,18 +179,6 @@ items:
   summary: Organized crime is convincingly scamming at scale, making billions thanks
     to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona
     management, and automated translation.
-  source: Dark Reading
-- title: AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking
-  link: https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking
-  published: Wed, 05 Aug 2026 23:30:00 GMT
-  summary: Attackers can take control of agents through malicious instructions hidden
-    in content supplied to AI browsers, and there's no simple fix for the threat.
-  source: Dark Reading
-- title: No Perfect Fix for AI Browser Prompt Injection Flaws
-  link: https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws
-  published: Wed, 05 Aug 2026 22:18:25 GMT
-  summary: AI browsers from top vendors remain vulnerable to prompt injection attacks
-    despite multiple security guardrails, according to new research.
   source: Dark Reading
 - title: 'IR Trends Q2 2026: Phishing and weaponized remote management tools drive
     attack chains'
@@ -444,7 +432,7 @@ items:
     via WebRTC over TURN.
   source: Cisco Talos
 - title: 'ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI
-    Exploit and More'
+    Exploit, and More'
   link: https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html
   published: Thu, 20 Aug 2026 22:53:48 +0530
   summary: A lot of this week’s trouble starts with something trusted doing exactly
@@ -532,9 +520,9 @@ items:
 - title: 'Money and Mindset: The Two Biggest Roadblocks to Cyber Policing'
   link: https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing
   published: Thu, 20 Aug 2026 17:32:51 GMT
-  summary: Law enforcement training is not keeping pace with the volume and rapid
-    evolution of cybercrimes, though officers really only need to learn the basics,
-    but focus and budgets hinder progress.
+  summary: Law enforcement training is falling behind the volume and rapid evolution
+    of cybercrimes. Officers really only need to learn the basics, but lack of focus
+    and budget hinder progress.
   source: Dark Reading
 - title: Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments
   link: https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html
@@ -762,35 +750,15 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
-- title: SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days
-    After Patch
-  link: https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
-  published: Sat, 15 Aug 2026 14:08:46 +0530
-  summary: A maximum-severity security vulnerability impacting SAP Commerce Cloud
-    is witnessing active exploitation efforts. The vulnerability, tracked as CVE-2026-58231,
-    is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient
-    authorization checks and input validation. "SAP Commerce Cloud allows an unauthenticated
-    attacker to abuse a default authentication client and submit
-  source: The Hacker News
-- title: Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install
-    Monero Miner
-  link: https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html
-  published: Sat, 15 Aug 2026 12:54:04 +0530
-  summary: 'A recently patched security flaw in Apple macOS has come under active
-    exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National
-    Cyber Security Centre (NCSC-NL) has warned. The vulnerability in question is CVE-2026-65400
-    (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing
-    component that could allow an attacker already on the network to'
-  source: The Hacker News
-- title: Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to
-    Scams and Malware
-  link: https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html
-  published: Sat, 15 Aug 2026 00:18:46 +0530
-  summary: Threat actors are acquiring expired domains to inherit website traffic
-    and reputation to redirect victims to scams and malware on a large scale. DNS
-    threat intelligence firm Infoblox has given the name dropcatch domains to those
-    that get a second chance, where an expired domain becomes available for registration
-    and is then snapped up by another party. During the first half of 2026, 50,400
+- title: 14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted
+    C2
+  link: https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html
+  published: Sat, 22 Aug 2026 00:23:00 +0530
+  summary: Cybersecurity researchers have discovered a set of trojanized npm packages
+    that masquerade as working calendar and streak utilities but are engineered to
+    stealthily deliver an artificial intelligence (AI)-powered Linux implant dubbed
+    RedC2 4.0. "When the module loads, it locates the bundled binary, marks it executable,
+    and launches it as a detached background process," TrendAI, Trend Micro's
   source: The Hacker News
 - title: Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP
     Uploads
@@ -819,3 +787,36 @@ items:
     over an Android device by delivering a payload and getting the victim to answer
     their phone.
   source: Dark Reading
+- title: Apple Patches iOS and macOS, (Mon, Aug 17th)
+  link: https://isc.sans.edu/diary/rss/33254
+  published: Mon, 17 Aug 2026 20:26:39 GMT
+  summary: "Apple today released updates for iOS/iPadOS (26 and 18) and macOS 26.\
+    \ This update fixes 108 vulnerabilities and comes about two weeks after the much\
+    \ smaller macOS update that addressed the single screen-sharing vulnerability.\
+    \ This vulnerability did not affect iOS/iPadOS.\r"
+  source: SANS Internet Storm Center
+- title: '''Turf War'' Between Claude Agents Leads to Self-Replicating Malware'
+  link: https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware
+  published: Mon, 17 Aug 2026 20:26:34 GMT
+  summary: Three testing models with the same goal but different directives engaged
+    in "increasingly aggressive" territorial attacks on one another, according to
+    Anthropic.
+  source: Dark Reading
+- title: Hugging Face Breach Raises Big Questions About AI Security Controls
+  link: https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b
+  published: Mon, 17 Aug 2026 19:22:56 GMT
+  summary: Adam Shostack, president of Shostack & Associates and an affiliate professor
+    at the University of Washington, talks with the Dark Reading News Desk about why
+    he was "blown away" by OpenAI's revelations regarding the Hugging Face attack.
+  source: Dark Reading
+- title: '⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks
+    and More'
+  link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
+  published: Mon, 17 Aug 2026 18:53:51 +0530
+  summary: The expensive attacks are not always the clever ones. This week had plenty
+    of proof. Exposed services got hit, old bugs found fresh use, browser sessions
+    became attack paths, and supply-chain problems kept spreading farther than the
+    original compromise. A lot of it came down to access that was already there and
+    defenses that assumed nobody would look too closely. So, nothing magical. Just
+    a
+  source: The Hacker News
