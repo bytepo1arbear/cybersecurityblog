@@ -1,4 +1,4 @@
-last_updated: '2026-08-22T02:50:10Z'
+last_updated: '2026-08-23T02:57:46Z'
 count: 100
 items:
 - title: LG to Ban Residential Proxies from Smart TV Apps
@@ -750,6 +750,15 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
+- title: TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit
+  link: https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
+  published: Sat, 22 Aug 2026 20:02:41 +0530
+  summary: The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned
+    TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of
+    violating child privacy laws in the country. As part of the settlement, the social
+    media platform will pay $300 million immediately, and an additional $100 million
+    "upon entry of an order vacating a prior consent decree entered against
+  source: The Hacker News
 - title: 14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted
     C2
   link: https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html
@@ -809,14 +818,3 @@ items:
     at the University of Washington, talks with the Dark Reading News Desk about why
     he was "blown away" by OpenAI's revelations regarding the Hugging Face attack.
   source: Dark Reading
-- title: '⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks
-    and More'
-  link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-  published: Mon, 17 Aug 2026 18:53:51 +0530
-  summary: The expensive attacks are not always the clever ones. This week had plenty
-    of proof. Exposed services got hit, old bugs found fresh use, browser sessions
-    became attack paths, and supply-chain problems kept spreading farther than the
-    original compromise. A lot of it came down to access that was already there and
-    defenses that assumed nobody would look too closely. So, nothing magical. Just
-    a
-  source: The Hacker News
