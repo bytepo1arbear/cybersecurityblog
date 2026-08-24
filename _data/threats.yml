@@ -1,4 +1,4 @@
-last_updated: '2026-08-23T02:57:46Z'
+last_updated: '2026-08-24T02:58:40Z'
 count: 100
 items:
 - title: LG to Ban Residential Proxies from Smart TV Apps
@@ -173,13 +173,6 @@ items:
     companies and a now-defunct AI-based lobbying platform they operated under assumed
     names.
   source: Krebs on Security
-- title: AI Sends Global Crime Syndicates Into Fraud Nirvana
-  link: https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana
-  published: Wed, 05 Aug 2026 23:35:28 GMT
-  summary: Organized crime is convincingly scamming at scale, making billions thanks
-    to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona
-    management, and automated translation.
-  source: Dark Reading
 - title: 'IR Trends Q2 2026: Phishing and weaponized remote management tools drive
     attack chains'
   link: https://blog.talosintelligence.com/ir-trends-q2-2026/
@@ -716,14 +709,6 @@ items:
     C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat
     USA 2026.
   source: Dark Reading
-- title: 'From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First
-    Culture'
-  link: https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture
-  published: Thu, 06 Aug 2026 19:00:11 GMT
-  summary: Two former chief security officers of the Democratic National Committee
-    explain that a strong security-first mindset requires executive support — and
-    a dose of absurdity.
-  source: Dark Reading
 - title: Why metaphor may dictate your security strategy
   link: https://blog.talosintelligence.com/why-metaphor-may-dictate-your-security-strategy/
   published: Thu, 06 Aug 2026 18:00:01 GMT
@@ -769,6 +754,12 @@ items:
     RedC2 4.0. "When the module loads, it locates the bundled binary, marks it executable,
     and launches it as a detached background process," TrendAI, Trend Micro's
   source: The Hacker News
+- title: ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064,
+    (Mon, Aug 24th)
+  link: https://isc.sans.edu/diary/rss/33276
+  published: Mon, 24 Aug 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP
     Uploads
   link: https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
@@ -796,14 +787,6 @@ items:
     over an Android device by delivering a payload and getting the victim to answer
     their phone.
   source: Dark Reading
-- title: Apple Patches iOS and macOS, (Mon, Aug 17th)
-  link: https://isc.sans.edu/diary/rss/33254
-  published: Mon, 17 Aug 2026 20:26:39 GMT
-  summary: "Apple today released updates for iOS/iPadOS (26 and 18) and macOS 26.\
-    \ This update fixes 108 vulnerabilities and comes about two weeks after the much\
-    \ smaller macOS update that addressed the single screen-sharing vulnerability.\
-    \ This vulnerability did not affect iOS/iPadOS.\r"
-  source: SANS Internet Storm Center
 - title: '''Turf War'' Between Claude Agents Leads to Self-Replicating Malware'
   link: https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware
   published: Mon, 17 Aug 2026 20:26:34 GMT
@@ -818,3 +801,23 @@ items:
     at the University of Washington, talks with the Dark Reading News Desk about why
     he was "blown away" by OpenAI's revelations regarding the Hugging Face attack.
   source: Dark Reading
+- title: '⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks
+    and More'
+  link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
+  published: Mon, 17 Aug 2026 18:53:51 +0530
+  summary: The expensive attacks are not always the clever ones. This week had plenty
+    of proof. Exposed services got hit, old bugs found fresh use, browser sessions
+    became attack paths, and supply-chain problems kept spreading farther than the
+    original compromise. A lot of it came down to access that was already there and
+    defenses that assumed nobody would look too closely. So, nothing magical. Just
+    a
+  source: The Hacker News
+- title: How MCP Servers Can Expose Enterprise Secrets
+  link: https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html
+  published: Mon, 17 Aug 2026 17:28:00 +0530
+  summary: MCP servers can expose enterprise secrets through plaintext configuration
+    files, over-permissioned access and prompt injection, often before security teams
+    even know the server is running. As more organizations adopt AI agents into their
+    systems, that exposure can silently become a major gap in MCP server security.
+    The Model Context Protocol (MCP) allows AI agents to reach the tools and data,
+  source: The Hacker News
