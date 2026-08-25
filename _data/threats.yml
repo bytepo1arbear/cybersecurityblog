@@ -1,4 +1,4 @@
-last_updated: '2026-08-24T02:58:40Z'
+last_updated: '2026-08-25T02:53:50Z'
 count: 100
 items:
 - title: LG to Ban Residential Proxies from Smart TV Apps
@@ -127,12 +127,6 @@ items:
     everyday language makes the situation accessible to non-technical audiences and
     identify points where the crime can be disrupted.
   source: Cisco Talos
-- title: ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058,
-    (Wed, Aug 19th)
-  link: https://isc.sans.edu/diary/rss/33258
-  published: Wed, 19 Aug 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: China-Linked Hacker Shows AI Capabilities in APAC Attack
   link: https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack
   published: Wed, 19 Aug 2026 01:00:00 GMT
@@ -181,6 +175,12 @@ items:
     access and the weaponization of legitimate remote management tools. Learn how
     to sharpen your defenses.
   source: Cisco Talos
+- title: ISC Stormcast For Tuesday, August 25th, 2026 https://isc.sans.edu/podcastdetail/10066,
+    (Tue, Aug 25th)
+  link: https://isc.sans.edu/diary/rss/33278
+  published: Tue, 25 Aug 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: Scattered Spider Hackers Plead Guilty on Day 1 of Trial
   link: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
   published: Tue, 23 Jun 2026 16:12:49 +0000
@@ -315,31 +315,6 @@ items:
     catalog, citing evidence of active exploitation. Ray is an open-source, Python-native
     distributed computing framework designed to scale artificial intelligence and
     machine learning workloads. As of writing, the GitHub project has more than
-  source: The Hacker News
-- title: Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public
-    Projects
-  link: https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
-  published: Tue, 18 Aug 2026 02:33:04 +0530
-  summary: GitLab has released security updates to address a critical vulnerability
-    impacting its Community Edition (CE) and Enterprise Edition (EE) software that,
-    under certain conditions, could allow an unauthenticated attacker to remotely
-    modify or delete public projects and user data. The flaw, tracked as CVE-2026-19478,
-    has been rated Critical by GitLab and assigned a CVSS score of 9.4. Released on
-  source: The Hacker News
-- title: ISC Stormcast For Tuesday, August 18th, 2026 https://isc.sans.edu/podcastdetail/10056,
-    (Tue, Aug 18th)
-  link: https://isc.sans.edu/diary/rss/33256
-  published: Tue, 18 Aug 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
-- title: Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection
-  link: https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html
-  published: Tue, 18 Aug 2026 00:14:17 +0530
-  summary: Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow
-    injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net
-    repository that it said could be exploited through a crafted GitHub issue to execute
-    commands in a workflow containing internal Jira credentials. The issue was present
-    in .github/workflows/jira_issue.yml, which ran when a
   source: The Hacker News
 - title: Microsoft Patches a Record 570 Security Flaws
   link: https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/
@@ -690,25 +665,6 @@ items:
     compromised by severe vulnerabilities in a key browser extension, showcasing bigger
     problems with extensions in general.
   source: Dark Reading
-- title: 'The Coordination Gap: How Attackers Are Outpacing Law Enforcement'
-  link: https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement
-  published: Thu, 06 Aug 2026 21:42:50 GMT
-  summary: The fight against cybercrime continues because threat actors have adapted
-    their strategies to avoid deterrents, but law enforcement still operates in silos.
-  source: Dark Reading
-- title: Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride
-  link: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
-  published: Thu, 06 Aug 2026 20:39:30 GMT
-  summary: In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed
-    AI agent sandbox escape events affecting real organizations.
-  source: Dark Reading
-- title: Researcher Claims Control of ChatGPT Secure Sandbox
-  link: https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox
-  published: Thu, 06 Aug 2026 20:38:51 GMT
-  summary: A researcher demonstrated a proof-of-concept attack chain that provided
-    C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat
-    USA 2026.
-  source: Dark Reading
 - title: Why metaphor may dictate your security strategy
   link: https://blog.talosintelligence.com/why-metaphor-may-dictate-your-security-strategy/
   published: Thu, 06 Aug 2026 18:00:01 GMT
@@ -754,70 +710,119 @@ items:
     RedC2 4.0. "When the module loads, it locates the bundled binary, marks it executable,
     and launches it as a detached background process," TrendAI, Trend Micro's
   source: The Hacker News
-- title: ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064,
-    (Mon, Aug 24th)
-  link: https://isc.sans.edu/diary/rss/33276
-  published: Mon, 24 Aug 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
-- title: Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP
-    Uploads
-  link: https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
-  published: Mon, 17 Aug 2026 23:52:09 +0530
-  summary: A critical security flaw has been disclosed in Forminator Forms, a WordPress
-    plugin with more than 600,000 active installations, that could be exploited to
-    achieve arbitrary code execution on susceptible sites. The vulnerability, tracked
-    as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was
-    discovered and reported by a security researcher who goes by the online alias
-    "
+- title: Shipping More AI Code Than You Can Secure? Watch How to Control Remediation
+    Debt
+  link: https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html
+  published: Mon, 24 Aug 2026 23:11:30 +0530
+  summary: 'If your developers are using AI coding tools, you are probably already
+    seeing the upside: faster development, more code, and less time spent on routine
+    work. The harder part is what comes after. AI can also introduce open-source packages
+    at a pace your security team was never built to handle. More dependencies mean
+    more vulnerabilities to review, more remediation work, and a backlog that can'
   source: The Hacker News
-- title: Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic
-  link: https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html
-  published: Mon, 17 Aug 2026 23:11:06 +0530
-  summary: Cybersecurity researchers have traced the continued evolution of the Cavern
-    (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers
-    in attacks targeting entities in Israel. Russian cybersecurity company Kaspersky
-    said its ongoing monitoring of the threat activity cluster since December 2025
-    has led to the discovery of previously unreported components that expand the
+- title: Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning
+  link: https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html
+  published: Mon, 24 Aug 2026 23:11:11 +0530
+  summary: Cybersecurity researchers have found that several websites are still actively
+    distributing a malware family known as Weedhack to gamers by masquerading as Minecraft
+    clients. McAfee Labs said it detected and blocked more than 6,300 attempts to
+    access malicious sites, adding that it found lookalike gaming websites designed
+    to mimic legitimate projects, including branding, feature lists, FAQs,
   source: The Hacker News
-- title: Video Call Exploit Chains Two Flaws in Unisoc Modems
-  link: https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems
-  published: Mon, 17 Aug 2026 21:37:23 GMT
-  summary: Researchers found that by combining two vulnerabilities, they could take
-    over an Android device by delivering a payload and getting the victim to answer
-    their phone.
+- title: Exploited Zimbra Flaw Highlights Shrinking Window to Patch
+  link: https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+  published: Mon, 24 Aug 2026 21:46:55 GMT
+  summary: CISA has issued a three-day deadline for agencies to patch a Zimbra security
+    vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.
   source: Dark Reading
-- title: '''Turf War'' Between Claude Agents Leads to Self-Replicating Malware'
-  link: https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware
-  published: Mon, 17 Aug 2026 20:26:34 GMT
-  summary: Three testing models with the same goal but different directives engaged
-    in "increasingly aggressive" territorial attacks on one another, according to
-    Anthropic.
+- title: 'Foul Language: WordlistLoader Disguises Malware as Ordinary Text'
+  link: https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text
+  published: Mon, 24 Aug 2026 20:51:27 GMT
+  summary: ClickFix-style threat campaigns are using a new trick to evade detection
+    and deliver Amatera, an increasingly prevalent infostealer.
   source: Dark Reading
-- title: Hugging Face Breach Raises Big Questions About AI Security Controls
-  link: https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b
-  published: Mon, 17 Aug 2026 19:22:56 GMT
-  summary: Adam Shostack, president of Shostack & Associates and an affiliate professor
-    at the University of Washington, talks with the Dark Reading News Desk about why
-    he was "blown away" by OpenAI's revelations regarding the Hugging Face attack.
-  source: Dark Reading
-- title: '⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks
+- title: '⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks
     and More'
-  link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-  published: Mon, 17 Aug 2026 18:53:51 +0530
-  summary: The expensive attacks are not always the clever ones. This week had plenty
-    of proof. Exposed services got hit, old bugs found fresh use, browser sessions
-    became attack paths, and supply-chain problems kept spreading farther than the
-    original compromise. A lot of it came down to access that was already there and
-    defenses that assumed nobody would look too closely. So, nothing magical. Just
-    a
+  link: https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html
+  published: Mon, 24 Aug 2026 20:02:10 +0530
+  summary: A package gets installed. A login prompt opens. A box sits exposed to the
+    internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted
+    tools turn hostile, old weak spots get fresh attention, AI makes exploit work
+    cheaper, and researchers keep finding attacks that sound harder than they actually
+    are. Plenty to clean up. Here’s the short version. ⚡ Threat of the Week U.S.
   source: The Hacker News
-- title: How MCP Servers Can Expose Enterprise Secrets
-  link: https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html
-  published: Mon, 17 Aug 2026 17:28:00 +0530
-  summary: MCP servers can expose enterprise secrets through plaintext configuration
-    files, over-permissioned access and prompt injection, often before security teams
-    even know the server is running. As more organizations adopt AI agents into their
-    systems, that exposure can silently become a major gap in MCP server security.
-    The Model Context Protocol (MCP) allows AI agents to reach the tools and data,
+- title: WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows
+    Passwords
+  link: https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html
+  published: Mon, 24 Aug 2026 18:05:36 +0530
+  summary: Cybersecurity researchers have flagged two new malware families called
+    WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely
+    sell access to ransomware groups. According to findings from Gen Digital, WordlistLoader
+    is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain Stealer)
+    via ClearFake campaigns, which employ the ClickFix (aka FakeCaptcha)
   source: The Hacker News
+- title: Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers
+    Take Over Any Account
+  link: https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html
+  published: Mon, 24 Aug 2026 17:26:34 +0530
+  summary: Red Hat and the Keycloak project have released patches to address a critical
+    security flaw in the open-source identity and access management server that could
+    allow an unauthenticated remote attacker to take over any user account by forcing
+    a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963,
+    is rated 9.1 on the CVSS scoring system by Red Hat, which acts as
+  source: The Hacker News
+- title: Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor
+  link: https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html
+  published: Mon, 24 Aug 2026 17:21:36 +0530
+  summary: Cybersecurity researchers have flagged a cyber espionage campaign targeting
+    Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor
+    called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found
+    to target government and information technology sectors, per Seqrite Labs. The
+    activity is assessed to be the work of a China-nexus threat actor with moderate
+  source: The Hacker News
+- title: 'The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk'
+  link: https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html
+  published: Mon, 24 Aug 2026 17:00:00 +0530
+  summary: Big security risks come in small packages. While enterprise security teams
+    focus on policing the proliferation of employees using ChatGPT and Claude for
+    quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters
+    who are quietly hardcoding unvetted tools into critical business operations. According
+    to new research published by Akamai, the top 5% of enterprise power
+  source: The Hacker News
+- title: Tricky 'SynkLoader' Multitool May Herald Ransomware
+  link: https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware
+  published: Mon, 24 Aug 2026 15:02:32 GMT
+  summary: An advanced, multilingual malware family brings back a trick from yesteryear
+    — screen hijacking — for effective password theft, along with a slew of novel
+    features.
+  source: Dark Reading
+- title: ToxicPanda Banking Trojan Matures Into Enterprise Threat
+  link: https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
+  published: Mon, 24 Aug 2026 14:34:59 GMT
+  summary: The latest version of the Android malware has new features that expand
+    its global reach and put more than users' financial applications at risk.
+  source: Dark Reading
+- title: 'The Vulnerability Gap: Why Discovery Is Outrunning Repair'
+  link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+  published: Mon, 24 Aug 2026 14:00:00 GMT
+  summary: AI is discovering more vulnerabilities, faster, and under a tightening
+    regulatory environment, making this an all-hands-on-deck moment for the cybersecurity
+    community.
+  source: Dark Reading
+- title: UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass
+    and Linux Rootkit
+  link: https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
+  published: Mon, 24 Aug 2026 13:38:31 +0530
+  summary: Cybersecurity researchers have disclosed details of a Chinese-speaking
+    cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers
+    globally across the education, media, technology, and gaming sectors. The vast
+    majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam.
+    Details of the threat activity came to light following the discovery of an open
+  source: The Hacker News
+- title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
+  link: https://isc.sans.edu/diary/rss/33274
+  published: Mon, 24 Aug 2026 07:23:16 GMT
+  summary: "New malware that uses steganography always gets my attention, but I was\
+    \ disappointed when I looked at the latest DOUBLECUP write-up. It doesn&#;x26;#;39;t\
+    \ use real steganography:\r"
+  source: SANS Internet Storm Center
