@@ -1,6 +1,12 @@
-last_updated: '2026-08-25T02:53:50Z'
+last_updated: '2026-08-26T03:00:05Z'
 count: 100
 items:
+- title: ISC Stormcast For Wednesday, August 26th, 2026 https://isc.sans.edu/podcastdetail/10068,
+    (Wed, Aug 26th)
+  link: https://isc.sans.edu/diary/rss/33282
+  published: Wed, 26 Aug 2026 02:40:13 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: LG to Ban Residential Proxies from Smart TV Apps
   link: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
   published: Wed, 22 Jul 2026 01:10:38 +0000
@@ -92,15 +98,6 @@ items:
     to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper
     authentication vulnerability impacting Apple macOS that could allow an'
   source: The Hacker News
-- title: Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)
-  link: https://isc.sans.edu/diary/rss/33260
-  published: Wed, 19 Aug 2026 14:24:58 GMT
-  summary: "Cloud providers typically expose a REST API at 169.254.169.254 that allows\
-    \ code running on virtual machines to retrieve machine-specific data. Some of\
-    \ the data is more or less harmless, such as the region the machine is running\
-    \ in or its MAC and IP addresses. However, the service may also be used to retrieve\
-    \ credentials for IAM roles and service account tokens.\r"
-  source: SANS Internet Storm Center
 - title: Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure
   link: https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html
   published: Wed, 19 Aug 2026 11:31:53 +0530
@@ -109,16 +106,6 @@ items:
     and network behaviors across changing infrastructure, tracing the malware from
     payload retrieval through data collection, staging, and exfiltration. The tech
     giant said it required multiple endpoint and network behaviors to align before
-  source: The Hacker News
-- title: Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering
-    Data
-  link: https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
-  published: Wed, 19 Aug 2026 11:09:25 +0530
-  summary: A JavaServer Pages (JSP) web shell deployed following the exploitation
-    of a critical security flaw in PTC Windchill and FlexPLM servers is specifically
-    designed for the enterprise Product Lifecycle Management (PLM) software, according
-    to new findings from ReliaQuest. The cybersecurity company characterized the web
-    shell as a fully equipped extortion platform capable of mapping sensitive vault
   source: The Hacker News
 - title: Describing attacks with crime script analysis
   link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
@@ -175,6 +162,138 @@ items:
     access and the weaponization of legitimate remote management tools. Learn how
     to sharpen your defenses.
   source: Cisco Talos
+- title: U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches
+  link: https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html
+  published: Tue, 25 Aug 2026 23:47:17 +0530
+  summary: The U.S. Department of the Treasury has announced fresh sanctions on Iranian
+    cyber actors as part of what it called an "unprecedented, whole-of-government,
+    economic campaign" against the nation and its enablers. "We are launching an economic
+    onslaught against Iran's financial connections around the globe. Our objective
+    is to sever every economic lifeline that sustains this tyrannical regime
+  source: The Hacker News
+- title: Hidden Prompts Trick AI Into False Email Summaries
+  link: https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries
+  published: Tue, 25 Aug 2026 21:08:55 GMT
+  summary: With some simple HTML that's invisible to users, attackers can manipulate
+    AI-powered email summarizers into producing malicious information.
+  source: Dark Reading
+- title: 'Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw'
+  link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
+  published: Tue, 25 Aug 2026 19:50:16 GMT
+  summary: Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated
+    access to the local model server through the Ollama API, paving the way for persistent
+    AI agent corruption.
+  source: Dark Reading
+- title: A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw
+  link: https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html
+  published: Tue, 25 Aug 2026 19:37:37 +0530
+  summary: Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let
+    an attacker-controlled webpage take unauthenticated control of the local Ollama
+    instance serving an AI agent and plant hidden instructions inside the model itself.
+    The findings were shared with The Hacker News ahead of publication, and the report
+    says Oasis Security reported them to NVIDIA's Product Security Incident
+  source: The Hacker News
+- title: WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS
+    and Android
+  link: https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html
+  published: Tue, 25 Aug 2026 18:49:41 +0530
+  summary: Meta on Tuesday announced a set of WhatsApp account security features,
+    including support for multiple passkeys to a single account to help users with
+    both iOS and Android devices sign into their accounts using the phishing-resistant
+    method. The tech giant said more than 1 billion people use a passkey to log into
+    WhatsApp. Support for passkeys was first introduced in Android in October 2023,
+  source: The Hacker News
+- title: Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit
+    Mode
+  link: https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html
+  published: Tue, 25 Aug 2026 18:13:51 +0530
+  summary: Marimo has addressed a high-severity security flaw in its notebook software
+    that allowed an attacker to execute an attacker-supplied Model Context Protocol
+    (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering
+    Authority (CNA) record. The CNA record says the command can run as a local subprocess
+    when the notebook is opened in edit mode. The vulnerability, tracked
+  source: The Hacker News
+- title: Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login
+    Flows
+  link: https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html
+  published: Tue, 25 Aug 2026 17:26:15 +0530
+  summary: Thousands of companies have been affected by the Mirage2FA campaign from
+    2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365
+    accounts by abusing legitimate login flows and bypassing two-factor authentication.
+    According to ANY.RUN research, 48% of targeted email addresses were potentially
+    compromised. Most of the affected companies are US-based. Mirage2FA Campaign
+  source: The Hacker News
+- title: 24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages
+  link: https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
+  published: Tue, 25 Aug 2026 17:22:43 +0530
+  summary: Cybersecurity researchers have disclosed details of a new campaign that
+    uses a cluster of 24 npm packages as free phishing infrastructure for redirecting
+    to ClickFix-style fake CAPTCHA pages. "While the malware is simply a single HTML
+    page inside the npm package, and while downloading it wouldn't do harm, the threat
+    actor’s use of npm isn't to infect developers who install it, but to use the
+  source: The Hacker News
+- title: E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands
+  link: https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html
+  published: Tue, 25 Aug 2026 17:03:44 +0530
+  summary: Cybersecurity researchers are calling attention to a new campaign that
+    employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported
+    remote access trojans (RATs) tracked as E4del and PINHOLE. While threat actors
+    are known to abuse legitimate services to point to additional command-and-control
+    (C2) infrastructure and blend in with regular network traffic, the development
+  source: The Hacker News
+- title: 'Frontier AI: Vulnerability Management''s Systemic Revolution'
+  link: https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html
+  published: Tue, 25 Aug 2026 16:44:07 +0530
+  summary: Vulnerability management has been a staple of security programs since the
+    dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability
+    and patch management teams has also existed for that time and has gone through
+    waves of contention and thankfulness. While this relationship required thoughtful
+    care and feeding from both sides, both sides were aiming to work toward a
+  source: The Hacker News
+- title: Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)
+  link: https://isc.sans.edu/diary/rss/33280
+  published: Tue, 25 Aug 2026 15:03:33 GMT
+  summary: "It is pretty obvious that hostnames can replace IP addresses. Pretty much\
+    \ any software accepting an IP address will also accept a hostname as an argument.\
+    \ Last week, I wrote about scans for the cloud metadata service listening at 169.254.169.254.\
+    \ These scans attempted to exploit Server Side Request Forgery (SSRF) vulnerability.\
+    \ One way to prevent these types of exploits is to filter requests that contain\
+    \ the string \"169.254.169.254\" or to add this IP to a blocklist of URLs that\
+    \ should not be accessed.\r"
+  source: SANS Internet Storm Center
+- title: Is Cyber Facing an Affordability Crisis?
+  link: https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-
+  published: Tue, 25 Aug 2026 14:53:13 GMT
+  summary: As breach costs reach record highs and defense spending nears $240 billion,
+    small businesses are dangerously exposed, threatening supply chain security.
+  source: Dark Reading
+- title: Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access
+  link: https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html
+  published: Tue, 25 Aug 2026 14:04:07 +0530
+  summary: 'Bad actors are attempting to exploit two severe unauthenticated authentication
+    bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it
+    possible for an attacker to sign in as any WordPress user, including administrators.
+    The vulnerabilities, as disclosed by Patchstack, are listed below - CVE-2026-61979
+    (CVSS score: 8.1) - An unauthenticated privilege escalation'
+  source: The Hacker News
+- title: Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access
+    Critical Data
+  link: https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+  published: Tue, 25 Aug 2026 11:42:35 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday
+    added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle
+    WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence
+    of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score:
+    10.0), allows an unauthenticated attacker with network access via HTTP to'
+  source: The Hacker News
+- title: 'The safety penalty: Reclaiming operational sovereignty in the age of AI'
+  link: https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/
+  published: Tue, 25 Aug 2026 10:00:22 GMT
+  summary: As frontier AI models become increasingly restrictive, security teams are
+    facing a "safety penalty" that hampers real-time incident response. Discover how
+    organizations can move toward operational sovereignty to ensure their defensive
+    AI keeps pace with unconstrained adversaries.
+  source: Cisco Talos
 - title: ISC Stormcast For Tuesday, August 25th, 2026 https://isc.sans.edu/podcastdetail/10066,
     (Tue, Aug 25th)
   link: https://isc.sans.edu/diary/rss/33278
@@ -191,35 +310,6 @@ items:
     and their guilty pleas came on the first day of what was expected to be a six-week
     trial.
   source: Krebs on Security
-- title: Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From
-    Connected Apps
-  link: https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html
-  published: Tue, 18 Aug 2026 23:17:22 +0530
-  summary: Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot
-    Personal that it said could allow a single click on a crafted link to silently
-    pull data from connected apps and other information available to the victim's
-    Copilot session. The flaws, which the researchers collectively named CoSnitch,
-    turn in part on an undocumented URL parameter that the assistant itself surfaced
-  source: The Hacker News
-- title: Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets
-  link: https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html
-  published: Tue, 18 Aug 2026 23:14:05 +0530
-  summary: Two critical vulnerabilities impacting MLflow, an open-source artificial
-    intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software
-    built for operational technology (OT) and industrial automation, are witnessing
-    malicious scanning and exploitation efforts. According to independent reports
-    from watchTowr and VulnCheck, the vulnerabilities in question are as follows -
-  source: The Hacker News
-- title: Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to
-    $60,000
-  link: https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html
-  published: Tue, 18 Aug 2026 22:28:16 +0530
-  summary: A ransomware affiliate calling itself Ransom Busters has been spotted proactively
-    sending emails to victim organizations and claims to delete stolen data from ransomware
-    groups' servers in exchange for a fee ranging from $20,000 to $60,000. "In these
-    messages, the third-party offers to help the victim recover from ransomware attack.
-    This immediately stands out as anomalous," GuidePoint Research
-  source: The Hacker News
 - title: Critical GitLab Zero-Click Flaw Poses Mitigation Challenges
   link: https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   published: Tue, 18 Aug 2026 21:25:58 GMT
@@ -247,53 +337,6 @@ items:
     told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity
     community.
   source: Dark Reading
-- title: AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files
-  link: https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html
-  published: Tue, 18 Aug 2026 18:08:36 +0530
-  summary: Security researchers at Anthropic and Switzerland's EPFL have demonstrated
-    that self-propagating payloads can spread from one artificial intelligence (AI)
-    agent to the next through the editable system prompt files that autonomous agent
-    harnesses use to carry state between sessions. The work, released as a preprint
-    on August 10, 2026, tests the technique in a simulated six-agent coding
-  source: The Hacker News
-- title: TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across
-    Networks
-  link: https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html
-  published: Tue, 18 Aug 2026 18:08:20 +0530
-  summary: Cybersecurity researchers have disclosed details of a previously undocumented
-    Python implant framework dubbed TWINLOOT. "TWINLOOT is a modular, PyArmor-hardened
-    Python implant designed to operate its entire command-and-control infrastructure
-    inside trusted Microsoft services," Ontinue said in a technical report shared
-    with The Hacker News. "Tasking flows through SharePoint Online file
-  source: The Hacker News
-- title: One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025
-  link: https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html
-  published: Tue, 18 Aug 2026 17:00:00 +0530
-  summary: 'A single piece of infrastructure has been pulling records out of Salesforce
-    and ServiceNow customer portals across multiple industries for more than a year,
-    according to research published this week by agent security platform Reco. The
-    activity, which Reco has named the City Forum campaign after a domain tied to
-    the attacker''s IP address, traces back to one server: 158.220.87.79, hosted on
-    a'
-  source: The Hacker News
-- title: 16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets
-  link: https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html
-  published: Tue, 18 Aug 2026 16:50:00 +0530
-  summary: Cybersecurity researchers have flagged a new typosquatting campaign targeting
-    RubyGems users with a Windows-based information stealer. OpenSourceMalware, which
-    discovered the activity on August 15, 2026, is tracking the threat under the moniker
-    StubMaker. The complete list of packages published as part of the campaign is
-    below - ubnuler ubnlder ri18nr reaker rakier orakw joxn
-  source: The Hacker News
-- title: SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers
-  link: https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html
-  published: Tue, 18 Aug 2026 14:40:45 +0530
-  summary: SafePal has disclosed that an authorization flaw in an order-tracking plug-in
-    exposed the names, email addresses, shipping addresses, phone numbers, and purchase
-    details of approximately 39,798 customers. The hardware wallet maker said all
-    affected customers were notified individually by email on August 16 from security@safepal.com,
-    with the subject line "[Important] Your SafePal Order
-  source: The Hacker News
 - title: Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud
   link: https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud
   published: Tue, 18 Aug 2026 13:00:00 GMT
@@ -307,15 +350,6 @@ items:
   summary: A ransomware affiliate appears to be sidling up to victims with offers
     of aid, masking its true intention of diverting ransom payments.
   source: Dark Reading
-- title: CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE
-  link: https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
-  published: Tue, 18 Aug 2026 12:04:20 +0530
-  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday
-    added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV)
-    catalog, citing evidence of active exploitation. Ray is an open-source, Python-native
-    distributed computing framework designed to scale artificial intelligence and
-    machine learning workloads. As of writing, the GitHub project has more than
-  source: The Hacker News
 - title: Microsoft Patches a Record 570 Security Flaws
   link: https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/
   published: Tue, 14 Jul 2026 19:22:42 +0000
@@ -389,15 +423,6 @@ items:
   published: Thu, 23 Jul 2026 18:00:46 GMT
   summary: Thorsten explores Q2 2026 stats, the artificial buffer zone of 2026, and
     why smart, prioritized patching is more critical than ever.
-  source: Cisco Talos
-- title: 'Chaos ransomware''s msaRAT: Living off the browser to build a covert C2
-    channel'
-  link: https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/
-  published: Thu, 23 Jul 2026 10:00:38 GMT
-  summary: The Chaos ransomware group uses new malware "msaRAT" that hijacks browsers.
-    The malware doesn't communicate directly with C2 but connects through the browser.
-    It enables arbitrary command execution while hiding the attacker's IP from victims
-    via WebRTC over TURN.
   source: Cisco Talos
 - title: 'ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI
     Exploit, and More'
@@ -616,12 +641,6 @@ items:
     of the campaign, examining the countries affected, potential impact of BadIIS
     infections, the attack chain, and post-compromise tactics.
   source: Cisco Talos
-- title: ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060,
-    (Thu, Aug 20th)
-  link: https://isc.sans.edu/diary/rss/33262
-  published: Thu, 20 Aug 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12
     Bits/Second
   link: https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html
@@ -732,7 +751,7 @@ items:
 - title: Exploited Zimbra Flaw Highlights Shrinking Window to Patch
   link: https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   published: Mon, 24 Aug 2026 21:46:55 GMT
-  summary: CISA has issued a three-day deadline for agencies to patch a Zimbra security
+  summary: CISA issued a three-day deadline for agencies to patch a Zimbra security
     vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.
   source: Dark Reading
 - title: 'Foul Language: WordlistLoader Disguises Malware as Ordinary Text'
@@ -802,27 +821,3 @@ items:
   summary: The latest version of the Android malware has new features that expand
     its global reach and put more than users' financial applications at risk.
   source: Dark Reading
-- title: 'The Vulnerability Gap: Why Discovery Is Outrunning Repair'
-  link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-  published: Mon, 24 Aug 2026 14:00:00 GMT
-  summary: AI is discovering more vulnerabilities, faster, and under a tightening
-    regulatory environment, making this an all-hands-on-deck moment for the cybersecurity
-    community.
-  source: Dark Reading
-- title: UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass
-    and Linux Rootkit
-  link: https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
-  published: Mon, 24 Aug 2026 13:38:31 +0530
-  summary: Cybersecurity researchers have disclosed details of a Chinese-speaking
-    cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers
-    globally across the education, media, technology, and gaming sectors. The vast
-    majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam.
-    Details of the threat activity came to light following the discovery of an open
-  source: The Hacker News
-- title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
-  link: https://isc.sans.edu/diary/rss/33274
-  published: Mon, 24 Aug 2026 07:23:16 GMT
-  summary: "New malware that uses steganography always gets my attention, but I was\
-    \ disappointed when I looked at the latest DOUBLECUP write-up. It doesn&#;x26;#;39;t\
-    \ use real steganography:\r"
-  source: SANS Internet Storm Center
