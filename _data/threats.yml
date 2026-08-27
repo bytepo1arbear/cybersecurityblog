@@ -1,6 +1,182 @@
-last_updated: '2026-08-26T03:00:05Z'
+last_updated: '2026-08-27T12:17:16Z'
 count: 100
 items:
+- title: FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S.
+    Organizations
+  link: https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html
+  published: Wed, 26 Aug 2026 22:12:03 +0530
+  summary: The U.S. Department of Justice (DoJ) on Wednesday announced the disruption
+    of two hacking platforms named QScan and QTRouter operated by Chinese threat actors
+    to target critical infrastructure and other sensitive networks in the country.
+    The activity has been attributed to a Chinese state-sponsored group known as QTFY,
+    employed by Nanjing Xinjiuwei Network Technology Company (南京鑫玖维网络科技有限公司).&
+  source: The Hacker News
+- title: Dark Caracal Adds New Malware to Cyber Espionage Arsenal
+  link: https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal
+  published: Wed, 26 Aug 2026 21:33:06 GMT
+  summary: GoCaracal is a new modular malware framework that broadens Dark Caracal's
+    capabilities to steal data and maintain access to victims.
+  source: Dark Reading
+- title: Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler
+  link: https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html
+  published: Wed, 26 Aug 2026 21:05:05 +0530
+  summary: Cybersecurity researchers have discovered additional infrastructure and
+    previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored
+    hacking group affiliated with the Islamic Revolutionary Guard Corps (IRGC). Group-IB,
+    in a new analysis published today, described the cyber espionage actor as among
+    the most active Iranian APT groups in 2026. Nimbus Manticore (aka
+  source: The Hacker News
+- title: Red Flags That Expose Fake North Korean IT Workers
+  link: https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers
+  published: Wed, 26 Aug 2026 19:21:24 GMT
+  summary: North Korean operatives posing as IT workers are improving their tactics,
+    but researchers say there are still ways to spot them before they do damage.
+  source: Dark Reading
+- title: NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft
+    365 Sessions
+  link: https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html
+  published: Wed, 26 Aug 2026 19:14:31 +0530
+  summary: Cybersecurity researchers have disclosed details of a new adversary-in-the-middle
+    (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect
+    Microsoft 365 sign-ins, while capturing authenticated sessions in the process.
+    In a report shared with The Hacker News ahead of publication, Island characterized
+    the $320/month service as a subscription-based phishing platform that
+  source: The Hacker News
+- title: CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected
+    Nothing
+  link: https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html
+  published: Wed, 26 Aug 2026 18:37:02 +0530
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published
+    the results of two red team assessments it conducted simultaneously against two
+    critical infrastructure organizations, using what it described as similar tradecraft
+    while recording sharply different defensive outcomes. Both organizations were
+    fully compromised at the domain level, and in both, the red team also
+  source: The Hacker News
+- title: Android Malware Hijacks Update System for Car Head Units
+  link: https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units
+  published: Wed, 26 Aug 2026 17:33:45 GMT
+  summary: Threat actors behind a notorious click-fraud botnet have set their sights
+    on vehicle infotainment modules and are abusing legitimate functionality to spread
+    infections.
+  source: Dark Reading
+- title: Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and
+    Run Code
+  link: https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
+  published: Wed, 26 Aug 2026 17:25:00 +0530
+  summary: The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities
+    in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker
+    to read arbitrary files from a server and execute code on it. The flaws, tracked
+    as CVE-2026-19913 and CVE-2026-19912, both stem from the same unsafe deserialization
+    in the mwEmbedLoader.php endpoint of the mwEmbed player
+  source: The Hacker News
+- title: 'Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine'
+  link: https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html
+  published: Wed, 26 Aug 2026 17:06:49 +0530
+  summary: 'The SOC we''ve always known was built around a model that guarantees most
+    of the alert queue will never receive analyst review. There''s never time. In
+    a traditional SOC, the typical progression follows a well-known pattern: an alert
+    arrives; a detection engine assigns a severity score. The issue then waits for
+    a human to decide if it should escalate to an investigation. Given the volume
+    of'
+  source: The Hacker News
+- title: Who Has Admin Rights in your Entra ID Directory?, (Wed, Aug 26th)
+  link: https://isc.sans.edu/diary/rss/33284
+  published: Wed, 26 Aug 2026 15:58:15 GMT
+  summary: "A common thing that folks should \"worry\" about in Entra (or any platform\
+    \ really) is \"who has rights to administer\"&#;x26;#;x3f;&#;x26;#;xc2;&#;x26;#;xa0;\
+    \ Who can delete or change key things, or modify them in ways that might not be\
+    \ obvious (accidentally or on purpose).&#;x26;#;xc2;&#;x26;#;xa0; Yes, we trust\
+    \ our people, but if they&#;x26;#;39;ve moved on to other roles or to other organizations,\
+    \ they change from \"our people\" to \"used to be our people\".&#;x26;#;xc2;&#;x26;#;xa0;&#;x26;#;xc2;&#;x26;#;xa0;\r"
+  source: SANS Internet Storm Center
+- title: Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations
+    in Tests
+  link: https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html
+  published: Wed, 26 Aug 2026 15:57:23 +0530
+  summary: Aikido Security has published research that recreates the Australian gym-booking
+    incident in a synthetic environment, finding that Claude Opus 4.6, running on
+    the OpenClaw agent harness, exploited a client-side-only booking restriction in
+    9 of 10 runs. The original incident was first reported by ABC News on August 10,
+    based on chat logs and screenshots the user supplied. He had asked an
+  source: The Hacker News
+- title: OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation
+  link: https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html
+  published: Wed, 26 Aug 2026 15:08:45 +0530
+  summary: OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts
+    that used VPNs to bypass access restrictions and run an influence operation, which
+    relied on its artificial intelligence (AI) tool to generate social media posts
+    and comments that were shared on Substack, Telegram, X, Facebook and LinkedIn.
+    The accounts "were being used to promote the International Burke Institute (IBI),
+    a
+  source: The Hacker News
+- title: INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud
+    Crackdown
+  link: https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html
+  published: Wed, 26 Aug 2026 13:24:12 +0530
+  summary: An eight-month INTERPOL operation targeting West African organized crime
+    groups has led to arrests of 58 people and the identification of 263 suspects.
+    "The operation, which brought together 22 countries from six continents, is a
+    response to the escalating global threat posed by West African criminal networks
+    – such as the Black Axe and other similar groups," INTERPOL said. "These groups
+    are
+  source: The Hacker News
+- title: New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own
+    Bytecode
+  link: https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html
+  published: Wed, 26 Aug 2026 12:42:55 +0530
+  summary: An independent malware researcher has documented a previously unreported
+    Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically
+    crafted network packet reaches the machine and then runs commands written in a
+    23-instruction language of its own design. The sample is an unsigned 64-bit Windows
+    dynamic-link library (DLL) of 59,904 bytes, built to be side-loaded into&
+  source: The Hacker News
+- title: Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like
+    Payload
+  link: https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
+  published: Wed, 26 Aug 2026 11:57:07 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    warned of active exploitation efforts targeting a recently patched critical security
+    flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score:
+    9.8), a case of remote code execution that allows an attacker with ordinary write
+    access to a repository to execute arbitrary shell commands as the'
+  source: The Hacker News
+- title: '''NovaCookies'' Kit Steals Microsoft 365 Sessions for $320 a Month'
+  link: https://www.darkreading.com/endpoint-security/novacookies-steals-microsoft-365-sessions-320-a-month
+  published: Wed, 26 Aug 2026 11:33:40 GMT
+  summary: The adversary-in-the-middle (AitM) phishing service lowers the barrier
+    to entry for actors to create attacks and steal more than just user credentials.
+  source: Dark Reading
+- title: Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and
+    2FA Codes
+  link: https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html
+  published: Wed, 26 Aug 2026 11:17:28 +0530
+  summary: Cybersecurity researchers have disclosed details of a phishing-as-a-service
+    (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using
+    rented AI voice agents that call theft victims posing as Apple Support and ask
+    for their device passcode. SOCRadar Threat Research Unit (STRU) said the platform,
+    which it tracks as AnonyMousKIT, is credit-metered and drives lures across
+  source: The Hacker News
+- title: 'Choose your fighter: Balancing competing requirements to select models for
+    your AI SOC'
+  link: https://blog.talosintelligence.com/choose-your-fighter-balancing-competing-requirements-to-select-models-for-your-ai-soc/
+  published: Wed, 26 Aug 2026 10:00:05 GMT
+  summary: Selecting a model for your security operations center (SOC) and digital
+    forensics and incident response (DFIR) tasks is important, but selecting the best
+    one is more involved than you might think. Here's how to choose.
+  source: Cisco Talos
+- title: Interpol's Jackal IV Disrupts West African Crime Infrastructure
+  link: https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african-crime-infrastructure
+  published: Wed, 26 Aug 2026 08:30:00 GMT
+  summary: The international law enforcement operation focused on disrupting crime-as-a-service
+    networks and infrastructure behind groups like Black Axe.
+  source: Dark Reading
+- title: Nigeria Looks to Sovereign Cloud for Cyber, National Security
+  link: https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security
+  published: Wed, 26 Aug 2026 08:00:00 GMT
+  summary: The West African nation launched financing, procurement, and infrastructure
+    policies to boost its sovereign cloud initiative and increase domestic technical
+    knowledge.
+  source: Dark Reading
 - title: ISC Stormcast For Wednesday, August 26th, 2026 https://isc.sans.edu/podcastdetail/10068,
     (Wed, Aug 26th)
   link: https://isc.sans.edu/diary/rss/33282
@@ -17,16 +193,6 @@ items:
     webOS store allow unknown third-parties to route their Internet traffic through
     a user's TV.
   source: Krebs on Security
-- title: OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe
-    AI Behavior
-  link: https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
-  published: Wed, 19 Aug 2026 23:36:44 +0530
-  summary: OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training
-    for its latest artificial intelligence (AI) models for two weeks while it shored
-    up additional defenses and increased the scope of its monitoring to avert another
-    Hugging Face-like incident. "As models become more capable, the risks associated
-    with developing and testing them internally also grow," the AI company
-  source: The Hacker News
 - title: No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns
   link: https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns
   published: Wed, 19 Aug 2026 20:32:09 GMT
@@ -41,36 +207,6 @@ items:
     about how enterprises will now need to monitor risks posed by their own agents
     in the wake of the recent Hugging Face attack.
   source: Dark Reading
-- title: SilkParasite Espionage Campaign Targets Central Asian Governments with Five
-    New RATs
-  link: https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
-  published: Wed, 19 Aug 2026 18:42:17 +0530
-  summary: 'A previously unreported cyber espionage operation dubbed SilkParasite
-    has been observed targeting government bodies in Central Asia. The intrusion set
-    makes use of seven remote access tool (RAT) families, five of which have never
-    been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and
-    NodeEdgeRAT. SilkParasite, first discovered in late 2025, is assessed to be a'
-  source: The Hacker News
-- title: Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth
-    Bypasses, and P2P
-  link: https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
-  published: Wed, 19 Aug 2026 17:04:28 +0530
-  summary: Cybersecurity researchers at Hunt.io have disclosed details of a campaign
-    that they say compromised more than 14,530 Dahua devices between June 17 and July
-    22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer
-    (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed
-    from a 407 MB exposed working directory containing 2,616 files
-  source: The Hacker News
-- title: 'Phishing 3.0: The Fight Moves to Agent Versus Agent'
-  link: https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html
-  published: Wed, 19 Aug 2026 17:00:00 +0530
-  summary: Most email defenses still do the job they did a decade ago. Scan the message,
-    look for something malicious, block it. That worked when the danger sat in the
-    payload, a bad link or an attachment. It stopped working when the danger moved
-    into the message's intent, and it is failing now that the sender is no longer
-    a person. From Bad Content to Bad Intent to AI on Both Sides Phishing 1.0 was
-    bad
-  source: The Hacker News
 - title: SilkParasite Threatens Central Asian Orgs With Flurry of RATs
   link: https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats
   published: Wed, 19 Aug 2026 16:58:23 GMT
@@ -78,35 +214,6 @@ items:
     provides insight into geopolitical, technical, and strategic global moves by the
     country's APTs.
   source: Dark Reading
-- title: StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware
-    and Steal Data
-  link: https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html
-  published: Wed, 19 Aug 2026 16:55:28 +0530
-  summary: Cybersecurity researchers have flagged a global cybercrime operation that
-    abuses thousands of hacked WordPress websites as infrastructure to disseminate
-    malware, commandeer infected hosts, store stolen documents, screenshots, and activity
-    logs created to track the status of the activity. "The operation doesn't rely
-    on a single piece of malware, but on a whole toolkit of criminal software
-  source: The Hacker News
-- title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active
-    Exploitation
-  link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
-  published: Wed, 19 Aug 2026 16:31:48 +0530
-  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
-    added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV)
-    catalog, stating they are being exploited in the wild. The shortcomings added
-    to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper
-    authentication vulnerability impacting Apple macOS that could allow an'
-  source: The Hacker News
-- title: Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure
-  link: https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html
-  published: Wed, 19 Aug 2026 11:31:53 +0530
-  summary: Microsoft Defender Experts have linked more than 30 web domains to MacSync
-    Stealer, a macOS-focused information stealer, after correlating recurring endpoint
-    and network behaviors across changing infrastructure, tracing the malware from
-    payload retrieval through data collection, staging, and exfiltration. The tech
-    giant said it required multiple endpoint and network behaviors to align before
-  source: The Hacker News
 - title: Describing attacks with crime script analysis
   link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
   published: Wed, 19 Aug 2026 10:00:52 GMT
@@ -133,18 +240,6 @@ items:
   summary: Walmart colocates red and blue teams to build trust and improve security
     through collaborative purple teaming exercises
   source: Dark Reading
-- title: Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition
-  link: https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition
-  published: Wed, 12 Aug 2026 14:00:00 GMT
-  summary: Attackers continue to target critical infrastructure and government-linked
-    organizations in the country, mirroring the increased activity across Latin America.
-  source: Dark Reading
-- title: Walmart Leaders Transform Security Operations Without Going Bananas
-  link: https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas
-  published: Wed, 12 Aug 2026 12:41:03 GMT
-  summary: The big-box giant has scaled its defenses by encouraging trust and innovation.
-    Good communications, transparency, and team spirit are key factors.
-  source: Dark Reading
 - title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
   link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
   published: Wed, 08 Jul 2026 12:31:39 +0000
@@ -154,14 +249,6 @@ items:
     companies and a now-defunct AI-based lobbying platform they operated under assumed
     names.
   source: Krebs on Security
-- title: 'IR Trends Q2 2026: Phishing and weaponized remote management tools drive
-    attack chains'
-  link: https://blog.talosintelligence.com/ir-trends-q2-2026/
-  published: Tue, 28 Jul 2026 10:00:01 GMT
-  summary: Talos IR's Q2 report highlights a significant surge in phishing-based initial
-    access and the weaponization of legitimate remote management tools. Learn how
-    to sharpen your defenses.
-  source: Cisco Talos
 - title: U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches
   link: https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html
   published: Tue, 25 Aug 2026 23:47:17 +0530
@@ -180,7 +267,7 @@ items:
 - title: 'Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw'
   link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
   published: Tue, 25 Aug 2026 19:50:16 GMT
-  summary: Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated
+  summary: Attackers can exploit a security bug in Nvidia's tool to gain unauthenticated
     access to the local model server through the Ollama API, paving the way for persistent
     AI agent corruption.
   source: Dark Reading
@@ -300,16 +387,6 @@ items:
   published: Tue, 25 Aug 2026 02:00:03 GMT
   summary: ''
   source: SANS Internet Storm Center
-- title: Scattered Spider Hackers Plead Guilty on Day 1 of Trial
-  link: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
-  published: Tue, 23 Jun 2026 16:12:49 +0000
-  summary: Two men pleaded guilty in the United Kingdom this week to criminal charges
-    stemming from an August 2024 cyberattack that crippled Transport for London, the
-    entity responsible for the public transport network in the Greater London area.
-    The duo were key members of a prolific cybercrime group known as Scattered Spider,
-    and their guilty pleas came on the first day of what was expected to be a six-week
-    trial.
-  source: Krebs on Security
 - title: Critical GitLab Zero-Click Flaw Poses Mitigation Challenges
   link: https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   published: Tue, 18 Aug 2026 21:25:58 GMT
@@ -366,13 +443,6 @@ items:
     includes 421 vulnerabilities affecting a range of products, including 62 that
     Microsoft marked as "critical."
   source: Cisco Talos
-- title: Microsoft's Patch Tuesday Deluge Continues With August Updates
-  link: https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
-  published: Tue, 11 Aug 2026 21:42:34 GMT
-  summary: 'The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a
-    remote code execution (RCE) vulnerability in Windows DNS Server that requires
-    no user interaction.'
-  source: Dark Reading
 - title: Microsoft Plugs Nearly 400 Security Holes
   link: https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
   published: Tue, 11 Aug 2026 21:28:35 +0000
@@ -381,13 +451,6 @@ items:
     that is already being actively exploited and two others that were publicly detailed
     prior to today.
   source: Krebs on Security
-- title: Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA
-  link: https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa
-  published: Tue, 11 Aug 2026 21:16:25 GMT
-  summary: The ransomware-as-a-service operation is finding success against critical
-    infrastructure targets with leaked Conti code and old flaws in firewalls and VPN
-    appliances.
-  source: Dark Reading
 - title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries
     are weaponizing AI
   link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
@@ -418,12 +481,85 @@ items:
   summary: Amy looks back at the incredible journeys that brought past guests to the
     world of threat intelligence.
   source: Cisco Talos
-- title: Don’t swing at everything
-  link: https://blog.talosintelligence.com/dont-swing-at-everything/
-  published: Thu, 23 Jul 2026 18:00:46 GMT
-  summary: Thorsten explores Q2 2026 stats, the artificial buffer zone of 2026, and
-    why smart, prioritized patching is more critical than ever.
+- title: Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security
+    Tools
+  link: https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html
+  published: Thu, 27 Aug 2026 16:30:57 +0530
+  summary: Individuals and organizations in Cambodia have emerged as the target of
+    a new campaign that delivers an open-source remote access trojan (RAT) called
+    Spark RAT. "The samples employ diverse lure themes, suggesting an effort to appeal
+    to a broad range of potential victims. These include government notices, public
+    health materials, real estate-related content, and other topics," Acronis Threat
+  source: The Hacker News
+- title: GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address
+  link: https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html
+  published: Thu, 27 Aug 2026 15:03:38 +0530
+  summary: Threat actors linked by Arctic Wolf to Dark Caracal with medium confidence
+    deployed a previously undocumented Go-based malware framework, GoCaracal, during
+    a June 2026 intrusion at an unnamed communications organization in Venezuela.
+    GoCaracal provides operators with remote shell access and payload execution, while
+    the extended profile adds browser data theft, keylogging, remote desktop control
+  source: The Hacker News
+- title: New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access
+  link: https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html
+  published: Thu, 27 Aug 2026 13:43:11 +0530
+  summary: Academic researchers have disclosed a Rowhammer attack impacting NVIDIA
+    workstation GPUs with GDDR6 memory that defeats error correction codes (ECC),
+    the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service
+    (DoS) and privilege escalation to a root shell. Dubbed GPUThor, the attack was
+    developed by researchers at the University of Toronto, who hammered four DRAM
+  source: The Hacker News
+- title: CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL
+    Server Bugs
+  link: https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html
+  published: Thu, 27 Aug 2026 12:35:28 +0530
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
+    added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including
+    a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScaler
+    Gateway, citing evidence of active exploitation. The vulnerabilities are listed
+    below - CVE-2019-1068 - A remote code execution vulnerability in 
+  source: The Hacker News
+- title: Russian Hackers Phish EU Officials Over Messaging Apps
+  link: https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps
+  published: Thu, 27 Aug 2026 11:16:01 GMT
+  summary: EU governments are trying to move away from popular messaging apps as nation-state
+    threat groups shift their focus from email to Signal and WhatsApp.
+  source: Dark Reading
+- title: Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
+  link: https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+  published: Thu, 27 Aug 2026 11:04:15 +0000
+  summary: Authorities in Australia have arrested two men believed to be members of
+    TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating
+    the longest running spree of software supply chain attacks ever. In a statement
+    released today, the Australian Federal Police (AFP) said two unnamed suspects
+    from Western Australia, aged 21 and 23, were arrested in connection with a "sophisticated
+    cybercrime syndicate that allegedly created malicious open-source software to
+    rob thousands of global businesses." The AFP did not name the defendants, but
+    KrebsOnSecurity learned the 21-year-old suspect's real identity in June, and has
+    been communicating with him ever since. This story includes interviews with TeamPCP's
+    self-described spokesperson, and examines clues left behind by the TeamPCP leader
+    that likely led to his undoing.
+  source: Krebs on Security
+- title: 'JavaScript obfuscation: From party trick to phishing kit'
+  link: https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/
+  published: Thu, 27 Aug 2026 10:00:27 GMT
+  summary: Learn the basics of what obfuscation is, why a researcher would try to
+    reverse it, and several ways to approach the problem.
   source: Cisco Talos
+- title: A polymorphic phishing page (that occasionally breaks itself), (Thu, Aug
+    27th)
+  link: https://isc.sans.edu/diary/rss/33290
+  published: Thu, 27 Aug 2026 09:57:28 GMT
+  summary: "As I've mentioned before in some of my diaries, from time to time, I like\
+    \ to go over phishing messages that get caught in my various spam traps or sent\
+    \ to us here at the Internet Storm Center.\r"
+  source: SANS Internet Storm Center
+- title: ISC Stormcast For Thursday, August 27th, 2026 https://isc.sans.edu/podcastdetail/10070,
+    (Thu, Aug 27th)
+  link: https://isc.sans.edu/diary/rss/33286
+  published: Thu, 27 Aug 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: 'ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI
     Exploit, and More'
   link: https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html
@@ -517,112 +653,18 @@ items:
     of cybercrimes. Officers really only need to learn the basics, but lack of focus
     and budget hinder progress.
   source: Dark Reading
-- title: Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments
-  link: https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html
-  published: Thu, 20 Aug 2026 17:31:24 +0530
-  summary: Researchers at the University of Massachusetts Amherst have demonstrated
-    an attack that revives expired Visa contactless credit cards for real in-store
-    purchases by rewriting the expiration date a point-of-sale (POS) terminal reads
-    over near-field communication (NFC), without breaking any of the card's cryptography.
-    The attack, which the researchers named "Zombie Card," requires physical
-  source: The Hacker News
-- title: Why "Shady AI" is Security's Next Big Governance Problem
-  link: https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html
-  published: Thu, 20 Aug 2026 17:15:00 +0530
-  summary: In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident
-    after sensitive company and user data was exposed to employees who weren’t authorized
-    to access it.  The incident began when a Meta employee posted a technical question
-    on an internal forum. An engineer used an approved AI agent to analyze it, but
-    the agent posted its response publicly without approval. The employee
-  source: The Hacker News
-- title: CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification
-  link: https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html
-  published: Thu, 20 Aug 2026 17:09:35 +0530
-  summary: Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks
-    that exploit how major content delivery networks (CDNs) convert client-facing
-    HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a
-    low-bandwidth request stream by up to 350x against the origin server. The attacks,
-    collectively named "CDN Tsunami," were evaluated against Alibaba, Baidu,
-  source: The Hacker News
-- title: Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected
-    Devices
-  link: https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
-  published: Thu, 20 Aug 2026 16:56:08 +0530
-  summary: A new Android threat codenamed Manic has been observed actively targeting
-    Ukrainian banks, government and identity services, and messaging applications,
-    as well as Russian and European financial institutions, global fintech and cryptocurrency
-    services, and military-focused communications. "Manic sits at the intersection
-    of Android banking malware and mobile spyware, combining financial-fraud
-  source: The Hacker News
-- title: NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands
-  link: https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html
-  published: Thu, 20 Aug 2026 16:35:11 +0530
-  summary: Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI,
-    the browser-based operator console for NASA/JPL's open-source AMMOS Instrument
-    Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to
-    the software's spacecraft and instrument command bus. The chain, tracked as GHSA-p9r8-2q67-fp86
-    and rated 9.4 on the CVSS v3.1 scoring system, impacts AIT-GUI
-  source: The Hacker News
-- title: ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device
-    Fraud
-  link: https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html
-  published: Thu, 20 Aug 2026 16:08:28 +0530
-  summary: Cybersecurity researchers have shed light on an updated version of ToxicPanda
-    (aka TgToxic) that comes with "significant enhancements," including a set of 167
-    remote commands and expands its targeting footprint globally. Zimperium zLabs,
-    in a Wednesday report, said the Android malware also features a PIN harvesting
-    workflow targeting more than 140 banking and cryptocurrency applications.
-  source: The Hacker News
 - title: Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks
   link: https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks
   published: Thu, 20 Aug 2026 14:59:22 GMT
   summary: A nation-state threat actor is picking on immature organizations run by
     the Taliban, but failing against more prepared government agencies in India.
   source: Dark Reading
-- title: 40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets
-  link: https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html
-  published: Thu, 20 Aug 2026 14:12:03 +0530
-  summary: A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency
-    wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products.
-    According to the Socket Threat Research team, the extensions are part of a broader
-    set of 77 browser add-ons that share source code and infrastructure overlaps.
-    The campaign, dubbed Offside Wallet Theft Factory, is believed to
-  source: The Hacker News
 - title: '''Grandoreiro'' Malware Resurfaces With Mexico Campaign'
   link: https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign
   published: Thu, 20 Aug 2026 13:30:00 GMT
   summary: The banking Trojan, post-law enforcement takedown, is sprucing itself up
     with features that make detection and analysis harder.
   source: Dark Reading
-- title: Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug
-    20th)
-  link: https://isc.sans.edu/diary/rss/33266
-  published: Thu, 20 Aug 2026 13:09:50 GMT
-  summary: "Building on the last diary on Using MS Graph and Powershell, let&#;x26;#;39;s\
-    \ look at \"Risky\" logins.\r"
-  source: SANS Internet Storm Center
-- title: Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts
-    and Licenses, (Thu, Aug 20th)
-  link: https://isc.sans.edu/diary/rss/33264
-  published: Thu, 20 Aug 2026 12:45:32 GMT
-  summary: "Microsoft Graph is a newer API that is meant to replace several others.&#;x26;#;xc2;&#;x26;#;xa0;\
-    \ OK, it&#;x26;#;39;s at version 2.3.9, so it&#;x26;#;39;s not all that new, but\
-    \ it&#;x26;#;39;s new enough that lots of folks (and commercial tools) aren&#;x26;#;39;t\
-    \ using it yet.&#;x26;#;xc2;&#;x26;#;xa0; &#;x26;#;xc2;&#;x26;#;xa0;It allows\
-    \ you to Get and Set info from/to M365, Entra Users and Entra managed machines\
-    \ for starters.&#;x26;#;xc2;&#;x26;#;xa0; Let&#;x26;#;39;s dig in!\r"
-  source: SANS Internet Storm Center
-- title: Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute
-    Code
-  link: https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
-  published: Thu, 20 Aug 2026 11:34:34 +0530
-  summary: Cybersecurity researchers have disclosed details of a critical flaw in
-    the Elementor Pro WordPress plugin that, if successfully exploited, could lead
-    to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries
-    a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted
-    upload of a file with a dangerous type. "The flaw lives in the Forms module's
-    File
-  source: The Hacker News
 - title: 'UAT-10147 deploys SPECTRE: A cross-platform implant with Linux rootkit and
     BYOVD capabilities'
   link: https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/
@@ -641,16 +683,6 @@ items:
     of the campaign, examining the countries affected, potential impact of BadIIS
     infections, the attack chain, and post-compromise tactics.
   source: Cisco Talos
-- title: Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12
-    Bits/Second
-  link: https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html
-  published: Thu, 20 Aug 2026 00:32:40 +0530
-  summary: Cybersecurity researchers have disclosed details of a remote Spectre attack against
-    Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker
-    in the production environment at up to 12 bits per second, 360 times the rate
-    of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker
-    Worker and a victim Worker controlled by the researchers,
-  source: The Hacker News
 - title: Global Threat Campaign Hits Critical VMware vCenter Flaw
   link: https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw
   published: Thu, 13 Aug 2026 20:45:17 GMT
@@ -790,34 +822,3 @@ items:
     a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963,
     is rated 9.1 on the CVSS scoring system by Red Hat, which acts as
   source: The Hacker News
-- title: Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor
-  link: https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html
-  published: Mon, 24 Aug 2026 17:21:36 +0530
-  summary: Cybersecurity researchers have flagged a cyber espionage campaign targeting
-    Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor
-    called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found
-    to target government and information technology sectors, per Seqrite Labs. The
-    activity is assessed to be the work of a China-nexus threat actor with moderate
-  source: The Hacker News
-- title: 'The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk'
-  link: https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html
-  published: Mon, 24 Aug 2026 17:00:00 +0530
-  summary: Big security risks come in small packages. While enterprise security teams
-    focus on policing the proliferation of employees using ChatGPT and Claude for
-    quick drafting tasks, a more urgent threat is posed by a handful of AI super-adopters
-    who are quietly hardcoding unvetted tools into critical business operations. According
-    to new research published by Akamai, the top 5% of enterprise power
-  source: The Hacker News
-- title: Tricky 'SynkLoader' Multitool May Herald Ransomware
-  link: https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware
-  published: Mon, 24 Aug 2026 15:02:32 GMT
-  summary: An advanced, multilingual malware family brings back a trick from yesteryear
-    — screen hijacking — for effective password theft, along with a slew of novel
-    features.
-  source: Dark Reading
-- title: ToxicPanda Banking Trojan Matures Into Enterprise Threat
-  link: https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
-  published: Mon, 24 Aug 2026 14:34:59 GMT
-  summary: The latest version of the Android malware has new features that expand
-    its global reach and put more than users' financial applications at risk.
-  source: Dark Reading
