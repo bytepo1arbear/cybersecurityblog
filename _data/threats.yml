@@ -1,4 +1,4 @@
-last_updated: '2026-08-30T07:47:28Z'
+last_updated: '2026-08-31T08:02:06Z'
 count: 100
 items:
 - title: FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S.
@@ -732,6 +732,15 @@ items:
     collection of at least two million devices that have been compromised by malicious
     software with little or no consent from victims.'
   source: Krebs on Security
+- title: TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor
+  link: https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html
+  published: Sun, 30 Aug 2026 13:06:33 +0530
+  summary: Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix,
+    that aims to trick users into running a malicious command in Windows Terminal
+    or PowerShell. "While traditional ClickFix campaigns direct victims to the Windows
+    Run dialog, TerminalFix campaigns apply the same technique but direct users to
+    Windows Terminal or PowerShell instead, increasing the likelihood that complex
+  source: The Hacker News
 - title: YARA-X 1.20.0 Release, (Sun, Aug 30th)
   link: https://isc.sans.edu/diary/rss/33288
   published: Sun, 30 Aug 2026 07:14:49 GMT
@@ -765,6 +774,12 @@ items:
     rated Critical by Cosmos Labs and was published without a CVE identifier, a weakness
     classification, or a CVSS score. Affected versions are < 0.6.2 and >=
   source: The Hacker News
+- title: ISC Stormcast For Monday, August 31st, 2026 https://isc.sans.edu/podcastdetail/10074,
+    (Mon, Aug 31st)
+  link: https://isc.sans.edu/diary/rss/33296
+  published: Mon, 31 Aug 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: Shipping More AI Code Than You Can Secure? Watch How to Control Remediation
     Debt
   link: https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html
@@ -796,26 +811,10 @@ items:
   summary: ClickFix-style threat campaigns are using a new trick to evade detection
     and deliver Amatera, an increasingly prevalent infostealer.
   source: Dark Reading
-- title: '⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks
-    and More'
-  link: https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html
-  published: Mon, 24 Aug 2026 20:02:10 +0530
-  summary: A package gets installed. A login prompt opens. A box sits exposed to the
-    internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted
-    tools turn hostile, old weak spots get fresh attention, AI makes exploit work
-    cheaper, and researchers keep finding attacks that sound harder than they actually
-    are. Plenty to clean up. Here’s the short version. ⚡ Threat of the Week U.S.
-  source: The Hacker News
 - title: Tricky 'SynkLoader' Multitool May Herald Ransomware
   link: https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware
   published: Mon, 24 Aug 2026 15:02:32 GMT
   summary: An advanced, multilingual malware family brings back a trick from yesteryear
     — screen hijacking — for effective password theft, along with a slew of novel
     features.
-  source: Dark Reading
-- title: ToxicPanda Banking Trojan Matures Into Enterprise Threat
-  link: https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
-  published: Mon, 24 Aug 2026 14:34:59 GMT
-  summary: The latest version of the Android malware has new features that expand
-    its global reach and put more than users' financial applications at risk.
   source: Dark Reading
