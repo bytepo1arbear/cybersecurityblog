@@ -1,4 +1,4 @@
-last_updated: '2026-08-31T08:02:06Z'
+last_updated: '2026-09-01T07:09:35Z'
 count: 100
 items:
 - title: FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S.
@@ -183,12 +183,6 @@ items:
     policies to boost its sovereign cloud initiative and increase domestic technical
     knowledge.
   source: Dark Reading
-- title: ISC Stormcast For Wednesday, August 26th, 2026 https://isc.sans.edu/podcastdetail/10068,
-    (Wed, Aug 26th)
-  link: https://isc.sans.edu/diary/rss/33282
-  published: Wed, 26 Aug 2026 02:40:13 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: LG to Ban Residential Proxies from Smart TV Apps
   link: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
   published: Wed, 22 Jul 2026 01:10:38 +0000
@@ -304,69 +298,12 @@ items:
     According to ANY.RUN research, 48% of targeted email addresses were potentially
     compromised. Most of the affected companies are US-based. Mirage2FA Campaign
   source: The Hacker News
-- title: 24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages
-  link: https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
-  published: Tue, 25 Aug 2026 17:22:43 +0530
-  summary: Cybersecurity researchers have disclosed details of a new campaign that
-    uses a cluster of 24 npm packages as free phishing infrastructure for redirecting
-    to ClickFix-style fake CAPTCHA pages. "While the malware is simply a single HTML
-    page inside the npm package, and while downloading it wouldn't do harm, the threat
-    actor’s use of npm isn't to infect developers who install it, but to use the
-  source: The Hacker News
-- title: E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands
-  link: https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html
-  published: Tue, 25 Aug 2026 17:03:44 +0530
-  summary: Cybersecurity researchers are calling attention to a new campaign that
-    employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported
-    remote access trojans (RATs) tracked as E4del and PINHOLE. While threat actors
-    are known to abuse legitimate services to point to additional command-and-control
-    (C2) infrastructure and blend in with regular network traffic, the development
-  source: The Hacker News
-- title: 'Frontier AI: Vulnerability Management''s Systemic Revolution'
-  link: https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html
-  published: Tue, 25 Aug 2026 16:44:07 +0530
-  summary: Vulnerability management has been a staple of security programs since the
-    dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability
-    and patch management teams has also existed for that time and has gone through
-    waves of contention and thankfulness. While this relationship required thoughtful
-    care and feeding from both sides, both sides were aiming to work toward a
-  source: The Hacker News
-- title: Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)
-  link: https://isc.sans.edu/diary/rss/33280
-  published: Tue, 25 Aug 2026 15:03:33 GMT
-  summary: "It is pretty obvious that hostnames can replace IP addresses. Pretty much\
-    \ any software accepting an IP address will also accept a hostname as an argument.\
-    \ Last week, I wrote about scans for the cloud metadata service listening at 169.254.169.254.\
-    \ These scans attempted to exploit Server Side Request Forgery (SSRF) vulnerability.\
-    \ One way to prevent these types of exploits is to filter requests that contain\
-    \ the string \"169.254.169.254\" or to add this IP to a blocklist of URLs that\
-    \ should not be accessed.\r"
-  source: SANS Internet Storm Center
 - title: Is Cyber Facing an Affordability Crisis?
   link: https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-
   published: Tue, 25 Aug 2026 14:53:13 GMT
   summary: As breach costs reach record highs and defense spending nears $240 billion,
     small businesses are dangerously exposed, threatening supply chain security.
   source: Dark Reading
-- title: Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access
-  link: https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html
-  published: Tue, 25 Aug 2026 14:04:07 +0530
-  summary: 'Bad actors are attempting to exploit two severe unauthenticated authentication
-    bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it
-    possible for an attacker to sign in as any WordPress user, including administrators.
-    The vulnerabilities, as disclosed by Patchstack, are listed below - CVE-2026-61979
-    (CVSS score: 8.1) - An unauthenticated privilege escalation'
-  source: The Hacker News
-- title: Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access
-    Critical Data
-  link: https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
-  published: Tue, 25 Aug 2026 11:42:35 +0530
-  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday
-    added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle
-    WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence
-    of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score:
-    10.0), allows an unauthenticated attacker with network access via HTTP to'
-  source: The Hacker News
 - title: 'The safety penalty: Reclaiming operational sovereignty in the age of AI'
   link: https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/
   published: Tue, 25 Aug 2026 10:00:22 GMT
@@ -375,12 +312,6 @@ items:
     organizations can move toward operational sovereignty to ensure their defensive
     AI keeps pace with unconstrained adversaries.
   source: Cisco Talos
-- title: ISC Stormcast For Tuesday, August 25th, 2026 https://isc.sans.edu/podcastdetail/10066,
-    (Tue, Aug 25th)
-  link: https://isc.sans.edu/diary/rss/33278
-  published: Tue, 25 Aug 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Critical GitLab Zero-Click Flaw Poses Mitigation Challenges
   link: https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   published: Tue, 18 Aug 2026 21:25:58 GMT
@@ -453,6 +384,18 @@ items:
     applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis
     of the ways we've seen bad actors leveraging cloud-based AI.
   source: Cisco Talos
+- title: ISC Stormcast For Tuesday, September 1st, 2026 https://isc.sans.edu/podcastdetail/10076,
+    (Tue, Sep 1st)
+  link: https://isc.sans.edu/diary/rss/33302
+  published: Tue, 01 Sep 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue,
+    Sep 1st)
+  link: https://isc.sans.edu/diary/rss/33300
+  published: Tue, 01 Sep 2026 00:33:21 GMT
+  summary: "Introduction\r"
+  source: SANS Internet Storm Center
 - title: You were onto something with “It’s the Climb,” Miley
   link: https://blog.talosintelligence.com/you-were-onto-something-with-its-the-climb-miley/
   published: Thu, 30 Jul 2026 18:00:35 GMT
@@ -774,47 +717,107 @@ items:
     rated Critical by Cosmos Labs and was published without a CVE identifier, a weakness
     classification, or a CVSS score. Affected versions are < 0.6.2 and >=
   source: The Hacker News
+- title: North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales
+  link: https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html
+  published: Mon, 31 Aug 2026 22:54:28 +0530
+  summary: Threat actors with ties to the Democratic People's Republic of Korea (aka
+    DPRK or North Korea) have been observed seeking job opportunities beyond the information
+    technology (IT) sector, with recent investigations identifying suspected workers
+    employed in sales and marketing and the medical profession. The ongoing insider
+    threat is part of what has been described as the IT worker scheme,
+  source: The Hacker News
+- title: Anthropic Users Hit by Infostealer Attacks, Session Thefts
+  link: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts
+  published: Mon, 31 Aug 2026 21:08:46 GMT
+  summary: A threat actor used a variety of infostealers to collect session information
+    and access Claude accounts belonging to an unknown number of users.
+  source: Dark Reading
+- title: '''TerminalFix'' Campaign Weaponizes PowerShell for Enterprise Attacks'
+  link: https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks
+  published: Mon, 31 Aug 2026 20:25:36 GMT
+  summary: The ClickFix-style campaign features a sophisticated, multistage attack
+    chain that includes reverse tunnels into victim organizations' networks.
+  source: Dark Reading
+- title: 'The Coding-Agent Trap: When a "Free" LLM Endpoint Is the Adversary, (Mon,
+    Aug 31st)'
+  link: https://isc.sans.edu/diary/rss/33298
+  published: Mon, 31 Aug 2026 20:00:34 GMT
+  summary: "One of my internet-exposed inference honeypots was discovered, relabeled\
+    \ with sought-after model names, and incorporated into infrastructure apparently\
+    \ used to provide \"free\" LLM backends. It then received a real coding-agent\
+    \ session &#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x94; history, filesystem output,\
+    \ working paths, and the agent&#;x26;#;39;s local tool manifest. The honeypot\
+    \ did not request or cause any tool execution; what the request exposed is what\
+    \ a malicious operator in that position could do.\r"
+  source: SANS Internet Storm Center
+- title: '⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors
+    and More'
+  link: https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html
+  published: Mon, 31 Aug 2026 19:20:00 +0530
+  summary: The boring parts caused most of the trouble. A router shipped ready to
+    listen. A fake check turned the user into the installer. Trusted systems collected
+    traffic and passwords, then cleaned the logs. Old bugs formed new attack chains.
+    Even an AI agent decided its assigned task was optional. Elsewhere, fake apps,
+    helpful support calls, cheap banking kits, exposed systems, and weak defaults
+    kept
+  source: The Hacker News
+- title: ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions
+  link: https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html
+  published: Mon, 31 Aug 2026 17:44:00 +0530
+  summary: The threat actor known as Silver Fox has been observed distributing the
+    ValleyRAT backdoor disguised as a signed Chinese adware application, running the
+    malware under a trusted process to slip past users who add such software to their
+    antivirus exclusions. Russian cybersecurity vendor Kaspersky said the attackers
+    built the disguise around QN Wallpaper, a genuine Chinese desktop-wallpaper tool
+  source: The Hacker News
+- title: AI Model Rules Are Not Security Controls
+  link: https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control
+  published: Mon, 31 Aug 2026 17:34:26 GMT
+  summary: OpenAI's Hugging Face attack postmortem shows agents don't care about rules
+    — they need strong controls.
+  source: Dark Reading
+- title: Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets
+  link: https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html
+  published: Mon, 31 Aug 2026 17:17:24 +0530
+  summary: Threat actors associated with Aurora (aka Aur0ra) ransomware have been
+    observed using SpaceX's artificial intelligence (AI)-powered coding assistant
+    Cursor to break into target networks, according to findings from CloudSEK and
+    Gambit Security. The two independent analyses are based on exposed infrastructure
+    associated with the Russian-speaking cybercrime group, leading to the discovery
+    of its
+  source: The Hacker News
+- title: 'Securing Claude Code: The New Compliance API, Local Visibility, and Identity
+    Governance'
+  link: https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html
+  published: Mon, 31 Aug 2026 17:01:47 +0530
+  summary: 'Claude Code reads files, runs shell commands, invokes MCP tools, and acts
+    through the credentials available on a developer’s machine. Anthropic’s new Compliance
+    API endpoints give security teams their clearest view yet into that activity.
+    They also expose a larger problem: activity logs alone cannot tell you whether
+    an agent’s access is legitimate. AI has moved from the browser tab to the'
+  source: The Hacker News
+- title: China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind
+    Security Logs
+  link: https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html
+  published: Mon, 31 Aug 2026 14:34:55 +0530
+  summary: A China-nexus cyber espionage actor tracked as Fire Ant has expanded a
+    long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers,
+    Terminal Access Controller Access-Control System (TACACS) servers, and Linux management
+    hosts used to route, authenticate, and manage high-value networks. Sygnia, the
+    incident response firm that investigated the intrusion, said the actor
+  source: The Hacker News
+- title: DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims
+  link: https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html
+  published: Mon, 31 Aug 2026 13:26:53 +0530
+  summary: The U.S. Department of Justice (DoJ) on Friday corrected a previously issued
+    press statement that several of its agencies were victims of attacks carried out
+    by Chinese threat actors, instead now pointing out that they were among those
+    targeted. Last week, the DoJ said the National Aeronautics and Space Administration,
+    Federal Reserve, Department of Energy, Department of Justice, Department
+  source: The Hacker News
 - title: ISC Stormcast For Monday, August 31st, 2026 https://isc.sans.edu/podcastdetail/10074,
     (Mon, Aug 31st)
   link: https://isc.sans.edu/diary/rss/33296
   published: Mon, 31 Aug 2026 02:00:03 GMT
   summary: ''
   source: SANS Internet Storm Center
-- title: Shipping More AI Code Than You Can Secure? Watch How to Control Remediation
-    Debt
-  link: https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html
-  published: Mon, 24 Aug 2026 23:11:30 +0530
-  summary: 'If your developers are using AI coding tools, you are probably already
-    seeing the upside: faster development, more code, and less time spent on routine
-    work. The harder part is what comes after. AI can also introduce open-source packages
-    at a pace your security team was never built to handle. More dependencies mean
-    more vulnerabilities to review, more remediation work, and a backlog that can'
-  source: The Hacker News
-- title: Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning
-  link: https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html
-  published: Mon, 24 Aug 2026 23:11:11 +0530
-  summary: Cybersecurity researchers have found that several websites are still actively
-    distributing a malware family known as Weedhack to gamers by masquerading as Minecraft
-    clients. McAfee Labs said it detected and blocked more than 6,300 attempts to
-    access malicious sites, adding that it found lookalike gaming websites designed
-    to mimic legitimate projects, including branding, feature lists, FAQs,
-  source: The Hacker News
-- title: Exploited Zimbra Flaw Highlights Shrinking Window to Patch
-  link: https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
-  published: Mon, 24 Aug 2026 21:46:55 GMT
-  summary: CISA issued a three-day deadline for agencies to patch a Zimbra security
-    vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.
-  source: Dark Reading
-- title: 'Foul Language: WordlistLoader Disguises Malware as Ordinary Text'
-  link: https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text
-  published: Mon, 24 Aug 2026 20:51:27 GMT
-  summary: ClickFix-style threat campaigns are using a new trick to evade detection
-    and deliver Amatera, an increasingly prevalent infostealer.
-  source: Dark Reading
-- title: Tricky 'SynkLoader' Multitool May Herald Ransomware
-  link: https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware
-  published: Mon, 24 Aug 2026 15:02:32 GMT
-  summary: An advanced, multilingual malware family brings back a trick from yesteryear
-    — screen hijacking — for effective password theft, along with a slew of novel
-    features.
-  source: Dark Reading
