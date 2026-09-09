@@ -1,4 +1,4 @@
-last_updated: '2026-09-08T06:51:56Z'
+last_updated: '2026-09-09T07:00:32Z'
 count: 100
 items:
 - title: Dark Caracal Adds New Malware to Cyber Espionage Arsenal
@@ -70,15 +70,31 @@ items:
     everyday language makes the situation accessible to non-technical audiences and
     identify points where the crime can be disrupted.
   source: Cisco Talos
-- title: Felons, Fraudsters Flog Offensive Cybersecurity Startup
-  link: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
-  published: Wed, 08 Jul 2026 12:31:39 +0000
-  summary: A cybersecurity startup dangling millions of dollars to acquire zero-day
-    security vulnerabilities in popular software is run by a pair of far-right conspiracy
-    theorists and convicted felons whose most recent ventures included fake intelligence
-    companies and a now-defunct AI-based lobbying platform they operated under assumed
-    names.
-  source: Krebs on Security
+- title: Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days
+  link: https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html
+  published: Wed, 09 Sep 2026 10:11:29 +0530
+  summary: Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering
+    974 vulnerabilities spanning its software portfolio, including two flaws that
+    it said have been actively exploited in the wild. These include 723 flaws in Windows,
+    111 in Office and Office 2016, 62 in SQL, and 22 in Developer Tools. Of these,
+    over 110 shortcomings have been assigned a critical severity rating.
+  source: The Hacker News
+- title: N-able N-central Pre-Auth RCE Flaw Exploited in the Wild
+  link: https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html
+  published: Wed, 09 Sep 2026 09:57:51 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added a maximum-severity security flaw impacting N-able N-central to its Known
+    Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive
+    Branch (FCEB) agencies to apply the fixes by September 11, 2026. The vulnerability
+    in question is CVE-2026-86218 (CVSS score: 10.0), which has been described as
+    a'
+  source: The Hacker News
+- title: ISC Stormcast For Wednesday, September 9th, 2026 https://isc.sans.edu/podcastdetail/10086,
+    (Wed, Sep 9th)
+  link: https://isc.sans.edu/diary/rss/33322
+  published: Wed, 09 Sep 2026 02:00:02 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access
     Programs
   link: https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html
@@ -147,92 +163,12 @@ items:
     root-level compromise. The incident window ran from approximately August 28 at
     20:57
   source: The Hacker News
-- title: Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device
-    Control
-  link: https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html
-  published: Wed, 02 Sep 2026 17:52:02 +0530
-  summary: Cybersecurity researchers have disclosed details of a new Android banking
-    trojan called StreamRat that was promoted to Spanish-speaking users through a
-    fake television-streaming campaign on Meta and can give operators near-complete
-    control of infected devices. ThreatFabric said the campaign's advertisement focused
-    on Spain and reached an estimated 570,950 Meta accounts in the European Union
-  source: The Hacker News
-- title: 'How to Secure Enterprise AI: From Adoption to Incident Readiness'
-  link: https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html
-  published: Wed, 02 Sep 2026 17:00:00 +0530
-  summary: The debate about whether AI delivers business value is over. The challenge
-    now is implementing it at scale and securely across every function while meeting
-    board-level pressure to move fast. Organizations must focus on adopting AI at
-    business speed without losing control of cyber risk. Download the full eBook here. 
-    The Business Reality  In Sygnia’s 2026 CISO Survey Report, which
-  source: The Hacker News
 - title: Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users
   link: https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users
   published: Wed, 02 Sep 2026 16:51:21 GMT
   summary: The "Spring Ring" operation aims to compromise users of the collaboration
     suite to remotely access their sessions, spread malware, and even take over infrastructure.
   source: Dark Reading
-- title: Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack
-    Chain
-  link: https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html
-  published: Wed, 02 Sep 2026 16:23:49 +0530
-  summary: 'SonicWall has released security updates to address two security flaws
-    impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have
-    been exploited in zero-day attacks. The vulnerabilities, discovered internally
-    by SonicWall''s William Perry and Adam Babis, are listed below - CVE-2026-83548
-    (CVSS score: 10.0) -  A pre-authentication SSRF vulnerability in the Appliance'
-  source: The Hacker News
-- title: GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal
-    Backends
-  link: https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html
-  published: Wed, 02 Sep 2026 14:48:02 +0530
-  summary: Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated
-    remote code execution (RCE) on the open-source geospatial metadata catalog, which
-    sits behind many government and agency geoportals. The project shipped fixes in
-    versions 4.4.12 and 4.2.17 on July 8, 2026, and published the vulnerability details
-    on August 31. GeoNetwork originated at the United Nations Food and
-  source: The Hacker News
-- title: Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That
-    Infected Thousands
-  link: https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html
-  published: Wed, 02 Sep 2026 14:40:23 +0530
-  summary: The U.S. Department of Justice (DoJ) has charged a Russian national, extradited
-    from Cyprus on August 28, with using roughly 255 fake accounts on a freelance
-    platform to send malware-laced Excel attachments to about 80,000 of its users
-    in 2016 and 2017. Searzhudin Tamirlanovich Aktulaev, 40, was arrested in Cyprus
-    in May 2025, the U.S. Attorney's Office for the Northern District of California
-  source: The Hacker News
-- title: Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to
-    Another
-  link: https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html
-  published: Wed, 02 Sep 2026 13:17:13 +0530
-  summary: Forescout Research - Vedere Labs said it used Anthropic's Claude to port
-    a working pre-authentication remote code execution (RCE) exploit from one WAGO
-    programmable logic controller (PLC) to another, executing attacker-supplied ARM
-    shellcode on live hardware. The exploit targets CVE-2021-31886, a stack-based
-    buffer overflow in the Nucleus FTP server's handling of the USER command
-  source: The Hacker News
-- title: Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without
-    Credentials
-  link: https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html
-  published: Wed, 02 Sep 2026 12:38:50 +0530
-  summary: 'Threat actors are exploiting a severe security vulnerability in Sangoma
-    Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote
-    code execution. The vulnerability in question is CVE-2026-9586 (CVSS score: 9.3),
-    a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox SMB
-    Edition 8.3 (104997) that can allow attackers to remotely execute arbitrary code
-    as'
-  source: The Hacker News
-- title: Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware
-    Payloads
-  link: https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html
-  published: Wed, 02 Sep 2026 12:26:30 +0530
-  summary: The U.S. Department of Justice (DoJ) on Tuesday announced the takedown
-    of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated
-    law enforcement operation. The effort was undertaken on August 31, 2026, by authorities
-    from the U.S., Bulgaria, Hungary, and Romania, in collaboration with private industry
-    partners CrowdStrike and the Shadowserver Foundation. To that
-  source: The Hacker News
 - title: ISC Stormcast For Wednesday, September 2nd, 2026 https://isc.sans.edu/podcastdetail/10078,
     (Wed, Sep 2nd)
   link: https://isc.sans.edu/diary/rss/33304
@@ -297,40 +233,175 @@ items:
     that is already being actively exploited and two others that were publicly detailed
     prior to today.
   source: Krebs on Security
+- title: Microsoft Patch Tuesday for September 2026 — Snort rules and prominent vulnerabilities
+  link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/
+  published: Tue, 08 Sep 2026 22:16:35 GMT
+  summary: Microsoft has released its monthly security update for September 2026,
+    which includes 973 vulnerabilities affecting a range of products, including 113
+    that Microsoft marked as "critical."
+  source: Cisco Talos
+- title: Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution
+  link: https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html
+  published: Tue, 08 Sep 2026 21:50:23 +0530
+  summary: A previously undocumented financially motivated threat actor has been linked
+    to attacks targeting Brazilian financial institutions since at least March 2026.
+    Cybersecurity company CrowdStrike is tracking the Brazil-based activity cluster
+    under the name Slim Spider. "The adversary demonstrates deep operational knowledge
+    of Brazilian financial infrastructure, including the instant payment
+  source: The Hacker News
+- title: Microsoft Plugs Nearly 1,000 Security Holes
+  link: https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/
+  published: Tue, 08 Sep 2026 21:44:22 +0000
+  summary: Microsoft Corp. today issued updates to plug at least 974 security holes
+    in its Windows operating systems and other software, by far its biggest single
+    patch batch ever. Microsoft says artificial intelligence is helping to speed the
+    discovery of vulnerabilities, but security experts warn that many organizations
+    already are struggling to prioritize the more human-intensive endeavor of testing
+    and deploying so many fixes each month.
+  source: Krebs on Security
+- title: Patch Tuesday Sets Another Record With 974 CVEs
+  link: https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves
+  published: Tue, 08 Sep 2026 21:26:02 GMT
+  summary: Attackers are actively exploiting two of the vulnerabilities and another
+    58 are more likely to be exploited, according to Microsoft.
+  source: Dark Reading
+- title: Attackers Use Multi-Hop Google Redirects for Phishing Campaign
+  link: https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign
+  published: Tue, 08 Sep 2026 21:03:46 GMT
+  summary: Threat actors are abusing multiple Google services to evade detection,
+    ultimately harvesting credentials or installing ScreenConnect remote access.
+  source: Dark Reading
+- title: OpenAI Agents Took Over Wiki Site Before Hugging Face Attack
+  link: https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack
+  published: Tue, 08 Sep 2026 20:36:15 GMT
+  summary: Researchers and OpenAI disagree on whether the earlier incident involving
+    DseWiki was a “hack” that the company did not disclose.
+  source: Dark Reading
+- title: Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding
+    $47M in BTC
+  link: https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html
+  published: Tue, 08 Sep 2026 20:24:30 +0530
+  summary: Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September
+    6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5
+    bitcoin has not come back. Liquid is a Bitcoin sidechain that holds real bitcoin
+    to back a token called L-BTC. The network is still paused, so holders cannot turn
+    that token back into bitcoin. The 3,400 bitcoin was sent to a&
+  source: The Hacker News
+- title: ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account
+  link: https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html
+  published: Tue, 08 Sep 2026 19:49:17 +0530
+  summary: Check Point Research said in a report published today that a single instruction
+    planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker
+    while answering the user's question as usual. In the company's proof of concept,
+    that hidden work read data from the user's connected Gmail account and passed
+    it to a second ChatGPT account through a hidden channel
+  source: The Hacker News
+- title: September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)
+  link: https://isc.sans.edu/diary/rss/33320
+  published: Tue, 08 Sep 2026 19:20:30 GMT
+  summary: "This month, Microsoft released patches for a record-breaking 973 vulnerabilities,\
+    \ including 113 rated critical. It is by far the largest Patch Tuesday to date,\
+    \ well ahead of the previous high of 664 set in July 2026. Two vulnerabilities\
+    \ are listed as exploited in the wild, while none were publicly disclosed before\
+    \ Patch Tuesday. Notable fixes include Windows privilege escalation and critical\
+    \ RCEs in Skype for Business, MSMQ and RRAS.\r"
+  source: SANS Internet Storm Center
+- title: Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours
+  link: https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html
+  published: Tue, 08 Sep 2026 19:18:16 +0530
+  summary: Threat actors are continuing to leverage artificial intelligence (AI) to
+    streamline their operations, with one financially motivated hacking group employing
+    an autonomous, multi-agent attack framework to carry out a large-scale credential
+    harvesting campaign within six hours. Google Threat Intelligence Group (GTIG)
+    said it has observed attackers with diverse motivations targeting proprietary
+    AI
+  source: The Hacker News
+- title: ClickFix Campaigns Abuse Legitimate Services for Persistent Access
+  link: https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access
+  published: Tue, 08 Sep 2026 17:25:37 GMT
+  summary: Two separate attacks demonstrate how threat actors are finding new ways
+    to compromise organizations by using the popular social engineering tactic.
+  source: Dark Reading
+- title: WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming
+    Calls
+  link: https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html
+  published: Tue, 08 Sep 2026 17:24:29 +0530
+  summary: Researchers at the security firm Calif have built a worm that takes over
+    a WeChat account via an incoming call and demonstrated it spreading among three
+    test phones. The person being called does not have to answer or touch their phone
+    for it to work, but the caller must already be one of their WeChat contacts. Calif
+    reported the flaw to Tencent in July and says the company has since
+  source: The Hacker News
+- title: What It Took to Reach 1 Billion Build Manifests
+  link: https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html
+  published: Tue, 08 Sep 2026 17:19:02 +0530
+  summary: In the last six months, Chainguard doubled its output from 500 million
+    to more than 1 billion container build manifests. We also surpassed 3,000 unique
+    container images and 675,000 image versions in our catalog. Those are the headline
+    numbers, but I want to share what's actually behind them. The number itself is
+    less interesting than the system that produced it, and why we had to fundamentally
+  source: The Hacker News
+- title: FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials
+  link: https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html
+  published: Tue, 08 Sep 2026 16:52:07 +0530
+  summary: A flaw in FreeIPA lets a client that has never logged in create a Kerberos
+    identity of its own choosing in the directory and end up in the administrators
+    group, Red Hat says. FreeIPA is the system that determines who may log in across
+    a Linux domain and maintains all identities in a 389 Directory Server database
+    accessed via LDAP. The attack needs a second flaw in that database software. The
+  source: The Hacker News
+- title: Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP
+    Web Shell
+  link: https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html
+  published: Tue, 08 Sep 2026 14:43:47 +0530
+  summary: 'Adobe on Monday released security patches to address a maximum-severity
+    flaw impacting Adobe Commerce and Magento Open Source that has come under active
+    exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS
+    score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day
+    exploitation starting September 4, 2026. "This update resolves a critical'
+  source: The Hacker News
+- title: BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support
+    Scams
+  link: https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html
+  published: Tue, 08 Sep 2026 14:13:51 +0530
+  summary: Cybersecurity researchers have disclosed details of a sprawling search
+    engine optimization (SEO) poisoning campaign that paves the way for malware deployment
+    and tech support scams. The campaign, discovered by the DFIR Report in March 2026,
+    has been codenamed BengalSEO. It has operated out of the Indian state of Rajasthan
+    since at least 2015, driven by two IT service providers named WeConnect
+  source: The Hacker News
+- title: Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing
+  link: https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html
+  published: Tue, 08 Sep 2026 12:30:43 +0530
+  summary: Online dating app Grindr has opted to pay £26 million ($35.1 million) to
+    settle a lawsuit in the U.K. over allegations that it shared users' personal information,
+    including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+
+    dating app, was sued in April 2024, accusing it of violating U.K. privacy laws
+    by sharing sensitive data for commercial purposes such as advertising.
+  source: The Hacker News
+- title: ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer,
+    and NetSupport Manager
+  link: https://blog.talosintelligence.com/clearfake-webdav-infection-chain/
+  published: Tue, 08 Sep 2026 10:01:07 GMT
+  summary: We assess with moderate confidence that the attacks are not targeted at
+    a particular organization, but are a part of a cryptocurrency and credentials-stealing
+    operation using the Amatera stealer as the primary payload.
+  source: Cisco Talos
+- title: 'ClickFix moves into the browser: Cryptocurrency theft with Google-hosted
+    C2'
+  link: https://blog.talosintelligence.com/clickfix-moves-into-the-browser/
+  published: Tue, 08 Sep 2026 10:00:38 GMT
+  summary: Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses
+    the Google Visualization API for command and control (C2), retrieving obfuscated
+    JavaScript from a publicly published Google Sheets document and injecting it into
+    the victim's browser session.
+  source: Cisco Talos
 - title: ISC Stormcast For Tuesday, September 8th, 2026 https://isc.sans.edu/podcastdetail/10084,
     (Tue, Sep 8th)
   link: https://isc.sans.edu/diary/rss/33316
   published: Tue, 08 Sep 2026 02:00:03 GMT
   summary: ''
   source: SANS Internet Storm Center
-- title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries
-    are weaponizing AI
-  link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-  published: Tue, 04 Aug 2026 10:00:11 GMT
-  summary: Talos has collected prompt logs from threat actor endpoints running various
-    applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis
-    of the ways we've seen bad actors leveraging cloud-based AI.
-  source: Cisco Talos
-- title: Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days
-    After Disclosure
-  link: https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
-  published: Tue, 01 Sep 2026 23:23:11 +0530
-  summary: 'Threat actors are exploiting a newly patched critical security flaw impacting
-    JFrog Artifactory merely days after public disclosure, according to watchTowr.
-    The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication
-    bypass that could lead to administrative access in Artifactory. "JFrog Artifactory
-    contains an authentication weakness that, under default'
-  source: The Hacker News
-- title: Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment
-    Systems
-  link: https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html
-  published: Tue, 01 Sep 2026 22:49:24 +0530
-  summary: Brazilian financial services, retail, and e-commerce organizations have
-    become the target of a financially motivated threat actor dubbed Breeze Comet
-    (formerly UNC5669) since 2024. Google Threat Intelligence Group (GTIG) and Mandiant
-    teams described the threat actor as "specializing in manipulating payment systems
-    and banking software in Brazil to conduct fraudulent transfers." The adversary
-  source: The Hacker News
 - title: FBI Probes Service Selling 153M+ Drivers Licenses
   link: https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/
   published: Tue, 01 Sep 2026 22:40:28 +0000
@@ -373,38 +444,12 @@ items:
   summary: In one attack, threat actors stole an API key that ultimately led to the
     consumption of $600,000 in public AI model credits for the security nonprofit.
   source: Dark Reading
-- title: 13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto
-    Wallet Seeds
-  link: https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html
-  published: Tue, 01 Sep 2026 19:37:20 +0530
-  summary: 'Cybersecurity researchers have identified a set of 13 malicious Composer
-    theme packages on Packagist that are designed to inject JavaScript into Vietnamese
-    movie and comic streaming sites that install those libraries and initiate the
-    deployment of spyware aimed at unpatched iOS devices. "The injected code runs
-    two operations against a site''s visitors: a mobile ad-fraud and gambling-redirect'
-  source: The Hacker News
-- title: Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through
-    Coding Tests
-  link: https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html
-  published: Tue, 01 Sep 2026 18:38:58 +0530
-  summary: The Iranian Nimbus Manticore hacking group has been attributed to two previously
-    undocumented malware families that highlight the continued evolution of its toolset
-    and likely expand its targeting footprint to infect Linux and Apple macOS systems
-    using cross-platform remote access trojans (RATs) developed using Node.js and
-    JavaScript. Russian cybersecurity company Kaspersky is tracking the
-  source: The Hacker News
 - title: ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain
   link: https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain
   published: Tue, 01 Sep 2026 13:56:42 GMT
   summary: The campaign uses EtherHiding to dynamically update its command-and-control
     server, abusing the blockchain as an attacker-controlled address book.
   source: Dark Reading
-- title: ISC Stormcast For Tuesday, September 1st, 2026 https://isc.sans.edu/podcastdetail/10076,
-    (Tue, Sep 1st)
-  link: https://isc.sans.edu/diary/rss/33302
-  published: Tue, 01 Sep 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Read This Before You Buy That TV Streaming Stick
   link: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
   published: Thu, 30 Jul 2026 16:49:00 +0000
@@ -502,12 +547,6 @@ items:
   summary: Cisco Talos recently identified an undocumented phishing framework, internally
     branded "JWR" by its developer, built to convincingly impersonate checkout and
     login pages across major payment and shopping platforms.
-  source: Cisco Talos
-- title: Why metaphor may dictate your security strategy
-  link: https://blog.talosintelligence.com/why-metaphor-may-dictate-your-security-strategy/
-  published: Thu, 06 Aug 2026 18:00:01 GMT
-  summary: In this week's newsletter, Martin looks at how the metaphors we use to
-    describe AI "escaping" its sandbox can completely change how we react to the threat.
   source: Cisco Talos
 - title: Canadian Man Pleads Guilty in Snowflake Extortions
   link: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
@@ -763,46 +802,4 @@ items:
   published: Mon, 31 Aug 2026 21:08:46 GMT
   summary: A threat actor used a variety of infostealers to collect session information
     and access Claude accounts belonging to an unknown number of users.
-  source: Dark Reading
-- title: '''TerminalFix'' Campaign Weaponizes PowerShell for Enterprise Attacks'
-  link: https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks
-  published: Mon, 31 Aug 2026 20:25:36 GMT
-  summary: The ClickFix-style campaign features a sophisticated, multistage attack
-    chain that includes reverse tunnels into victim organizations' networks.
-  source: Dark Reading
-- title: 'The Guardrails Debate: Security Researcher Changes His Mind'
-  link: https://www.darkreading.com/cyber-risk/the-guardrails-debate-security-researcher-changes-his-mind
-  published: Mon, 31 Aug 2026 20:09:24 GMT
-  summary: While guardrails are critical, as evidenced by recent high-profile incidents,
-    defenders need help staying ahead of attackers who do not play by the rules.
-  source: Dark Reading
-- title: 'The Coding-Agent Trap: When a "Free" LLM Endpoint Is the Adversary, (Mon,
-    Aug 31st)'
-  link: https://isc.sans.edu/diary/rss/33298
-  published: Mon, 31 Aug 2026 20:00:34 GMT
-  summary: "One of my internet-exposed inference honeypots was discovered, relabeled\
-    \ with sought-after model names, and incorporated into infrastructure apparently\
-    \ used to provide \"free\" LLM backends. It then received a real coding-agent\
-    \ session &#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x94; history, filesystem output,\
-    \ working paths, and the agent&#;x26;#;39;s local tool manifest. The honeypot\
-    \ did not request or cause any tool execution; what the request exposed is what\
-    \ a malicious operator in that position could do.\r"
-  source: SANS Internet Storm Center
-- title: AI Model Rules Are Not Security Controls
-  link: https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control
-  published: Mon, 31 Aug 2026 17:34:26 GMT
-  summary: OpenAI's Hugging Face attack postmortem shows agents don't care about rules
-    — they need strong controls.
-  source: Dark Reading
-- title: Exploited Zimbra Flaw Highlights Shrinking Window to Patch
-  link: https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
-  published: Mon, 24 Aug 2026 21:46:55 GMT
-  summary: CISA issued a three-day deadline for agencies to patch a Zimbra security
-    vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.
-  source: Dark Reading
-- title: 'Foul Language: WordlistLoader Disguises Malware as Ordinary Text'
-  link: https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text
-  published: Mon, 24 Aug 2026 20:51:27 GMT
-  summary: ClickFix-style threat campaigns are using a new trick to evade detection
-    and deliver Amatera, an increasingly prevalent infostealer.
   source: Dark Reading
