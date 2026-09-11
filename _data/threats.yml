@@ -1,4 +1,4 @@
-last_updated: '2026-09-10T06:56:53Z'
+last_updated: '2026-09-11T06:56:41Z'
 count: 100
 items:
 - title: Dark Caracal Adds New Malware to Cyber Espionage Arsenal
@@ -46,13 +46,6 @@ items:
   summary: The international law enforcement operation focused on disrupting crime-as-a-service
     networks and infrastructure behind groups like Black Axe.
   source: Dark Reading
-- title: Nigeria Looks to Sovereign Cloud for Cyber, National Security
-  link: https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security
-  published: Wed, 26 Aug 2026 08:00:00 GMT
-  summary: The West African nation launched financing, procurement, and infrastructure
-    policies to boost its sovereign cloud initiative and increase domestic technical
-    knowledge.
-  source: Dark Reading
 - title: LG to Ban Residential Proxies from Smart TV Apps
   link: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
   published: Wed, 22 Jul 2026 01:10:38 +0000
@@ -92,8 +85,9 @@ items:
 - title: Mythos Vulnerability Firehose Hits a Human Bottleneck
   link: https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck
   published: Wed, 09 Sep 2026 21:19:55 GMT
-  summary: An analysis of Project Glasswing findings shows only a fraction have reached
-    disclosure, and an even smaller number have been fixed.
+  summary: An analysis of Project Glasswing findings shows only a fraction of the
+    bugs it has discovered have reached disclosure, and an even smaller number have
+    been fixed.
   source: Dark Reading
 - title: Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA
   link: https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html
@@ -267,37 +261,12 @@ items:
   summary: The "Spring Ring" operation aims to compromise users of the collaboration
     suite to remotely access their sessions, spread malware, and even take over infrastructure.
   source: Dark Reading
-- title: ISC Stormcast For Wednesday, September 2nd, 2026 https://isc.sans.edu/podcastdetail/10078,
-    (Wed, Sep 2nd)
-  link: https://isc.sans.edu/diary/rss/33304
-  published: Wed, 02 Sep 2026 02:00:02 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency
   link: https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
   published: Wed, 02 Sep 2026 01:00:00 GMT
   summary: Threat actors exploited commodity vulnerabilities in ownCloud to gain initial
     access, resulting in stolen reactor databases, personnel records, and credential
     stores.
-  source: Dark Reading
-- title: Hidden Prompts Trick AI Into False Email Summaries
-  link: https://www.darkreading.com/cyber-risk/hidden-prompts-trick-ai-false-email-summaries
-  published: Tue, 25 Aug 2026 21:08:55 GMT
-  summary: With some simple HTML that's invisible to users, attackers can manipulate
-    AI-powered email summarizers into producing malicious information.
-  source: Dark Reading
-- title: 'Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw'
-  link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
-  published: Tue, 25 Aug 2026 19:50:16 GMT
-  summary: Attackers can exploit a security bug in Nvidia's tool to gain unauthenticated
-    access to the local model server through the Ollama API, paving the way for persistent
-    AI agent corruption.
-  source: Dark Reading
-- title: Is Cyber Facing an Affordability Crisis?
-  link: https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-
-  published: Tue, 25 Aug 2026 14:53:13 GMT
-  summary: As breach costs reach record highs and defense spending nears $240 billion,
-    small businesses are dangerously exposed, threatening supply chain security.
   source: Dark Reading
 - title: 'The safety penalty: Reclaiming operational sovereignty in the age of AI'
   link: https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/
@@ -353,7 +322,7 @@ items:
 - title: Patch Tuesday Sets Another Record With 974 CVEs
   link: https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves
   published: Tue, 08 Sep 2026 21:26:02 GMT
-  summary: Attackers are actively exploiting two of the vulnerabilities and another
+  summary: Attackers are actively exploiting two of the vulnerabilities, and another
     58 are more likely to be exploited, according to Microsoft.
   source: Dark Reading
 - title: Attackers Use Multi-Hop Google Redirects for Phishing Campaign
@@ -365,7 +334,7 @@ items:
 - title: OpenAI Agents Took Over Wiki Site Before Hugging Face Attack
   link: https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack
   published: Tue, 08 Sep 2026 20:36:15 GMT
-  summary: Researchers and OpenAI disagree on whether the earlier incident involving
+  summary: Researchers and OpenAI disagree on whether an earlier incident involving
     DseWiki, which the company did not disclose, was a “hack."
   source: Dark Reading
 - title: Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding
@@ -632,13 +601,119 @@ items:
     “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a
     field where questions can lead to multiple correct answers.
   source: Cisco Talos
-- title: Dissecting the JWR phishing framework
-  link: https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/
-  published: Thu, 13 Aug 2026 10:00:35 GMT
-  summary: Cisco Talos recently identified an undocumented phishing framework, internally
-    branded "JWR" by its developer, built to convincingly impersonate checkout and
-    login pages across major payment and shopping platforms.
+- title: 'ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops +
+    23 More Stories'
+  link: https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html
+  published: Thu, 10 Sep 2026 23:17:38 +0530
+  summary: 'A lot of this week’s security news has the same awkward answer to one
+    question: “Why was that allowed to work?” An extension asks for access and takes
+    too much. A trusted service becomes part of a phishing chain. An old bug still
+    gets results. An exposed system stays exposed. A package looks useful right up
+    until it isn’t. Different stories, same basic problem: the path in was often already'
+  source: The Hacker News
+- title: Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data
+  link: https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data
+  published: Thu, 10 Sep 2026 20:36:03 GMT
+  summary: Threat actors are leveraging Microsoft's Graph API to identify lucrative
+    targets, then passing their access to extortion groups like ShinyHunters.
+  source: Dark Reading
+- title: Google Play Early Access Abused to Push Thousands of Deceptive Android Apps
+  link: https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html
+  published: Thu, 10 Sep 2026 20:06:47 +0530
+  summary: Bad actors are misusing Google Play's Early Access program to push deceptive
+    apps that claim to offer money, rewards, casino winnings, and premium content.
+    Early Access apps are apps that haven't been released on the official Android
+    app marketplace. The main idea behind the program is for developers to solicit
+    user feedback for new applications or features they may be working on before their
+  source: The Hacker News
+- title: We've got one word for it, and it's usually the wrong one
+  link: https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/
+  published: Thu, 10 Sep 2026 18:00:15 GMT
+  summary: In this week's Threat Source newsletter, Joe explores why the word "burnout"
+    often fails to capture the true toll of working in the cybersecurity industry
+    and why we need better language to address it.
   source: Cisco Talos
+- title: Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated
+    RCE
+  link: https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html
+  published: Thu, 10 Sep 2026 17:15:05 +0530
+  summary: Check Point has patched two critical vulnerabilities in the way its firewall
+    and management products handle VPN certificates. The company says both could allow
+    an unauthenticated remote attacker to run code, but only "under specific conditions"
+    that it has not described. One flaw affects Check Point's Security Gateways, its
+    firewall appliances. The other affects those gateways and the Security
+  source: The Hacker News
+- title: PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances
+  link: https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html
+  published: Thu, 10 Sep 2026 17:11:53 +0530
+  summary: A suspected Russian-speaking cyber actor has been attributed to the use
+    of artificial intelligence (AI) to devise exploits targeting a recently disclosed
+    pair of security flaws in PaperCut NG/MF and break into hundreds of instances.
+    According to independent reports from Blackpoint Cyber and GreyNoise, the activity
+    originates from "45.142.193[.]132," an IP address that has been linked to
+  source: The Hacker News
+- title: Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks
+  link: https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html
+  published: Thu, 10 Sep 2026 17:03:43 +0530
+  summary: The Gigabud banking trojan now installs a second Android app that creates
+    a work profile on an infected phone and drops a tampered banking app inside it,
+    security firm Group-IB said in a report published on September 9. A work profile
+    is a separate space that Android typically reserves for employer apps, and what's
+    inside it is kept separate from everything in the personal space. That
+  source: The Hacker News
+- title: CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal
+    Patch Deadline
+  link: https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html
+  published: Thu, 10 Sep 2026 16:06:46 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
+    added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited
+    Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB)
+    agencies to apply the patches by September 12, 2026. The vulnerabilities are listed
+    below - CVE-2026-20079 (CVSS score: 10.0) - An authentication'
+  source: The Hacker News
+- title: Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit
+  link: https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit
+  published: Thu, 10 Sep 2026 15:29:12 GMT
+  summary: The disgruntled researcher continued their vendetta against Microsoft by
+    publishing yet another zero-day exploit for Windows Defender.
+  source: Dark Reading
+- title: Redtail Payload Analysis [Guest Diary], (Wed, Sep 9th)
+  link: https://isc.sans.edu/diary/rss/33326
+  published: Thu, 10 Sep 2026 12:58:10 GMT
+  summary: "[This is a Guest Diary by Aaron Ng, an ISC intern as part of the SANS.edu\
+    \ BACS program]\r"
+  source: SANS Internet Storm Center
+- title: Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example "sk-1234" Admin
+    Key
+  link: https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html
+  published: Thu, 10 Sep 2026 12:42:55 +0530
+  summary: Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned
+    in February accepted sk-1234, the example admin key in LiteLLM's own setup guide.
+    LiteLLM is an open-source AI gateway, the software a company puts between its
+    applications and the model providers it pays for. That key is the gateway's administrator
+    credential. Anyone who holds it can read every
+  source: The Hacker News
+- title: Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6
+  link: https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html
+  published: Thu, 10 Sep 2026 12:34:01 +0530
+  summary: Anthropic on Wednesday disclosed a fourth incident in which its artificial
+    intelligence (AI) model broke into real third-party systems, marking the latest
+    in a growing list of cases that have raised concerns about the security risks
+    posed by autonomous AI agents. The AI company said the incident dates back to
+    January 2026 and involved an early version of Claude Opus 4.6 that breached "
+  source: The Hacker News
+- title: ISC Stormcast For Thursday, September 10th, 2026 https://isc.sans.edu/podcastdetail/10088,
+    (Thu, Sep 10th)
+  link: https://isc.sans.edu/diary/rss/33328
+  published: Thu, 10 Sep 2026 10:10:11 GMT
+  summary: ''
+  source: SANS Internet Storm Center
+- title: EU Cyber Resilience Act to Enforce New Reporting Requirements
+  link: https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements
+  published: Thu, 10 Sep 2026 07:00:00 GMT
+  summary: Starting Friday, European organizations will have just 24 hours to notify
+    the EU government any time they discover serious product security incidents.
+  source: Dark Reading
 - title: Canadian Man Pleads Guilty in Snowflake Extortions
   link: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
   published: Thu, 06 Aug 2026 17:00:56 +0000
@@ -648,37 +723,6 @@ items:
     provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted
     to stealing call and text history records of more than 100 million AT&T customers.
   source: Krebs on Security
-- title: 'ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17
-    More Stories'
-  link: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
-  published: Thu, 03 Sep 2026 23:32:47 +0530
-  summary: The worst part is how normal these attacks look. A call from IT. A shared
-    file. A trusted app. A simple request to click “Allow.” Why break in when someone
-    might open the door? That idea runs through this edition. Attackers use real tools,
-    fake login pages, old account links, and software guides that point to unsafe
-    downloads. One wrong letter in a web address can be enough. There is also
-  source: The Hacker News
-- title: Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run
-    Code as Root
-  link: https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html
-  published: Thu, 03 Sep 2026 21:22:07 +0530
-  summary: 'Cisco has released patches to address a critical security flaw affecting
-    10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated,
-    remote attacker to execute code as root, alongside an IOS XR hardening release
-    bundling 7 umbrella CVEs, 2 of which are rated 9.8, with no workaround for any
-    IOS XR version. The Nexus vulnerability, tracked as CVE-2026-20212 (CVSS score:
-    9.8), is'
-  source: The Hacker News
-- title: BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace
-    Inventory
-  link: https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html
-  published: Thu, 03 Sep 2026 20:56:47 +0530
-  summary: Cybersecurity researchers have disclosed details of a sophisticated Python-based
-    Windows malware framework called BraZetsu that fuels an underground marketplace
-    commercializing access to compromised hosts. "Unlike the standard infostealer
-    model, BraZetsu is a comprehensive master toolkit that empowers Initial Access
-    Brokers (IABs) by turning compromised systems into highly valuable commercial
-  source: The Hacker News
 - title: Large Enterprises Targeted in Fake Merger & Acquisition Scams
   link: https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams
   published: Thu, 03 Sep 2026 20:18:14 GMT
@@ -718,18 +762,6 @@ items:
   summary: Brazil's most sophisticated threat group is making light work of the country's
     financial systems, putting money directly into its own pocket.
   source: Dark Reading
-- title: Honeypot-Omaha and batch.py [Guest Diary], (Wed, Sep 2nd)
-  link: https://isc.sans.edu/diary/rss/33306
-  published: Thu, 03 Sep 2026 02:02:56 GMT
-  summary: "[This is a Guest Diary by Frank Igbokwe, an ISC intern as part of the\
-    \ SANS.edu BACS program]\r"
-  source: SANS Internet Storm Center
-- title: ISC Stormcast For Thursday, September 3rd, 2026 https://isc.sans.edu/podcastdetail/10080,
-    (Thu, Sep 3rd)
-  link: https://isc.sans.edu/diary/rss/33308
-  published: Thu, 03 Sep 2026 02:00:03 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)
   link: https://isc.sans.edu/diary/rss/33314
   published: Sun, 06 Sep 2026 21:43:17 GMT
@@ -766,33 +798,4 @@ items:
     server without logging in, Dutch e-commerce security company Sansec said in an advisory
     published on September 5. Sansec, which discovered the flaw and named it StyleSmuggler,
     said attacks started on September 4. "Sansec is
-  source: The Hacker News
-- title: Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS
-    Credentials
-  link: https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
-  published: Sat, 05 Sep 2026 22:22:33 +0530
-  summary: JetBrains is urging Cadence users to revoke and rotate all credentials
-    following a security incident last month in which unidentified threat actors exploited
-    a recently disclosed critical vulnerability in TeamCity to breach its own environment.
-    "Cadence users should immediately revoke or rotate all credentials and secrets
-    that may have been used to run their Cadence executions," JetBrains said.
-  source: The Hacker News
-- title: Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code
-  link: https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html
-  published: Sat, 05 Sep 2026 21:35:08 +0530
-  summary: 'Broadcom has released security updates for two security flaws impacting
-    VMware Workstation and Fusion, including one critical bug that could result in
-    arbitrary code execution under certain conditions. The vulnerability, tracked
-    as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that
-    a local attacker with elevated privileges can exploit to run arbitrary code. "A'
-  source: The Hacker News
-- title: Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was
-    Deleted
-  link: https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html
-  published: Sat, 05 Sep 2026 19:47:02 +0530
-  summary: Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000
-    customers from the U.S. have been impacted in a breach at its shipping provider
-    ShipMonk. The exposed information includes customer names, email addresses, phone
-    numbers, shipping addresses, and order numbers between November 2019 and August
-    2021. The breach does not affect the security of the company's hardware wallets
   source: The Hacker News
