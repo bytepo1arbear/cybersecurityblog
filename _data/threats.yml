@@ -1,4 +1,4 @@
-last_updated: '2026-09-12T06:48:31Z'
+last_updated: '2026-09-13T07:07:14Z'
 count: 100
 items:
 - title: Dark Caracal Adds New Malware to Cyber Espionage Arsenal
@@ -739,14 +739,33 @@ items:
     \ At this point, assume compromise. Attackers have been adding new accounts to\
     \ affected devices to maintain access after a patch is installed.\r"
   source: SANS Internet Storm Center
-- title: Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication
-  link: https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html
-  published: Sun, 06 Sep 2026 15:02:38 +0530
-  summary: Attackers are exploiting MikroTik routers with their Secure Shell (SSH)
-    remote-access service, which is reachable from the internet, to gain full administrative
-    control without authentication, according to CERT Polska's attack warning, published
-    on September 5. Successful attacks date to at least September 2. The Hacker News’s
-    September 6 review of the warning found no victim count or
+- title: CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws
+    to KEV
+  link: https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
+  published: Sat, 12 Sep 2026 21:24:45 +0530
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and
+    MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following
+    reports of active exploitation in the wild. Details of the vulnerabilities are
+    as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization'
+  source: The Hacker News
+- title: 'When the Whole Company Adopts AI: What It Does to Your SOC'
+  link: https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html
+  published: Sat, 12 Sep 2026 15:54:44 +0530
+  summary: 'Over the past year, we watched a new class of alert appear in enterprise
+    security operations centers and grow faster than anything else in the stream:
+    alerts that were triggered by AI tools and agents. Not attacks against AI, but
+    the ordinary, everyday footprint of an organization using it, from developers
+    running coding agents and non-technical staff signing consumer AI tools into corporate'
+  source: The Hacker News
+- title: OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
+  link: https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html
+  published: Sat, 12 Sep 2026 14:37:56 +0530
+  summary: The "major malicious attack" that targeted RubyGems in May 2026 was the
+    work of a swarm of OpenAI agents, according to a new report published by researchers
+    Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld,
+    senior product manager for software supply chain security at Mend.io, disclosed
+    details of a coordinated cyber attack that targeted the package manager for the
   source: The Hacker News
 - title: numbat - AI agent observability, (Fri, Sep 4th)
   link: https://isc.sans.edu/diary/rss/33312
@@ -777,23 +796,3 @@ items:
   summary: OpenAI's Hugging Face attack postmortem shows agents don't care about rules
     — they need strong controls.
   source: Dark Reading
-- title: Lessons Learned from CISA’s Recent GitHub Leak
-  link: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
-  published: Mon, 13 Jul 2026 15:03:28 +0000
-  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued
-    a postmortem on a data leak in which a contractor published dozens of internal
-    CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository
-    for almost six months before being notified by KrebsOnSecurity. Experts say the
-    gaps identified in the agency's initial response provide important lessons that
-    all security teams should absorb.
-  source: Krebs on Security
-- title: PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command
-    Execution
-  link: https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html
-  published: Mon, 07 Sep 2026 23:42:09 +0530
-  summary: Cybersecurity researchers have disclosed details of a complex Chromium-based
-    post-exploitation toolkit called PEEP that masquerades as a bookmarks extension
-    for the web browser. "Requiring prior administrative or code execution access,
-    its installer injects the extension directly into Chrome/Edge profiles, bypassing
-    Web Store checks and user prompts by forging Chromium's own Secure Preferences
-  source: The Hacker News
