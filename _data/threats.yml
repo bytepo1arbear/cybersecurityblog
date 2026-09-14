@@ -1,4 +1,4 @@
-last_updated: '2026-09-13T07:07:14Z'
+last_updated: '2026-09-14T07:30:35Z'
 count: 100
 items:
 - title: Dark Caracal Adds New Malware to Cyber Espionage Arsenal
@@ -731,6 +731,16 @@ items:
   summary: Brazil's most sophisticated threat group is making light work of the country's
     financial systems, putting money directly into its own pocket.
   source: Dark Reading
+- title: Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate
+    Data
+  link: https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html
+  published: Sun, 13 Sep 2026 15:41:48 +0530
+  summary: Microsoft has disclosed details of two campaigns in which threat actors
+    are abusing third-party email delivery infrastructure to blast financial fraud
+    scam messages and using passkey-themed social engineering to breach cloud environments.
+    The first campaign, per the tech giant, involved sending over a million scam emails
+    between August 3 and 5, 2026, by masquerading as chief executive officers
+  source: The Hacker News
 - title: Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)
   link: https://isc.sans.edu/diary/rss/33314
   published: Sun, 06 Sep 2026 21:43:17 GMT
@@ -767,11 +777,6 @@ items:
     senior product manager for software supply chain security at Mend.io, disclosed
     details of a coordinated cyber attack that targeted the package manager for the
   source: The Hacker News
-- title: numbat - AI agent observability, (Fri, Sep 4th)
-  link: https://isc.sans.edu/diary/rss/33312
-  published: Sat, 05 Sep 2026 03:39:52 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: Anthropic Users Hit by Infostealer Attacks, Session Thefts
   link: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts
   published: Mon, 31 Aug 2026 21:08:46 GMT
