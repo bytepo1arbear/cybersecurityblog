@@ -1,4 +1,4 @@
-last_updated: '2026-09-16T07:07:48Z'
+last_updated: '2026-09-17T07:06:09Z'
 count: 100
 items:
 - title: 'Choose your fighter: Balancing competing requirements to select models for
@@ -26,6 +26,131 @@ items:
     everyday language makes the situation accessible to non-technical audiences and
     identify points where the crime can be disrupted.
   source: Cisco Talos
+- title: AI Security Spending Jumps as Fear Outpaces Proof of Value
+  link: https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value
+  published: Wed, 16 Sep 2026 21:26:55 GMT
+  summary: CISOs are not waiting for AI to prove its cybersecurity value before investing
+    in the technology. Is it the right move?
+  source: Dark Reading
+- title: Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command
+    Execution
+  link: https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html
+  published: Wed, 16 Sep 2026 21:20:59 +0530
+  summary: 'A critical security flaw in Issabel Framework, a web-based framework for
+    the open-source unified communications PBX software, has come under active exploitation.
+    The vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0
+    score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary
+    operating system (OS) commands by taking advantage of a hard-coded'
+  source: The Hacker News
+- title: Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware,
+    and Wipers
+  link: https://thehackernews.com/2026/09/three-threat-groups-target-russian.html
+  published: Wed, 16 Sep 2026 20:57:49 +0530
+  summary: Enterprises in Russia have emerged as the target of three threat activity
+    clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple
+    reports from Kaspersky. The cybersecurity vendor said it has identified attacks
+    mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since
+    at least 2023, that involve new techniques for persistence and lateral movement.
+  source: The Hacker News
+- title: One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera
+    Neon and Claude
+  link: https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html
+  published: Wed, 16 Sep 2026 20:06:44 +0530
+  summary: 'Security researchers at Forever Security have shown that one ordinary
+    browser extension could take control of the AI assistants built into five Chromium-based
+    products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon
+    and the Claude in Chrome extension. Once the extension was installed, it could
+    access each product''s built-in AI with a single click. On Comet, Edge,'
+  source: The Hacker News
+- title: Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About
+    100 Repositories
+  link: https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html
+  published: Wed, 16 Sep 2026 19:07:07 +0530
+  summary: Mandiant says an attacker hijacked an active AI coding-assistant session
+    at an unnamed software-as-a-service provider and later spread Shai-Hulud across
+    about 100 internal code repositories. Before the repository spread, the assistant
+    recommended software that the attacker had poisoned, and the recommendation was
+    accepted. The worm stole repository secrets and source code for the
+  source: The Hacker News
+- title: Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs
+    Can't Install Fix
+  link: https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html
+  published: Wed, 16 Sep 2026 18:44:05 +0530
+  summary: Parallels Desktop for Mac has a flaw that lets an ordinary local account
+    run code as root, the highest level of access on a Mac, software company JFrog
+    said this week. The attack needs code already running on the machine as a normal
+    user, so it does not work over the network. JFrog says the fix is in Parallels
+    Desktop 27, a version that Intel Macs cannot install. Yuval Moravchick, who leads
+  source: The Hacker News
+- title: Scans Targeting Hospitality Applications, (Wed, Sep 16th)
+  link: https://isc.sans.edu/diary/rss/33344
+  published: Wed, 16 Sep 2026 18:44:04 GMT
+  summary: "Earlier today, I noted an odd request showing up in our \"First Seen\"\
+    \ report:\r"
+  source: SANS Internet Storm Center
+- title: Data Broker Radaris Loses Domains in Privacy Fight
+  link: https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/
+  published: Wed, 16 Sep 2026 18:14:22 +0000
+  summary: The consumer data broker Radaris.com has long had a reputation for ignoring
+    requests to remove personal information from its vast empire of people-search
+    services online. That reputation caught up with the company recently in a lawsuit
+    alleging Radaris violated a New Jersey privacy law that provides for hefty fines
+    against data brokers that publish personal information on state law enforcement
+    officials. In the face of repeated stonewalling and prevarication by attorneys
+    for Radaris, the judge in the case ordered that radaris.com and more than a dozen
+    other data broker domains be transferred to the plaintiffs.
+  source: Krebs on Security
+- title: Fighting Your Dragons Through Tough Tech Times
+  link: https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market
+  published: Wed, 16 Sep 2026 18:00:54 GMT
+  summary: Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career
+    anxiety and self-doubt and shares how to build meaningful connections during historical
+    tech industry downturns.
+  source: Dark Reading
+- title: 'N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity
+    Security'
+  link: https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html
+  published: Wed, 16 Sep 2026 17:28:00 +0530
+  summary: N0va is targeting organizations across North America and Europe with phishing
+    campaigns that impersonate trusted services and abuse legitimate authentication
+    flows. Successful attacks can give threat actors access to valid accounts without
+    relying on obvious malware activity. From there, a single compromised identity
+    can open the door to sensitive data, business systems, and additional cloud
+  source: The Hacker News
+- title: Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation
+  link: https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html
+  published: Wed, 16 Sep 2026 16:45:58 +0530
+  summary: 'Google has disclosed that a high-severity security flaw in its Pixel Cellular
+    Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704
+    (CVSS score: 8.0), is a privilege escalation flaw. "In Cellular Modem, there is
+    a possible permission bypass due to a logic error in the code," according to a
+    description of the bug in the NIST National Vulnerability Database'
+  source: The Hacker News
+- title: Threat Intelligence Alone Won't Close the Exploitation Gap
+  link: https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html
+  published: Wed, 16 Sep 2026 16:45:48 +0530
+  summary: A leaked credential shows up in a criminal marketplace, or a vulnerability
+    gets a disclosure advisory, and either one can be weaponized against a real target
+    before most security teams have triaged the alert. Attackers are combining that
+    kind of intelligence with AI-assisted exploitation to accelerate the path from
+    exposure to breach faster than most security programs are built to react.
+  source: The Hacker News
+- title: BragJack Attack Can Turn a Browser's Agentic AI Against It
+  link: https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai
+  published: Wed, 16 Sep 2026 16:43:37 GMT
+  summary: A new type of attack hijacks the AI assistant built directly into various
+    browsers to access sensitive information, execute malicious actions, and exfiltrate
+    data.
+  source: Dark Reading
+- title: Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks
+  link: https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
+  published: Wed, 16 Sep 2026 16:38:54 +0530
+  summary: 'Acronis has warned that a high-severity security flaw in its Backup plugin
+    for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.
+    The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as
+    a case of local privilege escalation due to insecure file permissions. It affects
+    the following versions - Acronis Backup plugin for cPanel & WHM (Linux'
+  source: The Hacker News
 - title: Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web
     Shells
   link: https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
@@ -46,6 +171,14 @@ items:
     a cryptographic signature that could result in account takeover. Hacktron Team
     has been credited with discovering and reporting the flaw. "JWT authentication'
   source: The Hacker News
+- title: Securing the unpatchable in an age of AI-driven vulnerabilities
+  link: https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/
+  published: Wed, 16 Sep 2026 10:00:36 GMT
+  summary: Advances in AI technology will continue to identify vulnerabilities that
+    in some circumstances are difficult, or effectively impossible, to patch. Appropriate
+    network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations
+    can provide a powerful compensatory layer.
+  source: Cisco Talos
 - title: ISC Stormcast For Wednesday, September 16th, 2026 https://isc.sans.edu/podcastdetail/10096,
     (Wed, Sep 16th)
   link: https://isc.sans.edu/diary/rss/33342
@@ -79,15 +212,6 @@ items:
     two cryptocurrency wallets, and deploying the Scam Center Strike Force to Madagascar
     to help disrupt 13 scam compounds run by Chinese organized crime
   source: The Hacker News
-- title: Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
-  link: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
-  published: Wed, 09 Sep 2026 22:04:05 +0530
-  summary: Multiple espionage-motivated threat activity clusters have been found deploying
-    a previously undocumented exploit kit called BlueMoon that chains together multiple
-    vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild
-    use of BlueMoon has been attributed to the China-aligned state-sponsored group
-    tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,
-  source: The Hacker News
 - title: Mythos Vulnerability Firehose Hits a Human Bottleneck
   link: https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck
   published: Wed, 09 Sep 2026 21:19:55 GMT
@@ -95,15 +219,6 @@ items:
     bugs it has discovered have reached disclosure, and an even smaller number have
     been fixed.
   source: Dark Reading
-- title: Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA
-  link: https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html
-  published: Wed, 09 Sep 2026 19:53:55 +0530
-  summary: Cybercriminals are hijacking artificial intelligence (AI) user accounts
-    via information stealer logs to create "stolen keys" that grant illicit access
-    to tools from model providers like Google, Anthropic, and others.  Information
-    stealers like Lumma Stealer or Vidar are equipped to harvest a wide range of data
-    from compromised systems. This can include credential, session tokens, and API
-  source: The Hacker News
 - title: US Government Accuses Chinese AI Firms of Distilling Frontier Models
   link: https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models
   published: Wed, 09 Sep 2026 19:47:50 GMT
@@ -111,68 +226,12 @@ items:
     from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development
     costs.
   source: Dark Reading
-- title: Scans for Proxmox Servers, (Wed, Sep 9th)
-  link: https://isc.sans.edu/diary/rss/33324
-  published: Wed, 09 Sep 2026 17:46:24 GMT
-  summary: "About a week ago, Proxmox published an advisory revealing a vulnerability\
-    \ in older versions of Proxmox VE, its flagship Virtual Environment product. The\
-    \ vulnerability only affects version 7, which has not been supported for a couple\
-    \ of years now.\r"
-  source: SANS Internet Storm Center
-- title: 'Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE'
-  link: https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html
-  published: Wed, 09 Sep 2026 17:27:36 +0530
-  summary: 'A major vulnerability is disclosed. The alert lands immediately. Then
-    comes the harder question: Are we actually exposed? For many security teams, answering
-    that means jumping between vulnerability scanners, endpoint tools, cloud inventories,
-    SBOMs, repositories, and application data to build enough context to act. As AI
-    accelerates vulnerability discovery and research, that delay matters more'
-  source: The Hacker News
-- title: DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without
-    Approval
-  link: https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html
-  published: Wed, 09 Sep 2026 16:47:07 +0530
-  summary: A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI
-    coding agents on a developer's machine, let a sandboxed agent turn off its own
-    sandbox with a single command. The tool runs an agent's commands inside an operating-system
-    sandbox, so that an agent working on untrusted files cannot write outside its
-    workspace. The agent could remove that limit by calling the tool's own web
-  source: The Hacker News
-- title: Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin
-    Wallets
-  link: https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html
-  published: Wed, 09 Sep 2026 16:13:04 +0530
-  summary: Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that
-    could have let an attacker take over a wallet and send its funds, but only where
-    the owner had made the Hub reachable from the internet. Alby Hub is a self-hosted
-    Lightning wallet, meaning the owner runs it on their own computer or server, and
-    it holds their bitcoin. The flaw affects versions v1.7.0 through
-  source: The Hacker News
 - title: Active exploitation of Cisco Secure Firewall Management Center vulnerabilities
   link: https://blog.talosintelligence.com/fmc-ongoing-exploitation/
   published: Wed, 09 Sep 2026 16:08:59 GMT
   summary: Cisco Talos is actively tracking the exploitation of two vulnerabilities
     in Cisco’s Secure Firewall Management Center (FMC) Software.
   source: Cisco Talos
-- title: U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and
-    Grok
-  link: https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html
-  published: Wed, 09 Sep 2026 15:02:26 +0530
-  summary: U.S. cybersecurity and intelligence agencies have accused China-based artificial
-    intelligence (AI) companies of conducting "systematic extraction" of proprietary
-    functionalities and capabilities of American frontier models through distillation
-    attacks. The activity has been described as occurring at an industrial-scale and
-    one that forms the "core" of their AI development strategy, according to
-  source: The Hacker News
-- title: Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox
-  link: https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html
-  published: Wed, 09 Sep 2026 14:41:03 +0530
-  summary: 'Google on Tuesday released updates to patch 230 security vulnerabilities,
-    including one that has come under active exploitation in the wild. The medium-severity
-    vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has
-    been described as an out-of-bounds bug in V8, Chrome''s JavaScript and WebAssembly
-    engine. "Out-of-bounds write in V8 in Google Chrome prior to'
-  source: The Hacker News
 - title: Identity-Based AI Attack Threatens Security of Enterprise Data
   link: https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data
   published: Wed, 09 Sep 2026 14:39:44 GMT
@@ -180,24 +239,6 @@ items:
     hijack an organization''s data by sending a basic request through an unauthenticated
     entry point.'
   source: Dark Reading
-- title: New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root
-  link: https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html
-  published: Wed, 09 Sep 2026 13:49:32 +0530
-  summary: cPanel has patched a flaw that it says lets a single hosting account take
-    control of an entire server. An authenticated account holder with mail-related
-    privileges can create files of their choosing on the server through EmailTrack
-    and, from there, run code as the root user. cPanel published the advisory on September
-    8 and says every supported version of cPanel and WHM is affected.
-  source: The Hacker News
-- title: F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans
-  link: https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html
-  published: Wed, 09 Sep 2026 13:06:49 +0530
-  summary: Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances
-    hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis
-    published on September 7. When Apache loads any of the three appliances' own PHP
-    scripts, the malware adds the web shell to the copy held in memory, so a check
-    of the file on disk can come back clean. Those three scripts are
-  source: The Hacker News
 - title: AI's Vulnerability Surge May Be More Manageable Than First Feared
   link: https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared
   published: Wed, 02 Sep 2026 21:14:06 GMT
@@ -262,35 +303,11 @@ items:
   summary: You can't make an omelet without breaking a few eggs, and you can't patch
     nearly 1,000 CVEs without a few glitches.
   source: Dark Reading
-- title: 'Black Hat USA 2026 | The ''Breaking'' News: The OpenAI–Hugging Face Incident'
+- title: Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident
   link: https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk
   published: Tue, 15 Sep 2026 19:27:19 GMT
-  summary: '<p>The ''Breaking'' News: The OpenAI–Hugging Face Incident - A Technical
-    Reconstruction and Its Implications for AI</p> <p>At this Black Hat USA 2026 talk,
-    OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging
-    Face incident and examine its implications for AI security, cyber resilience,
-    and alignment. Throughout the session, they will share insights that address key
-    topics raised by the Black Hat Review Board, including model safeguards, evaluation
-    and containment practices, defensive use cases for AI, and the broader implications
-    of increasingly autonomous systems for the cybersecurity community.</p> <p>The
-    session will trace the models'' attack path, including how frontier models are
-    sandboxed during evaluations, how the models exploited a zero-day vulnerability
-    to gain internet access, and how they identified and leveraged a remote code execution
-    path on Hugging Face infrastructure. Drawing on the joint investigation, the speakers
-    will explain how the activity was detected, contained, and investigated. They
-    will also discuss the changes OpenAI is making to strengthen evaluation environments,
-    containment controls, and monitoring capabilities, as well as the role AI systems
-    played in supporting the investigation and response.</p> <p>In addition to the
-    technical reconstruction of the incident, the session will address broader questions
-    relevant to the security community, including lessons for improving AI system
-    security, defensive applications of AI in incident response, and approaches to
-    mitigating emerging risks associated with increasingly capable models.</p> <p>The
-    discussion will also examine alignment challenges associated with long-running
-    agents, including reward hacking, shifts in model behavior and persona over extended
-    trajectories, and information sharing across multi-agent systems. Finally, the
-    speakers will explore what this incident suggests about emerging AI cyber capabilities
-    and how organizations can use AI to strengthen prevention, detection, investigation,
-    and response efforts.</p>'
+  summary: At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident
+    and explore lessons learned about AI safeguards and cyber resilience.
   source: Dark Reading
 - title: Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds
   link: https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html
@@ -559,13 +576,12 @@ items:
     of the campaign, examining the countries affected, potential impact of BadIIS
     infections, the attack chain, and post-compromise tactics.
   source: Cisco Talos
-- title: Curiouser and Curiouser
-  link: https://blog.talosintelligence.com/curiouser-and-curiouser/
-  published: Thu, 13 Aug 2026 18:00:18 GMT
-  summary: In this edition of the Threat Source newsletter, William reflects on the
-    “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a
-    field where questions can lead to multiple correct answers.
-  source: Cisco Talos
+- title: ISC Stormcast For Thursday, September 17th, 2026 https://isc.sans.edu/podcastdetail/10098,
+    (Thu, Sep 17th)
+  link: https://isc.sans.edu/diary/rss/33346
+  published: Thu, 17 Sep 2026 02:00:03 GMT
+  summary: ''
+  source: SANS Internet Storm Center
 - title: 'ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops +
     23 More Stories'
   link: https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html
@@ -667,12 +683,6 @@ items:
     posed by autonomous AI agents. The AI company said the incident dates back to
     January 2026 and involved an early version of Claude Opus 4.6 that breached "
   source: The Hacker News
-- title: ISC Stormcast For Thursday, September 10th, 2026 https://isc.sans.edu/podcastdetail/10088,
-    (Thu, Sep 10th)
-  link: https://isc.sans.edu/diary/rss/33328
-  published: Thu, 10 Sep 2026 10:10:11 GMT
-  summary: ''
-  source: SANS Internet Storm Center
 - title: EU Cyber Resilience Act to Enforce New Reporting Requirements
   link: https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements
   published: Thu, 10 Sep 2026 07:00:00 GMT
@@ -789,43 +799,3 @@ items:
   summary: OpenAI's Hugging Face attack postmortem shows agents don't care about rules
     — they need strong controls.
   source: Dark Reading
-- title: New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing
-  link: https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html
-  published: Mon, 14 Sep 2026 23:32:13 +0530
-  summary: Researchers have disclosed a new hardware attack, called DDRop, that breaks
-    the memory protection in Intel and AMD confidential computing by silently dropping
-    writes to a server's memory, so the processor keeps reading old encrypted data
-    as if it were current. The attack requires an attacker who already controls the
-    server's software and can briefly access the machine to insert a small circuit
-  source: The Hacker News
-- title: 3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber
-    Credentials
-  link: https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html
-  published: Mon, 14 Sep 2026 23:31:49 +0530
-  summary: An attacker was operating inside the network of 3BB, one of Thailand's
-    largest broadband providers, and maintained remote control of internal machines
-    using a legitimate management tool called MeshCentral, threat intelligence firm
-    Hunt.io said. The company uncovered the intrusion by examining a server the attacker
-    had left open on the internet, which held the attacker's own tools and a list
-    of
-  source: The Hacker News
-- title: Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML
-    Exports
-  link: https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html
-  published: Mon, 14 Sep 2026 23:28:16 +0530
-  summary: A flaw in Telegram Desktop let a bot's message plant hidden JavaScript
-    inside chats that users exported to HTML files, security researchers at ExPatch
-    said in a writeup published on September 12. In Telegram, the message looked ordinary,
-    with a link button, and the script ran only when someone opened the export file
-    in a web browser. It could then copy every message in that file to
-  source: The Hacker News
-- title: Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries
-  link: https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html
-  published: Mon, 14 Sep 2026 22:26:30 +0530
-  summary: A suspected Chinese threat actor tracked as Red Heron has been attributed
-    to the rapid exploitation of a recently disclosed security vulnerability in Gitea
-    to compromise internet-facing instances as part of a multi-national campaign.
-    "Red Heron scanned 1,386 Gitea instances across seven countries and maintained
-    a separate dataset of 477 Taiwan-based systems," Acronis Threat Research Unit
-    (TRU)
-  source: The Hacker News
