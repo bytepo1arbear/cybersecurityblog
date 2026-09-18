@@ -1,4 +1,4 @@
-last_updated: '2026-09-17T07:06:09Z'
+last_updated: '2026-09-18T06:58:57Z'
 count: 100
 items:
 - title: 'Choose your fighter: Balancing competing requirements to select models for
@@ -19,13 +19,6 @@ items:
     webOS store allow unknown third-parties to route their Internet traffic through
     a user's TV.
   source: Krebs on Security
-- title: Describing attacks with crime script analysis
-  link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
-  published: Wed, 19 Aug 2026 10:00:52 GMT
-  summary: Martin explores how using crime script analysis to describe an attack with
-    everyday language makes the situation accessible to non-technical audiences and
-    identify points where the crime can be disrupted.
-  source: Cisco Talos
 - title: AI Security Spending Jumps as Fear Outpaces Proof of Value
   link: https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value
   published: Wed, 16 Sep 2026 21:26:55 GMT
@@ -201,16 +194,6 @@ items:
     Security Labs is tracking the activity under the moniker REF9334. Active since
     at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian
     banks and install a malicious browser extension on Google Chrome and
-  source: The Hacker News
-- title: U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in
-    Crypto
-  link: https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html
-  published: Wed, 09 Sep 2026 23:56:05 +0530
-  summary: The U.S. Department of Justice (DoJ) on Wednesday announced coordinated
-    actions aimed at an illicit online marketplace called Xinbi Guarantee that offered
-    scam services, including seizing Telegram channels used to run the service, confiscating
-    two cryptocurrency wallets, and deploying the Scam Center Strike Force to Madagascar
-    to help disrupt 13 scam compounds run by Chinese organized crime
   source: The Hacker News
 - title: Mythos Vulnerability Firehose Hits a Human Bottleneck
   link: https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck
@@ -567,14 +550,171 @@ items:
     credential theft, anti-analysis protections, and kernel-level endpoint detection
     and response (EDR) bypass functionality.
   source: Cisco Talos
-- title: 'UAT-10147: Chinese-speaking adversary integrates agentic AI into post-compromise
-    operations'
-  link: https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
-  published: Thu, 20 Aug 2026 10:00:32 GMT
-  summary: Cisco Talos discovered a Chinese-speaking cybercrime group, tracked as
-    UAT-10147, that targets a wide range of vulnerable web servers. This is an overview
-    of the campaign, examining the countries affected, potential impact of BadIIS
-    infections, the attack chain, and post-compromise tactics.
+- title: Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code
+    as Root
+  link: https://thehackernews.com/2026/09/critical-check-point-management-server.html
+  published: Thu, 17 Sep 2026 23:38:28 +0530
+  summary: A critical vulnerability in Check Point's Security Management and Log Servers
+    could allow an attacker without login credentials to run code as root on those
+    servers over the network. The Security Management Server is the system that controls
+    firewall policy and administrator access. Check Point has released a fix through
+    its LivePatch update channel and says it has no indication that the flaw
+  source: The Hacker News
+- title: 'ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps
+    and 22 More New Stories'
+  link: https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html
+  published: Thu, 17 Sep 2026 23:02:22 +0530
+  summary: Attackers keep finding new keys. The funny part is that defenders keep
+    inventing where to store them. This week, those keys sit in AI tools, exposed
+    services, old bugs, weak logins, and software sold like a monthly subscription.
+    Some attacks use new tricks. Others just reuse what was already lying around.
+    Both work often enough. So the threat landscape is not getting cleaner. It is
+    just
+  source: The Hacker News
+- title: CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus
+  link: https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus
+  published: Thu, 17 Sep 2026 21:23:50 GMT
+  summary: The move is consistent with the agency's advice on the need for organizations
+    to prioritize the vulnerabilities that actually matter.
+  source: Dark Reading
+- title: Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify
+    macOS Host Files
+  link: https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html
+  published: Thu, 17 Sep 2026 21:07:56 +0530
+  summary: Malicious code running inside a Docker Sandboxes virtual machine on macOS
+    could escape the project directory shared into it and read or change files anywhere
+    else on the host, Docker warns in a security announcement on September 15. The
+    escape runs with the rights of the host account that runs the virtual machine.
+    The flaw, CVE-2026-77179, is rated Critical, affects versions
+  source: The Hacker News
+- title: Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal
+    Passwords
+  link: https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html
+  published: Thu, 17 Sep 2026 19:33:13 +0530
+  summary: The Iran-linked "hacktivist" persona known as Handala Hack has been attributed
+    to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based
+    utility known as CRUDEEXCLUDE. "HEAVYGRAM offers builtin commands supporting remote
+    command execution, system, network and process information discovery, data and
+    Telegram session files exfiltration, screenshot capture, DLL sideloading,
+  source: The Hacker News
+- title: China's FamousSparrow APT Spies on US Politics in Latin America
+  link: https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america
+  published: Thu, 17 Sep 2026 19:15:38 GMT
+  summary: Amid the US and China's fight for eco-colonial influence in Latin America,
+    a stealthy backdoor has taken flight.
+  source: Dark Reading
+- title: Should you care about an “AI slowdown?”
+  link: https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown/
+  published: Thu, 17 Sep 2026 18:00:23 GMT
+  summary: In this week's Threat Source, David talks about why focusing on your security
+    basics is still your best bet, even in a world with rapid AI advancements.
+  source: Cisco Talos
+- title: Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS
+    Zone
+  link: https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html
+  published: Thu, 17 Sep 2026 18:00:00 +0530
+  summary: Every release of the Unbound DNS resolver before 1.26.1 has a critical
+    heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an advisory on
+    Wednesday. An attacker who controls a malicious zone and queries a vulnerable
+    resolver can trigger it, enabling remote code execution. Unbound 1.26.1, released
+    the same day, fixes the bug, tracked as CVE-2026-81642, along with
+  source: The Hacker News
+- title: Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in
+    This Webinar
+  link: https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html
+  published: Thu, 17 Sep 2026 17:20:00 +0530
+  summary: 'A new CVE drops. Your scanner finds it. The severity score looks ugly.
+    But that still does not answer the question that matters: Can it actually be exploited
+    in your environment? Mythos-class AI is compressing the time between disclosure
+    and working exploitation, while many security programs still validate risk on
+    weekly or quarterly cycles. The dangerous gap is no longer just technical. It
+    is'
+  source: The Hacker News
+- title: CISO's Expert Guide to Agentic Pentesting for Websites
+  link: https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html
+  published: Thu, 17 Sep 2026 16:20:53 +0530
+  summary: Attackers now weaponize new vulnerabilities in about five days (Mandiant,
+    part of Google Cloud). The median organization takes 43 days to patch one (Verizon
+    DBIR 2026). A new free guide explains how autonomous AI agents are closing that
+    gap, and what security leaders must demand before pointing one at production.
+    TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR
+  source: The Hacker News
+- title: China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America
+  link: https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html
+  published: Thu, 17 Sep 2026 15:35:45 +0530
+  summary: The China-aligned state-sponsored threat actor known as FamousSparrow has
+    been observed deploying a previously unreported backdoor called SparroWocky in
+    attacks targeting multiple countries in Latin America since at least August 2025.
+    "SparroWocky is a modular, C++ backdoor," ESET security researchers Alexandre
+    Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News
+  source: The Hacker News
+- title: OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized
+    Uploads
+  link: https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html
+  published: Thu, 17 Sep 2026 15:23:38 +0530
+  summary: OpenAI on Wednesday disclosed six new instances of "unexpected or concerning
+    model behavior" that took place over the past six months, while sharing a new
+    framework for reporting, tracking, investigating, and disclosing model misalignment
+    in a bid to improve transparency. "As AI systems grow more advanced and more widely
+    deployed, we need to build a broader and better-informed consensus on the
+  source: The Hacker News
+- title: LausivLoader analysis, or how to pass data between malware stages, (Thu,
+    Sep 17th)
+  link: https://isc.sans.edu/diary/rss/33348
+  published: Thu, 17 Sep 2026 15:06:44 GMT
+  summary: "At the end of August, a malspam message was caught in the quarantine of\
+    \ a mail gateway operated by one of my customers. The message was not especially\
+    \ remarkable â€“ it asked the recipient to review some attached requirements and\
+    \ provide a price quotation for a fiber optic system and appeared to impersonate\
+    \ an employee of a legitimate company.\r"
+  source: SANS Internet Storm Center
+- title: BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS
+  link: https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html
+  published: Thu, 17 Sep 2026 13:30:29 +0530
+  summary: The Internet Systems Consortium (ISC) has released BIND 9.20.29 and 9.21.26 to
+    fix fourteen security flaws it disclosed on 16 September in BIND 9, its open-source
+    DNS server software. One of them affects any BIND server that answers DNS-over-HTTPS
+    (DoH). A sender with no credentials can crash the server process, named, with
+    a single request that carries an invalid SIG
+  source: The Hacker News
+- title: Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata
+    Records
+  link: https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html
+  published: Thu, 17 Sep 2026 13:00:01 +0530
+  summary: A security breach at Gyazo, Helpfeel's image-sharing service, exposed about
+    23.62 million user records, including email addresses and password hashes, the
+    Kyoto-based company said in a notice published Wednesday. It also exposed about
+    490 million image metadata records, mostly for images from January 2019 or earlier,
+    including the IDs that make up Gyazo image links. Helpfeel said
+  source: The Hacker News
+- title: Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active
+    Attacks
+  link: https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html
+  published: Thu, 17 Sep 2026 12:09:40 +0530
+  summary: 'Cisco has warned of a fresh maximum-severity security flaw impacting Identity
+    Services Engine (ISE) that has come under active exploitation. The vulnerability,
+    tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated,
+    remote attacker to bypass authentication. "This vulnerability is due to insufficient
+    authentication control on an API endpoint," Cisco said. "An attacker'
+  source: The Hacker News
+- title: U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of
+    DDoS Attacks
+  link: https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html
+  published: Thu, 17 Sep 2026 10:43:46 +0530
+  summary: 'The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized
+    seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire
+    service known as NightmareStresser. The domains in question are: nightmare-stresser[.]com
+    and nightmarestresser[.]org. Visitors to the site are now greeted by a seizure
+    banner that states - "This domain has been seized by the'
+  source: The Hacker News
+- title: 'Ransomware incidents in Japan in the first half of 2026: Investigation of
+    The Gentlemen’s infrastructure and evidence of Qilin''s AI use'
+  link: https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/
+  published: Thu, 17 Sep 2026 10:00:43 GMT
+  summary: Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was
+    the most active group, with leak-site listings more than doubling from January
+    to July. Qilin ranked second and appeared to use AI, while SMEs with capital under
+    JPY 1 billion represented 80% of victims.
   source: Cisco Talos
 - title: ISC Stormcast For Thursday, September 17th, 2026 https://isc.sans.edu/podcastdetail/10098,
     (Thu, Sep 17th)
@@ -582,31 +722,12 @@ items:
   published: Thu, 17 Sep 2026 02:00:03 GMT
   summary: ''
   source: SANS Internet Storm Center
-- title: 'ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops +
-    23 More Stories'
-  link: https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html
-  published: Thu, 10 Sep 2026 23:17:38 +0530
-  summary: 'A lot of this week’s security news has the same awkward answer to one
-    question: “Why was that allowed to work?” An extension asks for access and takes
-    too much. A trusted service becomes part of a phishing chain. An old bug still
-    gets results. An exposed system stays exposed. A package looks useful right up
-    until it isn’t. Different stories, same basic problem: the path in was often already'
-  source: The Hacker News
 - title: Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data
   link: https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data
   published: Thu, 10 Sep 2026 20:36:03 GMT
   summary: Threat actors are leveraging Microsoft's Graph API to identify lucrative
     targets, then passing their access to extortion groups like ShinyHunters.
   source: Dark Reading
-- title: Google Play Early Access Abused to Push Thousands of Deceptive Android Apps
-  link: https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html
-  published: Thu, 10 Sep 2026 20:06:47 +0530
-  summary: Bad actors are misusing Google Play's Early Access program to push deceptive
-    apps that claim to offer money, rewards, casino winnings, and premium content.
-    Early Access apps are apps that haven't been released on the official Android
-    app marketplace. The main idea behind the program is for developers to solicit
-    user feedback for new applications or features they may be working on before their
-  source: The Hacker News
 - title: We've got one word for it, and it's usually the wrong one
   link: https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/
   published: Thu, 10 Sep 2026 18:00:15 GMT
@@ -614,75 +735,12 @@ items:
     often fails to capture the true toll of working in the cybersecurity industry
     and why we need better language to address it.
   source: Cisco Talos
-- title: Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated
-    RCE
-  link: https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html
-  published: Thu, 10 Sep 2026 17:15:05 +0530
-  summary: Check Point has patched two critical vulnerabilities in the way its firewall
-    and management products handle VPN certificates. The company says both could allow
-    an unauthenticated remote attacker to run code, but only "under specific conditions"
-    that it has not described. One flaw affects Check Point's Security Gateways, its
-    firewall appliances. The other affects those gateways and the Security
-  source: The Hacker News
-- title: PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances
-  link: https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html
-  published: Thu, 10 Sep 2026 17:11:53 +0530
-  summary: A suspected Russian-speaking cyber actor has been attributed to the use
-    of artificial intelligence (AI) to devise exploits targeting a recently disclosed
-    pair of security flaws in PaperCut NG/MF and break into hundreds of instances.
-    According to independent reports from Blackpoint Cyber and GreyNoise, the activity
-    originates from "45.142.193[.]132," an IP address that has been linked to
-  source: The Hacker News
-- title: Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks
-  link: https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html
-  published: Thu, 10 Sep 2026 17:03:43 +0530
-  summary: The Gigabud banking trojan now installs a second Android app that creates
-    a work profile on an infected phone and drops a tampered banking app inside it,
-    security firm Group-IB said in a report published on September 9. A work profile
-    is a separate space that Android typically reserves for employer apps, and what's
-    inside it is kept separate from everything in the personal space. That
-  source: The Hacker News
-- title: CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal
-    Patch Deadline
-  link: https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html
-  published: Thu, 10 Sep 2026 16:06:46 +0530
-  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
-    added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited
-    Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB)
-    agencies to apply the patches by September 12, 2026. The vulnerabilities are listed
-    below - CVE-2026-20079 (CVSS score: 10.0) - An authentication'
-  source: The Hacker News
 - title: Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit
   link: https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit
   published: Thu, 10 Sep 2026 15:29:12 GMT
   summary: The disgruntled researcher continued their vendetta against Microsoft by
     publishing yet another zero-day exploit for Windows Defender.
   source: Dark Reading
-- title: Redtail Payload Analysis [Guest Diary], (Wed, Sep 9th)
-  link: https://isc.sans.edu/diary/rss/33326
-  published: Thu, 10 Sep 2026 12:58:10 GMT
-  summary: "[This is a Guest Diary by Aaron Ng, an ISC intern as part of the SANS.edu\
-    \ BACS program]\r"
-  source: SANS Internet Storm Center
-- title: Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example "sk-1234" Admin
-    Key
-  link: https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html
-  published: Thu, 10 Sep 2026 12:42:55 +0530
-  summary: Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned
-    in February accepted sk-1234, the example admin key in LiteLLM's own setup guide.
-    LiteLLM is an open-source AI gateway, the software a company puts between its
-    applications and the model providers it pays for. That key is the gateway's administrator
-    credential. Anyone who holds it can read every
-  source: The Hacker News
-- title: Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6
-  link: https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html
-  published: Thu, 10 Sep 2026 12:34:01 +0530
-  summary: Anthropic on Wednesday disclosed a fourth incident in which its artificial
-    intelligence (AI) model broke into real third-party systems, marking the latest
-    in a growing list of cases that have raised concerns about the security risks
-    posed by autonomous AI agents. The AI company said the incident dates back to
-    January 2026 and involved an early version of Claude Opus 4.6 that breached "
-  source: The Hacker News
 - title: EU Cyber Resilience Act to Enforce New Reporting Requirements
   link: https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements
   published: Thu, 10 Sep 2026 07:00:00 GMT
@@ -757,45 +815,3 @@ items:
     reports of active exploitation in the wild. Details of the vulnerabilities are
     as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization'
   source: The Hacker News
-- title: 'When the Whole Company Adopts AI: What It Does to Your SOC'
-  link: https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html
-  published: Sat, 12 Sep 2026 15:54:44 +0530
-  summary: 'Over the past year, we watched a new class of alert appear in enterprise
-    security operations centers and grow faster than anything else in the stream:
-    alerts that were triggered by AI tools and agents. Not attacks against AI, but
-    the ordinary, everyday footprint of an organization using it, from developers
-    running coding agents and non-technical staff signing consumer AI tools into corporate'
-  source: The Hacker News
-- title: OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
-  link: https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html
-  published: Sat, 12 Sep 2026 14:37:56 +0530
-  summary: The "major malicious attack" that targeted RubyGems in May 2026 was the
-    work of a swarm of OpenAI agents, according to a new report published by researchers
-    Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld,
-    senior product manager for software supply chain security at Mend.io, disclosed
-    details of a coordinated cyber attack that targeted the package manager for the
-  source: The Hacker News
-- title: Anthropic Users Hit by Infostealer Attacks, Session Thefts
-  link: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts
-  published: Mon, 31 Aug 2026 21:08:46 GMT
-  summary: A threat actor used a variety of infostealers to collect session information
-    and access Claude accounts belonging to an unknown number of users.
-  source: Dark Reading
-- title: '''TerminalFix'' Campaign Weaponizes PowerShell for Enterprise Attacks'
-  link: https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks
-  published: Mon, 31 Aug 2026 20:25:36 GMT
-  summary: The ClickFix-style campaign features a sophisticated, multistage attack
-    chain that includes reverse tunnels into victim organizations' networks.
-  source: Dark Reading
-- title: 'The Guardrails Debate: Security Researcher Changes His Mind'
-  link: https://www.darkreading.com/cyber-risk/the-guardrails-debate-security-researcher-changes-his-mind
-  published: Mon, 31 Aug 2026 20:09:24 GMT
-  summary: While guardrails are critical, as evidenced by recent high-profile incidents,
-    defenders need help staying ahead of attackers who do not play by the rules.
-  source: Dark Reading
-- title: AI Model Rules Are Not Security Controls
-  link: https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control
-  published: Mon, 31 Aug 2026 17:34:26 GMT
-  summary: OpenAI's Hugging Face attack postmortem shows agents don't care about rules
-    — they need strong controls.
-  source: Dark Reading
