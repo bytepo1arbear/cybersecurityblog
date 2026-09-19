@@ -1,4 +1,4 @@
-last_updated: '2026-09-18T06:58:57Z'
+last_updated: '2026-09-19T06:57:34Z'
 count: 100
 items:
 - title: 'Choose your fighter: Balancing competing requirements to select models for
@@ -469,31 +469,6 @@ items:
   summary: CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager
     that enables bad actors to gain admin-level access on affected systems.
   source: Dark Reading
-- title: Stronger Security Drives Ransomware Groups to Recruit From Within
-  link: https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within
-  published: Tue, 01 Sep 2026 21:03:19 GMT
-  summary: Some security researchers have observed an uptick in insider-assisted ransomware
-    attacks, but malicious insiders pose other threats that cost companies millions.
-  source: Dark Reading
-- title: Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise
-  link: https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise
-  published: Tue, 01 Sep 2026 20:48:52 GMT
-  summary: The attacks targeting CVE-2026-0768 are the latest threat against the low-code
-    AI development platform, which is receiving more attention from adversaries this
-    year.
-  source: Dark Reading
-- title: AI Model Evaluator METR Hit by Credential Theft, Probing
-  link: https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing
-  published: Tue, 01 Sep 2026 20:13:09 GMT
-  summary: In one attack, threat actors stole an API key that ultimately led to the
-    consumption of $600,000 in public AI model credits for the security nonprofit.
-  source: Dark Reading
-- title: ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain
-  link: https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain
-  published: Tue, 01 Sep 2026 13:56:42 GMT
-  summary: The campaign uses EtherHiding to dynamically update its command-and-control
-    server, abusing the blockchain as an attacker-controlled address book.
-  source: Dark Reading
 - title: Read This Before You Buy That TV Streaming Stick
   link: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
   published: Thu, 30 Jul 2026 16:49:00 +0000
@@ -795,23 +770,56 @@ items:
   summary: Brazil's most sophisticated threat group is making light work of the country's
     financial systems, putting money directly into its own pocket.
   source: Dark Reading
-- title: Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate
-    Data
-  link: https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html
-  published: Sun, 13 Sep 2026 15:41:48 +0530
-  summary: Microsoft has disclosed details of two campaigns in which threat actors
-    are abusing third-party email delivery infrastructure to blast financial fraud
-    scam messages and using passkey-themed social engineering to breach cloud environments.
-    The first campaign, per the tech giant, involved sending over a million scam emails
-    between August 3 and 5, 2026, by masquerading as chief executive officers
+- title: 'HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)'
+  link: https://isc.sans.edu/diary/rss/33352
+  published: Sat, 19 Sep 2026 04:51:46 GMT
+  summary: "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method:\
+    \ \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's\
+    \ the first new standard HTTP verb since \"PATCH\" in 2010!\r"
+  source: SANS Internet Storm Center
+- title: New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing
+  link: https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html
+  published: Mon, 14 Sep 2026 23:32:13 +0530
+  summary: Researchers have disclosed a new hardware attack, called DDRop, that breaks
+    the memory protection in Intel and AMD confidential computing by silently dropping
+    writes to a server's memory, so the processor keeps reading old encrypted data
+    as if it were current. The attack requires an attacker who already controls the
+    server's software and can briefly access the machine to insert a small circuit
   source: The Hacker News
-- title: CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws
-    to KEV
-  link: https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
-  published: Sat, 12 Sep 2026 21:24:45 +0530
-  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
-    five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and
-    MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following
-    reports of active exploitation in the wild. Details of the vulnerabilities are
-    as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization'
+- title: 3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber
+    Credentials
+  link: https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html
+  published: Mon, 14 Sep 2026 23:31:49 +0530
+  summary: An attacker was operating inside the network of 3BB, one of Thailand's
+    largest broadband providers, and maintained remote control of internal machines
+    using a legitimate management tool called MeshCentral, threat intelligence firm
+    Hunt.io said. The company uncovered the intrusion by examining a server the attacker
+    had left open on the internet, which held the attacker's own tools and a list
+    of
   source: The Hacker News
+- title: Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML
+    Exports
+  link: https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html
+  published: Mon, 14 Sep 2026 23:28:16 +0530
+  summary: A flaw in Telegram Desktop let a bot's message plant hidden JavaScript
+    inside chats that users exported to HTML files, security researchers at ExPatch
+    said in a writeup published on September 12. In Telegram, the message looked ordinary,
+    with a link button, and the script ran only when someone opened the export file
+    in a web browser. It could then copy every message in that file to
+  source: The Hacker News
+- title: Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries
+  link: https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html
+  published: Mon, 14 Sep 2026 22:26:30 +0530
+  summary: A suspected Chinese threat actor tracked as Red Heron has been attributed
+    to the rapid exploitation of a recently disclosed security vulnerability in Gitea
+    to compromise internet-facing instances as part of a multi-national campaign.
+    "Red Heron scanned 1,386 Gitea instances across seven countries and maintained
+    a separate dataset of 477 Taiwan-based systems," Acronis Threat Research Unit
+    (TRU)
+  source: The Hacker News
+- title: '''Sandworm'' Chains Cisco Vulnerabilities to Deploy Cyclops Blink'
+  link: https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink
+  published: Mon, 14 Sep 2026 21:37:28 GMT
+  summary: The notorious Russian threat group is spreading an upgraded version of
+    the botnet malware, which the FBI disrupted in 2022.
+  source: Dark Reading
