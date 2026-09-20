@@ -21,14 +21,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-
-      - name: Install Jekyll and plugins
-        run: |
-          gem install jekyll jekyll-feed
+          bundler-cache: true
 
       - name: Build Jekyll site
         run: |
-          jekyll build --destination _site
+          bundle exec jekyll build --destination _site
 
       - name: Show `_site` build output (debug)
         run: |
