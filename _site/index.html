@@ -2,242 +2,494 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
-  <title>Home | Cybersecurity Blog</title>
-  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  <!-- Favicon (optional - add your own) -->
-  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
-</head>
-<body>
-  <!-- SITE TITLE -->
-  <header class="site-header">
-    <h1>Cybersecurity Blog</h1>
-  </header>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+<title>Home | Cyber Security Portfolio</title>
 
-  <!-- NAVIGATION BAR -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
-        ☰
-      </button>
-      <ul class="nav-list">
-        <li><a href="/cybersecurityblog/" class="active">Home</a></li>
-        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
-        <li><a href="/cybersecurityblog/projects/" >Projects</a></li>
-        <li><a href="/cybersecurityblog/writeups/" >Writeups</a></li>
-        <li><a href="/cybersecurityblog/resources/" >Resources</a></li>
-        <li><a href="/cybersecurityblog/about/" >About Me</a></li>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          soc: {
+            bg: '#050A12',
+            card: '#0D1728',
+            accent: '#4FC3F7',
+            green: '#34D399',
+            line: '#1E2D42'
+          }
+        },
+        boxShadow: {
+          glow: '0 0 0 1px rgba(79, 195, 247, 0.22), 0 18px 38px rgba(59, 130, 246, 0.15)'
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at top, rgba(59, 130, 246, 0.12), transparent 28%),
+      linear-gradient(180deg, #050A12 0%, #0B1220 100%);
+    color: #E2E8F0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+  }
+
+  .soc-grid {
+    background-image:
+      linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .panel-glow {
+    box-shadow: 0 0 0 1px rgba(79, 195, 247, 0.14), 0 22px 40px rgba(2, 6, 23, 0.7);
+  }
+
+  .status-dot {
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.18);
+  }
+
+  .threat-item-card {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.9));
+    border: 1px solid rgba(79, 195, 247, 0.18);
+    box-shadow: 0 14px 36px rgba(14, 116, 144, 0.18);
+  }
+
+  .threat-source-pill {
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 0.64rem;
+  }
+</style>
+
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-soc-bg text-slate-100 antialiased soc-grid">
+  <div class="min-h-screen">
+    <header class="sticky top-0 z-40 border-b border-slate-800/80 bg-soc-bg/80 backdrop-blur-sm">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-3">
+          <span class="status-dot inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+          <span class="text-[10px] font-semibold uppercase tracking-[0.24em] text-emerald-400">Status: Active</span>
+        </div>
+
+        <div class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
+          <span class="font-semibold text-white">Jack Diamond</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-sky-300">SOC L1 Analyst / Junior Detection Analyst</span>
+        </div>
+
+        <nav class="flex items-center gap-3 text-xs font-medium text-slate-300 sm:text-sm">
+          <a href="/cybersecurityblog/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Home</a>
+          <a href="/cybersecurityblog/threat-intel/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Threat Intel</a>
+          <a href="/cybersecurityblog/projects/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Projects</a>
+          <a href="/cybersecurityblog/writeups/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Writeups</a>
+          <div class="group relative">
+            <a href="/cybersecurityblog/about/" class="flex items-center rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">About Me</a>
+            <div class="absolute right-0 top-full mt-2 hidden w-40 rounded-xl border border-slate-700 bg-slate-950/95 p-2 shadow-2xl group-hover:block">
+              <a href="https://github.com/bytepo1arbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">GitHub</a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">LinkedIn</a>
+              <a href="https://www.credly.com/users/jackthepolarbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">Credly</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
+      <section class="mb-8 rounded-2xl border border-slate-800 bg-slate-950/90 p-5 shadow-glow sm:p-7 lg:p-8">
+  <div class="mx-auto max-w-6xl">
+    <div class="flex min-h-[280px] flex-col justify-between gap-6">
+      <div class="mx-auto max-w-3xl text-center">
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-sky-300">
+          <span class="h-2 w-2 rounded-full bg-emerald-400 status-dot"></span>
+          Active Monitoring
+        </div>
+        <h1 class="text-4xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">Jack Diamond</h1>
+        <p class="mt-3 text-lg font-medium text-sky-300">SOC L1 Analyst / Junior Detection Analyst</p>
+      </div>
+
+      <div class="mx-auto w-full max-w-4xl rounded-2xl border border-sky-500/20 bg-gradient-to-r from-slate-900/80 via-slate-900/75 to-slate-900/80 p-5 text-center shadow-inner shadow-sky-950/30">
+        <p class="text-base leading-7 text-slate-200">
+          I support a modern SOC by triaging alerts, validating telemetry, investigating suspicious behavior, and helping turn noisy signals into actionable security outcomes.
+          My focus is on SIEM workflows, log analysis, detection engineering, and hands-on lab validation for real-world cyber defense practices.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-end gap-3 text-sm text-slate-300">
+        <a href="https://github.com/bytepo1arbear" target="_blank" rel="noopener" class="rounded-full border border-slate-700 bg-slate-900/80 px-3 py-2 transition hover:border-sky-400 hover:text-sky-300">GitHub</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="rounded-full border border-slate-700 bg-slate-900/80 px-3 py-2 transition hover:border-sky-400 hover:text-sky-300">LinkedIn</a>
+        <a href="https://www.credly.com/users/jackthepolarbear" target="_blank" rel="noopener" class="rounded-full border border-slate-700 bg-slate-900/80 px-3 py-2 transition hover:border-sky-400 hover:text-sky-300">Credly</a>
+        <a href="/cybersecurityblog/about/" class="rounded-full border border-slate-700 bg-slate-900/80 px-3 py-2 transition hover:border-sky-400 hover:text-sky-300">About Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mb-8 grid gap-5 lg:grid-cols-[1.55fr_0.95fr] lg:items-start">
+  <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 panel-glow">
+    <div class="mb-4 flex items-center justify-between">
+      <h2 class="text-xl font-semibold text-white">Case Files</h2>
+      <span class="rounded-full border border-slate-700 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-400">Top Findings</span>
+    </div>
+
+    
+    <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      
+        
+
+        
+        
+
+        <article class="rounded-xl border border-slate-800 bg-slate-950/70 p-4 transition hover:-translate-y-1 hover:border-sky-500/40">
+          <div class="mb-4 flex items-center justify-between gap-3">
+            <span class="inline-flex rounded-full border px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] bg-sky-500/10 text-sky-300 border-sky-500/30">Easy</span>
+            <span class="text-[10px] uppercase tracking-[0.2em] text-slate-500">Apr 02, 2025</span>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">HackTheBox: Legacy</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-400">An older Windows-based HTB challenge covering SMB exploitation basics, version-to-vulnerability mapping, and a straig...</p>
+
+          <div class="mt-4 flex flex-wrap gap-2">
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Hackthebox]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Windows]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Smb]</span>
+            
+          </div>
+
+          <a href="/cybersecurityblog/writeups/htb-legacy/" class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-sky-300 transition hover:text-sky-200">Open case file <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      
+        
+
+        
+        
+
+        <article class="rounded-xl border border-slate-800 bg-slate-950/70 p-4 transition hover:-translate-y-1 hover:border-sky-500/40">
+          <div class="mb-4 flex items-center justify-between gap-3">
+            <span class="inline-flex rounded-full border px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] bg-emerald-500/10 text-emerald-300 border-emerald-500/30">Beginner</span>
+            <span class="text-[10px] uppercase tracking-[0.2em] text-slate-500">Mar 16, 2025</span>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">TryHackMe: Linux Fundamentals</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-400">A refresher on Linux fundamentals, permissions, filesystem structure, and the operational basics needed to investigat...</p>
+
+          <div class="mt-4 flex flex-wrap gap-2">
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Tryhackme]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Linux]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Privilege-escalation]</span>
+            
+          </div>
+
+          <a href="/cybersecurityblog/writeups/thm-linux-fundamentals/" class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-sky-300 transition hover:text-sky-200">Open case file <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      
+        
+
+        
+        
+
+        <article class="rounded-xl border border-slate-800 bg-slate-950/70 p-4 transition hover:-translate-y-1 hover:border-sky-500/40">
+          <div class="mb-4 flex items-center justify-between gap-3">
+            <span class="inline-flex rounded-full border px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] bg-sky-500/10 text-sky-300 border-sky-500/30">Easy</span>
+            <span class="text-[10px] uppercase tracking-[0.2em] text-slate-500">Mar 04, 2025</span>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">HackTheBox: Knife</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-400">A compact Linux web challenge focused on identifying a hidden path, testing command execution, and leveraging a simpl...</p>
+
+          <div class="mt-4 flex flex-wrap gap-2">
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Hackthebox]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Web-app]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Linux]</span>
+            
+          </div>
+
+          <a href="/cybersecurityblog/writeups/htb-knife/" class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-sky-300 transition hover:text-sky-200">Open case file <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      
+        
+
+        
+        
+
+        <article class="rounded-xl border border-slate-800 bg-slate-950/70 p-4 transition hover:-translate-y-1 hover:border-sky-500/40">
+          <div class="mb-4 flex items-center justify-between gap-3">
+            <span class="inline-flex rounded-full border px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] bg-sky-500/10 text-sky-300 border-sky-500/30">Easy</span>
+            <span class="text-[10px] uppercase tracking-[0.2em] text-slate-500">Feb 18, 2025</span>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">HackTheBox: Lame</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-400">A beginner-focused HackTheBox walkthrough covering SMB enumeration, service discovery, and privilege escalation throu...</p>
+
+          <div class="mt-4 flex flex-wrap gap-2">
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Hackthebox]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Linux]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Samba]</span>
+            
+          </div>
+
+          <a href="/cybersecurityblog/writeups/htb-lame/" class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-sky-300 transition hover:text-sky-200">Open case file <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      
+        
+
+        
+        
+
+        <article class="rounded-xl border border-slate-800 bg-slate-950/70 p-4 transition hover:-translate-y-1 hover:border-sky-500/40">
+          <div class="mb-4 flex items-center justify-between gap-3">
+            <span class="inline-flex rounded-full border px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] bg-sky-500/10 text-sky-300 border-sky-500/30">Intermediate</span>
+            <span class="text-[10px] uppercase tracking-[0.2em] text-slate-500">Feb 08, 2025</span>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">TryHackMe: Network Services</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-400">A practical walkthrough of common network services, enumeration patterns, and how service exposure can become a secur...</p>
+
+          <div class="mt-4 flex flex-wrap gap-2">
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Tryhackme]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Networking]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Services]</span>
+            
+          </div>
+
+          <a href="/cybersecurityblog/writeups/thm-network-services/" class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-sky-300 transition hover:text-sky-200">Open case file <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      
+        
+
+        
+        
+
+        <article class="rounded-xl border border-slate-800 bg-slate-950/70 p-4 transition hover:-translate-y-1 hover:border-sky-500/40">
+          <div class="mb-4 flex items-center justify-between gap-3">
+            <span class="inline-flex rounded-full border px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] bg-emerald-500/10 text-emerald-300 border-emerald-500/30">Beginner</span>
+            <span class="text-[10px] uppercase tracking-[0.2em] text-slate-500">Jan 12, 2025</span>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">TryHackMe: Intro to Cyber Security</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-400">A beginner-friendly review of core security concepts, threat awareness, and the roles and tools used across modern se...</p>
+
+          <div class="mt-4 flex flex-wrap gap-2">
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Tryhackme]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Cybersecurity]</span>
+            
+              
+              
+              <span class="rounded-md border border-slate-700 bg-slate-900 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-sky-200">[Fundamentals]</span>
+            
+          </div>
+
+          <a href="/cybersecurityblog/writeups/thm-intro-to-cyber-security/" class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-sky-300 transition hover:text-sky-200">Open case file <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      
+    </div>
+  </div>
+
+  <div class="space-y-5">
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 panel-glow">
+      <h2 class="text-xl font-semibold text-white">Operational Snapshot</h2>
+      <div class="mt-4 space-y-3">
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-3.5">
+          <div class="flex items-center justify-between text-sm text-slate-400">
+            <span>Threat triage</span>
+            <span class="text-emerald-300">92%</span>
+          </div>
+          <div class="mt-2.5 h-2.5 rounded-full bg-slate-800">
+            <div class="h-2.5 w-[92%] rounded-full bg-emerald-400"></div>
+          </div>
+        </div>
+
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-3.5">
+          <div class="flex items-center justify-between text-sm text-slate-400">
+            <span>Log coverage</span>
+            <span class="text-sky-300">84%</span>
+          </div>
+          <div class="mt-2.5 h-2.5 rounded-full bg-slate-800">
+            <div class="h-2.5 w-[84%] rounded-full bg-sky-400"></div>
+          </div>
+        </div>
+
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-3.5">
+          <div class="flex items-center justify-between text-sm text-slate-400">
+            <span>Detection tuning</span>
+            <span class="text-violet-300">76%</span>
+          </div>
+          <div class="mt-2.5 h-2.5 rounded-full bg-slate-800">
+            <div class="h-2.5 w-[76%] rounded-full bg-violet-400"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 panel-glow">
+      <h2 class="text-xl font-semibold text-white">Certifications</h2>
+      <div class="mt-4 space-y-3">
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="font-medium text-white">CompTIA Security+</span>
+            <span class="text-emerald-300">Completed</span>
+          </div>
+        </div>
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="font-medium text-white">CompTIA Network+</span>
+            <span class="text-sky-300">Completed</span>
+          </div>
+        </div>
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="font-medium text-white">THM SEC1 Certification</span>
+            <span class="text-violet-300">Completed</span>
+          </div>
+        </div>
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="font-medium text-white">SAL1 Certification (SOC L1)</span>
+            <span class="text-amber-300">In Progress</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 pb-10 panel-glow">
+      <h2 class="text-xl font-semibold text-white">Core Areas</h2>
+      <ul class="mt-4 space-y-2 text-sm text-slate-300">
+        <li>• SIEM and log validation</li>
+        <li>• Network traffic analysis</li>
+        <li>• Detection engineering</li>
+        <li>• Offensive and defensive testing</li>
       </ul>
     </div>
-  </nav>
-
-  <!-- MAIN CONTENT -->
-  <main class="content">
-    <section class="hero">
-  <div class="container">
-    <h1>My Cybersecurity Learning Journey</h1>
-    <p>Sharing my experiences, lessons learned, and resources along the way.</p>
   </div>
 </section>
 
-<section class="latest-posts">
-  <div class="container">
-    <h2>Latest Blog Post</h2>
-    
-    <article class="featured-post">
-      <div class="featured-post-header">
-        <span class="post-date">November 16, 2025</span>
-        
-      </div>
-      <h3>Understanding OSINT: Gathering Intelligence from Public Sources</h3>
-      <div class="post-excerpt">
-        Understanding OSINT: Gathering Intelligence from Public Sources Open Source Intelligence (OSINT) refers to the collection and analysis of publicly available information. It plays an important role in cybersecurity, threat intelligence, and digital investigations. With OSINT techniques, analysts can uncover valuable data about individuals, systems, or organizations without accessing private or restricted resources. What is OSINT? OSINT involves gathering data from...
-      </div>
-      
-      <div class="post-tags">
-        
-        <span class="tag">open source intelligence</span>
-        
-        <span class="tag">recon</span>
-        
-        <span class="tag">investigation</span>
-        
-        <span class="tag">cybersecurity</span>
-        
-      </div>
-      
-      <a href="/cybersecurityblog/2025/11/16/understanding-osint/" class="btn-read-more">Read Full Post →</a>
-    </article>
-    
-    <div class="section-footer">
-      <a href="/cybersecurityblog/blog/" class="btn">View All Blog Posts</a>
+<section class="mb-8 rounded-2xl border border-slate-800 bg-slate-900/80 p-5 text-center panel-glow">
+  <div class="mb-4 flex flex-col items-center justify-center gap-3 sm:flex-row sm:justify-between sm:text-left">
+    <div class="mx-auto sm:mx-0">
+      <p class="text-xs uppercase tracking-[0.22em] text-sky-300">Project Spotlight</p>
+      <h2 class="mt-2 text-2xl font-semibold text-white">Cyber Security Home Lab</h2>
     </div>
+    <a href="/cybersecurityblog/projects/" class="inline-flex items-center justify-center rounded-full border border-sky-500/30 bg-sky-500/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-sky-200 transition hover:border-sky-400 hover:text-sky-100">View Projects</a>
+  </div>
+
+  <p class="mx-auto max-w-2xl text-slate-300">
+    My primary lab environment is built for detection engineering, blue-team validation, and offensive tooling evaluation. It runs on Proxmox and includes Wazuh, Caldera, TheHive, Kali Linux, DVWA, BWAPP, Nessus, and other security-focused workloads.
+  </p>
+
+  <div class="mt-5 flex flex-wrap justify-center gap-2">
+    <span class="rounded-full border border-slate-700 bg-slate-950 px-2 py-1 text-[10px] uppercase tracking-[0.14em] text-sky-200">Proxmox</span>
+    <span class="rounded-full border border-slate-700 bg-slate-950 px-2 py-1 text-[10px] uppercase tracking-[0.14em] text-sky-200">Wazuh</span>
+    <span class="rounded-full border border-slate-700 bg-slate-950 px-2 py-1 text-[10px] uppercase tracking-[0.14em] text-sky-200">Caldera</span>
+    <span class="rounded-full border border-slate-700 bg-slate-950 px-2 py-1 text-[10px] uppercase tracking-[0.14em] text-sky-200">Kali</span>
+    <span class="rounded-full border border-slate-700 bg-slate-950 px-2 py-1 text-[10px] uppercase tracking-[0.14em] text-sky-200">TheHive</span>
   </div>
 </section>
 
-<section class="projects">
-  <div class="container">
-    <h2>Latest Projects</h2>
-    <div class="project-grid">
-      
-      <article class="project-preview">
-        <div class="card-header">
-          <span class="post-date">June 2024</span>
-        </div>
-        <h3>Homelab Setup</h3>
-        <p>Notes and configuration for my homelab: Proxmox, networking, and storage design.</p>
-        <a href="/cybersecurityblog/projects/homelab-setup/" class="btn-read-more">View Project →</a>
-      </article>
-      
-      <article class="project-preview">
-        <div class="card-header">
-          <span class="post-date">November 2025</span>
-        </div>
-        <h3>Projects</h3>
-        <p>Projects
-</p>
-        <a href="/cybersecurityblog/projects/" class="btn-read-more">View Project →</a>
-      </article>
-      
-      <article class="project-preview">
-        <div class="card-header">
-          <span class="post-date">August 2024</span>
-        </div>
-        <h3>Network Monitoring</h3>
-        <p>Setting up monitoring for home and lab networks with Prometheus, Grafana, and packet captures.</p>
-        <a href="/cybersecurityblog/projects/network-monitoring/" class="btn-read-more">View Project →</a>
-      </article>
-      
-    </div>
-    <div class="section-footer">
-      <a href="/cybersecurityblog/projects/" class="btn">View All Projects</a>
-    </div>
+<section class="mb-8 grid gap-5 lg:grid-cols-4">
+  <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 panel-glow">
+    <p class="text-xs uppercase tracking-[0.22em] text-sky-300">SIEM &amp; Logs</p>
+    <ul class="mt-4 space-y-3 text-sm text-slate-300">
+      <li>Splunk / SIEM triage</li>
+      <li>Windows event logs</li>
+      <li>Sysmon telemetry</li>
+      <li>PowerShell hunting</li>
+    </ul>
+  </div>
+
+  <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 panel-glow">
+    <p class="text-xs uppercase tracking-[0.22em] text-sky-300">Network Analysis</p>
+    <ul class="mt-4 space-y-3 text-sm text-slate-300">
+      <li>Wireshark packet review</li>
+      <li>Protocol analysis</li>
+      <li>DNS / HTTP anomalies</li>
+      <li>Traffic baselining</li>
+    </ul>
+  </div>
+
+  <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 panel-glow">
+    <p class="text-xs uppercase tracking-[0.22em] text-sky-300">Scripting</p>
+    <ul class="mt-4 space-y-3 text-sm text-slate-300">
+      <li>Python automation</li>
+      <li>Bash / PowerShell</li>
+      <li>Log parsing</li>
+      <li>Detection validation</li>
+    </ul>
+  </div>
+
+  <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 panel-glow">
+    <p class="text-xs uppercase tracking-[0.22em] text-sky-300">Threat Intel</p>
+    <ul class="mt-4 space-y-3 text-sm text-slate-300">
+      <li>MITRE ATT&amp;CK mapping</li>
+      <li>IOC enrichment</li>
+      <li>Adversary tradecraft</li>
+      <li>Risk prioritization</li>
+    </ul>
   </div>
 </section>
 
-<section class="writeups">
-  <div class="container">
-    <h2>Latest Writeup</h2>
-    <div class="writeup-grid">
-      
-      <article class="writeup-preview featured">
-        <div class="card-header">
-          <span class="post-date">November 22, 2024</span>
-          
-          <span class="difficulty difficulty-easy">Easy</span>
-          
-        </div>
-        <h3>TryHackMe: Basic Pentesting Walkthrough</h3>
-        <p>TryHackMe: Basic Pentesting Walkthrough
-</p>
-        
-        <div class="post-tags">
-          
-          <span class="tag">TryHackMe</span>
-          
-          <span class="tag">Linux</span>
-          
-          <span class="tag">Web</span>
-          
-          <span class="tag">Privilege Escalation</span>
-          
-        </div>
-        
-        <a href="/cybersecurityblog/writeups/basic-pentesting/" class="btn-read-more">Read Writeup →</a>
-      </article>
-      
-      <article class="writeup-preview featured">
-        <div class="card-header">
-          <span class="post-date">October 01, 2025</span>
-          
-          <span class="difficulty difficulty-medium">Medium</span>
-          
-        </div>
-        <h3>HackTheBox: Lame Walkthrough</h3>
-        <p>A step-by-step walkthrough for the 'Lame' box on HackTheBox focusing on enumeration and privilege escalation.</p>
-        
-        <div class="post-tags">
-          
-          <span class="tag">htb</span>
-          
-          <span class="tag">linux</span>
-          
-          <span class="tag">priv-esc</span>
-          
-        </div>
-        
-        <a href="/cybersecurityblog/writeups/hackthebox-lame/" class="btn-read-more">Read Writeup →</a>
-      </article>
-      
-      <article class="writeup-preview featured">
-        <div class="card-header">
-          <span class="post-date">November 24, 2025</span>
-          
-        </div>
-        <h3>Writeups</h3>
-        <p>Writeups
-</p>
-        
-        <div class="post-tags">
-          
-        </div>
-        
-        <a href="/cybersecurityblog/writeups/" class="btn-read-more">Read Writeup →</a>
-      </article>
-      
-    </div>
-    <div class="section-footer">
-      <a href="/cybersecurityblog/writeups/" class="btn">View All Writeups</a>
-    </div>
+    </main>
   </div>
-</section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Cybersecurity Blog. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <!-- SCRIPTS -->
-  <script>
-    // Close mobile menu when clicking outside
-    document.addEventListener('click', function(e) {
-      const nav = document.querySelector('.nav-container');
-      const button = document.querySelector('.hamburger');
-      if (!nav.contains(e.target) && !button.contains(e.target)) {
-        document.body.classList.remove('nav-open');
-      }
-    });
-
-    // Add scrolled class to navbar on scroll
-    let lastScroll = 0;
-    const navbar = document.getElementById('navbar');
-    
-    window.addEventListener('scroll', () => {
-      const currentScroll = window.pageYOffset;
-      
-      if (currentScroll > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-      
-      lastScroll = currentScroll;
-    });
-
-    // Close mobile menu when nav link is clicked
-    document.querySelectorAll('.nav-list a').forEach(link => {
-      link.addEventListener('click', () => {
-        document.body.classList.remove('nav-open');
-      });
-    });
-  </script>
 </body>
 </html>

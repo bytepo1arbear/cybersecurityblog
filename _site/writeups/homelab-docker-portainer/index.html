@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
-<title>Getting Started with Wireshark for Network Analysis | Cyber Security Portfolio</title>
+<title>Home Lab: Docker and Portainer Setup | Cyber Security Portfolio</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -107,39 +107,98 @@
     </header>
 
     <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
-      <head>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+      <article class="single-post">
+  <header class="single-post-header">
+    <h1>Home Lab: Docker and Portainer Setup</h1>
+    <div class="post-meta">
+      <span class="post-date">
+        <i class="far fa-calendar"></i>
+        April 18, 2025
+      </span>
+      
+      <span class="difficulty difficulty-intermediate">Intermediate</span>
+      
+      
+      <span class="platform-badge">
+        <i class="fas fa-desktop"></i>
+        Home Lab
+      </span>
+      
+    </div>
+    
+    <div class="post-tags">
+      
+      <span class="tag">homelab</span>
+      
+      <span class="tag">docker</span>
+      
+      <span class="tag">portainer</span>
+      
+      <span class="tag">self-hosting</span>
+      
+    </div>
+    
+  </header>
 
-<section class="blog-listing">
-  <h2>Blog Posts</h2>
+  <div class="single-post-content">
+    <h2 id="summary">Summary</h2>
 
-  
+<p>This project focused on implementing a containerized home lab environment with Portainer as the centralized management layer. The goal was to make deployments easier to monitor, scale, and maintain while improving repeatability.</p>
 
-  <ul>
-    
-      <li>
-        <a href="/2025/11/16/understanding-osint/">Understanding OSINT: Gathering Intelligence from Public Sources</a>
-        <p>November 16, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/28/reverse-engineering/">Reverse Engineering</a>
-        <p>October 28, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/27/wireshark-intro/">Getting Started with Wireshark for Network Analysis</a>
-        <p>October 27, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/09/20/intro-to-cyber/">Getting Started with Cybersecurity: My Journey Begins</a>
-        <p>September 20, 2025</p>
-      </li>
-    
-  </ul>
-</section>
+<h2 id="architecture">Architecture</h2>
+
+<ul>
+  <li>Proxmox host for core virtualization</li>
+  <li>Docker for application containerization</li>
+  <li>Portainer for management and oversight</li>
+  <li>Local network segmentation for isolation and service control</li>
+</ul>
+
+<h2 id="benefits">Benefits</h2>
+
+<ul>
+  <li>Centralized container oversight</li>
+  <li>Easier setup and rollback of services</li>
+  <li>Cleaner operational workflows for home lab applications</li>
+  <li>Better visibility into running stacks and dependencies</li>
+</ul>
+
+<h2 id="lessons-learned">Lessons Learned</h2>
+
+<p>Using Portainer reduced operational overhead and made it easier to manage service deployments, backups, and troubleshooting steps. It also reinforced how important consistent configuration and network planning are in a self-hosted environment.</p>
+
+<h2 id="future-improvements">Future Improvements</h2>
+
+<ul>
+  <li>Add backup automation</li>
+  <li>Split services by network and purpose</li>
+  <li>Standardize compose files for repeatable deployment</li>
+</ul>
+
+  </div>
+
+  <div class="single-post-footer">
+    <div class="post-navigation">
+      
+      <a href="/cybersecurityblog/writeups/htb-legacy/" class="post-nav-btn prev">
+        <i class="fas fa-arrow-left"></i>
+        <span>HackTheBox: Legacy</span>
+      </a>
+      
+      
+      <a href="/cybersecurityblog/writeups/" class="post-nav-btn next">
+        <span>Writeups</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+      
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/cybersecurityblog/writeups/" class="btn">
+        <i class="fas fa-arrow-left"></i> Back to All Writeups
+      </a>
+    </div>
+  </div>
+</article>
 
     </main>
   </div>

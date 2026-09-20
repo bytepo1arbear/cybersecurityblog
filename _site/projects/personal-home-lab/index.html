@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
-<title>Getting Started with Wireshark for Network Analysis | Cyber Security Portfolio</title>
+<title>Personal Home Lab | Cyber Security Portfolio</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -107,39 +107,121 @@
     </header>
 
     <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
-      <head>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+      <article class="single-post">
+  <header class="single-post-header">
+    <h1>Personal Home Lab</h1>
+    <div class="post-meta">
+      <span class="post-date">
+        <i class="far fa-calendar"></i>
+        September 2025
+      </span>
+      
+      <span class="project-status status-active">
+        Active
+      </span>
+      
+    </div>
+    
+    <div class="post-tags">
+      
+      <span class="tag">homelab</span>
+      
+      <span class="tag">docker</span>
+      
+      <span class="tag">networking</span>
+      
+      <span class="tag">self-hosting</span>
+      
+      <span class="tag">proxmox</span>
+      
+    </div>
+    
+  </header>
 
-<section class="blog-listing">
-  <h2>Blog Posts</h2>
+  <div class="single-post-content">
+    <h2 id="overview">Overview</h2>
 
-  
+<p>This environment is built for self-hosting and learning how to run applications securely and reliably at home. It focuses on containerization, network isolation, services management, and remote access workflows.</p>
 
-  <ul>
-    
-      <li>
-        <a href="/2025/11/16/understanding-osint/">Understanding OSINT: Gathering Intelligence from Public Sources</a>
-        <p>November 16, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/28/reverse-engineering/">Reverse Engineering</a>
-        <p>October 28, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/27/wireshark-intro/">Getting Started with Wireshark for Network Analysis</a>
-        <p>October 27, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/09/20/intro-to-cyber/">Getting Started with Cybersecurity: My Journey Begins</a>
-        <p>September 20, 2025</p>
-      </li>
-    
-  </ul>
-</section>
+<h2 id="technology-stack">Technology Stack</h2>
+
+<p>The lab runs on Proxmox and includes several self-hosted services and supporting tools.</p>
+
+<h3 id="core-services">Core Services</h3>
+<ul>
+  <li>Docker and Portainer for container orchestration</li>
+  <li>WireGuard for secure remote connectivity</li>
+  <li>Jellyfin for media streaming</li>
+  <li>TrueNAS for storage services and NAS functionality</li>
+  <li>Immich for photo backup and organization</li>
+  <li>Gluetun for VPN tunneling and traffic routing</li>
+  <li>Reverse proxy / networking layers for internal service access</li>
+</ul>
+
+<h2 id="design-goals">Design Goals</h2>
+
+<ul>
+  <li>Self-host important services in a controlled environment</li>
+  <li>Maintain privacy and ownership over personal data</li>
+  <li>Learn networking, Docker, storage, and VPN design</li>
+  <li>Build a home lab that is practical, resilient, and easy to maintain</li>
+</ul>
+
+<h2 id="operational-notes">Operational Notes</h2>
+
+<p>Each service is organized around a modular setup to reduce downtime risk and make troubleshooting easier. The environment is designed to be both useful for daily tasks and educational as a platform for hands-on system administration and automation work.</p>
+
+<h2 id="example-service-layout">Example Service Layout</h2>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Internet
+  |
+  v
+Router / Firewall
+  |
+  +---- Proxmox Host
+         |
+         +---- Docker / Portainer
+         |      - Jellyfin
+         |      - Immich
+         |      - Gluetun
+         |
+         +---- Storage / NAS
+         |      - TrueNAS
+         |
+         +---- VPN / Remote Access
+                - WireGuard
+</code></pre></div></div>
+
+<h2 id="what-this-project-demonstrates">What This Project Demonstrates</h2>
+
+<p>This project covers:</p>
+<ul>
+  <li>home lab design</li>
+  <li>containerized service management</li>
+  <li>secure networking and remote access</li>
+  <li>storage and media workflows</li>
+  <li>practical self-hosting operations</li>
+</ul>
+
+  </div>
+
+  <div class="single-post-footer">
+    <div class="post-navigation">
+      
+      <a href="/cybersecurityblog/projects/" class="post-nav-btn prev">
+        <i class="fas fa-arrow-left"></i>
+        <span>Projects</span>
+      </a>
+      
+      
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/cybersecurityblog/projects/" class="btn">
+        <i class="fas fa-arrow-left"></i> Back to All Projects
+      </a>
+    </div>
+  </div>
+</article>
 
     </main>
   </div>

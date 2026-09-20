@@ -2,116 +2,211 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
-  <title>Resources | Cybersecurity Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+<title>Resources | Cyber Security Portfolio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          soc: {
+            bg: '#050A12',
+            card: '#0D1728',
+            accent: '#4FC3F7',
+            green: '#34D399',
+            line: '#1E2D42'
+          }
+        },
+        boxShadow: {
+          glow: '0 0 0 1px rgba(79, 195, 247, 0.22), 0 18px 38px rgba(59, 130, 246, 0.15)'
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at top, rgba(59, 130, 246, 0.12), transparent 28%),
+      linear-gradient(180deg, #050A12 0%, #0B1220 100%);
+    color: #E2E8F0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+  }
+
+  .soc-grid {
+    background-image:
+      linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .panel-glow {
+    box-shadow: 0 0 0 1px rgba(79, 195, 247, 0.14), 0 22px 40px rgba(2, 6, 23, 0.7);
+  }
+
+  .status-dot {
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.18);
+  }
+
+  .threat-item-card {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.9));
+    border: 1px solid rgba(79, 195, 247, 0.18);
+    box-shadow: 0 14px 36px rgba(14, 116, 144, 0.18);
+  }
+
+  .threat-source-pill {
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 0.64rem;
+  }
+</style>
+
   <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  <!-- Favicon (optional - add your own) -->
-  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-  <!-- SITE TITLE -->
-  <header class="site-header">
-    <h1>Cybersecurity Blog</h1>
-  </header>
+<body class="bg-soc-bg text-slate-100 antialiased soc-grid">
+  <div class="min-h-screen">
+    <header class="sticky top-0 z-40 border-b border-slate-800/80 bg-soc-bg/80 backdrop-blur-sm">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-3">
+          <span class="status-dot inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+          <span class="text-[10px] font-semibold uppercase tracking-[0.24em] text-emerald-400">Status: Active</span>
+        </div>
 
-  <!-- NAVIGATION BAR -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
-        ☰
-      </button>
-      <ul class="nav-list">
-        <li><a href="/cybersecurityblog/" >Home</a></li>
-        <li><a href="/cybersecurityblog/blog/" >Blog</a></li>
-        <li><a href="/cybersecurityblog/projects/" >Projects</a></li>
-        <li><a href="/cybersecurityblog/writeups/" >Writeups</a></li>
-        <li><a href="/cybersecurityblog/resources/" class="active">Resources</a></li>
-        <li><a href="/cybersecurityblog/about/" >About Me</a></li>
-      </ul>
+        <div class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
+          <span class="font-semibold text-white">Jack Diamond</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-sky-300">SOC L1 Analyst / Junior Detection Analyst</span>
+        </div>
+
+        <nav class="flex items-center gap-3 text-xs font-medium text-slate-300 sm:text-sm">
+          <a href="/cybersecurityblog/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Home</a>
+          <a href="/cybersecurityblog/threat-intel/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Threat Intel</a>
+          <a href="/cybersecurityblog/projects/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Projects</a>
+          <a href="/cybersecurityblog/writeups/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Writeups</a>
+          <div class="group relative">
+            <a href="/cybersecurityblog/about/" class="flex items-center rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">About Me</a>
+            <div class="absolute right-0 top-full mt-2 hidden w-40 rounded-xl border border-slate-700 bg-slate-950/95 p-2 shadow-2xl group-hover:block">
+              <a href="https://github.com/bytepo1arbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">GitHub</a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">LinkedIn</a>
+              <a href="https://www.credly.com/users/jackthepolarbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">Credly</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
+      <section class="page-hero">
+  <div class="container">
+    <h1>Resources</h1>
+    <p class="page-subtitle">Open-source tools, training, and intelligence feeds for both defense and offense.</p>
+  </div>
+</section>
+
+<div class="resources-grid">
+  <div class="resource-section">
+    <h2><i class="fas fa-tools"></i> Tools</h2>
+    <div class="resource-buttons">
+      <a href="https://nmap.org/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-network-wired"></i>
+        <span>Nmap</span>
+      </a>
+      <a href="https://www.wireshark.org/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-microscope"></i>
+        <span>Wireshark</span>
+      </a>
+      <a href="https://www.metasploit.com/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-bomb"></i>
+        <span>Metasploit</span>
+      </a>
+      <a href="https://portswigger.net/burp" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-spider"></i>
+        <span>Burp Suite</span>
+      </a>
+      <a href="https://www.kali.org/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fab fa-linux"></i>
+        <span>Kali Linux</span>
+      </a>
+      <a href="https://github.com/rapid7/metasploit-framework" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </a>
     </div>
-  </nav>
+  </div>
 
-  <!-- MAIN CONTENT -->
-  <main class="content">
-    <h1 id="resources">Resources</h1>
-
-<p>Curated resources for cybersecurity learning and homelab projects:</p>
-
-<h2 id="tools">Tools</h2>
-<div class="resource-category">
-<a class="resource-link" href="https://nmap.org/" target="_blank" rel="noopener"><i class="fas fa-network-wired"></i> Nmap</a>
-<p class="muted">Network scanning and enumeration</p>
-<a class="resource-link" href="https://www.wireshark.org/" target="_blank" rel="noopener"><i class="fas fa-microscope"></i> Wireshark</a>
-<p class="muted">Packet capture and analysis</p>
-<a class="resource-link" href="https://www.metasploit.com/" target="_blank" rel="noopener"><i class="fas fa-bomb"></i> Metasploit</a>
-<p class="muted">Penetration testing framework</p>
-</div>
-
-<h2 id="tutorials">Tutorials</h2>
-<div class="resource-category">
-<a class="resource-link" href="https://www.hackthebox.eu/" target="_blank" rel="noopener"><i class="fas fa-lock"></i> Hack The Box</a>
-<p class="muted">Labs for pentesting</p>
-<a class="resource-link" href="https://overthewire.org/wargames/" target="_blank" rel="noopener"><i class="fas fa-terminal"></i> OverTheWire</a>
-<p class="muted">Security wargames</p>
-<a class="resource-link" href="https://tryhackme.com/" target="_blank" rel="noopener"><i class="fas fa-chalkboard-teacher"></i> TryHackMe</a>
-<p class="muted">Guided cybersecurity exercises</p>
-</div>
-
-<h2 id="articles">Articles</h2>
-<div class="resource-category">
-<a class="resource-link" href="https://www.darkreading.com/" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> DarkReading</a>
-<p class="muted">Industry news</p>
-<a class="resource-link" href="https://jekyllrb.com/docs/" target="_blank" rel="noopener"><i class="fas fa-cog"></i> Jekyll Documentation</a>
-<p class="muted">Static site generation</p>
-</div>
-
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Cybersecurity Blog. All rights reserved.</p>
+  <div class="resource-section">
+    <h2><i class="fas fa-graduation-cap"></i> Tutorials</h2>
+    <div class="resource-buttons">
+      <a href="https://www.hackthebox.eu/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-cube"></i>
+        <span>Hack The Box</span>
+      </a>
+      <a href="https://overthewire.org/wargames/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-terminal"></i>
+        <span>OverTheWire</span>
+      </a>
+      <a href="https://tryhackme.com/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <span>TryHackMe</span>
+      </a>
+      <a href="https://www.vulnhub.com/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-server"></i>
+        <span>VulnHub</span>
+      </a>
+      <a href="https://picoctf.org/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-flag"></i>
+        <span>PicoCTF</span>
+      </a>
+      <a href="https://www.cybrary.it/" target="_blank" rel="noopener" class="resource-btn">
+        <i class="fas fa-book-reader"></i>
+        <span>Cybrary</span>
+      </a>
     </div>
-  </footer>
+  </div>
+</div>
 
-  <!-- SCRIPTS -->
-  <script>
-    // Close mobile menu when clicking outside
-    document.addEventListener('click', function(e) {
-      const nav = document.querySelector('.nav-container');
-      const button = document.querySelector('.hamburger');
-      if (!nav.contains(e.target) && !button.contains(e.target)) {
-        document.body.classList.remove('nav-open');
-      }
-    });
+<div class="resource-section-full">
+  <h2><i class="fas fa-newspaper"></i> Articles &amp; News</h2>
+  <div class="resource-buttons">
+    <a href="https://www.darkreading.com/" target="_blank" rel="noopener" class="resource-btn">
+      <i class="fas fa-newspaper"></i>
+      <span>Dark Reading</span>
+    </a>
+    <a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener" class="resource-btn">
+      <i class="fas fa-laptop-code"></i>
+      <span>Bleeping Computer</span>
+    </a>
+    <a href="https://krebsonsecurity.com/" target="_blank" rel="noopener" class="resource-btn">
+      <i class="fas fa-shield-alt"></i>
+      <span>Krebs on Security</span>
+    </a>
+    <a href="https://www.schneier.com/" target="_blank" rel="noopener" class="resource-btn">
+      <i class="fas fa-lock"></i>
+      <span>Schneier on Security</span>
+    </a>
+    <a href="https://thehackernews.com/" target="_blank" rel="noopener" class="resource-btn">
+      <i class="fas fa-rss"></i>
+      <span>The Hacker News</span>
+    </a>
+    <a href="https://www.reddit.com/r/netsec/" target="_blank" rel="noopener" class="resource-btn">
+      <i class="fab fa-reddit"></i>
+      <span>r/netsec</span>
+    </a>
+  </div>
+</div>
 
-    // Add scrolled class to navbar on scroll
-    let lastScroll = 0;
-    const navbar = document.getElementById('navbar');
-    
-    window.addEventListener('scroll', () => {
-      const currentScroll = window.pageYOffset;
-      
-      if (currentScroll > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-      
-      lastScroll = currentScroll;
-    });
-
-    // Close mobile menu when nav link is clicked
-    document.querySelectorAll('.nav-list a').forEach(link => {
-      link.addEventListener('click', () => {
-        document.body.classList.remove('nav-open');
-      });
-    });
-  </script>
+    </main>
+  </div>
 </body>
 </html>

@@ -2,177 +2,220 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
-  <title>Blog | Cybersecurity Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+<title>Blog | Cyber Security Portfolio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          soc: {
+            bg: '#050A12',
+            card: '#0D1728',
+            accent: '#4FC3F7',
+            green: '#34D399',
+            line: '#1E2D42'
+          }
+        },
+        boxShadow: {
+          glow: '0 0 0 1px rgba(79, 195, 247, 0.22), 0 18px 38px rgba(59, 130, 246, 0.15)'
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at top, rgba(59, 130, 246, 0.12), transparent 28%),
+      linear-gradient(180deg, #050A12 0%, #0B1220 100%);
+    color: #E2E8F0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+  }
+
+  .soc-grid {
+    background-image:
+      linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .panel-glow {
+    box-shadow: 0 0 0 1px rgba(79, 195, 247, 0.14), 0 22px 40px rgba(2, 6, 23, 0.7);
+  }
+
+  .status-dot {
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.18);
+  }
+
+  .threat-item-card {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.9));
+    border: 1px solid rgba(79, 195, 247, 0.18);
+    box-shadow: 0 14px 36px rgba(14, 116, 144, 0.18);
+  }
+
+  .threat-source-pill {
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 0.64rem;
+  }
+</style>
+
   <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  <!-- Favicon (optional - add your own) -->
-  <!-- <link rel="icon" type="image/png" href="/cybersecurityblog/assets/images/favicon.png"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-  <!-- SITE TITLE -->
-  <header class="site-header">
-    <h1>Cybersecurity Blog</h1>
-  </header>
+<body class="bg-soc-bg text-slate-100 antialiased soc-grid">
+  <div class="min-h-screen">
+    <header class="sticky top-0 z-40 border-b border-slate-800/80 bg-soc-bg/80 backdrop-blur-sm">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-3">
+          <span class="status-dot inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+          <span class="text-[10px] font-semibold uppercase tracking-[0.24em] text-emerald-400">Status: Active</span>
+        </div>
 
-  <!-- NAVIGATION BAR -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
-        ☰
-      </button>
-      <ul class="nav-list">
-        <li><a href="/cybersecurityblog/" >Home</a></li>
-        <li><a href="/cybersecurityblog/blog/" class="active">Blog</a></li>
-        <li><a href="/cybersecurityblog/projects/" >Projects</a></li>
-        <li><a href="/cybersecurityblog/writeups/" >Writeups</a></li>
-        <li><a href="/cybersecurityblog/resources/" >Resources</a></li>
-        <li><a href="/cybersecurityblog/about/" >About Me</a></li>
-      </ul>
-    </div>
-  </nav>
+        <div class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
+          <span class="font-semibold text-white">Jack Diamond</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-sky-300">SOC L1 Analyst / Junior Detection Analyst</span>
+        </div>
 
-  <!-- MAIN CONTENT -->
-  <main class="content">
-    <h1>Blog</h1>
+        <nav class="flex items-center gap-3 text-xs font-medium text-slate-300 sm:text-sm">
+          <a href="/cybersecurityblog/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Home</a>
+          <a href="/cybersecurityblog/threat-intel/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Threat Intel</a>
+          <a href="/cybersecurityblog/projects/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Projects</a>
+          <a href="/cybersecurityblog/writeups/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Writeups</a>
+          <div class="group relative">
+            <a href="/cybersecurityblog/about/" class="flex items-center rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">About Me</a>
+            <div class="absolute right-0 top-full mt-2 hidden w-40 rounded-xl border border-slate-700 bg-slate-950/95 p-2 shadow-2xl group-hover:block">
+              <a href="https://github.com/bytepo1arbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">GitHub</a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">LinkedIn</a>
+              <a href="https://www.credly.com/users/jackthepolarbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">Credly</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-<div class="post-grid">
+    <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
+      <section class="page-hero">
+  <div class="container">
+    <h1>Weekly Update</h1>
+    <p class="page-subtitle">Weekly research notes: what I studied, experiments run, and lessons learned.</p>
+  </div>
+</section>
 
-	<article class="post-preview">
-		<div class="card-header">
-			<span class="post-date">November 16, 2025</span>
-			
-		</div>
-		<h3><a href="/cybersecurityblog/2025/11/16/understanding-osint/">Understanding OSINT: Gathering Intelligence from Public Sources</a></h3>
-		<p>Understanding OSINT: Gathering Intelligence from Public Sources
-</p>
-		
-		<div class="post-tags">
-			
-			<span class="tag">open source intelligence</span>
-			
-			<span class="tag">recon</span>
-			
-			<span class="tag">investigation</span>
-			
-			<span class="tag">cybersecurity</span>
-			
-		</div>
-		
-		<a href="/cybersecurityblog/2025/11/16/understanding-osint/" class="btn-read-more">Read Full Post →</a>
-	</article>
-
-	<article class="post-preview">
-		<div class="card-header">
-			<span class="post-date">October 28, 2025</span>
-			
-		</div>
-		<h3><a href="/cybersecurityblog/2025/10/28/reverse-engineering/">Reverse Engineering</a></h3>
-		<p>“Introduction to Reverse Engineering with Ghidra”
-</p>
-		
-		<div class="post-tags">
-			
-		</div>
-		
-		<a href="/cybersecurityblog/2025/10/28/reverse-engineering/" class="btn-read-more">Read Full Post →</a>
-	</article>
-
-	<article class="post-preview">
-		<div class="card-header">
-			<span class="post-date">October 27, 2025</span>
-			
-		</div>
-		<h3><a href="/cybersecurityblog/2025/10/27/wireshark-intro/">Getting Started with Wireshark for Network Analysis</a></h3>
-		<p>Getting Started with Wireshark for Network Analysis
-</p>
-		
-		<div class="post-tags">
-			
-			<span class="tag">wireshark</span>
-			
-			<span class="tag">packet capture</span>
-			
-			<span class="tag">traffic analysis</span>
-			
-			<span class="tag">cybersecurity</span>
-			
-		</div>
-		
-		<a href="/cybersecurityblog/2025/10/27/wireshark-intro/" class="btn-read-more">Read Full Post →</a>
-	</article>
-
-	<article class="post-preview">
-		<div class="card-header">
-			<span class="post-date">September 20, 2025</span>
-			
-			<span class="post-category">Learning</span>
-			
-		</div>
-		<h3><a href="/cybersecurityblog/2025/09/20/intro-to-cyber/">Getting Started with Cybersecurity: My Journey Begins</a></h3>
-		<p>Getting Started with Cybersecurity: My Journey Begins
-</p>
-		
-		<div class="post-tags">
-			
-			<span class="tag">Cybersecurity</span>
-			
-			<span class="tag">Beginner</span>
-			
-			<span class="tag">Journey</span>
-			
-		</div>
-		
-		<a href="/cybersecurityblog/2025/09/20/intro-to-cyber/" class="btn-read-more">Read Full Post →</a>
-	</article>
-
+<div class="container dashboard-grid single-column">
+  <article class="widget-card secondary">
+    <h2><i class="fas fa-bullseye"></i> Current Focus</h2>
+    <p>Review tactical detection guidance, adversary activity analysis, and defense validation notes. This timeline highlights new entries and research relevant to ongoing SOC operations.</p>
+  </article>
 </div>
 
-  </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Cybersecurity Blog. All rights reserved.</p>
+<section class="timeline-section">
+  <div class="container">
+    <div class="timeline">
+      
+      <div class="timeline-node">
+        <span class="timeline-marker"></span>
+        <div class="timeline-card">
+          <div class="timeline-meta">November 16, 2025 • osint, intelligence</div>
+          <h3>Understanding OSINT: Gathering Intelligence from Public Sources</h3>
+          <p>Understanding OSINT: Gathering Intelligence from Public Sources
+</p>
+          
+          <div class="post-tags">
+            
+            <span class="tag">open source intelligence</span>
+            
+            <span class="tag">recon</span>
+            
+            <span class="tag">investigation</span>
+            
+            <span class="tag">cybersecurity</span>
+            
+          </div>
+          
+          <a href="/cybersecurityblog/2025/11/16/understanding-osint/" class="btn-read-more">Read more →</a>
+        </div>
+      </div>
+      
+      <div class="timeline-node">
+        <span class="timeline-marker"></span>
+        <div class="timeline-card">
+          <div class="timeline-meta">October 28, 2025 • </div>
+          <h3>Reverse Engineering</h3>
+          <p>“Introduction to Reverse Engineering with Ghidra”
+</p>
+          
+          <div class="post-tags">
+            
+          </div>
+          
+          <a href="/cybersecurityblog/2025/10/28/reverse-engineering/" class="btn-read-more">Read more →</a>
+        </div>
+      </div>
+      
+      <div class="timeline-node">
+        <span class="timeline-marker"></span>
+        <div class="timeline-card">
+          <div class="timeline-meta">October 27, 2025 • network analysis, tools</div>
+          <h3>Getting Started with Wireshark for Network Analysis</h3>
+          <p>Getting Started with Wireshark for Network Analysis
+</p>
+          
+          <div class="post-tags">
+            
+            <span class="tag">wireshark</span>
+            
+            <span class="tag">packet capture</span>
+            
+            <span class="tag">traffic analysis</span>
+            
+            <span class="tag">cybersecurity</span>
+            
+          </div>
+          
+          <a href="/cybersecurityblog/2025/10/27/wireshark-intro/" class="btn-read-more">Read more →</a>
+        </div>
+      </div>
+      
+      <div class="timeline-node">
+        <span class="timeline-marker"></span>
+        <div class="timeline-card">
+          <div class="timeline-meta">September 20, 2025 • Learning</div>
+          <h3>Getting Started with Cybersecurity: My Journey Begins</h3>
+          <p>Getting Started with Cybersecurity: My Journey Begins
+</p>
+          
+          <div class="post-tags">
+            
+            <span class="tag">Cybersecurity</span>
+            
+            <span class="tag">Beginner</span>
+            
+            <span class="tag">Journey</span>
+            
+          </div>
+          
+          <a href="/cybersecurityblog/2025/09/20/intro-to-cyber/" class="btn-read-more">Read more →</a>
+        </div>
+      </div>
+      
     </div>
-  </footer>
+  </div>
+</section>
 
-  <!-- SCRIPTS -->
-  <script>
-    // Close mobile menu when clicking outside
-    document.addEventListener('click', function(e) {
-      const nav = document.querySelector('.nav-container');
-      const button = document.querySelector('.hamburger');
-      if (!nav.contains(e.target) && !button.contains(e.target)) {
-        document.body.classList.remove('nav-open');
-      }
-    });
-
-    // Add scrolled class to navbar on scroll
-    let lastScroll = 0;
-    const navbar = document.getElementById('navbar');
-    
-    window.addEventListener('scroll', () => {
-      const currentScroll = window.pageYOffset;
-      
-      if (currentScroll > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-      
-      lastScroll = currentScroll;
-    });
-
-    // Close mobile menu when nav link is clicked
-    document.querySelectorAll('.nav-list a').forEach(link => {
-      link.addEventListener('click', () => {
-        document.body.classList.remove('nav-open');
-      });
-    });
-  </script>
+    </main>
+  </div>
 </body>
 </html>

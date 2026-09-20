@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
-<title>Getting Started with Wireshark for Network Analysis | Cyber Security Portfolio</title>
+<title>HackTheBox: Knife | Cyber Security Portfolio</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -107,39 +107,98 @@
     </header>
 
     <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
-      <head>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+      <article class="single-post">
+  <header class="single-post-header">
+    <h1>HackTheBox: Knife</h1>
+    <div class="post-meta">
+      <span class="post-date">
+        <i class="far fa-calendar"></i>
+        March 04, 2025
+      </span>
+      
+      <span class="difficulty difficulty-easy">Easy</span>
+      
+      
+      <span class="platform-badge">
+        <i class="fas fa-desktop"></i>
+        HackTheBox
+      </span>
+      
+    </div>
+    
+    <div class="post-tags">
+      
+      <span class="tag">HackTheBox</span>
+      
+      <span class="tag">web-app</span>
+      
+      <span class="tag">linux</span>
+      
+      <span class="tag">privilege-escalation</span>
+      
+    </div>
+    
+  </header>
 
-<section class="blog-listing">
-  <h2>Blog Posts</h2>
+  <div class="single-post-content">
+    <h2 id="summary">Summary</h2>
 
-  
+<p>This room centered on a small but effective web application vulnerability, showing how a minimal application issue can produce a quick path into a host. It reinforced how even basic web checks can expose critical behavior when combined with enumeration.</p>
 
-  <ul>
-    
-      <li>
-        <a href="/2025/11/16/understanding-osint/">Understanding OSINT: Gathering Intelligence from Public Sources</a>
-        <p>November 16, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/28/reverse-engineering/">Reverse Engineering</a>
-        <p>October 28, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/27/wireshark-intro/">Getting Started with Wireshark for Network Analysis</a>
-        <p>October 27, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/09/20/intro-to-cyber/">Getting Started with Cybersecurity: My Journey Begins</a>
-        <p>September 20, 2025</p>
-      </li>
-    
-  </ul>
-</section>
+<h2 id="what-i-focused-on">What I Focused On</h2>
+
+<ul>
+  <li>Identify reachable application routes</li>
+  <li>Check for unexpected input handling or command paths</li>
+  <li>Validate web responses for hidden functionality</li>
+  <li>Map how a low-privilege user can be elevated in a constrained environment</li>
+</ul>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+  <li>Web application surfaces should be explored beyond the obvious UI</li>
+  <li>Command execution issues are often tied to poor input validation or hidden endpoint logic</li>
+  <li>Small misconfigurations can lead to escalation paths when paired with weak privilege boundaries</li>
+</ul>
+
+<h2 id="operational-notes">Operational Notes</h2>
+
+<p>The challenge was useful for reinforcing a simple security mindset: when testing a system, look for the least obvious route first. Observing small changes in app behavior can reveal where a real vulnerability is hiding.</p>
+
+<h2 id="defensive-reflection">Defensive Reflection</h2>
+
+<ul>
+  <li>Restrict endpoint exposure and limit command execution to trusted paths</li>
+  <li>Validate user input at every layer</li>
+  <li>Review web service logs for abnormal requests or parameter abuse</li>
+  <li>Ensure privilege separation is enforced even in small application stacks</li>
+</ul>
+
+  </div>
+
+  <div class="single-post-footer">
+    <div class="post-navigation">
+      
+      <a href="/cybersecurityblog/writeups/htb-lame/" class="post-nav-btn prev">
+        <i class="fas fa-arrow-left"></i>
+        <span>HackTheBox: Lame</span>
+      </a>
+      
+      
+      <a href="/cybersecurityblog/writeups/htb-legacy/" class="post-nav-btn next">
+        <span>HackTheBox: Legacy</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+      
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/cybersecurityblog/writeups/" class="btn">
+        <i class="fas fa-arrow-left"></i> Back to All Writeups
+      </a>
+    </div>
+  </div>
+</article>
 
     </main>
   </div>

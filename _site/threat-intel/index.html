@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
+<title>Threat Intel | Cyber Security Portfolio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          soc: {
+            bg: '#050A12',
+            card: '#0D1728',
+            accent: '#4FC3F7',
+            green: '#34D399',
+            line: '#1E2D42'
+          }
+        },
+        boxShadow: {
+          glow: '0 0 0 1px rgba(79, 195, 247, 0.22), 0 18px 38px rgba(59, 130, 246, 0.15)'
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at top, rgba(59, 130, 246, 0.12), transparent 28%),
+      linear-gradient(180deg, #050A12 0%, #0B1220 100%);
+    color: #E2E8F0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+  }
+
+  .soc-grid {
+    background-image:
+      linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .panel-glow {
+    box-shadow: 0 0 0 1px rgba(79, 195, 247, 0.14), 0 22px 40px rgba(2, 6, 23, 0.7);
+  }
+
+  .status-dot {
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.18);
+  }
+
+  .threat-item-card {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.9));
+    border: 1px solid rgba(79, 195, 247, 0.18);
+    box-shadow: 0 14px 36px rgba(14, 116, 144, 0.18);
+  }
+
+  .threat-source-pill {
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 0.64rem;
+  }
+</style>
+
+  <link rel="stylesheet" href="/cybersecurityblog/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-soc-bg text-slate-100 antialiased soc-grid">
+  <div class="min-h-screen">
+    <header class="sticky top-0 z-40 border-b border-slate-800/80 bg-soc-bg/80 backdrop-blur-sm">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-3">
+          <span class="status-dot inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+          <span class="text-[10px] font-semibold uppercase tracking-[0.24em] text-emerald-400">Status: Active</span>
+        </div>
+
+        <div class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
+          <span class="font-semibold text-white">Jack Diamond</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-sky-300">SOC L1 Analyst / Junior Detection Analyst</span>
+        </div>
+
+        <nav class="flex items-center gap-3 text-xs font-medium text-slate-300 sm:text-sm">
+          <a href="/cybersecurityblog/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Home</a>
+          <a href="/cybersecurityblog/threat-intel/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Threat Intel</a>
+          <a href="/cybersecurityblog/projects/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Projects</a>
+          <a href="/cybersecurityblog/writeups/" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Writeups</a>
+          <div class="group relative">
+            <a href="/cybersecurityblog/about/" class="flex items-center rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">About Me</a>
+            <div class="absolute right-0 top-full mt-2 hidden w-40 rounded-xl border border-slate-700 bg-slate-950/95 p-2 shadow-2xl group-hover:block">
+              <a href="https://github.com/bytepo1arbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">GitHub</a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">LinkedIn</a>
+              <a href="https://www.credly.com/users/jackthepolarbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">Credly</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
+      <section class="mb-8 rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-glow sm:p-8">
+  <div class="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
+    <div>
+      <div class="mb-3 inline-flex items-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-sky-300">
+        <span class="h-2 w-2 rounded-full bg-emerald-400 status-dot"></span>
+        Threat Feed
+      </div>
+      <h1 class="text-4xl font-bold tracking-tight text-white">Threat Intelligence</h1>
+    </div>
+    <p class="max-w-2xl text-sm leading-6 text-slate-300">
+      Recent incident reporting, advisories, and research curated from multiple public sources for alert awareness and defensive analysis.
+    </p>
+  </div>
+</section>
+
+<section class="mb-8 grid gap-5 md:grid-cols-3">
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 panel-glow">
+      <p class="text-[10px] uppercase tracking-[0.22em] text-slate-400">Sources</p>
+      <p class="mt-3 text-3xl font-bold text-white">7</p>
+      <p class="mt-2 text-sm text-slate-400">Curated and refreshed by automation</p>
+    </div>
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 panel-glow">
+      <p class="text-[10px] uppercase tracking-[0.22em] text-slate-400">Items</p>
+      <p class="mt-3 text-3xl font-bold text-white">100</p>
+      <p class="mt-2 text-sm text-slate-400">Recent articles, advisories, and reports</p>
+    </div>
+    <div class="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 panel-glow">
+      <p class="text-[10px] uppercase tracking-[0.22em] text-slate-400">Last Updated</p>
+      <p class="mt-3 text-lg font-semibold text-sky-300">Sep 19, 2026</p>
+      <p class="mt-2 text-sm text-slate-400">Automated sync from the GitHub Action feed</p>
+    </div>
+  </section>
+
+<section class="mb-8 rounded-2xl border border-slate-800 bg-slate-900/80 p-6 panel-glow">
+    <div class="mb-5 flex items-center justify-between">
+      <h2 class="text-xl font-semibold text-white">Feed Sources</h2>
+      <span class="rounded-full border border-slate-700 px-2.5 py-1 text-[10px] uppercase tracking-[0.2em] text-slate-400">Public intel</span>
+    </div>
+
+    <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="threat-source-pill rounded-full border border-sky-500/30 bg-sky-500/10 px-2 py-1 text-sky-300">Malware Intelligence</span>
+            <span class="text-[10px] uppercase tracking-[0.16em] text-slate-500">Abuse.ch MalwareBazaar</span>
+          </div>
+          <p class="mt-3 text-sm leading-6 text-slate-400">Malware sample/IOC feed (CSV/RSS depending on export).</p>
+        </div>
+      
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="threat-source-pill rounded-full border border-sky-500/30 bg-sky-500/10 px-2 py-1 text-sky-300">Vulnerability/Advisory</span>
+            <span class="text-[10px] uppercase tracking-[0.16em] text-slate-500">US-CERT Alerts</span>
+          </div>
+          <p class="mt-3 text-sm leading-6 text-slate-400">CISA/US-CERT vulnerability and incident advisories.</p>
+        </div>
+      
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="threat-source-pill rounded-full border border-sky-500/30 bg-sky-500/10 px-2 py-1 text-sky-300">News</span>
+            <span class="text-[10px] uppercase tracking-[0.16em] text-slate-500">The Hacker News</span>
+          </div>
+          <p class="mt-3 text-sm leading-6 text-slate-400">General security news and incident reports.</p>
+        </div>
+      
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="threat-source-pill rounded-full border border-sky-500/30 bg-sky-500/10 px-2 py-1 text-sky-300">Investigative Security Journalism</span>
+            <span class="text-[10px] uppercase tracking-[0.16em] text-slate-500">Krebs on Security</span>
+          </div>
+          <p class="mt-3 text-sm leading-6 text-slate-400">In-depth investigative reporting on breaches and cybercrime.</p>
+        </div>
+      
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="threat-source-pill rounded-full border border-sky-500/30 bg-sky-500/10 px-2 py-1 text-sky-300">Industry News</span>
+            <span class="text-[10px] uppercase tracking-[0.16em] text-slate-500">Dark Reading</span>
+          </div>
+          <p class="mt-3 text-sm leading-6 text-slate-400">Technical news and analysis for security professionals.</p>
+        </div>
+      
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="threat-source-pill rounded-full border border-sky-500/30 bg-sky-500/10 px-2 py-1 text-sky-300">Vulnerability/IOC</span>
+            <span class="text-[10px] uppercase tracking-[0.16em] text-slate-500">SANS Internet Storm Center</span>
+          </div>
+          <p class="mt-3 text-sm leading-6 text-slate-400">Technical advisories, logs, and incident analysis from SANS ISC.</p>
+        </div>
+      
+        <div class="rounded-xl border border-slate-800 bg-slate-950/70 p-4">
+          <div class="flex items-center justify-between gap-3">
+            <span class="threat-source-pill rounded-full border border-sky-500/30 bg-sky-500/10 px-2 py-1 text-sky-300">Threat Research</span>
+            <span class="text-[10px] uppercase tracking-[0.16em] text-slate-500">Cisco Talos</span>
+          </div>
+          <p class="mt-3 text-sm leading-6 text-slate-400">Technical threat research and indicators from Cisco Talos.</p>
+        </div>
+      
+    </div>
+  </section>
+
+<section class="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 panel-glow">
+    <div class="mb-6 flex items-center justify-between">
+      <h2 class="text-xl font-semibold text-white">Latest Incidents &amp; Research</h2>
+      <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2.5 py-1 text-[10px] uppercase tracking-[0.2em] text-emerald-300">Live</span>
+    </div>
+
+    <div class="space-y-4">
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">Cisco Talos</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Aug 26, 2026</span>
+            </div>
+            <a href="https://blog.talosintelligence.com/choose-your-fighter-balancing-competing-requirements-to-select-models-for-your-ai-soc/" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">Choose your fighter: Balancing competing requirements to select models for your AI SOC</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">Selecting a model for your security operations center (SOC) and digital forensics and incident response (DFIR) tasks is important, but selecting the best one is more involved than you might think. Here's how to choose.</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">Krebs on Security</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Jul 22, 2026</span>
+            </div>
+            <a href="https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">LG to Ban Residential Proxies from Smart TV Apps</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month aft...</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">Dark Reading</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">AI Security Spending Jumps as Fear Outpaces Proof of Value</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">The Hacker News</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is CVE-2026-89026 (CVSS v...</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">The Hacker News</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://thehackernews.com/2026/09/three-threat-groups-target-russian.html" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity vendor said it has...</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">The Hacker News</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">Security researchers at Forever Security have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microso...</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">The Hacker News</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread Shai-Hulud across about 100 internal code repositories. Before the repository spre...</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">The Hacker News</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week. The attack needs code already running on the mach...</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">SANS Internet Storm Center</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://isc.sans.edu/diary/rss/33344" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">Scans Targeting Hospitality Applications, (Wed, Sep 16th)</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">Earlier today, I noted an odd request showing up in our "First Seen" report:
+</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">Krebs on Security</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">Data Broker Radaris Loses Domains in Privacy Fight</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company rec...</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">Dark Reading</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">Fighting Your Dragons Through Tough Tech Times</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry downturns.</p>
+        </article>
+      
+        <article class="threat-item-card rounded-xl p-4">
+          <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2 py-1 text-[9px] uppercase tracking-[0.18em] text-emerald-300">The Hacker News</span>
+              <span class="text-[11px] uppercase tracking-[0.18em] text-slate-500">Sep 16, 2026</span>
+            </div>
+            <a href="https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html" target="_blank" rel="noopener" class="text-sm font-medium text-sky-300 hover:text-sky-200">Open source →</a>
+          </div>
+
+          <h3 class="text-lg font-semibold text-white">N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-300">N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to ...</p>
+        </article>
+      
+    </div>
+  </section>
+
+
+    </main>
+  </div>
+</body>
+</html>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
-<title>Getting Started with Wireshark for Network Analysis | Cyber Security Portfolio</title>
+<title>Cyber Security Home Lab | Cyber Security Portfolio</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -107,39 +107,130 @@
     </header>
 
     <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
-      <head>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+      <article class="single-post">
+  <header class="single-post-header">
+    <h1>Cyber Security Home Lab</h1>
+    <div class="post-meta">
+      <span class="post-date">
+        <i class="far fa-calendar"></i>
+        September 2025
+      </span>
+      
+      <span class="project-status status-active">
+        Active
+      </span>
+      
+    </div>
+    
+    <div class="post-tags">
+      
+      <span class="tag">homelab</span>
+      
+      <span class="tag">proxmox</span>
+      
+      <span class="tag">security</span>
+      
+      <span class="tag">blue-team</span>
+      
+      <span class="tag">detection</span>
+      
+    </div>
+    
+  </header>
 
-<section class="blog-listing">
-  <h2>Blog Posts</h2>
+  <div class="single-post-content">
+    <h2 id="overview">Overview</h2>
 
-  
+<p>This lab is designed for continuous learning and practical validation of detection engineering, offensive security, and defensive monitoring workflows. It is used to test new tools, explore threat behavior, and validate how detection logic holds up in realistic conditions.</p>
 
-  <ul>
-    
-      <li>
-        <a href="/2025/11/16/understanding-osint/">Understanding OSINT: Gathering Intelligence from Public Sources</a>
-        <p>November 16, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/28/reverse-engineering/">Reverse Engineering</a>
-        <p>October 28, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/27/wireshark-intro/">Getting Started with Wireshark for Network Analysis</a>
-        <p>October 27, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/09/20/intro-to-cyber/">Getting Started with Cybersecurity: My Journey Begins</a>
-        <p>September 20, 2025</p>
-      </li>
-    
-  </ul>
-</section>
+<h2 id="core-architecture">Core Architecture</h2>
+
+<p>The environment is built on Proxmox and segmented to mimic a realistic security operations setup with multiple virtual machines and supporting services.</p>
+
+<h3 id="primary-components">Primary Components</h3>
+<ul>
+  <li>Proxmox hypervisor for VM orchestration and resource allocation</li>
+  <li>Kali Linux for offensive testing and enumeration workflows</li>
+  <li>Wazuh for host-based monitoring and SIEM-style log collection</li>
+  <li>Caldera for red team automation and adversary simulation</li>
+  <li>TheHive for case management and incident triage workflows</li>
+  <li>DVWA and BWAPP for web application security testing</li>
+  <li>Nessus for vulnerability discovery and scanning</li>
+  <li>Splunk-aligned log sources for alert validation and analysis</li>
+  <li>Linux and Windows endpoint lab hosts for cross-platform testing</li>
+</ul>
+
+<h2 id="lab-goals">Lab Goals</h2>
+
+<ul>
+  <li>Test security tooling in a controlled environment</li>
+  <li>Validate detection logic against realistic adversary behavior</li>
+  <li>Build hands-on lab experience with SIEM, EDR, and network telemetry</li>
+  <li>Practice different phases of the security lifecycle</li>
+</ul>
+
+<h2 id="example-workflow">Example Workflow</h2>
+
+<ol>
+  <li>Validate threat behavior in attack VMs</li>
+  <li>Collect telemetry from endpoints and logging services</li>
+  <li>Correlate events in SIEM or alerting workflows</li>
+  <li>Investigate, document, and tune detections</li>
+</ol>
+
+<h2 id="configuration-notes">Configuration Notes</h2>
+
+<p>This build includes network segmentation, isolated target machines, monitoring servers, and dedicated management infrastructure. It is used not only for exploitation testing, but also for understanding how telemetry, alerts, and mitigation strategies work together in real environments.</p>
+
+<h2 id="lab-diagram">Lab Diagram</h2>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Internet
+  |
+  v
+Firewall / Router
+  |
+  +---- Management Network
+  |      - Proxmox
+  |      - Wazuh
+  |      - TheHive
+  |
+  +---- Attack Network
+  |      - Kali Linux
+  |      - Metasploitable / DVWA / BWAPP
+  |
+  +---- Detection Network
+         - Windows/Linux endpoint lab VMs
+</code></pre></div></div>
+
+<h2 id="what-this-project-demonstrates">What This Project Demonstrates</h2>
+
+<p>This project is a practical environment for learning how to:</p>
+<ul>
+  <li>deploy security tools in a secure lab</li>
+  <li>validate detections and alert logic</li>
+  <li>assess attacker tradecraft</li>
+  <li>build repeatable workflows that support investigation and response</li>
+</ul>
+
+  </div>
+
+  <div class="single-post-footer">
+    <div class="post-navigation">
+      
+      
+      <a href="/cybersecurityblog/projects/" class="post-nav-btn next">
+        <span>Projects</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+      
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/cybersecurityblog/projects/" class="btn">
+        <i class="fas fa-arrow-left"></i> Back to All Projects
+      </a>
+    </div>
+  </div>
+</article>
 
     </main>
   </div>

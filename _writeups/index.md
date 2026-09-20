@@ -5,90 +5,41 @@ permalink: /writeups/
 exclude_from_collection: true
 ---
 
-<section class="page-hero">
-  <div class="container">
-    <h1>Writeups</h1>
-    <p class="page-subtitle">Capture the Flag solutions, lab findings, and incident-style analysis.</p>
-  </div>
+<section class="mb-8 text-center">
+  <h1 class="text-3xl font-bold text-white sm:text-4xl">Writeups</h1>
+  <p class="mx-auto mt-3 max-w-3xl text-slate-300">Six example room writeups covering TryHackMe and HackTheBox practice, ready to be refined into personal walkthroughs later.</p>
 </section>
 
-<div class="container platform-grid">
-  {% assign all_writeups = site.writeups | sort: 'date' | reverse %}
-  {% assign thm_count = 0 %}
-  {% assign htb_count = 0 %}
-  {% for w in all_writeups %}
-    {% if w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM' %}
-      {% assign thm_count = thm_count | plus: 1 %}
-    {% endif %}
-    {% if w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox' %}
-      {% assign htb_count = htb_count | plus: 1 %}
-    {% endif %}
-  {% endfor %}
-  <article class="platform-card thm">
-    <h3><i class="fas fa-fire"></i> TryHackMe (THM)</h3>
-    <p>Targeted lessons and blue team challenges with a focus on defensive control implementation and adversary learning.</p>
-    <div class="platform-meta">
-      <span><strong>Difficulty:</strong> Medium / Hard</span>
-      <span><strong>OS:</strong> Linux / Windows</span>
-      <span><strong>Concepts:</strong> Privilege Escalation, Log Analysis, Alert Triage</span>
-    </div>
-    <div class="platform-count">Completed writeups: <strong>{{ thm_count }}</strong></div>
-  </article>
-  <article class="platform-card htb">
-    <h3><i class="fas fa-shield-virus"></i> HackTheBox (HTB)</h3>
-    <p>Professional machine writeups documenting attacker techniques, post-exploitation, and detection validation.</p>
-    <div class="platform-meta">
-      <span><strong>Difficulty:</strong> Pro / Insane</span>
-      <span><strong>OS:</strong> Linux / Windows</span>
-      <span><strong>Concepts:</strong> Network Exploitation, Persistence, Evasion</span>
-    </div>
-    <div class="platform-count">Completed writeups: <strong>{{ htb_count }}</strong></div>
-  </article>
+{% assign all_writeups = site.writeups | where_exp: "w", "w.path != '_writeups/index.md' and w.platform != 'Home Lab'" | sort: 'date' | reverse %}
+{% assign thm_writeups = all_writeups | where: 'platform', 'TryHackMe' | limit: 3 %}
+{% assign htb_writeups = all_writeups | where: 'platform', 'HackTheBox' | limit: 3 %}
+
+<div class="mx-auto max-w-6xl">
+  <div class="grid gap-5 lg:grid-cols-2">
+    <article class="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 panel-glow">
+      <h3 class="text-xl font-semibold text-white">TryHackMe</h3>
+      <p class="mt-3 text-slate-300">Foundation skills covering security basics, Linux fundamentals, and networking services use cases.</p>
+      <ul class="mt-5 space-y-3 text-sm text-slate-200">
+        {% for item in thm_writeups %}
+        <li class="rounded-xl border border-slate-800 bg-slate-950/60 p-3">
+          <a href="{{ item.url | relative_url }}" class="font-medium text-sky-300 hover:text-sky-200">{{ item.title }}</a>
+          <p class="mt-2 text-xs leading-5 text-slate-400">{{ item.excerpt | strip_html | truncate: 120 }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+
+    <article class="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 panel-glow">
+      <h3 class="text-xl font-semibold text-white">HackTheBox</h3>
+      <p class="mt-3 text-slate-300">Example machine walkthroughs focused on enumeration, exploitation flow, and operational triage.</p>
+      <ul class="mt-5 space-y-3 text-sm text-slate-200">
+        {% for item in htb_writeups %}
+        <li class="rounded-xl border border-slate-800 bg-slate-950/60 p-3">
+          <a href="{{ item.url | relative_url }}" class="font-medium text-sky-300 hover:text-sky-200">{{ item.title }}</a>
+          <p class="mt-2 text-xs leading-5 text-slate-400">{{ item.excerpt | strip_html | truncate: 120 }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
 </div>
-<section class="timeline-section container">
-  {% assign all_writeups = site.writeups | sort: 'date' | reverse %}
-
-  <div class="writeup-columns">
-    <div>
-      <h3 style="margin-bottom:1rem;"><i class="fas fa-map-pin"></i> TryHackMe Writeups</h3>
-      {% assign thm_shown = 0 %}
-      {% for w in all_writeups %}
-        {% if w.platform == 'TryHackMe' or w.tags contains 'TryHackMe' or w.tags contains 'thm' or w.tags contains 'THM' %}
-      <div class="writeup-card writeup-list-item">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
-          <h4 style="margin:0;">{{ w.title }}</h4>
-          <span class="post-date">{{ w.date | date: "%b %d, %Y" }}</span>
-        </div>
-        <p style="margin:0;color:var(--text-secondary);">{{ w.excerpt | strip_html | truncatewords: 28 }}</p>
-        <div style="margin-top:auto;text-align:right;"><a class="btn-small" href="{{ w.url | relative_url }}">Read</a></div>
-      </div>
-        {% assign thm_shown = thm_shown | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-      {% if thm_shown == 0 %}
-        <p class="empty-state">No TryHackMe writeups found yet.</p>
-      {% endif %}
-    </div>
-
-    <div>
-      <h3 style="margin-bottom:1rem;"><i class="fas fa-terminal"></i> HackTheBox Writeups</h3>
-      {% assign htb_shown = 0 %}
-      {% for w in all_writeups %}
-        {% if w.platform == 'HackTheBox' or w.tags contains 'htb' or w.tags contains 'HTB' or w.tags contains 'HackTheBox' %}
-      <div class="writeup-card writeup-list-item">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
-          <h4 style="margin:0;">{{ w.title }}</h4>
-          <span class="post-date">{{ w.date | date: "%b %d, %Y" }}</span>
-        </div>
-        <p style="margin:0;color:var(--text-secondary);">{{ w.excerpt | strip_html | truncatewords: 28 }}</p>
-        <div style="margin-top:auto;text-align:right;"><a class="btn-small" href="{{ w.url | relative_url }}">Read</a></div>
-      </div>
-        {% assign htb_shown = htb_shown | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-      {% if htb_shown == 0 %}
-        <p class="empty-state">No HackTheBox writeups found yet.</p>
-      {% endif %}
-    </div>
-  </div>
-</section>

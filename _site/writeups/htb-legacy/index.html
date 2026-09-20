@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Documenting my cybersecurity learning journey & homelab projects">
-<title>Getting Started with Wireshark for Network Analysis | Cyber Security Portfolio</title>
+<title>HackTheBox: Legacy | Cyber Security Portfolio</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -107,39 +107,99 @@
     </header>
 
     <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
-      <head>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+      <article class="single-post">
+  <header class="single-post-header">
+    <h1>HackTheBox: Legacy</h1>
+    <div class="post-meta">
+      <span class="post-date">
+        <i class="far fa-calendar"></i>
+        April 02, 2025
+      </span>
+      
+      <span class="difficulty difficulty-easy">Easy</span>
+      
+      
+      <span class="platform-badge">
+        <i class="fas fa-desktop"></i>
+        HackTheBox
+      </span>
+      
+    </div>
+    
+    <div class="post-tags">
+      
+      <span class="tag">HackTheBox</span>
+      
+      <span class="tag">windows</span>
+      
+      <span class="tag">smb</span>
+      
+      <span class="tag">exploitation</span>
+      
+    </div>
+    
+  </header>
 
-<section class="blog-listing">
-  <h2>Blog Posts</h2>
+  <div class="single-post-content">
+    <h2 id="summary">Summary</h2>
 
-  
+<p>This machine introduced the classic pattern of identifying an old Windows service and mapping it to a known vulnerable implementation. It was a strong reminder that legacy services can still matter in real environments and should be prioritized during review.</p>
 
-  <ul>
-    
-      <li>
-        <a href="/2025/11/16/understanding-osint/">Understanding OSINT: Gathering Intelligence from Public Sources</a>
-        <p>November 16, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/28/reverse-engineering/">Reverse Engineering</a>
-        <p>October 28, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/10/27/wireshark-intro/">Getting Started with Wireshark for Network Analysis</a>
-        <p>October 27, 2025</p>
-      </li>
-    
-      <li>
-        <a href="/2025/09/20/intro-to-cyber/">Getting Started with Cybersecurity: My Journey Begins</a>
-        <p>September 20, 2025</p>
-      </li>
-    
-  </ul>
-</section>
+<h2 id="process">Process</h2>
+
+<ul>
+  <li>Enumerate listening services and versions</li>
+  <li>Match observed behavior to known SMB-related vulnerabilities</li>
+  <li>Validate whether an exploit chain is feasible in the lab</li>
+  <li>Confirm the final foothold and review the overall attack path</li>
+</ul>
+
+<h2 id="key-lessons">Key Lessons</h2>
+
+<ul>
+  <li>Legacy services remain a real risk in lab and enterprise environments</li>
+  <li>Service versioning is often the key to determining exposure</li>
+  <li>Exploit chains are easier to reason about when the service behavior is well understood</li>
+  <li>Defensive teams should aggressively identify and retire unsupported tooling</li>
+</ul>
+
+<h2 id="practical-relevance">Practical Relevance</h2>
+
+<p>This walkthrough reinforced how quickly an old but reachable system can become a high-priority issue. It also connected well with detection engineering work, where strong baselining and alerting help catch vulnerable services before they become a real foothold.</p>
+
+<h2 id="defensive-takeaways">Defensive Takeaways</h2>
+
+<ul>
+  <li>Patch or isolate legacy services quickly</li>
+  <li>Use network and endpoint telemetry to identify unsupported configurations</li>
+  <li>Review SMB access patterns for suspicious activity</li>
+  <li>Ensure internal and external exposure is minimized consistently</li>
+</ul>
+
+  </div>
+
+  <div class="single-post-footer">
+    <div class="post-navigation">
+      
+      <a href="/cybersecurityblog/writeups/htb-knife/" class="post-nav-btn prev">
+        <i class="fas fa-arrow-left"></i>
+        <span>HackTheBox: Knife</span>
+      </a>
+      
+      
+      <a href="/cybersecurityblog/writeups/homelab-docker-portainer/" class="post-nav-btn next">
+        <span>Home Lab: Docker and Portainer Setup</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+      
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/cybersecurityblog/writeups/" class="btn">
+        <i class="fas fa-arrow-left"></i> Back to All Writeups
+      </a>
+    </div>
+  </div>
+</article>
 
     </main>
   </div>

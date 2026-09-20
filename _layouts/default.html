@@ -1,85 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description }}">
-  <title>{{ site.title }}</title>
+  {% include head.html %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap+VY8PZ2Kk9sX1s/1m3r0Zr0Yq1Xkq2E3N6QdY4Kqz0uV+XJ5v1YcXkz1x7b8g9YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  <!-- Favicon (optional - add your own) -->
-  <!-- <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-  <div class="soc-status">
-    <span class="soc-dot"></span> SOC Status: Active Monitoring
+<body class="bg-soc-bg text-slate-100 antialiased soc-grid">
+  <div class="min-h-screen">
+    <header class="sticky top-0 z-40 border-b border-slate-800/80 bg-soc-bg/80 backdrop-blur-sm">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-3">
+          <span class="status-dot inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+          <span class="text-[10px] font-semibold uppercase tracking-[0.24em] text-emerald-400">Status: Active</span>
+        </div>
+
+        <div class="hidden items-center gap-6 text-sm text-slate-300 md:flex">
+          <span class="font-semibold text-white">Jack Diamond</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-sky-300">SOC L1 Analyst / Junior Detection Analyst</span>
+        </div>
+
+        <nav class="flex items-center gap-3 text-xs font-medium text-slate-300 sm:text-sm">
+          <a href="{{ '/' | relative_url }}" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Home</a>
+          <a href="{{ '/threat-intel/' | relative_url }}" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Threat Intel</a>
+          <a href="{{ '/projects/' | relative_url }}" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Projects</a>
+          <a href="{{ '/writeups/' | relative_url }}" class="rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">Writeups</a>
+          <div class="group relative">
+            <a href="{{ '/about/' | relative_url }}" class="flex items-center rounded-full border border-slate-700 px-3 py-1.5 transition hover:border-sky-400 hover:text-sky-300">About Me</a>
+            <div class="absolute right-0 top-full mt-2 hidden w-40 rounded-xl border border-slate-700 bg-slate-950/95 p-2 shadow-2xl group-hover:block">
+              <a href="https://github.com/bytepo1arbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">GitHub</a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">LinkedIn</a>
+              <a href="https://www.credly.com/users/jackthepolarbear" target="_blank" rel="noopener" class="block rounded-lg px-2 py-2 text-left text-slate-200 transition hover:bg-slate-800 hover:text-sky-300">Credly</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
+      {{ content }}
+    </main>
   </div>
-  <!-- SITE TITLE -->
-  <header class="site-header">
-    <div class="site-title-group">
-      <h1>{{ site.title }}</h1>
-      <p class="site-tagline">{{ site.description }}</p>
-    </div>
-  </header>
-
-  <!-- NAVIGATION BAR -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <button class="hamburger" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">
-        ☰
-      </button>
-      <ul class="nav-list">
-        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-        <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
-        <li><a href="{{ '/writeups/' | relative_url }}" {% if page.url contains '/writeups' %}class="active"{% endif %}>Write-ups</a></li>
-        <li><a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a></li>
-        <li><a href="{{ '/threat-intel/' | relative_url }}" {% if page.url contains '/threat-intel' %}class="active"{% endif %}>Threat Intel</a></li>
-        <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' or page.url contains '/resources' %}class="active"{% endif %}>About / Resources</a></li>
-      </ul>
-      
-    </div>
-  </nav>
-
-  <!-- MAIN CONTENT -->
-  <main class="content">
-    {{ content }}
-  </main>
-
-  <!-- SCRIPTS -->
-  <script>
-    // Close mobile menu when clicking outside
-    document.addEventListener('click', function(e) {
-      const nav = document.querySelector('.nav-container');
-      const button = document.querySelector('.hamburger');
-      if (!nav.contains(e.target) && !button.contains(e.target)) {
-        document.body.classList.remove('nav-open');
-      }
-    });
-
-    // Add scrolled class to navbar on scroll
-    let lastScroll = 0;
-    const navbar = document.getElementById('navbar');
-    
-    window.addEventListener('scroll', () => {
-      const currentScroll = window.pageYOffset;
-      
-      if (currentScroll > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-      
-      lastScroll = currentScroll;
-    });
-
-    // Close mobile menu when nav link is clicked
-    document.querySelectorAll('.nav-list a').forEach(link => {
-      link.addEventListener('click', () => {
-        document.body.classList.remove('nav-open');
-      });
-    });
-  </script>
 </body>
 </html>
