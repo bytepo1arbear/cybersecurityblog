@@ -1,17 +1,21 @@
-name: Build and Deploy GitHub Pages
+name: Deploy Jekyll site to GitHub Pages
 
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -20,21 +24,27 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3'
           bundler-cache: true
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Build Jekyll site
-        run: |
-          bundle exec jekyll build --destination _site
+        run: bundle exec jekyll build --destination _site
 
-      - name: Show `_site` build output (debug)
-        run: |
-          echo "_site size:"; du -sh _site || true
-          echo "_site top-level files:"; ls -la _site || true
-          echo "_site sample files:"; find _site -maxdepth 2 -type f | head -n 50 || true
-
-      - name: Deploy to GitHub Pages via gh-pages branch
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
