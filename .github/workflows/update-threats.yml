@@ -2,7 +2,7 @@ name: Update Threat Feeds
 
 on:
   schedule:
-    - cron: '0 2 * * *' # daily at 02:00 UTC
+    - cron: '0 22 * * 0' # Sunday 12:00 NZT = Sunday 22:00 UTC in winter (UTC+12)
   workflow_dispatch: {}
 
 permissions:
