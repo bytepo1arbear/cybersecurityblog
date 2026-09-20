@@ -11,8 +11,12 @@ exclude_from_collection: true
 </section>
 
 <div class="mx-auto max-w-6xl">
+  {% assign project_list = site.projects | where_exp: "project", "project.path != '_projects/index.md'" %}
+  {% assign featured_projects = project_list | where: "featured", true | sort: "date" | reverse %}
+  {% assign standard_projects = project_list | where: "featured", false | sort: "date" | reverse %}
+  {% assign project_list = featured_projects | concat: standard_projects %}
+
   <div class="grid gap-6 lg:grid-cols-2">
-    {% assign project_list = site.projects | where_exp: "project", "project.path != '_projects/index.md'" | sort: 'featured' | reverse | sort: 'date' | reverse %}
     {% for project in project_list %}
     <article class="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-glow {% if project.featured %}ring-1 ring-sky-500/40{% endif %}">
       <div class="mb-4 flex items-center justify-between gap-3">
