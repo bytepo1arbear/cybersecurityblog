@@ -1,233 +1,798 @@
-last_updated: '2026-10-25T23:41:19Z'
+last_updated: '2026-11-02T01:08:45Z'
 count: 100
 items:
-- title: Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other
-    Servers
-  link: https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html
-  published: '2026-10-25T23:14:09Z'
-  summary: 'A single hacked device on a Tailscale network can be used to gain root
-    access to other servers it can reach, according to a security researcher who published
-    the findings this week. The attack requires two things: Tailscale SSH set up to
-    allow port forwarding, and an attacker who already controls one device that the
-    network''s access rules permit to connect to the target. The findings were'
+- title: CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients
+    Without a Private Key
+  link: https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html
+  published: '2026-11-01T14:21:31Z'
+  summary: A critical flaw in Canonical's LXD and MicroCloud let an attacker log in
+    as a trusted client without holding that client's private key. To do it, the attacker
+    had to reach their HTTPS API over the network and have the trusted client's public
+    certificate. Once in, the attacker would act as that client, with access to the
+    cluster and its virtual machines. If the impersonated account is
   source: The Hacker News
-- title: PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs
-    of AI-Assisted Hacking
-  link: https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
-  published: '2026-10-25T22:49:46Z'
-  summary: Threat actors have been observed using agentic artificial intelligence
-    (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell
-    vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. "In one case,
-    the attackers targeted a government entity in Europe and within two hours of the
-    initial exploitation they had successfully accessed password hashes and multi-factor
+- title: Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear
+    Script
+  link: https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html
+  published: '2026-11-01T12:55:40Z'
+  summary: Malicious code on the website of prediction market Polymarket sold some
+    signed-in traders' positions and moved their funds to the hackers on October 29.
+    The code had replaced a page-speed script that the site loaded from an outside
+    company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain
+    records show crypto worth about $2.64 million reached
   source: The Hacker News
+- title: FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto
+    Heist
+  link: https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html
+  published: '2026-11-01T12:33:00Z'
+  summary: The U.S. Federal Bureau of Investigation (FBI) has officially attributed
+    the theft of more than $6 billion in virtual assets to TraderTraitor, a North
+    Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima,
+    PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service
+    (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said
+    it
+  source: The Hacker News
+- title: NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET
+    Injection
+  link: https://thehackernews.com/2026/11/netamloader-malware-targets-government.html
+  published: '2026-11-01T12:32:58Z'
+  summary: Cybersecurity researchers have disclosed details of what has been described
+    as a "highly sophisticated infection chain" targeting government organizations
+    in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows
+    10 build used exclusively by government entities in Asia and involves the deployment
+    of a previously undocumented .NET assembly-loading framework codenamed
+  source: The Hacker News
+- title: OneNote File Extraction, (Sun, Nov 1st)
+  link: https://isc.sans.edu/diary/rss/33478
+  published: '2026-11-01T09:12:23Z'
+  summary: Recently, I had to extract embedded files from a set of OneNote files (extension
+    .one).
+  source: SANS Internet Storm Center
+- title: Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer
+    Identity Data
+  link: https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html
+  published: '2026-10-31T17:31:56Z'
+  summary: American blockchain analysis firm Chainalysis said it was the target of
+    a cybersecurity incident in which an external actor accessed non-sensitive customer
+    data. However, the company noted that the breach did not result in unauthorized
+    access to its investigation content, authentication credentials, or session tokens.
+    "This month, Chainalysis detected an external actor using offensive agentic
+  source: The Hacker News
+- title: Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated
+    Root Access
+  link: https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html
+  published: '2026-10-31T13:57:43Z'
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday
+    added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited
+    Vulnerabilities (KEV) catalog, following active exploitation in the wild. The
+    vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing
+    authentication for a critical function vulnerability that could allow a'
+  source: The Hacker News
+- title: 'Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer'
+  link: https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/
+  published: '2026-10-31T12:00:00Z'
+  summary: The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency
+    wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.
+  source: Cisco Talos
+- title: A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private
+    Chats
+  link: https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html
+  published: '2026-10-31T11:03:41Z'
+  summary: A malicious ChatGPT share link could run an attacker's code in the logged-in
+    session of anyone who opened it, allowing them to read their private conversations,
+    researchers at the security firm Parameter showed. The researchers reported the
+    flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight
+    days later and rated it P1, its most serious category.
+  source: The Hacker News
+- title: Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)
+  link: https://isc.sans.edu/diary/rss/33476
+  published: '2026-10-31T10:52:53Z'
+  summary: 'Wireshark Release Candidate 5.0.0 was published: soon we can expect a
+    new major version of Wireshark.'
+  source: SANS Internet Storm Center
+- title: YARA-X 1.22.1 Release, (Sat, Oct 31st)
+  link: https://isc.sans.edu/diary/rss/33474
+  published: '2026-10-31T10:48:17Z'
+  summary: YARA-X&#;x26;#;39;s 1.22.1 is a bugfix version, it brings 2 bugfixes.
+  source: SANS Internet Storm Center
 - title: YARA-X 1.22.0 Release, (Sun, Oct 25th)
   link: https://isc.sans.edu/diary/rss/33454
-  published: '2026-10-25T19:57:53Z'
+  published: '2026-10-31T10:45:40Z'
   summary: YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.
   source: SANS Internet Storm Center
-- title: OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication
-  link: https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html
-  published: '2026-10-25T12:24:29Z'
-  summary: OpenAI has announced plans to conduct frontier model training with no live
-    internet access, as it resumes reinforcement learning (RL) training and internal
-    inference of its most advanced AI models. "Based on the current state of alignment
-    research, monitoring systems, and the security of internet infrastructure, we
-    believe the responsible approach is to conduct frontier model training with no
+- title: Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%
+  link: https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html
+  published: '2026-10-31T10:26:12Z'
+  summary: Threat actors are launching about 8,226 network-layer distributed denial-of-service
+    (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure
+    and security company said it autonomously mitigated 18.2 million network-layer
+    (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of
+    2026. That amounts to 197,400 attacks per day, or one attack every 0.44
   source: The Hacker News
-- title: Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other
-    Widely Used Software
-  link: https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html
-  published: '2026-10-24T16:39:29Z'
-  summary: A memory-corruption flaw in Google's Brotli decoder sits in many programs
-    that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages,
-    and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the
-    flaw allows crafted compressed data to overwrite past the end of a buffer and
-    corrupt a program's memory, potentially
+- title: Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide
+  link: https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html
+  published: '2026-10-30T22:28:44Z'
+  summary: Chinese state-sponsored threat actors have been observed using a Go-based
+    artificial intelligence (AI)-powered penetration testing framework called ARTEX
+    in attacks aimed at high-value targets simultaneously. The activity has been attributed
+    by CrowdStrike to a China-based "targeted intrusion adversary" it tracks under
+    the moniker Vapor Panda (previously VexatiousTemper). First identified in
   source: The Hacker News
-- title: Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release
-    Pipeline
-  link: https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html
-  published: '2026-10-24T16:33:33Z'
-  summary: LiteLLM on Friday revealed that an Agent Platform master key accidentally
-    published to a public GitHub repository in late May 2026 ultimately allowed the
-    threat actor to push a malicious version of the popular Python package. "On May
-    27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness
-    repository which inadvertently contained the master key to a deployment of
+- title: TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control
+    Them
+  link: https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html
+  published: '2026-10-30T20:47:28Z'
+  summary: TeamViewer has fixed a flaw that lets the machine being controlled in a
+    remote session attack the computer that connected to control it. In a TeamViewer
+    session, the computer that connects and takes control is the viewer, and the machine
+    it controls is the host. A malicious or compromised host can exploit the flaw
+    to crash the viewer's TeamViewer and, depending on the platform, may also run
   source: The Hacker News
-- title: Google Says Gmail and Photos Data Shared With AI Search Could Be Used for
-    Targeted Ads
-  link: https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html
-  published: '2026-10-24T16:06:33Z'
-  summary: Google has updated its privacy policy to spell out that using personalized
-    artificial intelligence (AI) features in Search or Gemini could allow the company
-    to serve targeted ads to users based on their activity on other connected Google
-    services. "You may choose to allow certain Google services, including services
-    like Search or Gemini Apps, to access data from other Google services you use,
+- title: Devs Hit by Trojanized Claude Code Extension for Cursor
+  link: https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor
+  published: '2026-10-30T20:05:58Z'
+  summary: Two serious security issues hit Cursor on the same day, highlighting the
+    risks for AI-powered integrated development environments (IDEs).
+  source: Dark Reading
+- title: Behind the Scenes of How Operation Blackout Went Down
+  link: https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down
+  published: '2026-10-30T19:46:08Z'
+  summary: A recent law enforcement operation to dismantle harmful scam centers was
+    a big success. A threat intelligence expert walks us through what happened and
+    why he wants more of the same.
+  source: Dark Reading
+- title: WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours
+  link: https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html
+  published: '2026-10-30T19:38:14Z'
+  summary: Threat actors have been observed attempting to exploit a high-severity
+    security flaw in WordPress Core shortly after patches were released. The vulnerability,
+    which does not have a CVE identifier, relates to a case of remote code execution
+    impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of
+    8.1 on the CVSS scoring system. Patches for the flaw were released on October
   source: The Hacker News
-- title: Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time
-    Updater That Could Fuel a Botnet
-  link: https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html
-  published: '2026-10-24T14:34:24Z'
-  summary: Between November 2025 and March 2026, the Dutch security firm Eye Security
-    pushed more than 2 million updates to computers it did not own to switch off a
-    background updater that it said could have allowed an outsider to take over the
-    machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time,
-    a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was
+- title: Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by
+    CryptoBilis
+  link: https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html
+  published: '2026-10-30T17:51:56Z'
+  summary: A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has
+    an extra circuit board that sends out the recovery phrase over a mobile network,
+    a customer has reported. Trezor has not yet examined the device. It is telling
+    everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds
+    to a new wallet with a new recovery phrase. Trezor said in a blog post
   source: The Hacker News
-- title: CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and
-    Arista VeloCloud
-  link: https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html
-  published: '2026-10-24T11:55:57Z'
-  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday
-    added two vulnerabilities impacting Collabora Online Built-in CODE Server and
-    Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV),
-    citing reports of active exploitation in the wild. The critical-severity vulnerabilities
-    are listed below - CVE-2026-110447 (CVSS score: 9.2) - An operating'
+- title: Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets
+    Them Moving
+  link: https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html
+  published: '2026-10-30T17:28:53Z'
+  summary: The alert is critical. The fix is known. And the ticket sits in a queue
+    for days. Security teams understand the risk, but the people who keep applications
+    available need proof that the change won’t break anything.  Their concerns are
+    practical. An IPS protection could block legitimate traffic. A configuration change
+    could interrupt a service. An endpoint policy could affect an application
   source: The Hacker News
-- title: BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing
-    Revocations
-  link: https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html
-  published: '2026-10-24T00:20:13Z'
-  summary: Diplomatic organizations in Central Asia have been targeted by a sophisticated
-    new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity,
-    which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan
-    in early 2026, is suspected to be orchestrated by a China-linked state-sponsored
-    hacking group known as APT41, Kaspersky said in a technical report
+- title: Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets
+    42 Months in Prison
+  link: https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html
+  published: '2026-10-30T16:10:45Z'
+  summary: Ahmad Umar Agha, a Syrian Electronic Army hacker known online as "Th3Pr0,"
+    has been sentenced by a U.S. federal court to 42 months in prison for his role
+    in a hacking conspiracy that targeted Western news outlets. The conspiracy was
+    organized and led by members of former Syrian President Bashar al-Assad's inner
+    circle, including the commander of Syria's General Intelligence
   source: The Hacker News
-- title: Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE
+- title: L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara
+  link: https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian
+  published: '2026-10-30T15:39:54Z'
+  summary: I ricercatori non riescono a spiegare del tutto perché le minacce informatiche
+    in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.
+  source: Dark Reading
+- title: Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent
+    SSH Backdoor
+  link: https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html
+  published: '2026-10-30T14:25:47Z'
+  summary: Cybersecurity researchers have disclosed that a trojanized version of Anthropic's
+    official Claude Code extension was distributed through the Cursor Marketplace
+    as a legitimate update, attempting to install a persistent SSH backdoor on affected
+    systems. The malicious update, version 2.1.313, was distributed under the extension's
+    legitimate publisher identity, prompting Cursor to temporarily shut
+  source: The Hacker News
+- title: Undead Software Projects Continue to Raise Security Risks
+  link: https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks
+  published: '2026-10-30T14:10:37Z'
+  summary: A security firm patched a decade-old app to prevent the takeover of millions
+    of machines, highlighting that abandoned domains remain a boon to attackers.
+  source: Dark Reading
+- title: Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization
+    Bypass Flaw
+  link: https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html
+  published: '2026-10-30T13:15:30Z'
+  summary: 'Drupal has warned that threat actors are exploiting a "highly critical"
+    security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539
+    (CVSS score: N/A), is a case of missing authorization affecting Commerce Core
+    versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. "This module enables you
+    to sell goods and services to customers through an included shopping cart'
+  source: The Hacker News
+- title: CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV
+  link: https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html
+  published: '2026-10-30T12:57:05Z'
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday
+    added two security flaws impacting Cisco and GitLab software to its Known Exploited
+    Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities
+    are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or
+    wraparound vulnerability in GitLab Community Edition and Enterprise'
+  source: The Hacker News
+- title: Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly
+    $3 Billion Frozen
+  link: https://thehackernews.com/2026/10/binance-suffers-security-breach.html
+  published: '2026-10-30T09:44:59Z'
+  summary: Cryptocurrency giant Binance said on Thursday that a "security incident"
+    on its platform has impacted about $6.3 billion worth of assets. The world's biggest
+    cryptocurrency exchange said nearly $3 billion of those assets have been frozen
+    on-chain so far.  Tether and Circle said they have frozen more than 1.567 billion
+    USDT and 800 million USDC related to the incident, respectively. The
+  source: The Hacker News
+- title: As Russia's Cyberwar Evolves, Belarus Steps Forward
+  link: https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward
+  published: '2026-10-30T08:00:00Z'
+  summary: The "FrostyNeighbor" advanced persistent threat (APT) launched a destructive
+    attack in Ukraine and is raising concerns about deeper alignment with Russian
+    cyber objectives.
+  source: Dark Reading
+- title: ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158,
+    (Fri, Oct 30th)
+  link: https://isc.sans.edu/diary/rss/33472
+  published: '2026-10-30T03:30:17Z'
+  summary: Threat intelligence update from this source.
+  source: SANS Internet Storm Center
+- title: 'ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized
+    PDF, Token Theft + 26 More Stories'
+  link: https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html
+  published: '2026-10-30T00:41:58Z'
+  summary: Some attacks take real skill. Others just need someone to leave a door
+    open. This week has both. Exposed passwords, old bugs still getting exploited,
+    and trusted software doing things it shouldn't. There's a strange mix of clever
+    tricks and careless mistakes. Hackers are borrowing trust from familiar apps,
+    websites, and AI tools. Some are using AI to speed things up. Others are leaving
+    their
+  source: The Hacker News
+- title: Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other
+    Distributions
+  link: https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html
+  published: '2026-10-29T21:27:05Z'
+  summary: A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects
+    Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's
+    own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October
+    27 that its AI model wrote an exploit that uses the flaw to let a remote attacker
+    with no credentials run commands as root on Linux servers with a
+  source: The Hacker News
+- title: Anthropic-Themed Phishing Emails Bypass Top Security Tools
+  link: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools
+  published: '2026-10-29T21:21:56Z'
+  summary: Obvious phishing emails with numerous red flags are somehow getting past
+    some of the industry-leading secure email gateway (SEG) products.
+  source: Dark Reading
+- title: Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners
+  link: https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html
+  published: '2026-10-29T20:50:29Z'
+  summary: Threat actors are delivering malicious loaders and cryptocurrency miners
+    under the guise of artificial intelligence (AI) desktop applications for Anthropic
+    Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves
+    creating fake GitHub projects that claim to be desktop applications like GPT-5.6
+    Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called
+  source: The Hacker News
+- title: Rethinking Cybersecurity Awareness in the AI Era
+  link: https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era
+  published: '2026-10-29T20:15:37Z'
+  summary: This installment of the Reporters' Notebook video series discusses some
+    of the trends and topics from Cybersecurity Awareness Month, from using AI for
+    better training to educating next-generation workforces on modern risks and emerging
+    threats.
+  source: Dark Reading
+- title: Why CTF Competitions May Be More Important Than Ever
+  link: https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever
+  published: '2026-10-29T19:56:44Z'
+  summary: As artificial intelligence squeezes early-career learning opportunities,
+    capture-the-flag contests could be one way to help pick up the slack.
+  source: Dark Reading
+- title: Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching
+    Vulnerabilities
+  link: https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html
+  published: '2026-10-29T19:12:40Z'
+  summary: Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier
+    model with state-of-the-art cybersecurity and long-horizon capabilities. "It shows
+    significant gains across coding and agentic tasks as well as across key capabilities
+    critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%)
+    for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and
+  source: The Hacker News
+- title: Claude Model Builds Exploits Across Major Browsers & OSes
+  link: https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses
+  published: '2026-10-29T18:15:59Z'
+  summary: An unreleased version of the AI model has found and chained multiple vulnerabilities
+    in Chrome, Safari, Android, Windows, and Linux, Anthropic says.
+  source: Dark Reading
+- title: A quiet week in infosec <.<
+  link: https://blog.talosintelligence.com/a-quiet-week-in-infosec/
+  published: '2026-10-29T18:00:00Z'
+  summary: In this edition of the Threat Source newsletter, William explores how PHP
+    has taken over the conversation, Node.js has joined in, but underneath it all,
+    there are still good people doing good work.
+  source: Cisco Talos
+- title: 'Webinar: How to Build AI Threat Readiness Into Your Security Operations'
+  link: https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html
+  published: '2026-10-29T17:09:41Z'
+  summary: 'Security teams have spent years trying to detect threats faster. AI is
+    changing the harder part: how much time defenders have left to act. Advanced AI
+    models can now help attackers discover vulnerabilities, generate exploit code,
+    and move through weaknesses faster than traditional security processes were built
+    to handle. The challenge is no longer just finding another vulnerability or'
+  source: The Hacker News
+- title: Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls
+  link: https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html
+  published: '2026-10-29T17:09:18Z'
+  summary: A flaw in Telegram for Android could be chained with two other bugs to
+    take full control of a victim's phone through a voice call, once the victim answered,
+    according to security startup NebuSec. The attacker needed only an ordinary Telegram
+    account. Telegram fixed the flaw in version 12.10.4 of the app, released in late
+    September, and NebuSec disclosed it on October 29. Combined with an
+  source: The Hacker News
+- title: 'The Rise of the Threat Operator: How AI Will Redefine Security Operations
+    and Careers'
+  link: https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html
+  published: '2026-10-29T17:03:41Z'
+  summary: AI is beginning to take over much of the work that has traditionally defined
+    the security analyst's job. Investigating alerts, collecting evidence, correlating
+    activity across tools, and executing response actions are becoming tasks that
+    AI systems can perform on their own. As these capabilities mature, security operations
+    centers (SOCs) will see major changes in how work is organized, how
+  source: The Hacker News
+- title: 26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories
+  link: https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html
+  published: '2026-10-29T17:03:15Z'
+  summary: 26,400 credentials that developers left in public code on Gitee, a Chinese
+    code-hosting service, still worked when a researcher tested them. Anyone who copied
+    one from that code could have used it. Independent researcher Ben Zimmermann found
+    them by scanning 7.25 million public Gitee repositories and reported the results on
+    October 28. Most were keys for cloud and AI services, led by
+  source: The Hacker News
+- title: Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls
+  link: https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html
+  published: '2026-10-29T16:14:46Z'
+  summary: Cisco has released patches to address a high-severity security flaw in
+    Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall
+    Threat Defense (FTD) Software that it said has been exploited in the wild. The
+    vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system.
+    Successful exploitation could allow an unauthenticated, remote attacker to cause
+    the
+  source: The Hacker News
+- title: GitHub Launches npm Firewall to Block Malicious Packages Before Installation
+  link: https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html
+  published: '2026-10-29T15:56:33Z'
+  summary: GitHub has announced that it's introducing a new package firewall as a
+    preview to block installation of suspicious npm packages during installation time.
+    "The firewall inspects both metadata requests and package downloads for signs
+    of malicious activity, acting as an install-time policy gate," GitHub said. The
+    feature, which currently supports only npm packages, is available in public preview
+  source: The Hacker News
+- title: Threat Modeling With 4 Simple Questions on a White Board
+  link: https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions
+  published: '2026-10-29T15:44:04Z'
+  summary: A four-question exercise that CISOs can use to create a threat model that
+    promises results, without a big spend.
+  source: Dark Reading
+- title: Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby
+    Left Open
+  link: https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html
+  published: '2026-10-29T14:35:39Z'
+  summary: 'An attacker tried to exploit a critical GitLab vulnerability on the Alpine
+    Linux project''s own GitLab server a week after GitLab released a fix, Alpine
+    Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let
+    an attacker run code on a GitLab server through a crafted regular expression in
+    a CI configuration. Alpine found no evidence that the attack worked but'
+  source: The Hacker News
+- title: 'IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as
+    ransomware activity increases'
+  link: https://blog.talosintelligence.com/ir-trends-q3-2026/
+  published: '2026-10-29T14:00:00Z'
+  summary: Phishing remained the leading initial access technique, while percentage
+    of ransomware and pre-ransomware cases increased. Finance and public administration
+    tied as the top-targeted industries.
+  source: Cisco Talos
+- title: Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption
+    Keys
+  link: https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html
+  published: '2026-10-29T13:54:22Z'
+  summary: Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February,
+    to plant custom malware inside the systems that control an organization's SD-WAN
+    network. The malware, called KeyDrift, is designed to copy the keys that encrypt
+    traffic between sites and store them for later use, Cisco Talos said on October
+    28. Talos calls the attacks historical but does not specify when they
+  source: The Hacker News
+- title: China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail
+    Visibility
+  link: https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html
+  published: '2026-10-29T11:52:33Z'
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
+    added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities
+    (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus
+    threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The
+    vulnerability in question is CVE-2026-41709 (CVSS score:'
+  source: The Hacker News
+- title: Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks
+    Management Interfaces
+  link: https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html
+  published: '2026-10-29T11:20:17Z'
+  summary: Palo Alto Networks on Wednesday warned that threat actors are exploiting
+    the recently patched PHP2Shell vulnerabilities against publicly-accessible management
+    interfaces. "Active exploitation has been observed targeting the Palo Alto Networks
+    management interface exposed to the internet," the network security company said
+    in an update to its advisory. The vulnerabilities, tracked as
+  source: The Hacker News
+- title: Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes
+  link: https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes
+  published: '2026-10-29T10:00:00Z'
+  summary: The enigmatic service is providing popular AI coding tools to mainland
+    China and other regions where OpenAI and Anthropic products are not officially
+    for sale — but with key security features turned off.
+  source: Dark Reading
+- title: 'NIK C2: The new AI-enabled command-and-control framework'
+  link: https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/
+  published: '2026-10-29T10:00:00Z'
+  summary: Cisco Talos observed a new AI-integrated command-and-control (C2) framework
+    in the wild called “NIK C2.”
+  source: Cisco Talos
+- title: Cyber Vulnerabilities Besiege Italy, Absent Clear Cause
+  link: https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy
+  published: '2026-10-29T08:00:00Z'
+  summary: Researchers can't quite explain why cyber threats look so different in
+    Italy compared with everywhere else.
+  source: Dark Reading
+- title: Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct
+    29th)
+  link: https://isc.sans.edu/diary/rss/33470
+  published: '2026-10-29T06:17:41Z'
+  summary: Building your malware analysis lab is a key point before playing with malware.
+    Today, thanks to virtualization, it&#;x26;#;39;s convenient to play with snapshots
+    in your lab. Start a new investigation from a clean snapshot and take some more
+    when you reached a critical step. But, if you need to revert to a previous snapshot,
+    all changes applied to the VM are... lost! Therefore, it&#;x26;#;39;s important
+    to store important data outside the VM.
+  source: SANS Internet Storm Center
+- title: ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156,
+    (Thu, Oct 29th)
+  link: https://isc.sans.edu/diary/rss/33468
+  published: '2026-10-29T03:10:12Z'
+  summary: Threat intelligence update from this source.
+  source: SANS Internet Storm Center
+- title: Yet Another ClickFix Campaign, (Wed, Oct 28th)
+  link: https://isc.sans.edu/diary/rss/33466
+  published: '2026-10-29T00:42:15Z'
+  summary: Introduction
+  source: SANS Internet Storm Center
+- title: Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation
+    Campaigns
+  link: https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html
+  published: '2026-10-28T23:38:33Z'
+  summary: The China-nexus cyber espionage group known as Volt Typhoon has been attributed
+    to a now-disrupted covert access network dubbed Silent Train that has been put
+    to use for zero-day exploitation and strategic access. "First identified in late
+    2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise
+    infrastructure," Lumen Technologies Black Lotus Labs said in a report shared
+  source: The Hacker News
+- title: Google to Allow One-Tap Android App Installs From Approved Third-Party Stores
+    Outside U.S.
+  link: https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html
+  published: '2026-10-28T22:38:09Z'
+  summary: Third-party Android app stores can now apply to Google for permission to
+    install apps with one tap, without Android's usual confirmation screens, and to
+    update them in the background. To qualify, a store must pass identity checks and
+    send Google its full catalog, along with every new app and update, for ongoing
+    malware scanning. Approved stores get the features from December 1, but only on
+  source: The Hacker News
+- title: Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000
+    Pwn2Own Win
+  link: https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html
+  published: '2026-10-28T21:53:34Z'
+  summary: A chain of logic flaws, with no memory corruption, can turn a malicious
+    web page into code running on a Windows computer outside Microsoft Edge's sandbox,
+    a security researcher has shown. Orange Tsai of DEVCORE published the full method
+    on October 28, five months after the chain won $175,000 at the Pwn2Own Berlin
+    contest in May. Microsoft fixed the Edge bugs the day after the contest,
+  source: The Hacker News
+- title: PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network
+  link: https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html
+  published: '2026-10-28T21:32:45Z'
+  summary: Cybersecurity researchers have disclosed details of what appears to be
+    an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus
+    threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed
+    systems. The activity, which was observed on October 25, 2026, involved an attacker
+    combining PHP2Shell with a kernel privilege escalation exploit to root
+  source: The Hacker News
+- title: 'Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN'
+  link: https://blog.talosintelligence.com/uat-11473-keydrift/
+  published: '2026-10-28T21:32:02Z'
+  summary: Talos has identified UAT-11473, a highly sophisticated APT, who exploited
+    CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst
+    Controller instances to bypass authentication and gain unauthorized access to
+    affected systems to deploy KeyDrift.
+  source: Cisco Talos
+- title: GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub
+  link: https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github
+  published: '2026-10-28T19:39:00Z'
+  summary: The supply chain attack campaign's shift toward developer endpoints and
+    cloud access signals what could be next for the cybercrime outfit.
+  source: Dark Reading
+- title: Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security
+    Patch
+  link: https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html
+  published: '2026-10-28T18:18:03Z'
+  summary: 'Threat actors are beginning to probe for a newly patched critical vulnerability
+    in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused
+    Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a
+    case of improper authentication in the Oracle Application Object Library of Oracle
+    E-Business Suite. It was patched by Oracle last week as part of its Critical'
+  source: The Hacker News
+- title: Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting
+    Servers
+  link: https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html
+  published: '2026-10-28T17:20:00Z'
+  summary: A critical 16-year-old flaw in EDK II, the open-source code that most hardware
+    makers use to build UEFI firmware, can allow an attacker to run code on a machine
+    before its operating system loads, but only while the machine is booting over
+    the network. UEFI firmware is the software that runs first when a computer is
+    switched on, before the operating system. An attacker who can reach the machine
+  source: The Hacker News
+- title: Wazuh and AI for Enhanced SOC Workflows
+  link: https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html
+  published: '2026-10-28T17:00:00Z'
+  summary: Artificial Intelligence (AI) has become one of this decade's defining technologies.
+    From healthcare and finance to manufacturing and education, organizations increasingly
+    rely on AI to automate repetitive tasks, uncover patterns hidden within large
+    datasets, and support faster decision-making. Cybersecurity has experienced a
+    similar transformation. While attackers employ AI to automate
+  source: The Hacker News
+- title: Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and
+    Security Bypass
+  link: https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html
+  published: '2026-10-28T16:45:51Z'
+  summary: 'Adobe has released patches to address multiple critical security flaws
+    in Campaign Classic that, if successfully exploited, could result in arbitrary
+    code execution, security feature bypass, and privilege escalation. The list of
+    eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code
+    injection vulnerability that could lead to arbitrary code execution.'
+  source: The Hacker News
+- title: 'American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign
+    Exposed'
+  link: https://thehackernews.com/2026/10/american-organizations-under-attack.html
+  published: '2026-10-28T16:00:00Z'
+  summary: Modern phishing campaigns can compromise American businesses without relying
+    on traditional credential theft. Attackers can abuse legitimate cloud services,
+    authentication mechanisms, and trusted business workflows to gain access to corporate
+    accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker,
+    a device code phishing campaign primarily targeting U.S. organizations
+  source: The Hacker News
+- title: AI Takes Root in Hospital Corridors, Raises Security Stakes
+  link: https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes
+  published: '2026-10-28T15:29:06Z'
+  summary: Artificial intelligence is everywhere in healthcare, from doctors' intake
+    forms to cancer screenings. But in some cases, life-and-death uses are outpacing
+    cybersecurity.
+  source: Dark Reading
+- title: Attacker Relentlessly Scans for Credentials by Impersonating AI Bots
+  link: https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials
+  published: '2026-10-28T14:37:52Z'
+  summary: The threat actor lurked behind bots posing as agents from OpenAI, Anthropic,
+    Meta, and others to find exposed data.
+  source: Dark Reading
+- title: Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari,
+    Windows and Linux Exploits
+  link: https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html
+  published: '2026-10-28T13:45:07Z'
+  summary: An unreleased Anthropic AI model found security flaws in Chrome, Safari,
+    Android, Windows, and Linux and chained them into working proof-of-concept exploits,
+    the company said in its latest report. The exploits were built in the lab after
+    the model was prompted, not seen in any real attack, and Anthropic reported every
+    flaw to the vendor first, so all of them are already patched. One proof of
+  source: The Hacker News
+- title: FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money
+    Laundering
+  link: https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html
+  published: '2026-10-28T13:07:50Z'
+  summary: The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of
+    a domain associated with a bulletproof hosting provider (BPH) named Virtualine.
+    The move was in response to the service being used to commit and facilitate prolific
+    criminal activity, including "the advertisement of sexually explicit images of
+    minors, the intentional disclosure of nonconsensual intimate visual depictions
+  source: The Hacker News
+- title: Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud
+    Breach
+  link: https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html
+  published: '2026-10-28T12:43:21Z'
+  summary: Japan's GMO Internet Group is offering up to $1 million in total for tips
+    that help catch the attackers who breached its Onamae.com Desktop Cloud service,
+    after refusing to pay an extortion demand. The reward program opened on October
+    28 and pays only if a tip helps lead to an arrest or an international wanted notice.
+    The service hosts Windows desktops used for FX trading,
+  source: The Hacker News
+- title: Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access
+    on Other Servers
+  link: https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html
+  published: '2026-10-28T11:50:37Z'
+  summary: Tailscale has released version 1.104.4 to fix flaws in its built-in SSH
+    server that could let an attacker reach services and files on other servers that
+    only the root user should be able to touch. The flaws are in how Tailscale SSH forwards
+    network connections, a job the Tailscale background process carries out with root
+    privileges. To use them, an attacker must
+  source: The Hacker News
+- title: ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained
     Flaws
-  link: https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html
-  published: '2026-10-23T23:24:08Z'
-  summary: Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs
-    in Onigmo, the regular expression engine built into the language. The bugs lie
-    behind four critical security flaws that GitLab patched over the past month. GitLab
-    found that a specially crafted pattern could corrupt memory while Ruby compiles
-    it, potentially leading to code execution on its own servers. Ruby says any
+  link: https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html
+  published: '2026-10-28T11:34:58Z'
+  summary: The critical Oracle PeopleSoft bug that ShinyHunters has exploited since
+    May is not one flaw but three chained together, the researchers who reported it
+    said this week. Oracle patched all three under a single identifier, CVE-2026-35273,
+    in June. Its root is a server-side request forgery (SSRF) that reaches an internal
+    management interface because PeopleSoft trusts its own loopback address
   source: The Hacker News
-- title: Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to
-    Execute Intrusions
-  link: https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html
-  published: '2026-10-23T23:20:47Z'
-  summary: Cybersecurity researchers have discovered an artificial intelligence (AI)-driven
-    intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware
-    groups. Central to the operation is an "Autonomous Red Team Kill Chain Framework"
-    referred to as Phantom. The threat actor is assessed to be Russian-speaking and
-    functions both as an intrusion and data-extortion operator, as well as an
+- title: Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit
+    Traffic Emerges
+  link: https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html
+  published: '2026-10-28T11:12:26Z'
+  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added two vulnerabilities impacting Adobe Commerce and Magento, and Google''s
+    Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing
+    evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497
+    (CVSS score: 9.2) - An unchecked return value vulnerability in'
   source: The Hacker News
-- title: Trust Is Not What It Seems — And Fraudsters Are Counting on It
+- title: Third Serengeti Sweep Tops 1,400 Arrests as Investigations Mature
+  link: https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature
+  published: '2026-10-28T06:00:00Z'
+  summary: Interpol's annual Operation Serengeti, now in its third iteration, led
+    to 1,462 arrests across 20 African countries and the US, recovering $105 million
+    in stolen funds.
+  source: Dark Reading
+- title: ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154,
+    (Wed, Oct 28th)
+  link: https://isc.sans.edu/diary/rss/33464
+  published: '2026-10-28T02:30:11Z'
+  summary: Threat intelligence update from this source.
+  source: SANS Internet Storm Center
+- title: CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan
+    Targets
+  link: https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html
+  published: '2026-10-27T23:56:46Z'
+  summary: Cybersecurity researchers have disclosed details of three cyber attacks
+    targeting organizations in Japan in which artificial intelligence (AI) was a key
+    element, either in the driving seat or to assist a human operator. TrendAI, which
+    analyzed three exposed server environments used by threat actors to conduct the
+    malicious cyber operations, described them as distinct from previously published
+  source: The Hacker News
+- title: 3 Frameworks to Protect CISOs & Orgs Against AI Liability
+  link: https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability
+  published: '2026-10-27T21:15:03Z'
+  summary: Cyber leaders can get ahead of AI liability with rigorous documentation,
+    transparency, and smart contract negotiations with AI vendors.
+  source: Dark Reading
+- title: External Teams Chats Anchor 15-Minute Malware Delivery
+  link: https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path
+  published: '2026-10-27T20:42:40Z'
+  summary: Mail bombing is getting a new look with a wide-scale, ongoing social engineering
+    campaign that might be tied to the Black Basta ransomware gang.
+  source: Dark Reading
+- title: SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack
+  link: https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack
+  published: '2026-10-27T19:58:06Z'
+  summary: A recent Shai-Hulud attack shows defenders need real-time visibility into
+    production code and affected services to respond to supply chain compromises.
+  source: Dark Reading
+- title: GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption
+  link: https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html
+  published: '2026-10-27T19:29:48Z'
+  summary: The GoAhead embedded web server loaded a certificate revocation list into
+    its default TLS backend but never turned revocation checking on, so a revoked
+    client certificate could still pass login on affected setups. The flaw is in builds
+    that use the OpenSSL backend with mutual-TLS, where the server checks a client
+    certificate and vice versa, and a revocation list is configured to block revoked
+  source: The Hacker News
+- title: Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and
+    iPads
+  link: https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html
+  published: '2026-10-27T19:29:09Z'
+  summary: 'Apple on Monday backported fixes for a high-severity security flaw that
+    was exploited in real-world cyber attacks to older devices. The vulnerability,
+    tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting
+    CoreGraphics that could result in arbitrary code execution when processing a maliciously
+    crafted file. Patches for the flaw were released last month by Apple in'
+  source: The Hacker News
+- title: 'Beware the Slasher: AI Could Kill Off Cybersecurity Pros'' Skills'
+  link: https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills
+  published: '2026-10-27T17:43:07Z'
+  summary: Nathan Hamiel outlines potential SecOps horror in the AI midst, as core
+    technical capabilities go the way of reading an atlas or remembering phone numbers.
+  source: Dark Reading
+- title: '''Aokigahara'' Stealer Targets ''Developer Keyrings'' & AI Assistants'
+  link: https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants
+  published: '2026-10-27T16:47:20Z'
+  summary: The malware's focus on AI tools expands the traditional infostealer playbook
+    to expose a forest of AI sessions, sensitive business data, and developer infrastructure
+    from a single compromised endpoint.
+  source: Dark Reading
+- title: 'From federal SOCs to Talos: Ryan Fetterman on practical security research'
+  link: https://blog.talosintelligence.com/from-federal-socs-to-talos-ryan-fetterman-on-practical-security-research/
+  published: '2026-10-27T10:00:21Z'
+  summary: What does it mean to be "blue collar" for the blue team? Ryan Fetterman
+    discusses the realities of detection engineering, and shares his philosophy on
+    building a career in security without burning out.
+  source: Cisco Talos
+- title: ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152,
+    (Tue, Oct 27th)
+  link: https://isc.sans.edu/diary/rss/33462
+  published: '2026-10-27T02:55:13Z'
+  summary: Threat intelligence update from this source.
+  source: SANS Internet Storm Center
+- title: So Many AI Security Benchmarks, but None Tell the Whole Story
+  link: https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges
+  published: '2026-10-27T00:26:50Z'
+  summary: Measuring artificial intelligence model security gets complex, fast, thanks
+    to a growing patchwork of benchmarks targeting different variables in the equation.
+    But none replace testing against your own code and workflows.
+  source: Dark Reading
+- title: 'Risks & Rewards: How AI Is Redefining the CISO''s Role'
+  link: https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role
+  published: '2026-10-26T21:44:33Z'
+  summary: Nvidia security executive Mark Weatherford says CISOs must help business
+    leaders weigh AI's pros and cons, and ensure those deploying it own the risks.
+  source: Dark Reading
+- title: In-the-Wild Attack Abuses AI Agents' Trust in Markdown
+  link: https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown
+  published: '2026-10-26T20:59:26Z'
+  summary: A new AI agent prompt injection technique exploits how coding assistants
+    consume local instruction files, blurring the line between text documents and
+    executable actions.
+  source: Dark Reading
+- title: '''Gheist'' Weaponizes GitHub Tokens to Steal Cloud Secrets'
+  link: https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets
+  published: '2026-10-26T18:01:40Z'
+  summary: An ongoing supply chain attack is harvesting credentials and sensitive
+    data from thousands of developer repositories.
+  source: Dark Reading
+- title: 10 Software Security Practices Built for the Next 250 Years
+  link: https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years
+  published: '2026-10-26T14:00:00Z'
+  summary: This Cybersecurity Awareness Month's theme, "Securing the Next 250," asks
+    us to look beyond vulnerabilities and consider what will make our digital systems
+    resilient for generations.
+  source: Dark Reading
+- title: Trust Is Not What It Seems — and Fraudsters Are Counting on It
   link: https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it
   published: '2026-10-23T20:57:56Z'
   summary: Threat actors don't need to rely on malware to breach organizations anymore.
     They're simply calling help desks and politely asking for access, with a little
     help from artificial intelligence.
   source: Dark Reading
-- title: (Reliable)? php2shell exploitability, (Fri, Oct 23rd)
-  link: https://isc.sans.edu/diary/rss/33452
-  published: '2026-10-23T20:04:47Z'
-  summary: Yesterday everyone was running around like crazy (me included :) because
-    of the php2shell vulnerability.
-  source: SANS Internet Storm Center
 - title: Exposed to PHP2Shell? Cyber Experts Weigh in With Advice
   link: https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice
   published: '2026-10-23T19:41:23Z'
   summary: Fixing the critical PHP flaws is not as simple as clicking "Update." Here's
     how to assess your risk, and what you can do to protect yourself.
   source: Dark Reading
-- title: Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials
-  link: https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html
-  published: '2026-10-23T19:20:56Z'
-  summary: Cybersecurity researchers have disclosed details of a large-scale campaign
-    that has targeted exposed network edge devices such as Fortinet FortiGate and
-    Palo Alto Networks GlobalProtect firewalls. "Artifacts from this investigation
-    also indicate that operators in this campaign have obtained access to numerous
-    organizations worldwide, and have attempted to further compromise some victims,
-  source: The Hacker News
 - title: AI Tools Are Generating Massive Attacks for Little Cost
   link: https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost
   published: '2026-10-23T17:26:59Z'
   summary: One campaign targets 105 sites using open-weight models; in another, public
     models gained full domain control for $12. Cyber-defense will have to change.
   source: Dark Reading
-- title: PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell
-    Patches
-  link: https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html
-  published: '2026-10-23T16:55:43Z'
-  summary: PHP has warned of another way an attacker could run code on a web server,
-    two days after it shipped emergency fixes for the critical PHP2Shell flaws. The
-    new issue, assigned CVE-2026-115560, affects only web applications configured
-    in an unusual way, and PHP considers it an unlikely risk.The project is not issuing
-    an emergency fix for it. Instead, it recommends turning off a feature called
-  source: The Hacker News
-- title: Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine
-    Attack
-  link: https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html
-  published: '2026-10-23T16:41:23Z'
-  summary: The Russian state-sponsored hacking group Sandworm teamed up with another
-    threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics
-    company last year. According to ESET, the attack involved UAC-0099 (aka Earth
-    Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing
-    email bearing a malware-laced attachment that led to the deployment of
-  source: The Hacker News
-- title: Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution
-    via a Crafted Image
-  link: https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html
-  published: '2026-10-23T15:06:00Z'
-  summary: Pillow, the most widely used image library for Python, can be made to run
-    operating system commands on a server by specifying the name of a file it is told
-    to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which
-    it opens by passing the file's name to Ghostscript, a separate program it runs
-    to turn the image into pixels, without checking the name first.
-  source: The Hacker News
-- title: Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted
-    Brotli Data
-  link: https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html
-  published: '2026-10-23T14:10:43Z'
-  summary: Malicious Brotli data can make an application on an official build of Node.js
-    run attacker-supplied code, security researchers at Imperva have demonstrated.
-    Their "Node2Shell" proof of concept ran code on the official Node.js 24.22.0 image
-    for Linux arm64, with no debugger or custom build, by feeding crafted data to
-    the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw
-  source: The Hacker News
-- title: Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances
-  link: https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html
-  published: '2026-10-23T14:05:45Z'
-  summary: AI agents paying for API calls with the x402 SDKs could sign a payment
-    for their full balance of a supported token if a malicious API asked for it, security
-    firm V12 said on October 22. The cause was the SDKs' default client, which set
-    no spending limit until releases on August 18 added one. The risk was limited
-    to agents who automatically signed payments and whose apps set
-  source: The Hacker News
 - title: Why Caribbean Threats Cascade Into Global Cyber-Risk
   link: https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk
   published: '2026-10-23T14:00:00Z'
   summary: The region is demonstrating what happens when exploits accelerate but assurance
     does not.
   source: Dark Reading
-- title: PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)
-  link: https://isc.sans.edu/diary/rss/33450
-  published: '2026-10-23T13:43:20Z'
-  summary: This morning, we returned to Infocon Green. As usual, we are raising the
-    Infocon to alert you to emerging situations requiring immediate attention. PHP
-    fit that description. By now, you either know about it, or you probably never
-    will, so it is time to go back to "business as usual".
-  source: SANS Internet Storm Center
 - title: 'Cyber Insurance''s New Reality: Underwriting Isn''t Enough'
   link: https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough
   published: '2026-10-23T13:30:00Z'
   summary: Rising AI, social engineering, and cloud risks are pushing carriers beyond
     risk transfer and deeper into cybersecurity itself.
   source: Dark Reading
-- title: PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai
-    Malware
-  link: https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html
-  published: '2026-10-23T13:10:45Z'
-  summary: 'Threat actors have been observed unsuccessfully attempting to exploit
-    the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a
-    Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws
-    may be harder than previously thought. The attacks aim to exploit CVE-2026-109618
-    and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote'
-  source: The Hacker News
 - title: 'AI Agents as Insider Threats: Inside Microsoft''s Bet on a Unified Security
     Stack'
   link: https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack
@@ -236,1254 +801,15 @@ items:
     anomalous AI agents, but experts warn that policing unpredictable agents with
     other agents may compound — not contain — the risk.
   source: Dark Reading
-- title: ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148,
-    (Fri, Oct 23rd)
-  link: https://isc.sans.edu/diary/rss/33448
-  published: '2026-10-23T10:25:11Z'
-  summary: Threat intelligence update from this source.
-  source: SANS Internet Storm Center
 - title: State Bank of India Suffers a Customer PII Data Leak
   link: https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak
   published: '2026-10-23T03:30:00Z'
   summary: Relatively small data breaches in India can turn quite serious, thanks
     to a sophisticated underground market for trading PII.
   source: Dark Reading
-- title: 'The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat'
-  link: https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html
-  published: '2026-10-23T00:35:35Z'
-  summary: Right now, there is probably an AI agent running on a laptop somewhere
-    in your network. It stores API keys and database passwords, can access your internal
-    systems, and works without anyone watching. Nobody reviewed its access. Nobody
-    owns it. If an employee had that much reach with that little oversight, you would
-    call it an insider risk. So why do we still call the agent a productivity tool?
-  source: The Hacker News
-- title: Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks
-  link: https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html
-  published: '2026-10-23T00:35:17Z'
-  summary: Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud
-    Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks,
-    the company said in an advisory on October 22. The flaw lets anyone who can log
-    in to the orchestrator, even with a read-only customer account, gain operator
-    privileges, the top level of control over it. For
-  source: The Hacker News
-- title: eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found
-    Easily Guessable
-  link: https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html
-  published: '2026-10-22T23:42:43Z'
-  summary: eMudhra, an Indian certificate authority (CA), will withdraw from its global
-    SSL/TLS certificate business, its board decided on Thursday. The decision came
-    five days after a researcher reported recovering the private keys of eight of
-    its intermediate CA certificates. eMudhra said it will replace affected customers'
-    certificates with free ones from partners, though its
-  source: The Hacker News
-- title: 'ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw,
-    Laravel Auth Bypass + 21 More'
-  link: https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html
-  published: '2026-10-22T23:15:44Z'
-  summary: This week has already been rough for cybersecurity. Critical PHP and GitLab
-    RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js
-    RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's
-    a lot to deal with in just a few days. And the week isn't even over yet. But those
-    big headlines are only half the story. Stolen passwords, exposed
-  source: The Hacker News
-- title: Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before
-    Kernel Fixes
-  link: https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html
-  published: '2026-10-22T22:31:53Z'
-  summary: Linux servers running KSMBD, the kernel's built-in SMB server, are exposed
-    to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's
-    Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774,
-    can be triggered before any network authentication. The other, ZDI-CAN-33549,
-    requires the SMB Direct transport and an RDMA-capable network
-  source: The Hacker News
-- title: Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations
-  link: https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html
-  published: '2026-10-22T21:42:31Z'
-  summary: Social media giant Meta was ordered to pay 25 billion in penalties by a
-    New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from
-    the company's Cambridge Analytica data scandal, which came to light in 2018. According
-    to multiple reports from the Associated Press, the New York Times, Reuters, and
-    the Wall Street Journal, state District Court Judge Francis J. Mathew called
-  source: The Hacker News
 - title: Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack
   link: https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack
   published: '2026-10-22T20:42:17Z'
   summary: The China-linked actor used an AI-enabled penetration-testing tool to automate
     and accelerate its attack on more than 2,200 tenants.
-  source: Dark Reading
-- title: 'What We Missed: Feds Lasso Texas Laptop Farms'
-  link: https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers
-  published: '2026-10-22T20:33:10Z'
-  summary: In this video, Dark Reading editors discuss some of the news they didn't
-    get a chance to cover, from busting up North Korea's stateside infrastructure
-    in "Operation Lonestar Justice" to Staples' gift card bonanza.
-  source: Dark Reading
-- title: Les supermarchés de l'UE paient d'un firmware de réfrigérateur non mis à
-    jour
-  link: https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french
-  published: '2026-10-22T19:30:20Z'
-  summary: Des centaines de magasins ont subi des pertes se chiffrant en millions
-    d'euros parce qu'ils avaient fait appel à des tiers pour gérer le micrologiciel
-    OT obsolète qui pilotait leurs systèmes de climatisation.
-  source: Dark Reading
-- title: INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global
-    Crackdown
-  link: https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html
-  published: '2026-10-22T19:08:22Z'
-  summary: INTERPOL on Thursday announced that a coordinated law enforcement action
-    has disrupted 10,909 malicious networks and recovered more than $105 million in
-    illicit funds. In tandem, the effort saw law enforcement agencies from 21 countries
-    arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown
-    took place between June 29 and August 31, 2026. "Authorities identified
-  source: The Hacker News
-- title: I had plans for that second
-  link: https://blog.talosintelligence.com/i-had-plans-for-that-second/
-  published: '2026-10-22T18:04:32Z'
-  summary: The Earth is speeding up, the leap second is being abolished, oh, and there's
-    critical vulnerabilities in PHP.
-  source: Cisco Talos
-- title: Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential
-    Rotation
-  link: https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
-  published: '2026-10-22T16:45:42Z'
-  summary: Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed "anomalous
-    activity" related to systems that store customer environment variables. Upon further
-    investigation, the company found that an unauthorized third party may have gained
-    access to encrypted environment variables, and, in some cases, obtained the decrypted
-    contents. The impact, it said, is limited to a "subset of users,
-  source: The Hacker News
-- title: OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows
-    and WSL
-  link: https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html
-  published: '2026-10-22T16:14:05Z'
-  summary: A flaw in the OpenCode AI coding agent allowed a malicious or hijacked
-    MCP server to run code on a developer's Windows or WSL machine when the developer
-    signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside
-    tools, and such code would run with the developer's own access. Anomaly, the company
-    behind OpenCode, fixed the flaw in version 1.18.33 on September
-  source: The Hacker News
-- title: As AI Risks Grow, Insurers Split on Covering the Damage
-  link: https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage
-  published: '2026-10-22T14:21:22Z'
-  summary: Some build specialized agentic AI coverage, while major carriers quietly
-    exclude it — leaving enterprises exposed without their knowledge.
-  source: Dark Reading
-- title: LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package
-    Release
-  link: https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html
-  published: '2026-10-22T13:58:48Z'
-  summary: LiteLLM on Wednesday disclosed that threat actors compromised "multiple
-    independent security controls" to push a malicious version of the Python package
-    containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's
-    release pipeline was compromised to push 1.107.0 to the Docker Hub registry and
-    the Python Package Index (PyPI) repository. The incident took place around 4:00
-    a.m.
-  source: The Hacker News
-- title: Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported
-    Versions
-  link: https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html
-  published: '2026-10-22T13:17:22Z'
-  summary: 'Node.js released security updates on October 21 for its three supported
-    release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug
-    in the Brotli decompression code that Node.js bundles, which the project says
-    can allow remote code execution, meaning an attacker could run code of their choosing
-    on the affected system. Each supported line has one fixed version:'
-  source: The Hacker News
-- title: New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory
-    Amplification
-  link: https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html
-  published: '2026-10-22T12:08:31Z'
-  summary: A remote attacker who has not logged in can crash many HTTP/3 web servers
-    with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept
-    code. By sending a small batch of compressed HTTP headers that expands in memory
-    to a much larger set, the attacker can force the server to use thousands of times
-    more memory than it received, enough to run a default server
-  source: The Hacker News
-- title: Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were
-    Publicly Disclosed
-  link: https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html
-  published: '2026-10-22T12:04:10Z'
-  summary: Amazon's Threat Intelligence team on Wednesday said it detected an attempt
-    to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October
-    17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation
-    in the wild following the release of the patches. "The exploit attempt originated
-    from an IP address associated with a commercial anonymization network,
-  source: The Hacker News
-- title: China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack
-  link: https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html
-  published: '2026-10-22T09:51:26Z'
-  summary: Microsoft on Wednesday disclosed that a China state-aligned actor dubbed
-    Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud
-    Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic
-    AI penetration testing framework that was made closed-source in the wake of its
-    abuse in cyber attacks targeting South Korean financial institutions, to speed
-  source: The Hacker News
-- title: UAE Transitions 50% of Government Services to Agentic AI
-  link: https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai
-  published: '2026-10-22T05:00:00Z'
-  summary: The United Arab Emirates says it's creating a foundation of security and
-    safety as it transforms its public service footprint.
-  source: Dark Reading
-- title: ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146,
-    (Thu, Oct 22nd)
-  link: https://isc.sans.edu/diary/rss/33446
-  published: '2026-10-22T02:00:02Z'
-  summary: Threat intelligence update from this source.
-  source: SANS Internet Storm Center
-- title: Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12
-    Years of Releases
-  link: https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html
-  published: '2026-10-22T00:27:34Z'
-  summary: 'GitLab released fixes on October 21 for a flaw that lets an attacker run
-    code on a self-managed server without logging in, and it affects every version
-    of the software going back to 7.0, released in 2014. The fix matters even for
-    administrators who patched nine days earlier: the October 12 update covered only
-    versions 19.2 and later, and the new fixed versions sit one patch above it, so
-    an'
-  source: The Hacker News
-- title: LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer
-    and Backdoor
-  link: https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html
-  published: '2026-10-21T23:31:57Z'
-  summary: The popular LiteLLM Python package has been compromised as part of a software
-    supply chain attack that delivered a credential stealer and a backdoor, according
-    to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects
-    LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python
-    package has since been quarantined on Python Package Index (PyPI), and the
-  source: The Hacker News
-- title: OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing
-    So
-  link: https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html
-  published: '2026-10-21T22:03:47Z'
-  summary: OpenAI has revealed that two artificial intelligence (AI) agents powered
-    by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested
-    software changes during two internal coding tasks. The AI company said the incident
-    took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part
-    of an internal deployment. "A GPT-6.1 Sol agent repairing an evaluation
-  source: The Hacker News
-- title: TiDB Breach Exposes Flawed Cloud Security Assumptions
-  link: https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security
-  published: '2026-10-21T21:15:39Z'
-  summary: Cloud providers may be storing sensitive customer data, without either
-    party knowing it. But when a provider is breached, the unseen information comes
-    to light.
-  source: Dark Reading
-- title: Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow],
-    (Wed, Oct 21st)
-  link: https://isc.sans.edu/diary/rss/33440
-  published: '2026-10-21T21:02:43Z'
-  summary: PHP.net announced that it will release a critical update today. We decided
-    to change the infoCon to YELLOW due to the widespread use of PHP, the expected
-    severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before
-    the patch became available.
-  source: SANS Internet Storm Center
-- title: Compromised eMudhra intermediate certificates
-  link: https://blog.talosintelligence.com/compromised-intermediate-certificates/
-  published: '2026-10-21T20:43:29Z'
-  summary: Cisco Talos is aware of eight intermediate certificates belonging to the
-    intermediate certificate authority, eMudhra.
-  source: Cisco Talos
-- title: Marvell, Microsoft & Oracle Work to Standardize Data Center Hardware Security
-  link: https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security
-  published: '2026-10-21T20:14:42Z'
-  summary: The effort is aimed at standardizing a NIST FIPS 140-3 Level 3 integrated
-    HSM for cloud and hyperscale data center infrastructure.
-  source: Dark Reading
-- title: Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data
-    Loss Only After It Happens
-  link: https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss
-  published: '2026-10-21T20:03:14Z'
-  summary: Research finds that, among respondents experiencing data loss, only 16%
-    said DLP blocked their most significant incidents before data left the organization.
-  source: Dark Reading
-- title: PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit
-    Attempts Emerge
-  link: https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html
-  published: '2026-10-21T19:30:00Z'
-  summary: PHP has released emergency updates that fix two critical flaws in the language
-    itself, letting an attacker without an account run code on a web server. The fixes
-    are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating
-    fully protects a server. The flaws, together called PHP2Shell, sit in the PHP
-    runtime, not in any application, so a site is exposed even when its own
-  source: The Hacker News
-- title: '''PHP2Shell'' Bugs Signal Red Alert for Security Industry'
-  link: https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry
-  published: '2026-10-21T19:19:17Z'
-  summary: Security teams are scrambling to remediate two critical PHP vulnerabilities
-    following leaked details and reports of exploitation attempts.
-  source: Dark Reading
-- title: Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious
-    Commands
-  link: https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html
-  published: '2026-10-21T18:45:09Z'
-  summary: Google on Tuesday said it's rolling out improved safeguards in its Chrome
-    browser to secure users against ClickFix attacks when Enhanced Protection is enabled.
-    ClickFix is a popular social engineering technique in which bad actors trick users
-    into copying and pasting malicious code directly into their computer's operating
-    system, thereby bypassing conventional security controls. As part of
-  source: The Hacker News
-- title: China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy
-    Backdoors
-  link: https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html
-  published: '2026-10-21T17:35:00Z'
-  summary: Cybersecurity researchers have disclosed details of a previously undocumented
-    China-aligned threat cluster known as Bronze Sandcastle that has been observed
-    targeting organizations in Asia and Africa since mid-2025. "The most distinctive
-    technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL
-    sideloading," Sophos security researcher Gabor Szappanos said in a post published
-  source: The Hacker News
-- title: Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection,
-    Proofpoint Reports
-  link: https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html
-  published: '2026-10-21T17:23:34Z'
-  summary: Generative AI has changed what a malicious email looks like. Messages that
-    once gave themselves away through clumsy wording, generic pretexts, and reused
-    templates now arrive fluent, personalized, and unique to each recipient, and the
-    behavioral signals email filters have relied on for years are fading as a result.
-    Proofpoint shared several examples of the shift at its Protect 2026 conference.
-  source: The Hacker News
-- title: OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors
-  link: https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors
-  published: '2026-10-21T16:50:15Z'
-  summary: A developer's GitHub account that was compromised several months earlier
-    was used to push malicious code to unsuspecting users.
-  source: Dark Reading
-- title: 'PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch,
-    and What Doesn''t'
-  link: https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html
-  published: '2026-10-21T16:06:53Z'
-  summary: You cannot fully block the two critical PHP flaws called PHP2Shell before
-    today's fix, and the one setting being passed around as a workaround is not enough
-    on its own, the security firm that suggested it now says. PHP will release the
-    fix at 14:00 UTC on October 21 for two flaws it rates 9.2 out of 10, and has given
-    no workaround of its own. Until you can install it, what lowers your
-  source: The Hacker News
-- title: The Harness Is the Hard Part of Agentic Pentesting
-  link: https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html
-  published: '2026-10-21T16:02:40Z'
-  summary: An AppSec team can point an AI agent running on a general-purpose model
-    at its own web apps with little setup. Sure, the model writes the attacks. But
-    everything that makes those attacks safe to run against production and worth acting
-    on afterward lives in the harness around the model. The harness is where the engineering
-    in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July
-  source: The Hacker News
-- title: Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections
-  link: https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html
-  published: '2026-10-21T16:00:27Z'
-  summary: Attackers took control of more than 300 Tor exit relays in early October
-    and used them to redirect SSH connections to servers that stole login passwords,
-    a researcher found. Exit relays are the last hop in a Tor circuit, where traffic
-    leaves the network for its destination. Only a password login to an SSH server
-    made through Tor between October 1 and 5, after accepting the interception
-  source: The Hacker News
-- title: Optiv Launches CyberBOT Cybersecurity Awareness Training Program
-  link: https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program
-  published: '2026-10-21T15:44:48Z'
-  summary: Hands-on sessions provide educators, nonprofits, and community leaders
-    with an accessible resource to foster year-round cyber awareness and build more
-    resilient communities.
-  source: Dark Reading
-- title: Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure
-    Turns Into Physical Risk
-  link: https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable
-  published: '2026-10-21T15:29:09Z'
-  summary: 360 Privacy finds more than 8 in 10 security and wealth professionals say
-    cybersecurity and physical security can no longer be separated.
-  source: Dark Reading
-- title: Widespread PHP Flaw May Cause Many Site Outages Today
-  link: https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/
-  published: '2026-10-21T15:26:07Z'
-  summary: 'Expect to see quite a few websites serving "404" or "Page Not Found" errors
-    today: Nearly 70 percent of websites need to update their core software to fix
-    a pair of vulnerabilities that allow an attacker to seize full control over affected
-    servers. Experts say there are working exploits for the flaws, and that these
-    critical bugs are already being exploited in the wild.'
-  source: Krebs on Security
-- title: Two critical RCEs in PHP core
-  link: https://blog.talosintelligence.com/two-critical-rces-in-php-core/
-  published: '2026-10-21T15:10:53Z'
-  summary: Two critical remote code execution vulnerabilities in PHP core could have
-    implications across its wider ecosystem. Talos has published a blog to explain
-    what we know so far, and details the Snort coverage available, including rules
-    in the Community Ruleset.
-  source: Cisco Talos
-- title: 'PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency
-    Security Alert'
-  link: https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html
-  published: '2026-10-21T14:35:17Z'
-  summary: This story is developing and was written before PHP's scheduled 14:00 UTC
-    release on October 21. Once the release is out, the affected and fixed versions
-    below are confirmed by the official advisory. PHP will ship an out-of-cycle security
-    release at 14:00 UTC today, October 21, for two critical vulnerabilities that
-    its security team has rated 9.2 on the CVSS v4.0 scale but has not described.
-    ⚡
-  source: The Hacker News
-- title: Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites
-  link: https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html
-  published: '2026-10-21T14:31:12Z'
-  summary: Unknown threat actors breached TeamUpdraft's website and potentially gained
-    unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault,
-    and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer
-    behind UpdraftPlus, a popular WordPress backup plugin with over four million active
-    installations. The vendor also offers UpdraftCentral, a remote
-  source: The Hacker News
-- title: U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases
-  link: https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html
-  published: '2026-10-21T13:34:17Z'
-  summary: U.S. federal civilian agencies must remove DeepSeek products from their
-    information technology systems, along with any third-party products or services
-    "developed using DeepSeek implementations," under a Department of Homeland Security
-    order. They may also no longer buy information technology products or services
-    from the Chinese AI developer or its affiliates Homeland Security Secretary
-  source: The Hacker News
-- title: State Bank of India Confirms Data Leak After 3,897 Customer Records Found
-    on Dark Web
-  link: https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html
-  published: '2026-10-21T13:14:22Z'
-  summary: State Bank of India has identified 3,897 customer records containing personal
-    information in a set of about 375,000 records available on the dark web, and it
-    does not yet know where the data came from. The state-owned bank, India's largest,
-    said in a stock-exchange filing dated October 21 that it "has experienced an incident
-    involving the loss of certain data." The count is
-  source: The Hacker News
-- title: Decades-Old Windows Utility Powers Modern ClickFix Attack
-  link: https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack
-  published: '2026-10-21T13:00:00Z'
-  summary: The attack uses malicious Google search results related to Amazon and leverages
-    the "finger" utility to launch a CAPTCHA that installs malware, including the
-    Lumma stealer.
-  source: Dark Reading
-- title: CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and
-    SiteGuard Flaws
-  link: https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html
-  published: '2026-10-21T12:56:49Z'
-  summary: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
-    added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog,
-    including four vulnerabilities impacting Plex Media Server that''s collectively
-    called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS
-    score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)'
-  source: The Hacker News
-- title: Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare
-    Intrusion
-  link: https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html
-  published: '2026-10-21T11:35:15Z'
-  summary: A Belarus-aligned hacktivist group spent nearly two years within the network
-    of a Russian healthcare organization. According to a report published by Russian
-    cybersecurity firm Solar, the activity has been attributed to a threat cluster
-    dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be
-    active since at least 2020, the group has a track record of striking industrial
-  source: The Hacker News
-- title: 'Parasitizing trust: How legitimate infrastructure becomes a delivery pipeline
-    for attackers'
-  link: https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/
-  published: '2026-10-21T10:00:00Z'
-  summary: Adversaries are turning the tools businesses trust into delivery mechanisms
-    for malicious activity. Cisco Talos observed abuse of more than 25 legitimate
-    platforms over the past year, exploiting the built-in trust of collaboration,
-    file-sharing, payment and other services to reach their targets.
-  source: Cisco Talos
-- title: ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144,
-    (Wed, Oct 21st)
-  link: https://isc.sans.edu/diary/rss/33438
-  published: '2026-10-21T02:00:03Z'
-  summary: Threat intelligence update from this source.
-  source: SANS Internet Storm Center
-- title: Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers
-    and Software
-  link: https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html
-  published: '2026-10-20T22:39:53Z'
-  summary: The private keys of eight eMudhra intermediate certificate authority (CA)
-    certificates are compromised, Mozilla and Google's Chrome Root Program confirms
-    on October 20. An intermediate CA signs the certificates that websites present,
-    so anyone holding one of these keys could issue a certificate for any website
-    that a browser would accept. A researcher reported the
-  source: The Hacker News
-- title: Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys
-  link: https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys
-  published: '2026-10-20T21:45:47Z'
-  summary: Google, Mozilla, Apple, the Go project and others moved swiftly to block
-    the affected certificates from the Indian CA, though it's unclear how the keys
-    were compromised.
-  source: Dark Reading
-- title: Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote
-    Code Execution
-  link: https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html
-  published: '2026-10-20T21:08:52Z'
-  summary: 'Cybersecurity researchers have released a proof-of-concept (PoC) exploit
-    for a recently patched critical security flaw impacting Fortinet FortiSIEM that
-    could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173
-    (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated
-    attacker to execute unauthorized code or commands via specially'
-  source: The Hacker News
-- title: Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ
-  link: https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties
-  published: '2026-10-20T19:16:49Z'
-  summary: The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI
-    conference room, highlighting a preventable insider threat vector.
-  source: Dark Reading
-- title: Close Identity Gaps in Software Development Before Unleashing AI
-  link: https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai
-  published: '2026-10-20T15:35:45Z'
-  summary: Artificial intelligence is complicating security in the software development
-    life cycle, but a Dark Reading roundtable found collaboration, better identity
-    visibility, and reduced testing costs offer CISOs a way ahead.
-  source: Dark Reading
-- title: 'There''s only so much code: the rise in vulnerability numbers'
-  link: https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/
-  published: '2026-10-20T15:31:22Z'
-  summary: The September Microsoft Patch Tuesday release included 975 vulnerability
-    advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a
-    pre-June average of 100 a month, that increase is staggering. Where did they come
-    from? And what does the future look like?
-  source: Cisco Talos
-- title: Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree
-  link: https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn
-  published: '2026-10-20T14:36:05Z'
-  summary: A Chinese-speaking attacker has compromised hundreds of websites across
-    the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer
-    Cummins.
-  source: Dark Reading
-- title: ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142,
-    (Tue, Oct 20th)
-  link: https://isc.sans.edu/diary/rss/33436
-  published: '2026-10-20T02:00:03Z'
-  summary: Threat intelligence update from this source.
-  source: SANS Internet Storm Center
-- title: Researchers Infiltrate Microsoft Tech Support Scam Operation
-  link: https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation
-  published: '2026-10-19T21:13:41Z'
-  summary: A large-scale scam operation impersonating Microsoft uses a malicious traffic
-    distribution system (TDS) run by a Russian organization and abuses thousands of
-    Cloudflare links.
-  source: Dark Reading
-- title: '''AdFection'' Turns Ad Impressions Into Zero-Click Spyware Delivery'
-  link: https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery
-  published: '2026-10-19T19:55:01Z'
-  summary: Spyware vendors are exploiting targeted ad bidding in the digital ecosystem
-    to identify and track individuals and organizations of interest.
-  source: Dark Reading
-- title: ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs
-  link: https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps
-  published: '2026-10-19T19:19:33Z'
-  summary: Researchers say attackers authenticated into Microsoft 365 tenants using
-    ConnectWise credentials; ConnectWise says customer impact remains unconfirmed.
-  source: Dark Reading
-- title: '#StopRansomware: SafePay Ransomware'
-  link: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a
-  published: '2026-10-19T15:18:07Z'
-  summary: '<h2><strong>Advisory at a Glance</strong></h2> <table> <tbody> <tr> <th>Title</th>
-    <td>#StopRansomware: SafePay Ransomware</td> </tr> <tr> <th>Original Publication </th>
-    <td>October 20, 2026</td> </tr> <tr> <th>Executive Summary</th> <td> <p>This advisory
-    details recent activity by the SafePay ransomware group. SafePay actors have been
-    highly active since August 2024, targeting businesses and critical infrastructure
-    across North America, South America, Europe, and Australia. SafePay actors typically
-    gain access to networks by stealing or guessing passwords, exploiting vulnerabilities
-    in security systems, and using phishing tactics. </p> <p>Once inside the network,
-    SafePay actors establish control by creating new accounts or taking over existing
-    ones. They then use legitimate system tools to move through the network, identify
-    valuable files, and disable security protections to avoid detection. Next, they
-    encrypt the victim’s files, making them inaccessible, and leave a ransom note
-    demanding payment in cryptocurrency. This advisory urges organizations to follow
-    recommended security measures to reduce the risk and impact of SafePay ransomware
-    attacks.</p> </td> </tr> <tr> <th>Affected Products</th> <td> <ul type="square">
-    <li><a href="https://www.cve.org/CVERecord?id=CVE-2020-3259" target="_blank">CVE-2020-3259</a>
-    [<a href="https://cwe.mitre.org/data/definitions/200.html" target="_blank">Common
-    Weakness Enumeration (CWE)-200: Exposure of Sensitive Information to an Unauthorized
-    Actor</a>]</li> <li><a href="https://www.cve.org/CVERecord?id=CVE-2023-20269"
-    target="_blank">CVE-2023-20269</a> [<a href="https://cwe.mitre.org/data/definitions/288.html"
-    target="_blank">CWE-288: Authentication Bypass Using an Alternate Path or Channel</a>]</li>
-    <li><a href="https://www.cve.org/CVERecord?id=CVE-2023-27532" target="_blank">CVE-2023-27532</a>
-    [<a href="https://cwe.mitre.org/data/definitions/306.html">CWE-306: Missing Authentication
-    for Critical Function</a>]</li> <li><a href="https://www.cve.org/CVERecord?id=CVE-2024-40711"
-    target="_blank">CVE-2024-40711</a> [<a href="https://cwe.mitre.org/data/definitions/502"
-    target="_blank">CWE-502: Deserialization of Untrusted Data</a>]</li> <li><a href="https://www.cve.org/CVERecord?id=CVE-2024-40766"
-    target="_blank">CVE-2024-40766</a> [<a href="https://cwe.mitre.org/data/definitions/284.html"
-    target="_blank">CWE-284: Improper Access Control</a>]</li> </ul> </td> </tr> <tr>
-    <th>Key Actions</th> <td> <ul type="square"> <li><strong>Regularly patch and update
-    systems,</strong> especially firewalls, and other edge devices.</li> <li><strong>Implement
-    Zero Trust Principle.</strong></li> <li><strong>Restrict administrative tools
-    and privileges</strong> to necessary users only.</li> <li>Strengthen account security
-    by <strong>implementing identity, credential, and access management (ICAM) policies
-    and multifactor authentication (MFA).</strong></li> </ul> </td> </tr> <tr> <th>Indicators
-    of Compromise</th> <td> <p>For a downloadable copy of indicators of compromise,
-    see: </p> <ul> <li><a href="https://www.cisa.gov/sites/default/files/2026-10/AA26-293A-stix.xml">AA26-293A
-    STIX XML</a> (40 KB)</li> <li><a href="https://www.cisa.gov/sites/default/files/2026-10/AA26-293A-stix.json">AA26-293A
-    STIX JSON</a> (38 KB)</li> </ul> </td> </tr> <tr> <th>Intended Audience</th> <td>
-    <p><strong>Organizations: </strong>Government; Federal Civilian Executive Branch
-    (FCEB); State, Local, Tribal, and Territorial (SLTT); Critical Infrastructure</p>
-    <p><strong>Roles:</strong> <a href="https://niccs.cisa.gov/tools/nice-framework/work-role/defensive-cybersecurity"
-    target="_blank">Defensive cybersecurity analysts</a>, <a href="https://niccs.cisa.gov/tools/nice-framework/work-role/vulnerability-analysis"
-    target="_blank">vulnerability analysts</a>, <a href="https://niccs.cisa.gov/tools/nice-framework/work-role/systems-security-management"
-    target="_blank">security systems managers</a>, and operational technology (OT)
-    owners and operators</p> </td> </tr> </tbody> </table> <h2><strong>Introduction</strong></h2>
-    <p><strong>Note:</strong> This joint Cybersecurity Advisory is part of an ongoing
-    #StopRansomware effort to publish advisories for network defenders that detail
-    various ransomware variants and ransomware threat actors. These #StopRansomware
-    advisories include recently and historically observed tactics, techniques, and
-    procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect
-    against ransomware. Visit <a href="https://www.cisa.gov/stopransomware" title="Stopransomware.gov">stopransomware.gov</a>
-    to see all #StopRansomware advisories and to learn more about other ransomware
-    threats and no-cost resources. </p> <p>The Federal Bureau of Investigation (FBI),
-    Cybersecurity and Infrastructure Security Agency (CISA), United States Secret
-    Service (USSS), Germany’s Landeskriminalamt Rheinland-Pfalz, the United Kingdom’s
-    National Crime Agency, and the United Kingdom’s North West Regional Organised
-    Crime Unit—hereafter referred to as the authoring agencies—are releasing this
-    joint advisory to disseminate known SafePay ransomware TTPs and IOCs identified
-    through FBI, USSS, and Landeskriminalamt Rheinland-Pfalz investigations as recently
-    as August 2026.</p> <p>Since August 2024, SafePay ransomware group’s operations
-    have affected a wide range of businesses and critical infrastructure in North
-    America, South America, Europe, and Australia. SafePay ransomware was among the
-    most active ransomware groups in 2026. The SafePay threat actors have impacted
-    at least 600 separate victims from multiple critical infrastructure sectors.</p>
-    <p>The authoring agencies encourage organizations to implement the recommendations
-    in the <a href="https://www.cisa.gov/#Mitigations"><strong>Mitigations</strong></a><strong>
-    </strong>section of this advisory to reduce the likelihood and impact of SafePay
-    ransomware incidents.</p> <p>Download the PDF version of this report:</p> <div
-    class="c-file"> <div class="c-file__download"> <a class="c-file__link" href="https://www.cisa.gov/sites/default/files/2026-10/aa26-293a-stopransomware-safepay-ransomware-508c_0.pdf"
-    target="_blank">#StopRansomware: SafePay Ransomware</a> <span class="c-file__size">(PDF,
-    1.06 MB )</span> </div> </div> <p>For a downloadable copy of IOCs, see:</p> <div
-    class="c-file"> <div class="c-file__download"> <a class="c-file__link" href="https://www.cisa.gov/sites/default/files/2026-10/AA26-293A-stix.xml"
-    target="_blank">AA26-293A-STIX XML</a> <span class="c-file__size">(XML, 40.23
-    KB )</span> </div> </div> <div class="c-file"> <div class="c-file__download">
-    <a class="c-file__link" href="https://www.cisa.gov/sites/default/files/2026-10/AA26-293A-stix.json"
-    target="_blank">AA26-293A-STIX JSON</a> <span class="c-file__size">(JSON, 37.49
-    KB )</span> </div> </div> <h2><strong>Technical Details</strong></h2> <p><strong>Note:</strong>
-    This advisory uses the <a href="https://attack.mitre.org/versions/v20/matrices/enterprise/"
-    target="_blank">MITRE ATT&CK<sup>®</sup> Matrix for Enterprise</a> framework,
-    version 20. See<strong> </strong><a href="https://www.cisa.gov/#MITRE"><strong>MITRE
-    ATT&CK Tactics and Techniques</strong></a> section of this advisory for a table
-    of the threat actors’ activity mapped to MITRE ATT&CK tactics and techniques.</p>
-    <h3><strong>Initial Access</strong></h3> <p>The FBI, USSS, and cybersecurity researchers
-    observed SafePay threat actors obtaining initial access [<a href="https://attack.mitre.org/versions/v20/tactics/TA0001/"
-    target="_blank" title="TA0001">TA0001</a>] to organizations through various means,
-    including credential exposure, implementing brute force password attacks [<a href="https://attack.mitre.org/versions/v20/techniques/T1110/"
-    target="_blank" title="T1110">T1110</a>], and exploiting virtual private network
-    (VPN) access. SafePay threat actors use the IP addresses of the VPN provider “Mullvad”
-    to attain initial access—specifically, SafePay threat actors use phished account
-    profiles to access victim networks to exploit the following known Common Vulnerabilities
-    and Exposures (CVEs) for edge device products:</p> <ul type="square"> <li><a href="https://www.cve.org/CVERecord?id=CVE-2020-3259"
-    target="_blank">CVE-2020-3259</a> [<a href="https://cwe.mitre.org/data/definitions/200.html"
-    target="_blank">Common Weakness Enumeration (CWE)-200: Exposure of Sensitive Information
-    to an Unauthorized Actor</a>]</li> <li><a href="https://www.cve.org/CVERecord?id=CVE-2023-20269"
-    target="_blank">CVE-2023-20269</a> [<a href="https://cwe.mitre.org/data/definitions/288.html"
-    target="_blank">CWE-288: Authentication Bypass Using an Alternate Path or Channel</a>] </li>
-    </ul> <p>Additionally, the authoring agencies observed SafePay threat actors exploiting
-    the following vulnerabilities across internet-exposed systems [<a href="https://attack.mitre.org/versions/v20/techniques/T1190/"
-    target="_blank">T1190</a>] for initial access through automated scripts:</p> <ul
-    type="square"> <li><a href="https://www.cve.org/CVERecord?id=CVE-2023-27532" target="_blank"
-    title="CVE-2023-27532">CVE-2023-27532</a> [<a href="https://cwe.mitre.org/data/definitions/306.html"
-    target="_blank" title="CWE-306: Missing Authentication for Critical Function">CWE-306:
-    Missing Authentication for Critical Function</a>]</li> <li><a href="https://www.cve.org/CVERecord?id=CVE-2024-40711"
-    target="_blank" title="CVE-2024-40711">CVE-2024-40711</a> [<a href="https://cwe.mitre.org/data/definitions/502"
-    target="_blank" title="CWE-502: Deserialization of Untrusted Data">CWE-502: Deserialization
-    of Untrusted Data</a>]</li> <li><a href="https://www.cve.org/CVERecord?id=CVE-2024-40766"
-    target="_blank" title="CVE-2024-40766">CVE-2024-40766</a> [<a href="https://cwe.mitre.org/data/definitions/284.html"
-    target="_blank">CWE-284: Improper Access Control</a>]</li> </ul> <h3><strong>Execution,
-    Persistence, Stealth, and Defense Impairment</strong></h3> <p>After SafePay threat
-    actors gain access to a victim network, they establish persistence by gaining
-    administrative privileges on existing accounts [<a href="https://attack.mitre.org/versions/v20/techniques/T1098/"
-    target="_blank">T1098</a>], or on newly created accounts [<a href="https://attack.mitre.org/versions/v20/techniques/T1136/"
-    target="_blank">T1136</a>], using built-in administrative tools consistent with
-    <a href="https://www.cisa.gov/resources-tools/resources/identifying-and-mitigating-living-land-techniques">living
-    off the land (LOTL)</a> techniques. Once SafePay threat actors establish a foothold
-    in a victim’s network, they use LOTL binaries (LOLBins) [<a href="https://attack.mitre.org/versions/v20/techniques/T1218/"
-    target="_blank">T1218</a>], such as <a href="https://attack.mitre.org/versions/v20/software/S0029/"
-    target="_blank">PsExec</a> [<a href="https://attack.mitre.org/versions/v20/techniques/T1021/002/"
-    target="_blank">T1021.002</a>] and Windows Remote Management (WinRM) [<a href="https://attack.mitre.org/versions/v20/techniques/T1021/006/"
-    target="_blank">T1021.006</a>], to execute commands on remote systems. In several
-    instances, SafePay threat actors used <code>ShareFinder.ps1</code>—a PowerShell
-    script function used for enumerating network file shares in Windows Active Directory
-    environments—to identify valuable assets for exfiltration [<a href="https://attack.mitre.org/techniques/T1059/001/"
-    target="_blank">T1059.001</a>, <a href="https://attack.mitre.org/techniques/T1059/003/"
-    target="_blank">T1059.003</a>]. Additionally, SafePay threat actors used <code>SharpShares.exe</code>,
-    a tool used to identify and enumerate network file shares.</p> <p>As SafePay threat
-    actors prepare for lateral movement, they commonly disable security software [<a
-    href="https://attack.mitre.org/versions/v20/techniques/T1685/" target="_blank"
-    title="T1685">T1685</a>] to avoid detection. In some cases, the threat actors
-    changed the passwords of system users, making valid logins impossible. SafePay
-    threat actors have also been observed using software packing or virtual machine
-    software protection to conceal their code [<a href="https://attack.mitre.org/versions/v20/techniques/T1027/002/"
-    target="_blank" title="T1027.002">T1027.002</a>].</p> <h3><strong>Privilege Escalation</strong></h3>
-    <p>The authoring agencies observed SafePay threat actors using a User Account
-    Control (UAC) Bypass Privilege Escalation technique [<a href="https://attack.mitre.org/versions/v20/techniques/T1548/002/"
-    target="_blank">T1548.002</a>] that creates an elevated process through a specified
-    component object model, enabling the execution of malicious commands or binaries
-    [<a href="https://attack.mitre.org/versions/v20/techniques/T1059/" target="_blank">T1059</a>].
-    SafePay threat actors have also been observed using token impersonation methods
-    [<a href="https://attack.mitre.org/versions/v20/techniques/T1134/001/" target="_blank">T1134.001</a>].</p>
-    <h3><strong>Lateral Movement</strong></h3> <p>To pivot laterally through a network
-    and identify files for exfiltration [<a href="https://attack.mitre.org/versions/v20/tactics/TA0010/"
-    target="_blank">TA0010</a>] and encryption, SafePay threat actors use legitimate
-    tools like PsExec, WinRM, and Remote Management and Monitoring [<a href="https://attack.mitre.org/versions/v20/techniques/T1569/002/"
-    target="_blank">T1569.002</a>] software. They also employ Remote Desktop Protocol
-    (RDP) [<a href="https://attack.mitre.org/versions/v20/techniques/T1021/001/" target="_blank">T1021.001</a>,
-    <a href="https://attack.mitre.org/versions/v20/techniques/T1133/" target="_blank">T1133</a>]
-    to expand their presence within the compromised network [<a href="https://attack.mitre.org/versions/v20/techniques/T1021/"
-    target="_blank">T1021</a>]. As SafePay threat actors move laterally through a
-    network, they look for credentials to gain admin access and will create accounts,
-    if needed.</p> <h3><strong>Collection, Exfiltration, and Impact</strong></h3>
-    <p>SafePay threat actors use legitimate tools, such as FileZilla, 7-Zip, RClone,
-    and WinRAR to compress files and collect data [<a href="https://attack.mitre.org/versions/v20/techniques/T1560/001/"
-    target="_blank">T1560.001</a>], and WinSCP and RClone to facilitate the exfiltration
-    of data [<a href="https://attack.mitre.org/versions/v20/techniques/T1048/" target="_blank">T1048</a>]
-    from the compromised network to actor-controlled accounts. In some instances,
-    SafePay threat actors use OneDrive to exfiltrate data [<a href="https://attack.mitre.org/versions/v20/techniques/T1567/"
-    target="_blank">T1567</a>]. In other instances, the SafePay threat actors installed
-    legitimate remote desktop tools like AnyDesk or TeamViewer on the victim’s systems.
-    SafePay threat actors use these tools to transfer ransomware and other software
-    onto a victim’s system. Additionally, SafePay threat actors halt the Volume Shadow
-    Copy Service and reset Network Attached Storage containing victim backup data
-    to initial factory settings to inhibit system recovery attempts [<a href="https://attack.mitre.org/versions/v20/techniques/T1490/"
-    target="_blank">T1490</a>].</p> <p>Following exfiltration, SafePay threat actors
-    encrypt files [<a href="https://attack.mitre.org/versions/v20/techniques/T1486/"
-    target="_blank" title="T1486">T1486</a>] using a sophisticated hybrid encryption
-    scheme to lock data. This involves combining a ChaCha20 stream cipher with an
-    RSA public-key cryptosystem for a fast and secure key exchange. This multilayered
-    approach customizes encryption methods based on file type and size and enables
-    full or partial encryption. Data encrypted with the SafePay ransomware variant
-    (appended with <code>.SafePay</code>) cannot be recovered without the decryption
-    key. SafePay threat actors hold the encrypted data for ransom and typically demand
-    a subset of company revenue in cryptocurrency in exchange for decryption software.
-    SafePay threat actors leave a ransom note on the victim’s system, typically on
-    the desktop or root directory, advising them that SafePay locked their system
-    and to reach out over a chat portal at a TOR <code>.onion</code> website link
-    with a victim ID as the login. To put pressure on the victim, a representative
-    makes phone calls on behalf of the ransomware group. If the victim does not pay,
-    SafePay posts the exfiltrated data to their SafePay leak website, which is linked
-    in the ransom note. Following encryption, SafePay may delete itself from the victim’s
-    filesystem [<a href="https://attack.mitre.org/versions/v20/techniques/T1070/004/"
-    target="_blank" title="T1070.004">T1070.004</a>].</p> <h3><strong>Leveraged Tools</strong></h3>
-    <p><a href="https://www.cisa.gov/#Table1"><strong>Table 1</strong></a><strong>
-    </strong>lists publicly available tools and applications used by SafePay threat
-    actors, including legitimate tools repurposed for their operations.<br /><strong>Note:
-    </strong>These tools and applications should not be attributed as malicious without
-    analytical evidence to support threat actor use and/or control.</p> <table class="tablesaw
-    tablesaw-stack"> <caption><a id="Table1"></a><em><strong>Table 1. Tools Leveraged
-    by SafePay Threat Actors</strong></em></caption> <thead> <tr> <th>Tool Name</th>
-    <th>Description</th> </tr> </thead> <tbody> <tr> <td>7-Zip</td> <td>An open source
-    software that enables users to compress various file formats. SafePay threat actors
-    maliciously use 7-Zip for data packaging and movement.</td> </tr> <tr> <td>FileZilla</td>
-    <td>An open source client that enables users to transfer files between servers.
-    SafePay threat actors use FileZilla maliciously for data exfiltration.</td> </tr>
-    <tr> <td>Mimikatz</td> <td>A credential dumper that enables users to view and
-    save authentication credentials, such as Kerberos tickets [<a href="https://attack.mitre.org/versions/v20/techniques/T1550/002/"
-    target="_blank" title="T1550.002">T1550.002</a>]. SafePay threat actors use Mimikatz
-    for password exfiltration.</td> </tr> <tr> <td>PowerShell</td> <td>A cross-platform
-    task automation solution used for various malicious activities, including command
-    execution. It is composed of a command-line shell, a scripting language, and a
-    configuration management framework—which runs on Windows, Linux, and macOS. </td>
-    </tr> <tr> <td>PsExec</td> <td>A tool designed to run programs that SafePay threat
-    actors use to execute commands on remote systems.</td> </tr> <tr> <td>RClone</td>
-    <td>A legitimate command-line program used to sync files with cloud storage services,
-    such as Mega. SafePay threat actors maliciously use RClone for data packaging
-    and movement.</td> </tr> <tr> <td>ScreenConnect</td> <td>A remote support, access,
-    and meeting software that allows users to control devices remotely over the internet.
-    SafePay threat actors use ScreenConnect for persistence and access.</td> </tr>
-    <tr> <td>ShareFinder.ps1</td> <td>A PowerShell script used to scan an Active Directory
-    network for shared folders. SafePay threat actors use <code>ShareFinder.ps1</code>
-    for exfiltration hunting.</td> </tr> <tr> <td>WinRAR</td> <td>Archive utility
-    used to split compromised data into segments and to compress [<a href="https://attack.mitre.org/versions/v20/techniques/T1560/001/"
-    target="_blank" title="T1560.001">T1560.001</a>] files into a <code>.RAR</code>
-    format prior to exfiltration. SafePay threat actors use WinRAR for data packaging
-    and movement.</td> </tr> <tr> <td>WinRM</td> <td>A Windows-based protocol designed
-    to facilitate remote management and automation. SafePay threat actors use WinRM
-    for command execution.</td> </tr> <tr> <td>AnyDesk and TeamViewer</td> <td>Legitimate
-    remote desktop tool used for accessing and controlling computers over the internet.
-    SafePay threat actors use AnyDesk and TeamViewer to transfer malware to the victim’s
-    system.</td> </tr> <tr> <td>AcronisDiskDirector</td> <td>A legitimate disk management
-    tool.</td> </tr> <tr> <td>SharpShares.exe</td> <td>A network scanning tool used
-    for host discovery and enumeration.</td> </tr> <tr> <td>NetExec</td> <td>A legitimate
-    network assessment tool to enumerate systems, validate credentials, and manage
-    remote operations across private networks.</td> </tr> <tr> <td>Backblaze</td>
-    <td>A command-line tool for file management within Backblaze B2 cloud storage.
-    SafePay threat actors executed commands via <code>b2.exe</code> to exfiltrate
-    a victim’s data.</td> </tr> </tbody> </table> <h2><strong>Indicators of Compromise</strong></h2>
-    <p><a href="https://www.cisa.gov/#Table2"><strong>Table 2</strong></a> through
-    <a href="https://www.cisa.gov/#Table5"><strong>Table 5</strong></a> list IOCs
-    associated with SafePay ransomware that allowed for the identification of malicious
-    activity.<br /><strong>Disclaimer:</strong> The authoring agencies recommend organizations
-    investigate or verify IP addresses prior to taking action, such as blocking. These
-    IOCs were observed between November 2024 and August 2026.</p> <table class="tablesaw
-    tablesaw-stack"> <caption><a id="Table2"></a><em><strong>Table 2. IP Addresses</strong></em></caption>
-    <thead> <tr> <th>IP Address</th> <th>Description</th> </tr> </thead> <tbody> <tr>
-    <td>104.26.2[.]223</td> <td>SafePay victim intrusion</td> </tr> <tr> <td>140.82.114[.]4</td>
-    <td>SafePay victim intrusion</td> </tr> <tr> <td>185.199.108[.]133</td> <td>SafePay
-    victim intrusion</td> </tr> <tr> <td>77.37.49[.]40</td> <td>SafePay victim intrusion</td>
-    </tr> <tr> <td>173.194.194[.]94</td> <td>Hosting victim data</td> </tr> <tr> <td>167.235.225[.]149</td>
-    <td>Client login panels</td> </tr> <tr> <td>5.255.11[.]134</td> <td>Used in exfiltration</td>
-    </tr> <tr> <td>88.119.167[.]239</td> <td>soc.dll command and control</td> </tr>
-    <tr> <td>37.10.71[.]188</td> <td>Used in exfiltration</td> </tr> </tbody> </table>
-    <p><br /><strong>Note:</strong> Some of these files are legitimate tools. The
-    authoring organizations recommend organizations investigate or verify tool use
-    prior to taking action, such as blocking.</p> <table class="tablesaw tablesaw-stack">
-    <caption><em><strong>Table 3. Malicious Files</strong></em></caption> <thead>
-    <tr> <th>Filename</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>1
-    - Copy.bat</td> <td>A batch script likely used to copy, stage, or move files during
-    lateral movement or data collection.</td> </tr> <tr> <td>CCleaner.exe/ CCleaner64.exe</td>
-    <td>A legitimate system utility; however, it is suspicious if deployed in enterprise
-    environments for file cleanup or anti-forensics.</td> </tr> <tr> <td>CCleaner*.exe
-    / *.dll</td> <td>A file used for potential masquerading or abuse of CCleaner components
-    for execution or persistence.</td> </tr> <tr> <td>dcsync.exe</td> <td>A tool used
-    to perform DCSync operations to extract Active Directory credentials; high-confidence
-    credential theft activity.</td> </tr> <tr> <td>domains.txt</td> <td>An output
-    file likely containing enumerated domain information.</td> </tr> <tr> <td>DYRasWtb.exe</td>
-    <td>A suspected malicious executable.</td> </tr> <tr> <td>libsmb2.dll</td> <td>A
-    library associated with Server Message Block (SMB) communication; may support
-    lateral movement or file transfer.</td> </tr> <tr> <td>Libwa*.dll</td> <td>A suspicious
-    library set; likely part of a custom toolset or malware framework; requires further
-    analysis.</td> </tr> <tr> <td>License.txt</td> <td>A benign file that may accompany
-    tool packages or be used for masquerading. In one instance, it accompanied the
-    tool “S.P_Network Scanner.”</td> </tr> <tr> <td>locker.dll</td> <td>A potential
-    ransomware or encryption-related component.</td> </tr> <tr> <td>netscan.exe</td>
-    <td>A network scanning tool used for host discovery and enumeration.</td> </tr>
-    <tr> <td>netscan.lic / netscan.xml</td> <td>Output or configuration files associated
-    with network scanning activity.</td> </tr> <tr> <td>netscanNEW.zip</td> <td>Archive
-    file potentially used to stage or transfer scanning tools.</td> </tr> <tr> <td>nltest.exe</td>
-    <td>Legitimate Windows tool used for domain trust enumeration; suspicious when
-    used outside admin workflows.</td> </tr> <tr> <td>oui.txt</td> <td>A MAC address
-    vendor lookup output—network reconnaissance artifact.</td> </tr> <tr> <td>ping.txt</td>
-    <td>An output file from network connectivity testing.</td> </tr> <tr> <td>portable.dat</td>
-    <td>A potential configuration or staging file (context-dependent).</td> </tr>
-    <tr> <td>scan.xml</td> <td>An output file from scanning/enumeration tools.</td>
-    </tr> <tr> <td>sharefinder.ps1</td> <td>A PowerShell script used to enumerate
-    network shares (reconnaissance).</td> </tr> <tr> <td>Socks.exe</td> <td>A tool
-    used to establish SOCKS proxy for tunneling traffic.</td> </tr> <tr> <td>Socks_werfault.exe</td>
-    <td>A binary likely masquerading to blend with Windows processes.</td> </tr> <tr>
-    <td>subs.txt</td> <td>A possible staging file or list of targets/data for exfiltration.</td>
-    </tr> <tr> <td>svchost.exe</td> <td>A legitimate Windows process; suspicious if
-    located outside System32 or used for masquerading.</td> </tr> <tr> <td>wa_3rd_party_host_*.exe</td>
-    <td>A file of suspicious binaries—likely part of SafePay threat actor toolset
-    or masquerading components.</td> </tr> <tr> <td>winrar.exe</td> <td>A legitimate
-    archiving tool frequently used for data staging prior to exfiltration.</td> </tr>
-    <tr> <td>AnyDesk.exe</td> <td>A legitimate remote desktop tool for accessing and
-    controlling computers over the internet; most of the time it is used to transfer
-    malware to a victim’s system.</td> </tr> <tr> <td>SharpShares.exe</td> <td>A network
-    scanning tool used for host discovery and enumeration.</td> </tr> <tr> <td>AcronisDiskDirector-12.5
-    / acro.exe / DiskDirector.exe / Acronis.exe</td> <td>A legitimate disk management
-    tool.</td> </tr> <tr> <td>b2.exe</td> <td>A command-line tool for data exfiltration
-    to Backblaze B2 cloud storage.</td> </tr> <tr> <td>nxc.exe</td> <td>The executable
-    for NetExec, a legitimate network assessment tool used to enumerate systems, validate
-    credentials, and manage remote operations across private networks.</td> </tr>
-    </tbody> </table> <table class="tablesaw tablesaw-stack"> <caption><em><strong>Table
-    4. SHA-1 Hash Values</strong></em></caption> <thead> <tr> <th>Hash</th> <th>File/Description</th>
-    </tr> </thead> <tbody> <tr> <td>07353237350c35d6dc2c8f143b649cd07c71f62b</td>
-    <td>1.exe (ransomware binary)</td> </tr> <tr> <td>b498a2683640c983bb069fa2ea9e67cef4a3797d</td>
-    <td>Locker.dll PE32 executable</td> </tr> <tr> <td>BBFED53E3BB1F306F4DA97D995CF4AE5B73AD081</td>
-    <td>locker.dll</td> </tr> <tr> <td>d711a5af5aed48a3b36b98f4fcf52809aebef7a2</td>
-    <td>nxc</td> </tr> </tbody> </table> <table class="tablesaw tablesaw-stack"> <caption><a
-    id="Table5"></a><em><strong>Table 5. SHA-256 Hash Files</strong></em></caption>
-    <thead> <tr> <th>Hash</th> <th>File/Description</th> </tr> </thead> <tbody> <tr>
-    <td>921df888aaabcd828a3723f4c9f5fe8b8379c6b7067d16b2ea10152300417eae</td> <td>soc.dll</td>
-    </tr> <tr> <td>6c1d36df94ebe367823e73ba33cfb4f40756a5e8ee1e30e8f0ae55d47e220a6a</td>
-    <td>RunPE bundled DLL</td> </tr> <tr> <td>e79608cf1d6b51324c14bef8883054c1238ed5f080222cc464810e6e14adc346</td>
-    <td>Injected PE</td> </tr> <tr> <td>327b8b61eb446cc4f710771e44484f62b804ae3d262b57a56575053e2df67917</td>
-    <td>locker.dll PE32 executable</td> </tr> <tr> <td>a0dc80a37eb7e2716c02a94adc8df9baedec192a77bde31669faed228d9ff526</td>
-    <td>locker.dll</td> </tr> <tr> <td>BBDD3620A67AEDEC4B9A68B2C9CC880B6631215E129816AEA19902A6F4BC6F41</td>
-    <td>SharpShares.exe</td> </tr> </tbody> </table> <p>The following are IOC hostnames:</p>
-    <ul type="square"> <li>WIN-SBOE3CPNAL</li> <li>WIN-3IUUOFVTQAR</li> <li>WIN-DK18BI83M0S</li>
-    <li>WIN-I1HRRJHCEIV</li> </ul> <h2><a id="MITRE"></a><strong>MITRE ATT&CK Tactics
-    and Techniques </strong></h2> <p>See <a href="https://www.cisa.gov/#Table6"><strong>Table
-    6</strong></a> through <a href="https://www.cisa.gov/#Table16"><strong>Table 16</strong></a><strong>
-    </strong>for all referenced threat actor tactics and techniques in this advisory.
-    For assistance with mapping malicious cyber activity to the MITRE ATT&CK framework,
-    see CISA and MITRE ATT&CK’s <a href="https://www.cisa.gov/news-events/news/best-practices-mitre-attckr-mapping"
-    title="Best Practices for MITRE ATT&CK Mapping">Best Practices for MITRE ATT&CK
-    Mapping</a> and CISA’s <a href="https://github.com/cisagov/Decider/" target="_blank"
-    title="Decider Tool">Decider Tool</a>. </p> <table class="tablesaw tablesaw-stack">
-    <caption><a id="Table6"></a><em><strong>Table 6. Initial Access</strong></em></caption>
-    <thead> <tr> <th>Technique Title</th> <th>ID</th> <th>Use</th> </tr> </thead>
-    <tbody> <tr> <td>External Remote Services</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1133/"
-    target="_blank" title="T1133">T1133</a></td> <td>SafePay threat actors use external
-    remote services, such as VPNs or other tools, to externally connect to an internal
-    network.</td> </tr> <tr> <td>Exploit Public-Facing Application</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1190/"
-    target="_blank" title="T1190">T1190</a></td> <td>SafePay threat actors attempt
-    to exploit a vulnerability within a system to gain access. Common vulnerabilities
-    include software bugs, glitches, or misconfigurations.</td> </tr> </tbody> </table>
-    <table class="tablesaw tablesaw-stack"> <caption><em><strong>Table 7. Execution</strong></em></caption>
-    <thead> <tr> <th>Technique Title</th> <th>ID</th> <th>Use</th> </tr> </thead>
-    <tbody> <tr> <td>Command and Scripting Interpreter: PowerShell</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1059/001/"
-    target="_blank" title="T1059.001">T1059.001</a></td> <td>SafePay threat actors
-    use PowerShell, an interactive command-line interface and scripting environment
-    contained within Windows, to identify code within a targeted network.</td> </tr>
-    <tr> <td>Command and Scripting Interpreter: Windows Command Shell </td> <td><a
-    href="https://attack.mitre.org/versions/v20/techniques/T1059/003/" target="_blank"
-    title="T1059.003">T1059.003</a></td> <td>SafePay threat actors use the Windows
-    command shell prompt to gain control of a component on a system that requires
-    specific permissions depending on the command executed.</td> </tr> <tr> <td>System
-    Services: Service Execution</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1569/002/"
-    target="_blank" title="T1569.002">T1569.002</a></td> <td>SafePay threat actors
-    use tools, such as PsExec, to execute commands on remote systems.</td> </tr> <tr>
-    <td>Command and Scripting Interpreter</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1059/"
-    target="_blank">T1059</a></td> <td>SafePay threat actors use Windows UAC to elevate
-    a program’s privileges, enabling the execution of malicious commands or binaries.</td>
-    </tr> </tbody> </table> <table class="tablesaw tablesaw-stack"> <caption><em><strong>Table
-    8. Persistence</strong></em></caption> <thead> <tr> <th>Technique Title</th> <th>ID</th>
-    <th>Use</th> </tr> </thead> <tbody> <tr> <td>Account Manipulation</td> <td><a
-    href="https://attack.mitre.org/versions/v20/techniques/T1098/" target="_blank"
-    title="T1098">T1098</a></td> <td>SafePay threat actors establish persistence by
-    gaining administrative privileges on existing accounts.</td> </tr> </tbody> </table>
-    <table class="tablesaw tablesaw-stack"> <caption><em><strong>Table 9. Privilege
-    Escalation</strong></em></caption> <thead> <tr> <th>Technique Title</th> <th>ID</th>
-    <th>Use</th> </tr> </thead> <tbody> <tr> <td>Abuse Elevation Control Mechanism:
-    Bypass User Account Control </td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1548/002/"
-    target="_blank" title="T1548.002">T1548.002</a></td> <td>SafePay threat actors
-    use Windows UAC to elevate a program’s privileges and execute a task on an administrator-level
-    permission scale.</td> </tr> </tbody> </table> <table class="tablesaw tablesaw-stack">
-    <caption><em><strong>Table 10. Stealth</strong></em></caption> <thead> <tr> <th>Technique
-    Title</th> <th>ID</th> <th>Use</th> </tr> </thead> <tbody> <tr> <td>Obfuscated
-    Files or Information: Software Packing</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1027/002/"
-    target="_blank" title="T1027.002">T1027.002</a></td> <td>SafePay threat actors
-    use software packing to conceal malicious code by means of encrypting an executable
-    to avoid detection.</td> </tr> <tr> <td>Indicator Removal: File Deletion</td>
-    <td><a href="https://attack.mitre.org/versions/v20/techniques/T1070/004/" target="_blank"
-    title="T1070.004">T1070.004</a></td> <td>SafePay threat actors delete files associated
-    with the intrusion activity to minimize their digital footprint and obfuscate
-    malicious activities.</td> </tr> <tr> <td>System Binary Proxy Execution</td> <td><a
-    href="https://attack.mitre.org/versions/v20/techniques/T1218/" target="_blank"
-    title="T1218">T1218</a></td> <td>SafePay threat actors proxy the execution of
-    malicious content with a trusted binary, often a Microsoft-signed file, to bypass
-    signature-based network defenses.</td> </tr> </tbody> </table> <table class="tablesaw
-    tablesaw-stack"> <caption><em><strong>Table 11. Defense Impairment</strong></em></caption>
-    <thead> <tr> <th>Technique Title</th> <th>ID</th> <th>Use</th> </tr> </thead>
-    <tbody> <tr> <td>Disable or Modify Tools </td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1685/"
-    target="_blank" title="T1685">T1685</a></td> <td>SafePay threat actors disable
-    security features, modify or delete registry keys or configuration files to impair
-    functionality, and disable updates such as security patches on a system or network.</td>
-    </tr> </tbody> </table> <table class="tablesaw tablesaw-stack"> <caption><em><strong>Table
-    12. Credential Access</strong></em></caption> <thead> <tr> <th>Technique Title</th>
-    <th>ID</th> <th>Use</th> </tr> </thead> <tbody> <tr> <td>Brute Force</td> <td><a
-    href="https://attack.mitre.org/versions/v20/techniques/T1110/" target="_blank"
-    title="T1110">T1110</a></td> <td>SafePay threat actors gain access to accounts
-    by implementing brute force password attacks.</td> </tr> </tbody> </table> <table
-    class="tablesaw tablesaw-stack"> <caption><em><strong>Table 13. Lateral Movement</strong></em></caption>
-    <thead> <tr> <th>Technique Title</th> <th>ID</th> <th>Use</th> </tr> </thead>
-    <tbody> <tr> <td>Remote Services: Remote Desktop Protocol</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1021/001/"
-    target="_blank" title="T1021.001">T1021.001</a></td> <td>SafePay threat actors
-    gain access to a valid account using RDP and typically disable cybersecurity features,
-    such as Windows Defender, while using LOLBins.</td> </tr> <tr> <td>Remote Services:
-    SMB/Windows Admin Shares</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1021/002/"
-    target="_blank" title="T1021.002">T1021.002</a></td> <td>SafePay threat actors
-    gain access to a valid account using SMB to enable lateral movement throughout
-    a network.</td> </tr> <tr> <td>Remote Services</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1021/"
-    target="_blank" title="T1021">T1021</a></td> <td>SafePay threat actors employ
-    remote services to expand their presence within the compromised network.</td>
-    </tr> <tr> <td>Remote Services: Windows Remote Management</td> <td><a href="https://attack.mitre.org/techniques/T1021/006/"
-    target="_blank" title="T1021.006">T1021.006</a></td> <td>SafePay threat actors
-    use tools, such as WinRM, to execute commands on remote systems.</td> </tr> </tbody>
-    </table> <table class="tablesaw tablesaw-stack"> <caption><em><strong>Table 14.
-    Collection</strong></em></caption> <thead> <tr> <th>Technique Title</th> <th>ID</th>
-    <th>Use</th> </tr> </thead> <tbody> <tr> <td>Archive Collected Data: Archive via
-    Utility</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1560/001/"
-    target="_blank" title="T1560.001">T1560.001</a></td> <td>SafePay threat actors
-    use utilities to compress or encrypt collected data prior to exfiltration to change
-    the format of the data to one compatible for transportation.</td> </tr> <tr> <td>Archive
-    Collected Data: Archive via Library</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1560/002/"
-    target="_blank" title="T1560.002">T1560.002</a></td> <td>SafePay threat actors
-    use credential dumpers, such as Mimikatz, for password exfiltration.</td> </tr>
-    </tbody> </table> <table class="tablesaw tablesaw-stack"> <caption><em><strong>Table
-    15. Exfiltration</strong></em></caption> <thead> <tr> <th>Technique Title</th>
-    <th>ID</th> <th>Use</th> </tr> </thead> <tbody> <tr> <td>Exfiltration Over Alternative
-    Protocol</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1048/"
-    target="_blank" title="T1048">T1048</a></td> <td>SafePay threat actors exfiltrate
-    data over an alternative protocol, including file transfer protocol, simple mail
-    transfer protocol, HTTP/S, domain name system, SMB, or another network protocol
-    variation that is not the main or current command and control channel.</td> </tr>
-    <tr> <td>Exfiltration Over Web Service</td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1567/"
-    target="_blank" title="T1567">T1567</a></td> <td>SafePay threat actors exfiltrate
-    data over web services, such as OneDrive.</td> </tr> </tbody> </table> <table
-    class="tablesaw tablesaw-stack"> <caption><a id="Table16"></a><em><strong>Table
-    16. Impact</strong></em></caption> <thead> <tr> <th>Technique Title</th> <th>ID</th>
-    <th>Use</th> </tr> </thead> <tbody> <tr> <td>Data Encrypted for Impact </td> <td><a
-    href="https://attack.mitre.org/versions/v20/techniques/T1486/" target="_blank"
-    title="T1486">T1486</a></td> <td>SafePay threat actors encrypt data on targeted
-    systems to disrupt access to a particular system or network service. They then
-    demand a ransom payment in exchange for a decryption key.</td> </tr> <tr> <td>Inhibit
-    System Recovery </td> <td><a href="https://attack.mitre.org/versions/v20/techniques/T1490/"
-    target="_blank" title="T1490">T1490</a></td> <td>SafePay threat actors disable
-    services designed to assist in recovery of a corrupted system. In some cases,
-    SafePay threat actors deleted all network-attached backups of company data.</td>
-    </tr> </tbody> </table> <h2><strong>Incident Response</strong></h2> <p>If a potential
-    compromise is detected, but ransomware actors have not (yet) encrypted items,
-    organizations should take the following actions:</p> <ol> <li><strong>Determine
-    which hosts were compromised and isolate them</strong> by quarantining or taking
-    them offline.</li> <li><strong>Initiate threat hunting activities to scope the
-    intrusion</strong>. Collect and review relevant artifacts, logs, and other data
-    to identify threat actor TTPs, compromised devices and accounts, a timeline of
-    activity, etc.</li> <li><strong>Report the suspected compromise</strong> to the
-    FBI and other agencies as appropriate (if located within the U.K., report the
-    compromise to <a href="https://www.reportfraud.police.uk/" target="_blank">Report
-    Fraud</a> or <a href="https://www.police.uk/pu/contact-us/" target="_blank">local
-    police force</a>) (see the <a href="https://www.cisa.gov/#Reporting"><strong>Reporting</strong></a><strong>
-    </strong>section for contact information).</li> <li><strong>Apply eviction countermeasures</strong>,
-    including those listed below, to contain the incident and eradicate the threat
-    actor from the network (<strong>Note:</strong> Start applying countermeasures
-    after collecting enough threat hunting data to inform effective countermeasure
-    selection; this will likely overlap with threat hunting activities). <br /> <ol
-    type="a"> <li>Use CISA’s <a href="https://www.cisa.gov/eviction-strategies-tool?utm_source=&utm_medium=CSAEviction"
-    title="Eviction Strategies Tool">Eviction Strategies Tool</a> to assemble countermeasures
-    for a systematic eviction plan—the tool comprises <strong>Playbook-NG</strong>
-    (a web application) and <strong>COUN7ER</strong> (a database of post-compromise
-    countermeasures mapped to adversary TTPs). <br /> <ol type="i"> <li>Use Playbook-NG
-    and COUN7ER together to assemble a systematic eviction plan, or playbook, that
-    leverages distinct countermeasures to contain and evict cyber threat actors. The
-    playbook features a list of recommended response actions based on threat actor
-    TTPs and includes each action’s intended outcome, preparatory steps, and associated
-    risks. For more information, see CISA’s <a href="https://www.cisa.gov/resources-tools/resources/eviction-strategies-tool">Eviction
-    Strategies Tool</a> fact sheet.</li> </ol> </li> </ol> </li> <li><strong>Harden
-    the network to prevent additional malicious activity</strong> (see <a href="https://www.cisa.gov/#Mitigations"><strong>Mitigations</strong></a>
-    for guidance).</li> </ol> <p>If compromise is detected and items have been encrypted,
-    see the “Ransomware and Data Extortion Response Checklist” in CISA’s joint <a
-    href="https://www.cisa.gov/sites/default/files/2025-03/StopRansomware-Guide%20508.pdf"
-    title="#StopRansomware Guide">#StopRansomware Guide</a>.</p> <h2><a id="Mitigations"></a><strong>Mitigations</strong></h2>
-    <p>The authoring agencies recommend organizations implement the mitigations below
-    to improve their cybersecurity posture on the basis of the threat actors’ activity.
-    These mitigations align with the <a href="https://www.cisa.gov/cpg">Cross-Sector
-    Cybersecurity Performance Goals (CPGs)</a> developed by CISA and the National
-    Institute of Standards and Technology (NIST). The CPGs provide a minimum set of
-    practices and protections that CISA and NIST recommend all organizations implement.
-    CISA and NIST based the CPGs on existing cybersecurity frameworks and guidance
-    to protect against the most common and impactful threats, tactics, techniques,
-    and procedures. Visit CISA’s <a href="https://www.cisa.gov/cpg">CPGs</a> webpage
-    for more information on the CPGs, including additional recommended baseline protections.</p>
-    <p>Organizations should implement the following mitigations:</p> <ul type="square">
-    <li><strong>Prioritize remediating known exploited vulnerabilities (KEVs) and
-    keep all operating systems, software, and firmware up to date</strong>, as timely
-    patching is one of the most efficient and cost-effective steps an organization
-    can take to minimize its exposure to cybersecurity threats; specifically, prioritize
-    patching <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-    title="KEVs">KEVs</a> in internet-facing systems. [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#MitigateKnownVulnerabilities2B"
-    title="CPG 2.B">CPG 2.B</a>].<br /> <ul type="circle"> <li>Additionally, using
-    <a href="https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk">Binding
-    Operational Directive 26-04</a> offers a framework for patch prioritization based
-    on technology type and steps for forensics triage. Under its implementation guidance,
-    it offers guidance and steps to perform forensic triage for severe vulnerability
-    cases.</li> </ul> </li> <li><strong>Implement identity, credential, and access
-    management (ICAM) policies across the organization and require MFA</strong> for
-    all services to the greatest extent possible—particularly for webmail, VPNs, and
-    accounts that access critical systems [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#ImplementMultifactorAuthentication3F"
-    title="CPG 3.F">CPG 3.F</a>].</li> <li><strong>Require all accounts</strong> with
-    password logins (e.g., service accounts, admin accounts, and domain admin accounts)
-    to comply with NIST’s <a href="https://pages.nist.gov/800-63-4/" target="_blank"
-    title="digital identity guidelines">digital identity guidelines</a>; require employees
-    to use long passwords and consider not requiring recurring password changes, as
-    these can weaken security [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#EstablishMinimumPasswordStrength3B"
-    title="CPG 3.B">CPG 3.B</a>].<br /> <ul type="circle"> <li>Use longer passwords
-    consisting of at least 15 characters and no more than 64 characters in length.</li>
-    <li>Store passwords in a hashed format using industry-recognized password managers.</li>
-    <li>Add password user “salts” to shared login credentials.</li> <li>Avoid reusing
-    passwords [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#CreateUniqueCredentials3C"
-    title="CPG 3.C">CPG 3.C</a>].</li> <li>Implement multiple failed login attempt
-    account lockouts [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#MonitorUnsuccessfulAutomatedLoginAttempts3E"
-    title="CPG 3.E">CPG 3.E</a>].</li> <li>Disable password “hints.”</li> <li>Refrain
-    from requiring password changes more frequently than once per year.<br /><strong>Note:</strong>
-    NIST guidance suggests favoring longer passwords instead of requiring frequent
-    password resets. Frequent password resets are more likely to result in users developing
-    password patterns cyber threat actors can easily decipher.</li> </ul> </li> <li><strong>Maintain
-    offline backups of data and regularly test and maintain backup and restoration
-    processes</strong> [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#MaintainSystemBackupsRestorationAbility3O"
-    title="CPG 3.O">CPG 3.O</a>]; implementing this practice helps organizations avoid
-    severe operational interruptions and prevents scenarios in which data is irretrievable.</li>
-    <li><strong>Ensure all backup data is encrypted, immutable</strong> (i.e., cannot
-    be altered or deleted), and covers the entire organization’s data infrastructure
-    [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#UtilizeStrongEncryption3K"
-    title="CPG 3.K">CPG 3.K</a>].</li> <li><strong>Implement a recovery plan</strong>
-    to maintain and retain multiple copies of sensitive or proprietary data and servers
-    in a physically separate, segmented, and secure location (e.g., hard drives, storage
-    devices, or the cloud) [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#ImplementLogicalPhysicalNetworkSegmentation3I"
-    title="CPG 3.I">CPG 3.I</a>, <a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#MaintainSystemBackupsRestorationAbility3O"
-    title="3.O">3.O</a>, <a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#ManageIncidentResponsePlans1C"
-    title="1.C">1.C</a>].</li> <li><strong>Segment networks</strong> to prevent the
-    spread of ransomware, as network segmentation can help control traffic flows between,
-    and access to, various subnetworks and restrict adversary lateral movement [<a
-    href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#ImplementLogicalPhysicalNetworkSegmentation3I"
-    title="CPG 3.I">CPG 3.I</a>].</li> <li><strong>Identify, detect, and investigate
-    abnormal activity and potential traversal of the indicated ransomware with a network
-    monitoring tool</strong> [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#IdentifyAdverseEvents4B">CPG
-    4.B</a>].<br /> <ul type="circle"> <li>To aid in detecting ransomware, implement
-    a tool that logs and reports all network traffic, including lateral movement activity
-    on a network.</li> <li>Endpoint Detection and Response (EDR) tools are particularly
-    useful for detecting lateral connections as they have insight into common and
-    uncommon network connections for each host.</li> </ul> </li> <li><strong>Filter
-    network traffic</strong> by preventing unknown or untrusted origins from accessing
-    remote services on internal systems—this prevents threat actors from directly
-    connecting to remote access services that they have established for persistence.</li>
-    <li><strong>Review domain controllers, servers, workstations, and Active Directories</strong>
-    for new, unactive and/or unrecognized accounts.</li> <li><strong>Disable unused
-    ports</strong>.</li> <li><strong>Consider adding an email banner to emails received
-    from outside of your organization.</strong> </li> <li><strong>Audit user accounts</strong>
-    with administrative privileges and configure access controls according to the
-    principle of least privilege [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#AdministratorsMaintainSeparateUserandPrivilegedAccounts3G"
-    title="CPG 3.G">CPG 3.G</a>].</li> <li><strong>Implement time-based access for
-    accounts set at the admin level and higher</strong>; for example, the Just-in-Time
-    (JIT) access method provisions privileged access when needed and can support enforcement
-    of the principle of least privilege (as well as the <a href="https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model">Zero
-    Trust Maturity Model</a>).<br /> <ul type="circle"> <li>This is a process where
-    a network-wide policy is set in place to automatically disable admin accounts
-    at the Active Directory level when the account is not in direct need.</li> <li>Individual
-    users may submit their requests through an automated process that grants them
-    access to a specified system for a set timeframe when they need to support the
-    completion of a certain task.</li> </ul> </li> <li><strong>Disable command-line
-    and scripting activities and permissions,</strong> since privilege escalation
-    and lateral movement often depend on software utilities running from the command
-    line; if threat actors cannot run these tools, they will have difficulty escalating
-    privileges and moving laterally [<a href="https://www.cisa.gov/cybersecurity-performance-goals-2-0-cpg-2-0#DisableAutorunMacrosByDefault3M"
-    title="CPG 3.M">CPG 3.M</a>].</li> </ul> <p>These mitigations align with principles
-    provided in the joint guide <a href="https://www.cisa.gov/resources-tools/resources/secure-by-design"
-    title="Shifting the Balance of Cybersecurity Risk: Principles and Approaches for
-    Secure by Design Software">Shifting the Balance of Cybersecurity Risk: Principles
-    and Approaches for Secure by Design Software</a>. CISA urges software manufacturers
-    to take ownership of improving the security outcomes of their customers by applying
-    these and other secure by design tactics. By implementing secure by design tactics,
-    software manufacturers can make their product lines secure “out of the box” without
-    requiring customers to make additional configuration changes, purchasing product
-    security add-in software and logs, monitoring, and making frequent security updates.</p>
-    <h2><strong>Validate Security Controls</strong></h2> <p>In addition to applying
-    mitigations, the authoring agencies recommend exercising, testing, and validating
-    your organization''s security program against the threat behaviors mapped to the
-    MITRE ATT&CK for Enterprise framework in this advisory.</p> <p>To get started:</p>
-    <ol> <li>Select an ATT&CK technique described in this advisory (see <a href="https://www.cisa.gov/#Table6"><strong>Table
-    6</strong></a> to <a href="https://www.cisa.gov/#Table16"><strong>Table 16</strong></a>).</li>
-    <li>Align your security technologies against the technique.</li> <li>Test your
-    technologies against the technique.</li> <li>Analyze your detection and prevention
-    technologies’ performance.</li> <li>Repeat the process for all security technologies
-    to obtain a set of comprehensive performance data.</li> <li>Tune your security
-    program, including people, processes, and technologies, based on the data generated
-    by this process.</li> </ol> <p>The authoring agencies recommend continually testing
-    your security program, at scale, in a production environment to ensure optimal
-    performance against the MITRE ATT&CK techniques identified in this advisory.</p>
-    <h2><strong>Resources</strong></h2> <ul type="square"> <li><a href="https://www.cisa.gov/stopransomware"
-    title="Stopransomware.gov">Stopransomware.gov</a> is a whole-of-government approach
-    that provides one central location for ransomware resources and alerts.</li> <li>CISA’s
-    <a href="https://www.cisa.gov/stopransomware/ransomware-guide" title="#StopRansomware
-    Guide">#StopRansomware Guide</a> provides organizations with comprehensive best
-    practices to mitigate the risk of ransomware attacks.</li> <li>CISA’s <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
-    title="Known Exploited Vulnerabilities Catalog">Known Exploited Vulnerabilities
-    Catalog</a> is an authoritative resource for organizations to support improvement
-    of their patch management best practices.</li> <li>CISA’s <a href="https://www.cisa.gov/topics/cybersecurity-best-practices/multifactor-authentication">Multifactor
-    Authentication</a> webpage provides best practices for network defenders to mitigate
-    threats to accounts and systems that use MFA.</li> <li>CISA’s <a href="https://www.cisa.gov/cyber-hygiene-services"
-    title="Cyber Hygiene Services">Cyber Hygiene Services</a> help organizations reduce
-    the risk of a successful cyberattack.</li> <li>USSS’s <a href="https://www.secretservice.gov/investigations/cyberincident"
-    target="_blank" title="Preparing for a Cyber Incident">Preparing for a Cyber Incident</a>
-    outlines basic steps an organization can take before, during, and after a cyber
-    incident.</li> <li>CISA’s Cyber Security Evaluation Tool (CSET) provides a systematic,
-    disciplined, and repeatable approach for evaluating an organization’s security
-    posture; see <a href="https://www.cisa.gov/downloading-and-installing-cset" title="Downloading
-    and Installing CSET">Downloading and Installing CSET</a> for step-by-step guidance
-    to help your organization evaluate cybersecurity practices on your networks.</li>
-    <li>CISA’s <a href="https://www.cisa.gov/resources-tools/services/ransomware-risk-assessment"
-    title="Ransomware Risk Assessment">Ransomware Risk Assessment</a> helps assess
-    an organization’s ability to counteract a ransomware infection.</li> <li>Department
-    of Health and Human Services’ <a href="https://hhscyber.hhs.gov/cybersecurity-performance-goals.html"
-    target="_blank" title="Cybersecurity Performance Goals">Cybersecurity Performance
-    Goals</a> is a resource to help healthcare organizations implement high-impact
-    cybersecurity practices.</li> <li>CISA’s <a href="https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk">Binding
-    Operational Directive 26-04: Prioritizing Security Updates Based on Risk</a> and
-    its <a href="https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk">implementation
-    guidance</a> </li> <li>CISA’s <a href="https://www.cisa.gov/topics/industrial-control-systems/ci-fortify">CI
-    Fortify: Strengthening Resilience Across Critical Infrastructure</a></li> <li>CISA’s
-    <a href="https://www.cisa.gov/eviction-strategies-tool">Eviction Strategies Tool</a>
-    enables incident response teams to quickly turn observed behaviors into remediation
-    plans</li> <li>U.K.’s <a href="https://www.ncsc.gov.uk/" target="_blank">National
-    Cyber Security Centre</a> </li> <li>U.K.’s <a href="https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/cyber-crime"
-    target="_blank">National Crime Agency</a> </li> </ul> <h2><a id="Reporting"></a><strong>Reporting</strong></h2>
-    <p>Your organization has no obligation to respond or provide information to the
-    FBI and other authoring agencies in response to this joint advisory. If, after
-    reviewing the information provided, your organization decides to provide information
-    to the FBI or other authoring agencies, reporting must be consistent with applicable
-    state and federal laws.</p> <p>The FBI and other authoring agencies are interested
-    in any information, to include boundary logs showing communication to and from
-    foreign IP addresses, a sample ransom note, communications with threat actors,
-    Bitcoin wallet information, decryptor files, and/or a benign sample of an encrypted
-    file.</p> <p>Additional details of interest include a targeted company point of
-    contact, status and scope of infection, estimated loss, operational impact, transaction
-    IDs, date of infection, date detected, initial attack vector, and host- and network-based
-    indicators.</p> <p>The authoring agencies do not encourage paying ransom as payment
-    does not guarantee victim files will be recovered. Furthermore, payment may also
-    embolden adversaries to target additional organizations, encourage other criminal
-    actors to engage in the distribution of ransomware, and/or fund illicit activities.
-    Regardless of whether you or your organization have decided to pay the ransom,
-    the FBI and CISA urge you to promptly report ransomware incidents to the FBI’s
-    <a href="https://www.ic3.gov/Home/ComplaintChoice" target="_blank" title="Internet
-    Crime Complaint Center (IC3)">Internet Crime Complaint Center (IC3)</a>, a <a
-    href="https://www.fbi.gov/contact-us/field-offices" target="_blank" title="local
-    FBI field office">local FBI field office</a>, a <a href="https://www.secretservice.gov/contact/field-offices"
-    target="_blank" title="local USSS Field Office">local USSS Field Office</a>, or
-    CISA via the agency’s <a href="https://www.cisa.gov/report" title="Incident Reporting
-    System">Incident Reporting System</a> or its 24/7 Operations Center (<a href="mailto:contact@cisa.dhs.gov"
-    title="contact@cisa.dhs.gov">contact@cisa.dhs.gov</a>) or by calling 1-844-Say-CISA
-    (1-844-729-2472).</p> <p>In the U.K., report incidents of a cybercrime or fraud
-    at the UK’s <a href="https://www.reportfraud.police.uk/" target="_blank">Home
-    for Reporting Cyber Crime & Fraud</a> or 0300-123-2040, your <a href="https://www.police.uk/pu/contact-us/"
-    target="_blank">local police force</a>, or use the non-emergency number 101.</p>
-    <h2><strong>Disclaimer</strong></h2> <p>The information in this report is being
-    provided “as is” for informational purposes only. CISA and the FBI/USSS do not
-    endorse any commercial entity, product, company, or service, including any entities,
-    products, or services linked within this document. Any reference to specific commercial
-    entities, products, processes, or services by service mark, trademark, manufacturer,
-    or otherwise, does not constitute or imply endorsement, recommendation, or favoring
-    by the FBI, CISA, or USSS.</p> <p>The authoring agencies recognize that infrastructure
-    used for malicious activity may be hosted on cloud or virtualized platforms where
-    IP addresses can be dynamically or temporarily assigned. As a result, an address
-    associated with malicious activity at one point in time may later be reassigned
-    to benign services. Accordingly, these indicators should be interpreted as historically
-    observed infrastructure within the activity window and should be corroborated
-    with current network telemetry or additional intelligence sources when used for
-    defensive or investigative purposes.</p> <h2><strong>Version History</strong></h2>
-    <p><strong>October 20, 2026</strong>: Initial version.</p>'
-  source: US-CERT Alerts
-- title: OnlyFans Copyright Takedowns Expose Compromised Websites
-  link: https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites
-  published: '2026-10-19T14:28:11Z'
-  summary: Copyright takedown requests tied to OnlyFans and other adult content creators
-    are revealing how attackers exploit vulnerable university and government websites
-    to manipulate search results. UpGuard's Greg Pollock explains what universities,
-    government websites, and security teams need to think about next.
-  source: Dark Reading
-- title: 'The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience'
-  link: https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience
-  published: '2026-10-19T14:00:00Z'
-  summary: An industry-wide, laser focus on vulnerabilities has left cybersecurity
-    teams without enough room to strategize for resilience.
-  source: Dark Reading
-- title: Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site
-  link: https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/
-  published: '2026-10-19T13:48:56Z'
-  summary: U.S. federal investigators pursuing the ShinyHunters hacking group that
-    recently stole highly sensitive data from the FBI have identified executives at
-    two different ransomware negotiation firms who maintained unusually close relations
-    with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation
-    say one of the executives in the United States even helped ShinyHunters operate
-    a website that pressured victims into paying a ransom.
-  source: Krebs on Security
-- title: 'Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)'
-  link: https://isc.sans.edu/diary/rss/33434
-  published: '2026-10-18T12:59:30Z'
-  summary: Here is the YARA rule I used to detect "Orphaned VBA Projects Inside DWG
-    Files".
-  source: SANS Internet Storm Center
-- title: BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs
-  link: https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs
-  published: '2026-10-16T20:34:37Z'
-  summary: Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices
-    come under fire this week. Now BeyondTrust joins the group.
-  source: Dark Reading
-- title: Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk
-  link: https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk
-  published: '2026-10-16T19:49:30Z'
-  summary: Campaigns that impersonate popular AI brands are on the rise, and they
-    typically use ClickFix-like tactics to target unsuspecting enterprise employees.
-  source: Dark Reading
-- title: Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular
-    IT Platform
-  link: https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield
-  published: '2026-10-16T19:22:12Z'
-  summary: The launch follows the acquisition of catalog's assets and the appointment
-    of Laurent Guengant as CEO earlier this year.
-  source: Dark Reading
-- title: Enterprise AI Enters Risk Management Phase as Security Concerns Rise
-  link: https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise
-  published: '2026-10-16T19:13:59Z'
-  summary: Companies are increasingly discovering that the challenge with AI is no
-    longer adoption, but execution.
   source: Dark Reading
